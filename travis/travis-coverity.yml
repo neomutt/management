@@ -1,0 +1,38 @@
+notifications:
+  email: false
+
+sudo: required
+dist: trusty
+
+language: c
+compiler: gcc
+
+addons:
+  apt:
+    packages:
+      - libgpgme11-dev
+      - libnotmuch-dev
+      - libtokyocabinet-dev
+      - libgdbm-dev
+      - libdb-dev
+#     - libslang2-dev
+#     - libqdbm-dev
+  coverity_scan:
+    project:
+      name: "neomutt/neomutt"
+      description: "Bringing together all the Mutt code"
+    notification_email: rich@flatcap.org
+    build_command_prepend: "autoreconf -i; ./configure $OPTS; make clean"
+    build_command: "make -j 4"
+    branch_pattern: coverity
+
+
+env:
+  global:
+    # encrypted COVERITY_SCAN_TOKEN for neomutt/neomutt
+    - secure: "m1zPwjrCQFZzMaTiCSSB9xRV+Zq0q+AJ5R3EJHqS0a2I1wvOGjSCLi9/seryRSS6imVNuoOQr1hmVZVIoucPiwjdbL1KlTIiyDg3K6NemK+oVhT/CURhBcufCxQ2RLMyvPlpflX5dQvNIcdpT8UjSfP8piCbQY7JZGfPL/uiHNSBYbZeZS3W47wYEX6t6fGmfE9G6NceS9nU9/a4xsXEeMZQ6YoJNcKJB4OcTLqAFtTnNh5EfXtgMkxhN/9E0w+qJkumSRmmdDazRWTZ9iY+2ZZ6ZvEZUGOI5TWHHLyHrmq2j4CIxQYo8bSed+gTLSMsFajZMJ6JgBzkHl37gAzBD0MQwngKUsDvCVQFf/XoWDiHh8Qav5Q1FrFINaW87mUHkji+8ocPNenpdeWXUx6j2W+TV0Zf3p+53titU1GLCgaCYZpbgWF+vHonJZEyj72Xr6/vA4MxewJSqrRNodYHjdMDNIDonw9e0LC4cMnbVmJA2gP3XaiMvNRe9fOmhdeNoAqxIkAZHNl1D9lH4cS2dr7IQfNeCz4yos7Q6ULDq2PaJYhBBCeI8QtW6R4F19Jb5m0VS5FtzSkYd7jrJcrH28nJBByoWrrcbdxy6znZ07sjeMtDbQt4k0hNmqLEQ6gJR1zTr5EolmAiZvfMtYGZhqjLNA2ODUsP+4Nb5vNhj58="
+  matrix:
+    - OPTS="--enable-debug --enable-exact-address --enable-flock --enable-gpgme --enable-hcache --enable-imap --enable-locales-fix --enable-mailtool --enable-nfs-fix --enable-notmuch --enable-pop --enable-sidebar --enable-smtp --with-domain --with-gnutls --with-gss --with-homespool --with-mixmaster --with-regex --with-sasl --with-ssl"
+
+script: if [ ${COVERITY_SCAN_BRANCH} != 1 ]; then make ; fi
+
