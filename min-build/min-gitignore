@@ -1,0 +1,15 @@
+mutt
+tags
+
+# build dirs
+.dep
+.obj
+imap
+
+# generated files
+conststrings.c
+hcversion.h
+keymap_defs.h
+patchlist.c
+reldate.h
+
