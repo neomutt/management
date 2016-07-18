@@ -13,7 +13,7 @@
 
 		<itemizedlist>
 			<title>Dependencies:</title>
-			<listitem><para>mutt-1.6.0</para></listitem>
+			<listitem><para>mutt-1.6.2</para></listitem>
 		</itemizedlist>
 
 		<para>This patch is part of the <ulink url="http://www.neomutt.org/">NeoMutt Project</ulink>.</para>
