@@ -1,9 +1,9 @@
 <sect1 id="FEATURE-NAME">
-  <title>FEATURE-NAME Patch</title>
+  <title>FEATURE-NAME Feature</title>
   <subtitle>DESCRIPTION</subtitle>
 
-  <sect2 id="FEATURE-NAME-patch">
-    <title>Patch</title>
+  <sect2 id="FEATURE-NAME-support">
+    <title>Support</title>
 
     <para>
       To check if Mutt supports <quote>FEATURE-NAME</quote>, look for
@@ -16,7 +16,7 @@
       <listitem><para>mutt-1.7.0</para></listitem>
     </itemizedlist>
 
-    <para>This patch is part of the <ulink url="http://www.neomutt.org/">NeoMutt Project</ulink>.</para>
+    <para>This feature is part of the <ulink url="http://www.neomutt.org/">NeoMutt Project</ulink>.</para>
   </sect2>
 
   <sect2 id="FEATURE-NAME-intro">
