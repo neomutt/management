@@ -1,0 +1,7 @@
+Check these repos for contributors to thank:
+	neomutt
+	neomutt.github.io
+	gentoo-neomutt
+	aur-build
+	homebrew-neomutt
+	travis-build

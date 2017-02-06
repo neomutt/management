@@ -1,0 +1,21 @@
+Subject: NeoMutt 2017-01-28 (1.7.2)
+
+## Notes
+- XXX
+  - YYY
+- ZZZ
+
+## Thanks
+
+Many thanks to our *new contributors*:
+- First Last (@nick)
+
+and our *regular contributors*:
+- First Last (@nick)
+
+## Issues closed
+
+232 Support PLAIN auth mechanism without a SASL library
+234 Allow Mutt to read multiple config files at startup
+236 Hide sensitive config
+...

@@ -1,0 +1,35 @@
+Subject: NeoMutt 2017-01-28 (1.7.2)
+
+## Notes
+- XXX
+  - YYY
+- ZZZ
+
+## Thanks
+
+Many thanks to our *new contributors*:
+- First Last (@nick)
+
+and our *regular contributors*:
+- First Last (@nick)
+
+## Features
+- long description (@nick)
+
+## Contrib
+- long description (@nick)
+
+## Bug Fixes
+- long description (@nick)
+
+## Translations
+- long description (@nick)
+
+## Docs
+- long description (@nick)
+
+## Build
+- long description (@nick)
+
+## Upstream
+- long description

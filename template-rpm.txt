@@ -1,0 +1,16 @@
+%changelog
+* Fri Jan 13 2017 Richard Russon <rich@flatcap.org> - NeoMutt-20170113
+- Features
+  - description
+- Contrib
+  - description
+- Bug Fixes
+  - description
+- Translations
+  - description
+- Docs
+  - description
+- Build
+  - description
+- Upstream
+  - description

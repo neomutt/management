@@ -1,0 +1,57 @@
+---
+layout: post
+author: flatcap
+title: Release 2017-01-28
+---
+
+## Notes
+
+- XXX
+  - YYY
+- ZZZ
+
+## Thanks
+
+Many thanks to our **new contributors**: 
+
+- First Last ([@nick](https://github.com/nick))
+
+and our **regular contributors**:
+
+- First Last ([@nick](https://github.com/nick))
+
+## Features
+
+- description ([@nick](https://github.com/nick))
+- description
+
+## Contrib
+
+- description ([@nick](https://github.com/nick))
+- description
+
+## Bug Fixes
+
+- description ([@nick](https://github.com/nick))
+- description
+
+## Translations
+
+- description ([@nick](https://github.com/nick))
+- description
+
+## Docs
+
+- description ([@nick](https://github.com/nick))
+- description
+
+## Build
+
+- description ([@nick](https://github.com/nick))
+- description
+
+## Upstream
+
+- description ([@nick](https://github.com/nick))
+- description
+

@@ -1,0 +1,8 @@
+ghi list -s closed -M 2 -- neomutt/neomutt > milestone.txt
+
+Milestone -- issues closed
+
+232 Support PLAIN auth mechanism without a SASL library
+234 Allow Mutt to read multiple config files at startup
+236 Hide sensitive config
+...
