@@ -1,4 +1,4 @@
-NeoMutt YYYY-MM-DD
+NeoMutt 0000-00-00
 
 ## Notes
 - XXX

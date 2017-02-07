@@ -1,4 +1,4 @@
-Subject: NeoMutt 2017-01-28 (1.7.2)
+Subject: NeoMutt 0000-00-00 (1.7.2)
 
 ## Notes
 - XXX

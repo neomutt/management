@@ -1,3 +1,4 @@
+ghi milestone -- neomutt/neomutt
 ghi list -s closed -M 2 -- neomutt/neomutt > milestone.txt
 
 Milestone -- issues closed

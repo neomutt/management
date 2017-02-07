@@ -1,4 +1,4 @@
-2017-01-28  Richard Russon  <rich@flatcap.org>
+0000-00-00  Richard Russon  <rich@flatcap.org>
 * Features
   - description
 * Contrib
