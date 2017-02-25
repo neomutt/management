@@ -13,15 +13,18 @@ highlighting.
 
 ## Release Templates
 
-These templates are helpful when making a release:
+When [making a release](https://www.neomutt.org/run/release), these templates
+save time preparing the accompanying notes.
 
-- check-repos.txt -- Which repos to check for credits
-- milestone.txt -- List of work in a milestone
-- template-changelog.txt -- ChangeLog.neomutt
-- template-dev-ml.txt -- NeoMutt Devel Mailing List
-- template-github.txt -- GitHub Release Announcement
-- template-rpm.txt -- RPM Spec changelog
-- template-user-ml.txt -- NeoMutt Users Mailing List
-- template-website.txt -- Website News Article
-- website.vim -- Transform (@nick) links
+| File                                                           | Description                      |
+|----------------------------------------------------------------|----------------------------------|
+| [check-repos](release-templates/check-repos.txt)               | Which repos to check for credits |
+| [milestone](release-templates/milestone.txt)                   | List of work in a milestone      |
+| [template-changelog](release-templates/template-changelog.txt) | ChangeLog.neomutt                |
+| [template-dev-ml](release-templates/template-dev-ml.txt)       | NeoMutt Devel Mailing List       |
+| [template-github](release-templates/template-github.txt)       | GitHub Release Announcement      |
+| [template-rpm](release-templates/template-rpm.txt)             | RPM Spec changelog               |
+| [template-user-ml](release-templates/template-user-ml.txt)     | NeoMutt Users Mailing List       |
+| [template-website](release-templates/template-website.txt)     | Website News Article             |
+| [website.vim](release-templates/website.vim)                   | Transform (@nick) links          |
 
