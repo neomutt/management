@@ -1,6 +1,7 @@
 NeoMutt 0000-00-00
 
 ## Notes
+
 - XXX
   - YYY
 - ZZZ
@@ -8,28 +9,41 @@ NeoMutt 0000-00-00
 ## Thanks
 
 Many thanks to our **new contributors**:
+
 - First Last (@nick)
 
 and our **regular contributors**:
+
 - First Last (@nick)
 
 ## Features
+
 - long description (@nick)
 
 ## Contrib
+
 - long description (@nick)
 
 ## Bug Fixes
+
 - long description (@nick)
 
 ## Translations
+
 - long description (@nick)
 
 ## Docs
+
+- long description (@nick)
+
+## Website
+
 - long description (@nick)
 
 ## Build
+
 - long description (@nick)
 
 ## Upstream
+
 - long description
