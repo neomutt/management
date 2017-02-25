@@ -18,7 +18,8 @@ and our *regular contributors*:
 
 ## Issues closed
 
-232 Support PLAIN auth mechanism without a SASL library
-234 Allow Mutt to read multiple config files at startup
-236 Hide sensitive config
+123 Long description
+124 Long description
+125 Long description
 ...
+
