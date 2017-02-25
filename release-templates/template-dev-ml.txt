@@ -1,0 +1,25 @@
+Subject: NeoMutt 0000-00-00 (1.8.0)
+
+## Notes
+
+- XXX
+  - YYY
+- ZZZ
+
+## Thanks
+
+Many thanks to our *new contributors*:
+
+- First Last (@nick)
+
+and our *regular contributors*:
+
+- First Last (@nick)
+
+## Issues closed
+
+123 Long description
+124 Long description
+125 Long description
+...
+

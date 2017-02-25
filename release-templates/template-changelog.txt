@@ -1,0 +1,18 @@
+0000-00-00  Richard Russon  <rich@flatcap.org>
+* Features
+  - description
+* Contrib
+  - description
+* Bug Fixes
+  - description
+* Translations
+  - description
+* Docs
+  - description
+* Website
+  - description
+* Build
+  - description
+* Upstream
+  - description
+
