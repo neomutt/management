@@ -28,3 +28,15 @@ save time preparing the accompanying notes.
 | [template-website](release-templates/template-website.txt)     | Website News Article             |
 | [website.vim](release-templates/website.vim)                   | Transform (@nick) links          |
 
+## Update Distro Bin
+
+After a release, NeoMutt provides automatic updates for several distros.
+There's an update script and a git repo for each.
+
+| Distro           | Script                                       | GitHub Repo 
+|:-----------------|:---------------------------------------------|:------------
+| Arch (AUR)       | [aur.sh](update-distro-bin/aur.sh)           | [https://github.com/neomutt/aur-build](https://github.com/neomutt/aur-build)
+| Fedora (COPR)    | [copr.sh](update-distro-bin/copr.sh)         | [https://github.com/neomutt/copr-neomutt](https://github.com/neomutt/copr-neomutt)
+| Gentoo           | [gentoo.sh](update-distro-bin/gentoo.sh)     | [https://github.com/neomutt/gentoo-neomutt](https://github.com/neomutt/gentoo-neomutt) 
+| Homebrew (MacOS) | [homebrew.sh](update-distro-bin/homebrew.sh) | [https://github.com/neomutt/homebrew-neomutt](https://github.com/neomutt/homebrew-neomutt) 
+
