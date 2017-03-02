@@ -1,0 +1,14 @@
+Subject: Welcome NeoMutters!
+
+Hi guys,
+
+Thanks for your contributions.  I look forward to more :-)
+
+If you'd like to see your name in lights, it's in the news and the release
+announcement.
+
+    https://www.neomutt.org/2017/02/25/release
+    https://github.com/neomutt/neomutt/releases/tag/neomutt-20170225
+
+Cheers,
+    Rich / FlatCap
