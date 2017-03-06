@@ -5,6 +5,7 @@ set -o nounset	# set -u
 
 SRC_DIR="$1"
 GH_URL="https://github.com/neomutt/neomutt/archive"
+AUR_DIR="distro-aur"
 
 pushd "$SRC_DIR"
 
@@ -32,12 +33,12 @@ echo "    PKGBUILD"
 sed -i \
 	-e "s/^\(pkgver\)=.*/\1=$VERSION/" \
 	-e "s/^\(md5sums\)=('.*/\1=('$MD5SUM')/" \
-	PKGBUILD
+	"$AUR_DIR/PKGBUILD"
 
 echo "    .SRCINFO"
 sed -i \
 	-e "s/^\(\tpkgver\) =.*/\1 = $VERSION/" \
 	-e "s/^\(\tmd5sums\) =.*/\1 = $MD5SUM/" \
 	-e "s!^\(\tsource\) =.*!\1 = $GH_URL/$FILE!" \
-	.SRCINFO
+	"$AUR_DIR/.SRCINFO"
 echo
