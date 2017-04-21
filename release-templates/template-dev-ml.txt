@@ -1,4 +1,4 @@
-Subject: NeoMutt 0000-00-00 (1.8.0)
+Subject: NeoMutt 0000-00-00 (1.8.2)
 
 ## Notes
 

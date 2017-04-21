@@ -1,5 +1,5 @@
 %changelog
-* Mon Feb 06 2017 Richard Russon <rich@flatcap.org> - NeoMutt-20170206
+* Mon Apr 21 2017 Richard Russon <rich@flatcap.org> - NeoMutt-20170421
 - Features
   - description
 - Contrib
@@ -8,11 +8,15 @@
   - description
 - Translations
   - description
+- Coverity defects
+  - description
 - Docs
   - description
 - Website
   - description
 - Build
+  - description
+- Tidy
   - description
 - Upstream
   - description

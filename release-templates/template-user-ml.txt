@@ -32,6 +32,10 @@ and our *regular contributors*:
 
 - Long description (@nick)
 
+## Coverity defects
+
+- Long description (@nick)
+
 ## Docs
 
 - Long description (@nick)

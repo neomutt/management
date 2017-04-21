@@ -7,11 +7,15 @@
   - description
 * Translations
   - description
+* Coverity defects
+  - description
 * Docs
   - description
 * Website
   - description
 * Build
+  - description
+* Tidy
   - description
 * Upstream
   - description

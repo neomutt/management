@@ -40,6 +40,11 @@ and our **regular contributors**:
 - description ([@nick](https://github.com/nick))
 - description
 
+## Coverity defects
+
+- description ([@nick](https://github.com/nick))
+- description
+
 ## Docs
 
 - description ([@nick](https://github.com/nick))
@@ -51,6 +56,11 @@ and our **regular contributors**:
 - description
 
 ## Build
+
+- description ([@nick](https://github.com/nick))
+- description
+
+## Tidy
 
 - description ([@nick](https://github.com/nick))
 - description
