@@ -51,3 +51,13 @@ Various useful scripts.
 | [update-from-hg.sh](misc-bin/update-from-hg.sh) | Pull upstream commits into our NeoMutt repo
 | [webhook-bridge.py](misc-bin/webhook-bridge.py) | Notify poeditor.com of changes to translations
 
+## List of Standard Functions
+
+A list of the [minimum requirements to build NeoMutt](standard-functions/README.md).
+
+| File                                     | Standard                                                          | Permitted   |
+| :--------------------------------------- | :---------------------------------------------------------------- | :---------- |
+| [c99.txt](standard-functions/c99.txt)    | [C99](http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf)  | Yes         |
+| [2001.txt](standard-functions/2001.txt)  | [POSIX:2001](http://pubs.opengroup.org/onlinepubs/009695399/)     | Yes         |
+| [2008.txt](standard-functions/2008.txt)  | [POSIX:2008](http://pubs.opengroup.org/onlinepubs/9699919799/)    | No          |
+
