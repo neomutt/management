@@ -30,21 +30,20 @@ SRC	+= account.c addrbook.c alias.c ascii.c attach.c auth.c auth_anon.c \
 	   version.c
 
 HDR	+= account.h ascii.h attach.h auth.h bcache.h browser.h buffy.h \
-	   charset.h compress.h copy.h crypt-gpgme.h crypt-mod.h crypthash.h \
-	   functions.h globals.h group.h hash.h hcache.h history.h imap.h \
-	   imap_private.h init.h keymap.h lib.h mailbox.h mapping.h mbyte.h \
-	   md5.h message.h mime.h mutt.h mutt_crypt.h mutt_curses.h \
+	   charset.h compress.h config.h copy.h crypt-gpgme.h crypt-mod.h \
+	   crypthash.h functions.h globals.h group.h hash.h hcache.h history.h \
+	   imap.h imap_private.h init.h keymap.h lib.h mailbox.h mapping.h \
+	   mbyte.h md5.h message.h mime.h mutt.h mutt_crypt.h mutt_curses.h \
 	   mutt_idna.h mutt_menu.h mutt_notmuch.h mutt_regex.h mutt_sasl.h \
 	   mutt_socket.h mutt_ssl.h mutt_tunnel.h mx.h nntp.h pager.h pgp.h \
 	   pgplib.h pgppacket.h pop.h protos.h remailer.h rfc1524.h rfc2047.h \
-	   rfc2231.h rfc3676.h rfc822.h sidebar.h smime.h sort.h sys_socket.h \
-	   url.h version.h
+	   rfc2231.h rfc3676.h rfc822.h sidebar.h smime.h sort.h url.h version.h
 
 BUILT_SRC = conststrings.c patchlist.c
 
 SRC	+= $(BUILT_SRC)
 
-BUILT_HDR = hcversion.h keymap_defs.h reldate.h
+BUILT_HDR = hcversion.h keymap_defs.h oldmutt_ver.h reldate.h
 
 HDR	+= $(BUILT_HDR)
 
@@ -128,7 +127,7 @@ force:
 
 -include $(SRC:%.c=$(DEPDIR)/%.d)
 
-$(SRC):	keymap_defs.h
+$(SRC):	keymap_defs.h oldmutt_ver.h
 
 reldate.h:
 	@echo "const char *ReleaseDate = \""$(shell date +%F)"\";" > $@
@@ -137,7 +136,6 @@ patchlist.c:
 	@echo "#include <stdio.h>" > $@
 	@echo "void mutt_print_patchlist (void)" >> $@
 	@echo "{" >> $@
-	@echo "    puts (\"patch-1.5.24.sidebar.20151111.txt\");" >> $@
 	@echo "}" >> $@
 
 conststrings.c:
@@ -160,4 +158,7 @@ keymap_defs.h:
 	@cat OPS* | sed 's/^\([^ ]*\).*/	\1,/' >> $@
 	@echo '	OP_MAX' >> $@
 	@echo "};" >> $@
+
+oldmutt_ver.h:
+	@echo 'const char *OldMuttVer = "1.7.0";' > $@
 

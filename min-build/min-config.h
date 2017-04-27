@@ -139,15 +139,15 @@
 #define MAILPATH "/var/mail"
 #define MAKEDOC_FULL 1
 #define MIXMASTER "mixmaster"
-#define MUTT_VERSION "1.5.24"
+#define MUTT_VERSION "20161001"
 #define NOTMUCH_API_3 1
 #define PACKAGE "mutt"
 #define PACKAGE_BUGREPORT ""
 #define PACKAGE_NAME "mutt"
-#define PACKAGE_STRING "mutt 1.5.24"
+#define PACKAGE_STRING "mutt 20161001"
 #define PACKAGE_TARNAME "mutt"
 #define PACKAGE_URL ""
-#define PACKAGE_VERSION "1.5.24"
+#define PACKAGE_VERSION "20161001"
 #define SENDMAIL "/usr/sbin/sendmail"
 #define SIG_ATOMIC_VOLATILE_T volatile sig_atomic_t
 #define SIZEOF_INT 4
@@ -192,7 +192,7 @@
 # define __EXTENSIONS__ 1
 #endif
 
-#define VERSION "1.5.24"
+#define VERSION "20161001"
 
 #if defined AC_APPLE_UNIVERSAL_BUILD
 # if defined __BIG_ENDIAN__

@@ -10,6 +10,7 @@ imap
 conststrings.c
 hcversion.h
 keymap_defs.h
+oldmutt_ver.h
 patchlist.c
 reldate.h
 

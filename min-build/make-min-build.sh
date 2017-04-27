@@ -1,4 +1,6 @@
 #!/bin/bash
+# Copyright (c) Richard Russon (FlatCap)
+# Released under the GPLv3 (see LICENSE.md)
 
 rm -fr .hg*
 rm -fr contrib
@@ -32,6 +34,7 @@ rm -f \
 	configure.ac \
 	flymake.am \
 	gen_defs \
+	git-version-gen \
 	hcachever.sh.in \
 	hg-changelog-map \
 	hg-commit \
