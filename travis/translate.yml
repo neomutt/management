@@ -1,0 +1,17 @@
+notifications:
+  email: false
+
+sudo: false
+dist: trusty
+
+language: c
+compiler: gcc
+
+addons:
+  apt:
+    packages:
+      - gettext
+
+script:
+  - cd po && for i in *.po; do echo -ne "${i%.po}:\t"; msgfmt --statistics -c -o /dev/null $i; done
+

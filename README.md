@@ -33,12 +33,12 @@ save time preparing the accompanying notes.
 After a release, NeoMutt provides automatic updates for several distros.
 There's an update script and a git repo for each.
 
-| Distro           | Script                                       | GitHub Repo 
+| Distro           | Script                                       | GitHub Repo
 |:-----------------|:---------------------------------------------|:-----------
 | Arch (AUR)       | [aur.sh](update-distro-bin/aur.sh)           | [https://github.com/neomutt/aur-build](https://github.com/neomutt/aur-build)
 | Fedora (COPR)    | [copr.sh](update-distro-bin/copr.sh)         | [https://github.com/neomutt/copr-neomutt](https://github.com/neomutt/copr-neomutt)
-| Gentoo           | [gentoo.sh](update-distro-bin/gentoo.sh)     | [https://github.com/neomutt/gentoo-neomutt](https://github.com/neomutt/gentoo-neomutt) 
-| Homebrew (MacOS) | [homebrew.sh](update-distro-bin/homebrew.sh) | [https://github.com/neomutt/homebrew-neomutt](https://github.com/neomutt/homebrew-neomutt) 
+| Gentoo           | [gentoo.sh](update-distro-bin/gentoo.sh)     | [https://github.com/neomutt/gentoo-neomutt](https://github.com/neomutt/gentoo-neomutt)
+| Homebrew (MacOS) | [homebrew.sh](update-distro-bin/homebrew.sh) | [https://github.com/neomutt/homebrew-neomutt](https://github.com/neomutt/homebrew-neomutt)
 
 ## Misc Bin
 
@@ -60,4 +60,14 @@ A list of the [minimum requirements to build NeoMutt](standard-functions/README.
 | [c99.txt](standard-functions/c99.txt)    | [C99](http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf)  | Yes         |
 | [2001.txt](standard-functions/2001.txt)  | [POSIX:2001](http://pubs.opengroup.org/onlinepubs/009695399/)     | Yes         |
 | [2008.txt](standard-functions/2008.txt)  | [POSIX:2008](http://pubs.opengroup.org/onlinepubs/9699919799/)    | No          |
+
+## Travis YAML Files
+
+These are copies of our Travis control files.
+
+| File                                  | Branch                                                                                                 |
+|:--------------------------------------|:-------------------------------------------------------------------------------------------------------|
+| [coverity.yml](travis/coverity.yml)   | [https://github.com/neomutt/neomutt/tree/coverity](https://github.com/neomutt/neomutt/tree/coverity)   |
+| [master.yml](travis/master.yml)       | [https://github.com/neomutt/neomutt/tree/master](https://github.com/neomutt/neomutt/tree/master)       |
+| [translate.yml](travis/translate.yml) | [https://github.com/neomutt/neomutt/tree/translate](https://github.com/neomutt/neomutt/tree/translate) |
 
