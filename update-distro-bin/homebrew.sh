@@ -3,7 +3,7 @@
 set -o errexit	# set -e
 set -o nounset	# set -u
 
-SRC_DIR="$1"
+eval SRC_DIR="${1:-~/n8}"
 
 pushd "$SRC_DIR"
 
@@ -17,4 +17,8 @@ echo
 echo "Tag:  $TAG"
 echo "Hash: $HASH"
 echo
+
+pushd homebrew
+
+./update_version.sh $TAG
 

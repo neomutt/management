@@ -3,8 +3,8 @@
 set -o errexit	# set -e
 set -o nounset	# set -u
 
-SRC_DIR="$1"
-GENTOO_DIR="distro-gentoo/mail-client/neomutt"
+eval SRC_DIR="${1:-~/n8}"
+GENTOO_DIR="gentoo/mail-client/neomutt"
 GH_URL="https://github.com/neomutt/neomutt/archive"
 
 pushd "$SRC_DIR"

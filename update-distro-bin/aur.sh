@@ -3,9 +3,9 @@
 set -o errexit	# set -e
 set -o nounset	# set -u
 
-SRC_DIR="$1"
+eval SRC_DIR="${1:-~/n8}"
 GH_URL="https://github.com/neomutt/neomutt/archive"
-AUR_DIR="distro-aur"
+AUR_DIR="aur"
 
 pushd "$SRC_DIR"
 

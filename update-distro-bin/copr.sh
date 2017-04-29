@@ -19,7 +19,8 @@ rpmbuild_tree()
 }
 
 
-SRC_DIR="$1"
+eval SRC_DIR="${1:-~/n8}"
+GH_URL="https://github.com/neomutt/neomutt/archive"
 
 pushd "$SRC_DIR"
 
@@ -29,12 +30,17 @@ MUTT="$(sed -n '/MUTT_VERSION/{s/.*"\(.*\)".*/\1/;p}' configure.ac)"
 
 popd
 
+FILE="$TAG.tar.gz"
+if [ ! -f "$FILE" ]; then
+	wget "$GH_URL/$FILE"
+fi
+
 echo "Tag:     $TAG"
 echo "Version: $VERSION"
 echo "Mutt:    $MUTT"
 echo
 
-pushd distro-copr
+pushd copr
 
 SPEC="neomutt.spec"
 OS="fc25"
