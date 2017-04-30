@@ -55,11 +55,11 @@ Various useful scripts.
 
 A list of the [minimum requirements to build NeoMutt](standard-functions/README.md).
 
-| File                                     | Standard                                                          | Permitted   |
-| :--------------------------------------- | :---------------------------------------------------------------- | :---------- |
-| [c99.txt](standard-functions/c99.txt)    | [C99](http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf)  | Yes         |
-| [2001.txt](standard-functions/2001.txt)  | [POSIX:2001](http://pubs.opengroup.org/onlinepubs/009695399/)     | Yes         |
-| [2008.txt](standard-functions/2008.txt)  | [POSIX:2008](http://pubs.opengroup.org/onlinepubs/9699919799/)    | No          |
+| File                                     | Headers                                    | Standard                                                          | Permitted   |
+| :--------------------------------------- | :----------------------------------------- | :---------------------------------------------------------------- | :---------- |
+| [c99.txt](standard-functions/c99.txt)    | [c99h.txt](standard-functions/c99h.txt)    | [C99](http://www.open-std.org/jtc1/sc22/WG14/www/docs/n1256.pdf)  | Yes         |
+| [2001.txt](standard-functions/2001.txt)  | [2001h.txt](standard-functions/2001h.txt)  | [POSIX:2001](http://pubs.opengroup.org/onlinepubs/009695399/)     | Yes         |
+| [2008.txt](standard-functions/2008.txt)  | [2008h.txt](standard-functions/2008h.txt)  | [POSIX:2008](http://pubs.opengroup.org/onlinepubs/9699919799/)    | No          |
 
 ## Travis YAML Files
 

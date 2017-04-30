@@ -45,9 +45,9 @@ See also: [https://en.wikipedia.org/wiki/Single_UNIX_Specification](https://en.w
 
 # Function Lists
 
-List of functions in each specification
+List of functions/headers in each specification:
 
-- [c99.txt](c99.txt) - All the functions defined by C99
-- [2001.txt](2001.txt) - Functions in POSIX:2001, but not C99
-- [2008.txt](2008.txt) - Functions in POSIX:2008, but not POSIX:2001
+- [c99.txt](c99.txt)   - [headers](c99h.txt)  - All the functions defined by C99
+- [2001.txt](2001.txt) - [headers](2001h.txt) - Functions in POSIX:2001, but not C99
+- [2008.txt](2008.txt) - [headers](2008h.txt) - Functions in POSIX:2008, but not POSIX:2001
 
