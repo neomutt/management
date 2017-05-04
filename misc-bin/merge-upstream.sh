@@ -52,6 +52,20 @@ function rename_files()
 	[ -f hcache-tc.c               ] && git mv hcache-tc.c               hcache_tc.c
 }
 
+function indent_manual()
+{
+	local MARKER='<!-- MIDDLE -->'
+	pushd doc
+	echo "$MARKER" | cat manual.xml.head - manual.xml.tail \
+		| tidy -q -xml -wrap 80  \
+		| sed -e 's/ \+$//' -e '/^$/d' > m.xml
+	cp m.xml manual.xml.head
+	mv m.xml manual.xml.tail
+	sed -i "/$MARKER/,\$d" manual.xml.head
+	sed -i "1,/$MARKER/d"  manual.xml.tail
+	popd
+}
+
 
 git branch merge-0 "$LCA"
 for ((i = 0; i < COUNT; i++)); do
@@ -62,6 +76,7 @@ for ((i = 0; i <= COUNT; i++)); do
 	git co merge-$i
 	tidy_source
 	rename_files
+	indent_manual
 	git add .
 	git commit -m "clang"
 done
