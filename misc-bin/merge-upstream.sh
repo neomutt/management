@@ -29,9 +29,23 @@ echo
 
 function tidy_source()
 {
+	# Fix broken macros: mutt_message _("hello");
+	find . -name '*.c'    | xargs perl -0777 -i.orig -pe 's/([a-z_]+) +(_\(.*?\));/\1(\2);/igs'
+	# Trailing whitespace
 	find . -name '*.[ch]' | xargs sed -i 's/ \+$//'
+	# Mutt-isms
 	find . -name '*.[ch]' | xargs sed -i 's/FOREVER$/while (true)/'
+	# Drop typedef'd structs
 	find . -name '*.[ch]' | xargs sed -i -f "$BASE_DIR/merge-upstream.sed"
+	# Fix exceptions
+	sed -i 's/struct Message/MESSAGE/g' ncrypt/crypt_gpgme.c
+	# Fix struct definitions
+	find . -name '*.[ch]' | xargs sed -i 's/^} struct [A-Za-z0-9_]\+;/};/'
+	# Tidy the result
+	find . -name '*.[ch]' | xargs clang-format -i
+	# Replace Mutt's dprint() with NeoMutt's mutt_debug()
+	find . -name '*.[ch]' | xargs spatch --no-show-diff --in-place --sp-file "$BASE_DIR/dprint.cocci"
+	# Tidy the result
 	find . -name '*.[ch]' | xargs clang-format -i
 }
 
@@ -138,6 +152,9 @@ done
 git checkout -b upstream master
 
 for ((i = 1; i <= COUNT; i++)); do
+	echo "-------------------------------------------------------------------------------"
+	git log --oneline -n 1 ${COMMITS[COUNT-i]}
+	echo
 	patch -p1 < upstream-$i.diff
 	read -p "Check results..."
 	git add .
