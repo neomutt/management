@@ -1,52 +1,60 @@
-#!/bin/bash
+# Shared functions
 
-set -o nounset	# set -u
-# set -o errexit	# set -e
-
-[ $# -lt 1 ] && exit 1
-[ $# -gt 2 ] && exit 1
-
-BASE_DIR="${0%/*}"
-
-FIRST="$1"
-LAST="${2:-$FIRST}"
-
-FIRST="$(git rev-parse "$FIRST")" || exit 1
-LAST="$(git rev-parse "$LAST")"   || exit 1
-LCA="$(git rev-parse "$FIRST^")"  || exit 1
-
-COMMITS=($(git rev-list --abbrev-commit $LCA..$LAST))
-COUNT=${#COMMITS[@]}
-
-# echo "FIRST   $FIRST"
-# echo "LAST    $LAST"
-echo "COMMITS ${COMMITS[@]}"
-echo "COUNT   $COUNT"
-echo "LCA     $LCA"
-echo
-git log --reverse --oneline $LCA..$LAST | nl
-echo
-
-function tidy_source()
+function remove_files()
 {
-	# Fix broken macros: mutt_message _("hello");
-	find . -name '*.c'    | xargs perl -0777 -i.orig -pe 's/([a-z_]+) +(_\(.*?\));/\1(\2);/igs'
-	# Trailing whitespace
-	find . -name '*.[ch]' | xargs sed -i 's/ \+$//'
-	# Mutt-isms
-	find . -name '*.[ch]' | xargs sed -i 's/FOREVER$/while (true)/'
-	# Drop typedef'd structs
-	find . -name '*.[ch]' | xargs sed -i -f "$BASE_DIR/merge-upstream.sed"
-	# Fix exceptions
-	sed -i 's/struct Message/MESSAGE/g' ncrypt/crypt_gpgme.c
-	# Fix struct definitions
-	find . -name '*.[ch]' | xargs sed -i 's/^} struct [A-Za-z0-9_]\+;/};/'
-	# Tidy the result
-	find . -name '*.[ch]' | xargs clang-format -i
-	# Replace Mutt's dprint() with NeoMutt's mutt_debug()
-	find . -name '*.[ch]' | xargs spatch --no-show-diff --in-place --sp-file "$BASE_DIR/dprint.cocci"
-	# Tidy the result
-	find . -name '*.[ch]' | xargs clang-format -i
+	rm -fr intl
+	rm -f .hgignore
+	rm -f .hgsigs
+	rm -f .hgtags
+	rm -f ABOUT-NLS
+	rm -f BEWARE
+	rm -f build-release
+	rm -f check_sec.sh
+	rm -f contrib/mutt_xtitle
+	rm -f contrib/sample.muttrc-compress
+	rm -f contrib/sample.muttrc-sidebar
+	rm -f contrib/sample.vimrc-sidebar
+	rm -f crypthash.h
+	rm -f doc/applying-patches.txt
+	rm -f doc/devel-notes.txt
+	rm -f doc/makedoc-defs.h
+	rm -f doc/muttbug.man
+	rm -f doc/patch-notes.txt
+	rm -f doc/TODO
+	rm -f GPL
+	rm -f hg-changelog-map
+	rm -f hg-commit
+	rm -f imap/TODO
+	rm -f m4/codeset.m4
+	rm -f m4/curslib.m4
+	rm -f m4/funcs.m4
+	rm -f m4/gettext.m4
+	rm -f m4/glibc21.m4
+	rm -f m4/gpgme.m4
+	rm -f m4/iconv.m4
+	rm -f m4/lcmessage.m4
+	rm -f m4/progtest.m4
+	rm -f m4/types.m4
+	rm -f mkchangelog.sh
+	rm -f mkdtemp.c
+	rm -f muttbug
+	rm -f muttbug.sh.in
+	rm -f NEWS
+	rm -f PATCHES
+	rm -f patchlist.sh
+	rm -f po/Makefile.in.in
+	rm -f README
+	rm -f README.SECURITY
+	rm -f regex.c
+	rm -f snprintf.c
+	rm -f strcasecmp.c
+	rm -f strdup.c
+	rm -f strsep.c
+	rm -f strtok_r.c
+	rm -f TODO
+	rm -f VERSION
+	rm -f version.sh
+	rm -f _regex.h
 }
 
 function remove_underscores()
@@ -115,6 +123,36 @@ function rename_files()
 	[ -f smime.h                   ] && git mv smime.h                   ncrypt/smime.h
 }
 
+function tidy_source()
+{
+	# Fix broken macros: mutt_message _("hello");
+	find . -name '*.c'    | xargs perl -0777 -i.orig -pe 's/([a-z_]+) +(_\(.*?\));/\1(\2);/igs'
+	# Trailing whitespace
+	find . -name '*.[ch]' | xargs sed -i 's/ \+$//'
+	# Mutt-isms
+	find . -name '*.[ch]' | xargs sed -i 's/FOREVER$/while (true)/'
+	find . -name '*.[ch]' | xargs sed -i -f "$BASE_DIR/remove-checked-comments.sed"
+	# Drop typedef'd structs, rename functions
+	find . -name '*.[ch]' | xargs sed -i -f "$BASE_DIR/rename-structs.sed"
+	find . -name '*.[ch]' | xargs sed -i -f "$BASE_DIR/rename-functions.sed"
+	# Fix exceptions
+	sed -i 's/struct Message/MESSAGE/g' ncrypt/crypt_gpgme.c
+	# Fix struct definitions
+	find . -name '*.[ch]' | xargs sed -i 's/^} struct [A-Za-z0-9_]\+;/};/'
+	# Tidy the result
+	find . -name '*.c'    | xargs clang-format -i
+	# Replace Mutt's dprint() with NeoMutt's mutt_debug()
+	find . -name '*.[ch]' | xargs spatch --no-show-diff --in-place --sp-file "$BASE_DIR/dprint.cocci"
+	# Initialise pointers to NULL
+	find . -name '*.[ch]' | xargs spatch --no-show-diff --in-place --sp-file "$BASE_DIR/set-pointer-null.cocci"
+	# Check strcmp-like functions against zero
+	find . -name '*.[ch]' | xargs spatch --no-show-diff --in-place --sp-file "$BASE_DIR/strcmp.cocci"
+	# Simplify return statements
+	find . -name '*.[ch]' | xargs spatch --no-show-diff --in-place --sp-file "$BASE_DIR/tidy-return.cocci"
+	# Tidy the result
+	find . -name '*.c'    | xargs clang-format -i
+}
+
 function indent_manual()
 {
 	local MARKER='<!-- MIDDLE -->'
@@ -128,37 +166,4 @@ function indent_manual()
 	sed -i "1,/$MARKER/d"  manual.xml.tail
 	popd
 }
-
-
-git branch merge-0 "$LCA"
-for ((i = 0; i < COUNT; i++)); do
-	git branch merge-$((COUNT-i)) $LAST~$i
-done
-
-for ((i = 0; i <= COUNT; i++)); do
-	git co merge-$i
-	tidy_source
-	remove_underscores
-	rename_files
-	indent_manual
-	git add .
-	git commit -m "sync source"
-done
-
-for ((i = 0; i < COUNT; i++)); do
-	git diff merge-$i merge-$((i+1)) > upstream-$((i+1)).diff
-done
-
-git checkout -b upstream master
-
-for ((i = 1; i <= COUNT; i++)); do
-	echo "-------------------------------------------------------------------------------"
-	git log --oneline -n 1 ${COMMITS[COUNT-i]}
-	echo
-	patch -p1 < upstream-$i.diff
-	read -p "Check results..."
-	git add .
-	git commit -C ${COMMITS[COUNT-i]}
-	find . -type f \( -name '*.rej' -o -name '*.orig' \) -delete
-done
 
