@@ -22,51 +22,41 @@ and our **regular contributors**:
 
 ## Features
 
-- description ([@nick](https://github.com/nick))
 - description
 
 ## Contrib
 
-- description ([@nick](https://github.com/nick))
 - description
 
 ## Bug Fixes
 
-- description ([@nick](https://github.com/nick))
 - description
 
 ## Translations
 
-- description ([@nick](https://github.com/nick))
 - description
 
 ## Coverity defects
 
-- description ([@nick](https://github.com/nick))
 - description
 
 ## Docs
 
-- description ([@nick](https://github.com/nick))
 - description
 
 ## Website
 
-- description ([@nick](https://github.com/nick))
 - description
 
 ## Build
 
-- description ([@nick](https://github.com/nick))
 - description
 
 ## Tidy
 
-- description ([@nick](https://github.com/nick))
 - description
 
 ## Upstream
 
-- description ([@nick](https://github.com/nick))
 - description
 

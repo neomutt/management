@@ -18,35 +18,35 @@ and our *regular contributors*:
 
 ## Features
 
-- Long description (@nick)
+- Long description
 
 ## Contrib
 
-- Long description (@nick)
+- Long description
 
 ## Bug Fixes
 
-- Long description (@nick)
+- Long description
 
 ## Translations
 
-- Long description (@nick)
+- Long description
 
 ## Coverity defects
 
-- Long description (@nick)
+- Long description
 
 ## Docs
 
-- Long description (@nick)
+- Long description
 
 ## Website
 
-- Long description (@nick)
+- Long description
 
 ## Build
 
-- Long description (@nick)
+- Long description
 
 ## Upstream
 

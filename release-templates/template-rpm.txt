@@ -1,5 +1,5 @@
 %changelog
-* Mon Apr 21 2017 Richard Russon <rich@flatcap.org> - NeoMutt-20170421
+* Mon XXX 00 2017 Richard Russon <rich@flatcap.org> - NeoMutt-20170421
 - Features
   - description
 - Contrib
