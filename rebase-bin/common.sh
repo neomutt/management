@@ -127,7 +127,12 @@ function tidy_source()
 {
 	# Fix broken macros: mutt_message _("hello");
 	find . -name '*.c'    | xargs perl -0777 -i.orig -pe 's/([a-z_]+) +(_\(.*?\));/\1(\2);/igs'
-	# Trailing whitespace
+	# Unused code "#if 0"
+	find . -name '*.[ch]' | xargs unifdef -km
+	# Fix whitespace
+	for i in $(find . -name '*.[ch]'); do
+		expand -t 8 $i | sponge $i
+	done
 	find . -name '*.[ch]' | xargs sed -i 's/ \+$//'
 	# Mutt-isms
 	find . -name '*.[ch]' | xargs sed -i 's/FOREVER$/while (true)/'
