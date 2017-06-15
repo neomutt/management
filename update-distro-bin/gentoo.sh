@@ -35,6 +35,7 @@ echo "Archive:   $GH_URL/$FILE"
 
 echo DIST $FILE $SIZE SHA256 $SHA256 SHA512 $SHA512 WHIRLPOOL $WHIRLPOOL > "$GENTOO_DIR/Manifest"
 
+LIVE_EBUILD="$GENTOO_DIR/neomutt-99999999.ebuild"
 OLD_EBUILD="$(find "$GENTOO_DIR" -name 'neomutt-2*.ebuild')"
 NEW_EBUILD="$GENTOO_DIR/neomutt-$VERSION.ebuild"
 
@@ -44,5 +45,4 @@ echo "    $OLD_EBUILD"
 echo "    $NEW_EBUILD"
 echo
 
-[ "$OLD_EBUILD" != "$NEW_EBUILD" ] && mv "$OLD_EBUILD" "$NEW_EBUILD"
-
+[ "$OLD_EBUILD" != "$NEW_EBUILD" ] && { cp "$LIVE_EBUILD" "$NEW_EBUILD" && rm "$OLD_EBUILD"; }
