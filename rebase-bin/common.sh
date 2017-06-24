@@ -17,10 +17,13 @@ function remove_files()
 	rm -f crypthash.h
 	rm -f doc/applying-patches.txt
 	rm -f doc/devel-notes.txt
+	rm -f doc/dotlock.man
 	rm -f doc/makedoc-defs.h
 	rm -f doc/muttbug.man
 	rm -f doc/patch-notes.txt
 	rm -f doc/TODO
+	rm -f dotlock.c
+	rm -f dotlock.h
 	rm -f GPL
 	rm -f hg-changelog-map
 	rm -f hg-commit
@@ -106,6 +109,7 @@ function rename_files()
 	[ -f crypt_mod_smime_gpgme.c   ] && git mv crypt_mod_smime_gpgme.c   ncrypt/crypt_mod_smime_gpgme.c
 	[ -f gnupgparse.c              ] && git mv gnupgparse.c              ncrypt/gnupgparse.c
 	[ -f gnupgparse.h              ] && git mv gnupgparse.h              ncrypt/gnupgparse.h
+	[ -f mutt_crypt.h              ] && git mv mutt_crypt.h              ncrypt/ncrypt.h
 	[ -f ncrypt.h                  ] && git mv ncrypt.h                  ncrypt/ncrypt.h
 	[ -f pgp.c                     ] && git mv pgp.c                     ncrypt/pgp.c
 	[ -f pgp.h                     ] && git mv pgp.h                     ncrypt/pgp.h
@@ -125,6 +129,8 @@ function rename_files()
 
 function tidy_source()
 {
+	local i
+
 	# Fix broken macros: mutt_message _("hello");
 	find . -name '*.c'    | xargs perl -0777 -i.orig -pe 's/([a-z_]+) +(_\(.*?\));/\1(\2);/igs'
 	# Unused code "#if 0"
