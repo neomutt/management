@@ -33,23 +33,23 @@ save time preparing the accompanying notes.
 After a release, NeoMutt provides automatic updates for several distros.
 There's an update script and a git repo for each.
 
-| Distro           | Script                                       | GitHub Repo
-|:-----------------|:---------------------------------------------|:-----------
-| Arch (AUR)       | [aur.sh](update-distro-bin/aur.sh)           | [https://github.com/neomutt/aur-build](https://github.com/neomutt/aur-build)
-| Fedora (COPR)    | [copr.sh](update-distro-bin/copr.sh)         | [https://github.com/neomutt/copr-neomutt](https://github.com/neomutt/copr-neomutt)
-| Gentoo           | [gentoo.sh](update-distro-bin/gentoo.sh)     | [https://github.com/neomutt/gentoo-neomutt](https://github.com/neomutt/gentoo-neomutt)
-| Homebrew (MacOS) | [homebrew.sh](update-distro-bin/homebrew.sh) | [https://github.com/neomutt/homebrew-neomutt](https://github.com/neomutt/homebrew-neomutt)
+| Distro           | Script                                       | GitHub Repo                                                                                |
+| :--------------- | :------------------------------------------- | :----------------------------------------------------------------------------------------- |
+| Arch (AUR)       | [aur.sh](update-distro-bin/aur.sh)           | [https://github.com/neomutt/aur-build](https://github.com/neomutt/aur-build)               |
+| Fedora (COPR)    | [copr.sh](update-distro-bin/copr.sh)         | [https://github.com/neomutt/copr-neomutt](https://github.com/neomutt/copr-neomutt)         |
+| Gentoo           | [gentoo.sh](update-distro-bin/gentoo.sh)     | [https://github.com/neomutt/gentoo-neomutt](https://github.com/neomutt/gentoo-neomutt)     |
+| Homebrew (MacOS) | [homebrew.sh](update-distro-bin/homebrew.sh) | [https://github.com/neomutt/homebrew-neomutt](https://github.com/neomutt/homebrew-neomutt) |
 
 ## Misc Bin
 
 Various useful scripts.
 **Warning**: Don't use unless you know what you're doing.
 
-| Script                                          | Description
-|:------------------------------------------------|:-----------
-| [merge-upstream.sh](misc-bin/merge-upstream.sh) | Apply upstream commits on top of master
-| [update-from-hg.sh](misc-bin/update-from-hg.sh) | Pull upstream commits into our NeoMutt repo
-| [webhook-bridge.py](misc-bin/webhook-bridge.py) | Notify poeditor.com of changes to translations
+| Script                                          | Description                                    |
+| :---------------------------------------------- | :--------------------------------------------- |
+| [merge-upstream.sh](misc-bin/merge-upstream.sh) | Apply upstream commits on top of master        |
+| [update-from-hg.sh](misc-bin/update-from-hg.sh) | Pull upstream commits into our NeoMutt repo    |
+| [webhook-bridge.py](misc-bin/webhook-bridge.py) | Notify poeditor.com of changes to translations |
 
 ## List of Standard Functions
 
@@ -65,9 +65,21 @@ A list of the [minimum requirements to build NeoMutt](standard-functions/README.
 
 These are copies of our Travis control files.
 
-| File                                  | Branch                                                                                                 |
-|:--------------------------------------|:-------------------------------------------------------------------------------------------------------|
-| [coverity.yml](travis/coverity.yml)   | [https://github.com/neomutt/neomutt/tree/coverity](https://github.com/neomutt/neomutt/tree/coverity)   |
-| [master.yml](travis/master.yml)       | [https://github.com/neomutt/neomutt/tree/master](https://github.com/neomutt/neomutt/tree/master)       |
-| [translate.yml](travis/translate.yml) | [https://github.com/neomutt/neomutt/tree/translate](https://github.com/neomutt/neomutt/tree/translate) |
+| File                                    | Branch                                                                                                   |
+| :-------------------------------------- | :------------------------------------------------------------------------------------------------------- |
+| [coverity.yml](travis/coverity.yml)     | [https://github.com/neomutt/neomutt/tree/coverity](https://github.com/neomutt/neomutt/tree/coverity)     |
+| [master.yml](travis/master.yml)         | [https://github.com/neomutt/neomutt/tree/master](https://github.com/neomutt/neomutt/tree/master)         |
+| [translate.yml](travis/translate.yml)   | [https://github.com/neomutt/neomutt/tree/translate](https://github.com/neomutt/neomutt/tree/translate)   |
+
+## Min-Build
+
+This script minimises a NeoMutt git repo.
+For those times that you just want to look at the **code**.
+
+| File                                             | Description                     |
+| :----------------------------------------------- | :------------------------------ |
+| [make-min-build.sh](min-build/make-min-build.sh) | Script to remove non-code files |
+| [min-config.h](min-build/min-config.h)           | Minimal config.h                |
+| [min-gitignore](min-build/min-gitignore)         | Minimal .gitignore              |
+| [min-Makefile](min-build/min-Makefile)           | Minimal Makefile                |
 
