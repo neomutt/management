@@ -2,74 +2,55 @@
 # Copyright (c) Richard Russon (FlatCap)
 # Released under the GPLv3 (see LICENSE.md)
 
-rm -fr .hg*
 rm -fr contrib
 rm -fr doc
-rm -fr intl
 rm -fr m4
 rm -fr po
+rm -fr .github
 
 rm -f \
-	ABOUT-NLS \
-	BEWARE \
-	ChangeLog* \
+	.clang-format \
+	.editorconfig \
+	.gitattributes \
+	.gitignore \
+	.mailmap \
+	.travis.yml
+
+rm -f \
+	ChangeLog.md \
+	CODE_OF_CONDUCT.md \
+	CONTRIBUTING.md \
 	COPYRIGHT \
-	GPL \
+	hcache/Makefile.am \
+	hcache/README.md \
 	imap/Makefile.am \
 	imap/README \
-	imap/TODO \
 	INSTALL \
-	LICENSE* \
+	LICENSE.md \
 	Makefile.am \
-	NEWS \
-	PATCHES \
-	README* \
-	TODO \
-	UPDATING* \
-	VERSION*
+	ncrypt/Makefile.am \
+	README.md \
+	README.SSL
 
 rm -f \
-	build-release \
-	check_sec.sh \
 	configure.ac \
 	flymake.am \
 	gen_defs \
-	git-version-gen \
-	hcachever.sh.in \
-	hg-changelog-map \
-	hg-commit \
+	hcache/hcachever.sh \
 	mime.types \
-	mkchangelog.sh \
-	muttbug \
-	muttbug.sh.in \
-	patchlist.sh \
 	prepare \
 	smime_keys.pl \
-	stamp-h.in \
-	txt2c.sh \
-	version.sh
+	tags \
+	txt2c.sh
 
 rm -f \
-	_regex.h \
-	dotlock.c \
-	dotlock.h \
 	extlib.c \
-	mkdtemp.c \
 	mutt_ssl.c \
 	pgpewrap.c \
 	pgppubring.c \
-	regex.c \
-	setenv.c \
 	sha1.c \
 	sha1.h \
 	snprintf.c \
-	strcasecmp.c \
-	strcasestr.c \
-	strdup.c \
-	strndup.c \
-	strnlen.c \
-	strsep.c \
-	strtok_r.c \
 	txt2c.c \
 	utf8.c \
 	wcscasecmp.c \
@@ -79,13 +60,15 @@ cat OPS.* >> OPS
 rm -fr OPS.*
 
 git add .
-git commit -m "min-build: removed unneeded files"
+git commit -m "min-build: remove unnecessary files"
 
-mv imap/* .
-rm -fr imap
+for i in imap hcache ncrypt; do
+	git mv $i/* .
+	rm -fr $i
+done
 
 git add .
-git commit -m "min-build: flatten imap into current directory"
+git commit -m "min-build: flatten imap/hcache/ncrypt into current directory"
 
 cp ${0%/*}/min-config.h  config.h
 cp ${0%/*}/min-gitignore .gitignore

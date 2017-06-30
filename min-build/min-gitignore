@@ -4,10 +4,13 @@ tags
 # build dirs
 .dep
 .obj
+hcache
 imap
+ncrypt
 
 # generated files
 conststrings.c
+git_ver.h
 hcversion.h
 keymap_defs.h
 oldmutt_ver.h
