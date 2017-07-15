@@ -4,6 +4,7 @@
 
 rm -fr contrib
 rm -fr doc
+rm -fr doxygen
 rm -fr m4
 rm -fr po
 rm -fr .github
