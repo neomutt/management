@@ -2,9 +2,12 @@
 s/\<alias_SortAddress\>/alias_sort_address/g
 s/\<alias_SortAlias\>/alias_sort_alias/g
 s/\<allocKeys\>/alloc_keys/g
+s/\<ESC_char\>/esc_char/g
 s/\<getDate\>/get_date/g
 s/\<help_lookupFunction\>/help_lookup_function/g
 s/\<isLeapYearFeb\>/is_leap_year_feb/g
+s/\<mutt_FormatString\>/mutt_expando_format/g
+s/\<mutt_format_string\>/mutt_simple_format/g
 s/\<mutt_menuDestroy\>/mutt_menu_destroy/g
 s/\<mutt_menuLoop\>/mutt_menu_loop/g
 s/\<mutt_parse_messageRFC822\>/mutt_parse_message_rfc822/g
@@ -13,6 +16,9 @@ s/\<SHA1Final\>/sha1_final/g
 s/\<SHA1Init\>/sha1_init/g
 s/\<SHA1Transform\>/sha1_transform/g
 s/\<SHA1Update\>/sha1_update/g
+s/\<SHA1_Final\>/sha1_final/g
+s/\<SHA1_Init\>/sha1_init/g
+s/\<SHA1_Update\>/sha1_update/g
 s/\<smime_findKeys\>/smime_find_keys/g
 s/\<upNLines\>/up_n_lines/g
 

@@ -2,13 +2,13 @@
 
 function remove_files()
 {
-	rm -fr intl
 	rm -f .hgignore
 	rm -f .hgsigs
 	rm -f .hgtags
 	rm -f ABOUT-NLS
 	rm -f BEWARE
 	rm -f build-release
+	rm -f ChangeLog*
 	rm -f check_sec.sh
 	rm -f contrib/mutt_xtitle
 	rm -f contrib/sample.muttrc-compress
@@ -55,9 +55,11 @@ function remove_files()
 	rm -f strsep.c
 	rm -f strtok_r.c
 	rm -f TODO
+	rm -f UPDATING*
 	rm -f VERSION
 	rm -f version.sh
 	rm -f _regex.h
+	rm -fr intl
 }
 
 function remove_underscores()

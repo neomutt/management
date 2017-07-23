@@ -136,3 +136,76 @@ s/\<SHA1_CTX\>/struct Sha1Ctx/g
 s/\<sslsockdata\>/struct SslSockData/g
 s/\<TUNNEL_DATA\>/struct TunnelData/g
 
+# more structs
+s/\<Capability_Aliases\>/CapabilityAliases/g
+s/\<Capability_Alias\>/CapabilityAlias/g
+s/\<CryptKeyinfo\>/CryptKeyInfo/g
+s/\<div_type\>/DivType/g
+s/\<DnArrayS\>/DnArray/g
+s/\<FgetConvS\>/FgetConv/g
+s/\<format_flag\>/FormatFlag/g
+s/\<group_state_t\>/GroupState/g
+s/\<hash_key\>/HashKey/g
+s/\<hcache_ops_t\>/HcacheOps/g
+s/\<history_class_t\>/HistoryClass/g
+s/\<imap_auth_res_t\>/ImapAuthRes/g
+s/\<IMAP_COMMAND_TYPE\>/ImapCommandType/g
+s/\<key_cap_t\>/KeyCap/g
+s/\<mdb_txn_mode\>/MdbTxnMode/g
+s/\<NmCtxdata\>/NmCtxData/g
+s/\<NmHdrdata\>/NmHdrData/g
+s/\<NmHdrtag\>/NmHdrTag/g
+s/\<output_formats_t\>/OutputFormats/g
+s/\<packet_tags\>/PacketTags/g
+s/\<pattern_exec_flag\>/PatternExecFlag/g
+s/\<pgp_ring_t\>/PgpRing/g
+s/\<pop_auth_res_t\>/PopAuthRes/g
+s/\<sb_src\>/SidebarSrc/g
+s/\<Sysexits\>/SysExits/g
+s/\<url_scheme\>/UrlScheme/g
+s/\<url_scheme_t\>/UrlScheme/g
+s/\<validate\>/Validate/g
+s/\<XDGType\>/XdgType/g
+
+# define
+
+s/\<extra_space\>/EXTRA_SPACE/g
+s/\<IndentSize\>/INDENT_SIZE/g
+s/\<NumSigLines\>/NUM_SIG_LINES/g
+s/\<per_line\>/PER_LINE/g
+s/\<smtp_continue\>/SMTP_CONTINUE/g
+s/\<smtp_err_code\>/SMTP_ERR_CODE/g
+s/\<smtp_err_read\>/SMTP_ERR_READ/g
+s/\<smtp_err_write\>/SMTP_ERR_WRITE/g
+s/\<smtp_ready\>/SMTP_READY/g
+
+# Constants
+
+s/\<ADDR\>/GS_ADDR/g
+s/\<kXDGConfigDirs\>/XDG_CONFIG_DIRS/g
+s/\<kXDGConfigHome\>/XDG_CONFIG_HOME/g
+s/\<NONE\>/GS_NONE/g
+s/\<RX\>/GS_RX/g
+s/\<txn_read\>/TXN_READ/g
+s/\<txn_uninitialized\>/TXN_UNINITIALIZED/g
+s/\<txn_write\>/TXN_WRITE/g
+
+# Variables
+
+s/\<firstMessage\>/first_message/g
+s/\<hideQuoted\>/hide_quoted/g
+s/\<lastCached\>/last_cached/g
+s/\<lastLine\>/last_line/g
+s/\<lastLoaded\>/last_loaded/g
+s/\<lastMessage\>/last_message/g
+s/\<lineInfo\>/line_info/g
+s/\<maxLine\>/max_line/g
+s/\<newMailCount\>/new_mail_count/g
+s/\<QuoteList\>/quote_list/g
+s/\<SearchBack\>/search_back/g
+s/\<SearchCompiled\>/search_compiled/g
+s/\<searchDir\>/search_dir/g
+s/\<SearchFlag\>/search_flag/g
+s/\<SearchRE\>/search_re/g
+s/\<WrapMargin\>/wrap_margin/g
+
