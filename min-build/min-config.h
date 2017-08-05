@@ -78,10 +78,10 @@
 #define PACKAGE "mutt"
 #define PACKAGE_BUGREPORT "neomutt-devel@neomutt.org"
 #define PACKAGE_NAME "NeoMutt"
-#define PACKAGE_STRING "NeoMutt 20170609"
+#define PACKAGE_STRING "NeoMutt 20170714"
 #define PACKAGE_TARNAME "mutt"
 #define PACKAGE_URL "https://www.neomutt.org"
-#define PACKAGE_VERSION "20170609"
+#define PACKAGE_VERSION "20170714"
 #define SENDMAIL "/usr/sbin/sendmail"
 #define SIG_ATOMIC_VOLATILE_T volatile sig_atomic_t
 #define SIZEOF_OFF_T 8
@@ -118,7 +118,7 @@
 #ifndef __EXTENSIONS__
 # define __EXTENSIONS__ 1
 #endif
-#define VERSION "20170609"
+#define VERSION "20170714"
 #define LOFF_T off_t
 #if SIZEOF_OFF_T == 8
 # define OFF_T_FMT "%" PRId64

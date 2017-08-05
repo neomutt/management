@@ -4,9 +4,6 @@ tags
 # build dirs
 .dep
 .obj
-hcache
-imap
-ncrypt
 
 # generated files
 conststrings.c

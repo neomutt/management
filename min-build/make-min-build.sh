@@ -22,11 +22,13 @@ rm -f \
 	CODE_OF_CONDUCT.md \
 	CONTRIBUTING.md \
 	COPYRIGHT \
+	flymake.am \
 	hcache/Makefile.am \
 	hcache/README.md \
 	imap/Makefile.am \
 	imap/README \
 	INSTALL \
+	lib/Makefile.am \
 	LICENSE.md \
 	Makefile.am \
 	ncrypt/Makefile.am \
@@ -35,23 +37,18 @@ rm -f \
 
 rm -f \
 	configure.ac \
-	flymake.am \
 	gen_defs \
 	hcache/hcachever.sh \
 	mime.types \
 	prepare \
-	smime_keys.pl \
 	tags \
 	txt2c.sh
 
 rm -f \
-	extlib.c \
+	hcache/mutt_md5.c \
 	mutt_ssl.c \
 	pgpewrap.c \
 	pgppubring.c \
-	sha1.c \
-	sha1.h \
-	snprintf.c \
 	txt2c.c \
 	utf8.c \
 	wcscasecmp.c \
@@ -63,13 +60,27 @@ rm -fr OPS.*
 git add .
 git commit -m "min-build: remove unnecessary files"
 
-for i in imap hcache ncrypt; do
+# read -p "Waiting 1..."
+
+# pre-process a duplicate name
+sed -i 's/"message.h"/"message2.h"/' lib/*.[ch]
+git mv lib/message.h lib/message2.h
+git mv lib/message.c lib/message2.c
+
+# read -p "Waiting 2..."
+
+DIRS="hcache imap lib ncrypt"
+for i in $DIRS; do
 	git mv $i/* .
 	rm -fr $i
 done
 
+# read -p "Waiting 3..."
+
 git add .
-git commit -m "min-build: flatten imap/hcache/ncrypt into current directory"
+git commit -m "min-build: flatten ${DIRS// //} into current directory"
+
+# read -p "Waiting 4..."
 
 cp ${0%/*}/min-config.h  config.h
 cp ${0%/*}/min-gitignore .gitignore
