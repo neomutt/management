@@ -3,6 +3,7 @@ kilobyte        <kilobyte@angband.pl>                 Adam Borowski <kilobyte@an
 alexpearce      <alex@alexpearce.me>                  Alex Pearce <alex@alexpearce.me>
 hvkls           <ab@andreberger.eu>                   André Berger <ab@andreberger.eu>
 aradici         <antonio@dyne.org>                    Antonio Radici <antonio@dyne.org>
+seishinryohosha <seishinryohosha@jikken.de>           Anton Rieger <seishinryohosha@jikken.de>
 cinder88        <aerlanger@owlcti.com>                ate <aerlanger@owlcti.com>
 guyzmo          <guyzmo+github+pub@m0g.net>           Bernard 'Guyzmo' Pratz <guyzmo+github+pub@m0g.net>
 guyzmo          <guyzmo+github+pub@m0g.net>           Bernard Pratz <guyzmo+github+pub@m0g.net>
@@ -45,7 +46,9 @@ immae           <ismael.bouya@normalesup.org>         Ismaël Bouya <ismael.bouy
 pickfire        <pickfire@riseup.net>                 Ivan Tham <pickfire@riseup.net>
 phroa           <jack@phroa.net>                      Jack Stratton <jack@phroa.net>
 jakkinstewart   <dracogoyle@gmail.com>                Jakkin <dracogoyle@gmail.com>
+jwilk <jwilk@jwilk.net>                               Jakub Wilk <jwilk@jwilk.net>
 jasperla        <jasper@humppa.nl>                    Jasper Lievisse Adriaanse <jasper@humppa.nl>
+jelly <jelle@vdwaa.nl>                                Jelle van der Waa <jelle@vdwaa.nl>
 esovetkin       <e.sovetkin@gmail.com>                Jenya Sovetkin <e.sovetkin@gmail.com>
 tsuflux         <johannes@frankenau.net>              Johannes Frankenau <johannes@frankenau.net>
 weisslj         <jargon@molb.org>                     Johannes Weißl <jargon@molb.org>
@@ -76,6 +79,7 @@ flatcap         <rich@flatcap.org>                    Richard Russon <rich@flatc
 ruben           <rubenllorente@startmail.com>         Rubén Llorente <rubenllorente@startmail.com>
 santiagotorres  <torresariass@gmail.com>              Santiago Torres <torresariass@gmail.com>
 sassmann        <sassmann@kpanic.de>                  sassmann <sassmann@users.noreply.github.com>
+seishinryohosha <seishinryohosha@jikken.de>           seishinryohosha <seishinryohosha@users.noreply.github.com>
 sgeb            <serge.gebhardt@gmail.com>            Serge Gebhardt <serge.gebhardt@gmail.com>
 gilles          <sgilles@math.umd.edu>                S. Gilles <sgilles@math.umd.edu>
 somini          <somini29@yandex.com>                 somini <somini29@yandex.com>
@@ -283,6 +287,7 @@ UPSTREAM <dev@mutt.org> Robert Schiele <robert.schiele@t-online.de>
 UPSTREAM <dev@mutt.org> Rocco Rutte <pdmef@gmx.net>
 UPSTREAM <dev@mutt.org> Rocco Rutte <s1118644@mail.inf.tu-dresden.de>
 UPSTREAM <dev@mutt.org> Roger Cornelius <rac@tenzing.org>
+UPSTREAM <dev@mutt.org> Roger Pau Monne <roger.pau@citrix.com>
 UPSTREAM <dev@mutt.org> Roland Rosenfeld <roland@spinnaker.de>
 UPSTREAM <dev@mutt.org> Roman Kagan <rkagan@mail.ru>
 UPSTREAM <dev@mutt.org> Roman Kraevskiy <rkraevskiy@gmail.com>
