@@ -19,14 +19,13 @@ rpmbuild_tree()
 }
 
 
-eval SRC_DIR="${1:-~/n8}"
+eval SRC_DIR="${1:-~/work/neo}"
 GH_URL="https://github.com/neomutt/neomutt/archive"
 
 pushd "$SRC_DIR"
 
 TAG="$(git tag -l --sort='-authordate' 'neomutt-*' | head -1)"
 VERSION="${TAG#neomutt-}"
-MUTT="$(sed -n '/MUTT_VERSION/{s/.*"\(.*\)".*/\1/;p}' configure.ac)"
 
 popd
 
@@ -37,22 +36,19 @@ fi
 
 echo "Tag:     $TAG"
 echo "Version: $VERSION"
-echo "Mutt:    $MUTT"
 echo
 
 pushd copr
 
 SPEC="neomutt.spec"
-OS="fc25"
+OS="fc26"
 HERE=$(pwd)
 
 echo "Edit: $SPEC"
 sed -i \
-	-e "s/^\(%global _date\) .*/\1 $VERSION/" \
-	-e "s/^\(Version:\) .*/\1 $MUTT/" \
+	-e "s/^\(Version:\) .*/\1 $VERSION/" \
 	"$SPEC"
 echo
-
 
 rm -fr rpmbuild
 rpmbuild_tree
@@ -63,12 +59,12 @@ cp mutt_ldap_query              rpmbuild/SOURCES
 
 rpmbuild -bs --target=noarch --define=_topdir\ $HERE/rpmbuild "$SPEC"
 
-cp rpmbuild/SRPMS/neomutt-${MUTT}-${VERSION}.${OS}.src.rpm .
+cp rpmbuild/SRPMS/neomutt-${VERSION}-1.${OS}.src.rpm .
 
 rm -fr rpmbuild
 rpmbuild_tree
 
-rpmbuild --rebuild --define=_topdir\ $HERE/rpmbuild neomutt-${MUTT}-${VERSION}.${OS}.src.rpm
+rpmbuild --rebuild --define=_topdir\ $HERE/rpmbuild neomutt-${VERSION}-1.${OS}.src.rpm
 
 cp rpmbuild/RPMS/x86_64/* .
 

@@ -3,7 +3,7 @@
 set -o errexit	# set -e
 set -o nounset	# set -u
 
-eval SRC_DIR="${1:-~/n8}"
+eval SRC_DIR="${1:-~/work/neo}"
 
 pushd "$SRC_DIR"
 

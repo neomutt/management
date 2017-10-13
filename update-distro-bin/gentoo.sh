@@ -3,7 +3,7 @@
 set -o errexit	# set -e
 set -o nounset	# set -u
 
-eval SRC_DIR="${1:-~/n8}"
+eval SRC_DIR="${1:-~/work/neo}"
 GENTOO_DIR="gentoo/mail-client/neomutt"
 GH_URL="https://github.com/neomutt/neomutt/archive"
 
