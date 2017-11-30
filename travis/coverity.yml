@@ -50,5 +50,5 @@ env:
     - OPTS="--disable-doc --disable-po --enable-debug --enable-flock --enable-gpgme --enable-locales-fix --enable-lua --enable-notmuch --with-bdb --with-domain --with-gdbm --with-gnutls --with-gss --with-homespool --with-kyotocabinet --with-lmdb --with-mixmaster --with-qdbm --with-sasl --with-ssl --with-tokyocabinet"
 
 script:
-  - true
+  - if [ ${COVERITY_SCAN_BRANCH} != 1 ]; then make ; fi
 
