@@ -1,6 +1,7 @@
 ## NeoMutt Contributors
 kilobyte        <kilobyte@angband.pl>                 Adam Borowski <kilobyte@angband.pl>
 aladw           <AladW@users.noreply.github.com>      Alad Wenter <AladW@users.noreply.github.com>
+cyphar          <cyphar@cyphar.com>                   Aleksa Sarai <cyphar@cyphar.com>
 alexpearce      <alex@alexpearce.me>                  Alex Pearce <alex@alexpearce.me>
 andir           <andreas@rammhold.de>                 Andreas Rammhold <andreas@rammhold.de>
 hvkls           <ab@andreberger.eu>                   André Berger <ab@andreberger.eu>
@@ -9,6 +10,7 @@ aradici         <antonio@dyne.org>                    Antonio Radici <antonio@dy
 seishinryohosha <seishinryohosha@jikken.de>           Anton Rieger <seishinryohosha@jikken.de>
 cinder88        <aerlanger@owlcti.com>                ate <aerlanger@owlcti.com>
 austin-ray      <austin.duke.ray@gmail.com>           Austin Ray <austin.duke.ray@gmail.com>
+makoshark       <mako@atdot.cc>                       Benjamin Mako Hill <mako@atdot.cc>
 guyzmo          <guyzmo+github+pub@m0g.net>           Bernard 'Guyzmo' Pratz <guyzmo+github+pub@m0g.net>
 guyzmo          <guyzmo+github+pub@m0g.net>           Bernard Pratz <guyzmo+github+pub@m0g.net>
 yuzibo          <tsu.yubo@gmail.com>                  Bo Yu <tsu.yubo@gmail.com>
@@ -60,6 +62,7 @@ weisslj         <jargon@molb.org>                     Johannes Weißl <jargon@mo
 jperkin         <jperkin@netbsd.org>                  Jonathan Perkin <jperkin@netbsd.org>
 jakkinstewart   <dracogoyle@gmail.com>                Joshua Jordi <JakkinStewart@users.noreply.github.com>
 julian-klode    <jak@jak-linux.org>                   Julian Andres Klode <jak@jak-linux.org>
+justinvasel     <justin.vasel@gmail.com>              Justin Vasel <justin.vasel@gmail.com>
 karelzak        <kzak@redhat.com>                     Karel Zak <kzak@redhat.com>
 kdecherf        <kevin@kdecherf.com>                  Kevin Decherf <kevin@kdecherf.com>
 paretje         <kevin@paretje.be>                    Kevin Velghe <kevin@paretje.be>
@@ -69,6 +72,7 @@ inglor          <artafinde@gmail.com>                 Leonidas Spyropoulos <arta
 epilys          <el13635@mail.ntua.gr>                Manos Pitsidianakis <el13635@mail.ntua.gr>
 mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner lenovo <mrajner@gik.pw.edu.pl>
 mhinz           <mh.codebro@gmail.com>                Marco Hinz <mh.codebro@gmail.com>
+mgedmin         <marius@gedmin.as>                    Marius Gedminas <marius@gedmin.as>
 sileht          <sileht@sileht.net>                   Mehdi Abaakouk <sileht@sileht.net>
 sileht          <sileht@sileht.net>                   Mehdi ABAAKOUK <sileht@sileht.net>
 ng-0            <ng0@infotropique.org>                ng0 <ng0@infotropique.org>
@@ -194,6 +198,7 @@ UPSTREAM <dev@mutt.org> Gary Johnson <garyjohn@spk.agilent.com>
 UPSTREAM <dev@mutt.org> Gary Johnson <unknown>
 UPSTREAM <dev@mutt.org> Gero Treuner <gerotick@faveve.uni-stuttgart.de>
 UPSTREAM <dev@mutt.org> Gregory Shapiro <dev.mutt.org@g.gshapiro.net>
+UPSTREAM <dev@mutt.org> Grzegorz Szymaszek <gszymaszek@short.pl>
 UPSTREAM <dev@mutt.org> Guilhem Moulin <guilhem@guilhem.org>
 UPSTREAM <dev@mutt.org> guns <self@sungpae.com>
 UPSTREAM <dev@mutt.org> hncaldwell <unknown>
@@ -228,6 +233,7 @@ UPSTREAM <dev@mutt.org> Kees Cook <kees@outflux.net>
 UPSTREAM <dev@mutt.org> Kevin McCarthy <kevin@8t8.us>
 UPSTREAM <dev@mutt.org> Kevin Scannell <kscanne@gmail.com>
 UPSTREAM <dev@mutt.org> Kevin Scannell <scannell@slu.edu>
+UPSTREAM <dev@mutt.org> Konstantin Stephan <pigleich3@gmx.net>
 UPSTREAM <dev@mutt.org> Kyle Wheeler <kyle-mutt-dev@memoryhole.net>
 UPSTREAM <dev@mutt.org> Kyle Wheeler <kyle@memoryhole.net>
 UPSTREAM <dev@mutt.org> Kyle Wheeler <unknown>

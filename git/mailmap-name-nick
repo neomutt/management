@@ -1,6 +1,7 @@
 ## NeoMutt Contributors
 Adam Borowski (@kilobyte) <kilobyte@angband.pl>                            Adam Borowski <kilobyte@angband.pl>
 Alad Wenter (@aladw) <AladW@users.noreply.github.com>                      Alad Wenter <AladW@users.noreply.github.com>
+Aleksa Sarai (@cyphar) <cyphar@cyphar.com>                                 Aleksa Sarai <cyphar@cyphar.com>
 Alex Pearce (@alexpearce) <alex@alexpearce.me>                             Alex Pearce <alex@alexpearce.me>
 Andreas Rammhold (@andir) <andreas@rammhold.de>                            Andreas Rammhold <andreas@rammhold.de>
 André Berger (@hvkls) <ab@andreberger.eu>                                  André Berger <ab@andreberger.eu>
@@ -10,6 +11,7 @@ Anton Rieger (@seishinryohosha) <seishinryohosha@jikken.de>                seish
 Antonio Radici (@aradici) <antonio@dyne.org>                               Antonio Radici <antonio@dyne.org>
 Antonio Radici (@aradici) <antonio@dyne.org>                               Unknown <antonio@dyne.org>
 Austin Ray (@austin-ray) <austin.duke.ray@gmail.com>                       Austin Ray <austin.duke.ray@gmail.com>
+Benjamin Mako Hill (@makoshark) <mako@atdot.cc>                            Benjamin Mako Hill <mako@atdot.cc>
 Bernard Pratz (@guyzmo) <guyzmo+github+pub@m0g.net>                        Bernard 'Guyzmo' Pratz <guyzmo+github+pub@m0g.net>
 Bernard Pratz (@guyzmo) <guyzmo+github+pub@m0g.net>                        Bernard Pratz <guyzmo+github+pub@m0g.net>
 Bernard Pratz (@guyzmo) <guyzmo+github+pub@m0g.net>                        Guyzmo <guyzmo+github+pub@m0g.net>
@@ -62,6 +64,7 @@ Jonathan Perkin (@jperkin) <jperkin@netbsd.org>                            Jonat
 Joshua Jordi (@jakkinstewart) <dracogoyle@gmail.com>                       Jakkin <dracogoyle@gmail.com>
 Joshua Jordi (@jakkinstewart) <dracogoyle@gmail.com>                       Joshua Jordi <JakkinStewart@users.noreply.github.com>
 Julian Andres Klode (@julian-klode) <jak@jak-linux.org>                    Julian Andres Klode <jak@jak-linux.org>
+Justin Vasel (@justinvasel) <justin.vasel@gmail.com>                       Justin Vasel <justin.vasel@gmail.com>
 Karel Zak (@karelzak) <kzak@redhat.com>                                    Karel Zak <kzak@redhat.com>
 Kevin Decherf (@kdecherf) <kevin@kdecherf.com>                             Kevin Decherf <kevin@kdecherf.com>
 Kevin Velghe (@paretje) <kevin@paretje.be>                                 Kevin Velghe <kevin@paretje.be>
@@ -71,6 +74,7 @@ Leonidas Spyropoulos (@inglor) <artafinde@gmail.com>                       Leoni
 Manos Pitsidianakis (@epilys) <el13635@mail.ntua.gr>                       Manos Pitsidianakis <el13635@mail.ntua.gr>
 Marcin Rajner (@mrajner) <mrajner@gik.pw.edu.pl>                           Marcin Rajner lenovo <mrajner@gik.pw.edu.pl>
 Marco Hinz (@mhinz) <mh.codebro@gmail.com>                                 Marco Hinz <mh.codebro@gmail.com>
+Marius Gedminas (@mgedmin) <marius@gedmin.as>                              Marius Gedminas <marius@gedmin.as>
 Mehdi Abaakouk (@sileht) <sileht@sileht.net>                               Mehdi ABAAKOUK <sileht@sileht.net>
 Mehdi Abaakouk (@sileht) <sileht@sileht.net>                               Mehdi Abaakouk <sileht@sileht.net>
 ng0 (@ng-0) <ng0@infotropique.org>                                         ng0 <ng0@infotropique.org>
@@ -196,6 +200,7 @@ UPSTREAM Gary Johnson <garyjohn@spk.agilent.com>                         Gary Jo
 UPSTREAM Gary Johnson <garyjohn@spk.agilent.com>                         Gary Johnson <unknown>
 UPSTREAM Gero Treuner <gerotick@faveve.uni-stuttgart.de>                 Gero Treuner <gerotick@faveve.uni-stuttgart.de>
 UPSTREAM Gregory Shapiro <dev.mutt.org@g.gshapiro.net>                   Gregory Shapiro <dev.mutt.org@g.gshapiro.net>
+UPSTREAM Grzegorz Szymaszek <gszymaszek@short.pl>                        Grzegorz Szymaszek <gszymaszek@short.pl>
 UPSTREAM Guilhem Moulin <guilhem@guilhem.org>                            Guilhem Moulin <guilhem@guilhem.org>
 UPSTREAM guns <self@sungpae.com>                                         guns <self@sungpae.com>
 UPSTREAM H.N.Caldwell <unknown>                                          hncaldwell <unknown>
@@ -235,6 +240,7 @@ UPSTREAM Kevin McCarthy <kevin@8t8.us>                                   Kevin M
 UPSTREAM Kevin Scannell <kscanne@gmail.com>                              Kevin Scannell <kscanne@gmail.com>
 UPSTREAM Kevin Scannell <kscanne@gmail.com>                              Kevin Scannell <scannell@slu.edu>
 UPSTREAM Kimihiro Nonaka <nonakap@gmail.com>                             NONAKA Kimihiro <nonakap@gmail.com>
+UPSTREAM Konstantin Stephan <pigleich3@gmx.net>                          Konstantin Stephan <pigleich3@gmx.net>
 UPSTREAM Kyle Wheeler <kyle@memoryhole.net>                              Kyle Wheeler <kyle-mutt-dev@memoryhole.net>
 UPSTREAM Kyle Wheeler <kyle@memoryhole.net>                              Kyle Wheeler <kyle@memoryhole.net>
 UPSTREAM Kyle Wheeler <kyle@memoryhole.net>                              Kyle Wheeler <unknown>
