@@ -1,6 +1,9 @@
 ## NeoMutt Contributors
 Adam Borowski <kilobyte@angband.pl>                             Adam Borowski <kilobyte@angband.pl>                      # @kilobyte
+Adam Borowski <kilobyte@angband.pl>                             Adam Borowski <kilobyte@angband.pl>                      # @kilobyte
 Alad Wenter <AladW@users.noreply.github.com>                    Alad Wenter <AladW@users.noreply.github.com>             # @aladw
+Alad Wenter <AladW@users.noreply.github.com>                    Alad Wenter <AladW@users.noreply.github.com>             # @aladw
+Aleksa Sarai <cyphar@cyphar.com>                                Aleksa Sarai <cyphar@cyphar.com>                         # @cyphar
 Aleksa Sarai <cyphar@cyphar.com>                                Aleksa Sarai <cyphar@cyphar.com>                         # @cyphar
 Alex Pearce <alex@alexpearce.me>                                Alex Pearce <alex@alexpearce.me>                         # @alexpearce
 Andreas Rammhold <andreas@rammhold.de>                          Andreas Rammhold <andreas@rammhold.de>                   # @andir
@@ -42,6 +45,7 @@ Elimar Riesebieter <riesebie@lxtec.de>                          Elimar Riesebiet
 Fabian Groffen <grobian@gentoo.org>                             Fabian Groffen <grobian@gentoo.org>                      # @grobian
 Fabian Groffen <grobian@gentoo.org>                             Fabian Groffen <grobian@orakel.ods.org>                  # @grobian
 Fabrice Bellet <fabrice@bellet.info>                            Fabrice Bellet <fabrice@bellet.info>                     # @fbellet
+Federico Kircheis <federico.kircheis@gmail.com>                 Federico Kircheis <federico.kircheis@gmail.com>          # @fekir
 Florian Klink <flokli@flokli.de>                                Florian Klink <flokli@flokli.de>                         # @flokli
 Floyd Anderson <f.a@31c0.net>                                   Floyd Anderson <f.a@31c0.net>                            # @floand
 František Hájik <ferko.hajik@gmail.com>                         František Hájik <ferko.hajik@gmail.com>                  # @ferkohajik
@@ -54,6 +58,7 @@ Ian Zimmerman <itz@very.loosely.org>                            Ian Zimmerman <n
 Ismaël Bouya <ismael.bouya@normalesup.org>                      Ismaël Bouya <ismael.bouya@normalesup.org>               # @immae
 Ivan Tham <pickfire@riseup.net>                                 Ivan Tham <pickfire@riseup.net>                          # @pickfire
 Jack Stratton <jack@phroa.net>                                  Jack Stratton <jack@phroa.net>                           # @phroa
+Jakub Jindra <jakub.jindra@socialbakers.com>                    Jakub Jindra <jindraj@users.noreply.github.com>          # @jinraj
 Jakub Wilk <jwilk@jwilk.net>                                    Jakub Wilk <jwilk@jwilk.net>                             # jwilk
 Jasper Adriaanse <jasper@humppa.nl>                             Jasper Lievisse Adriaanse <jasper@humppa.nl>             # @jasperla
 Jelle van der Waa <jelle@vdwaa.nl>                              Jelle van der Waa <jelle@vdwaa.nl>                       # jelly
@@ -69,6 +74,7 @@ Karel Zak <kzak@redhat.com>                                     Karel Zak <kzak@
 Kevin Decherf <kevin@kdecherf.com>                              Kevin Decherf <kevin@kdecherf.com>                       # @kdecherf
 Kevin Velghe <kevin@paretje.be>                                 Kevin Velghe <kevin@paretje.be>                          # @paretje
 Larry Rosenman <larryrtx@gmail.com>                             Larry Rosenman <larryrtx@gmail.com>                      # @lrosenman
+Leo Lundgren <leo@finalresort.org>                              Leo R. Lundgren <leo@finalresort.org>                    # @rawtaz
 Leonardo Brondani Schenkel <leonardo@schenkel.net>              Leonardo Brondani Schenkel <leonardo@schenkel.net>       # lbschenkel
 Leonidas Spyropoulos <artafinde@gmail.com>                      Leonidas Spyropoulos <artafinde@gmail.com>               # @inglor
 Manos Pitsidianakis <el13635@mail.ntua.gr>                      Manos Pitsidianakis <el13635@mail.ntua.gr>               # @epilys
@@ -77,6 +83,7 @@ Marco Hinz <mh.codebro@gmail.com>                               Marco Hinz <mh.c
 Marius Gedminas <marius@gedmin.as>                              Marius Gedminas <marius@gedmin.as>                       # @mgedmin
 Mehdi Abaakouk <sileht@sileht.net>                              Mehdi ABAAKOUK <sileht@sileht.net>                       # @sileht
 Mehdi Abaakouk <sileht@sileht.net>                              Mehdi Abaakouk <sileht@sileht.net>                       # @sileht
+Michael Bazzinotti <mbazzinotti@gmail.com>                      Michael J. Bazzinotti <mbazzinotti@gmail.com>            # @bazzinotti
 ng0 <ng0@infotropique.org>                                      ng0 <ng0@infotropique.org>                               # @ng-0
 Nicolas Bock <nicolasbock@gmail.com>                            Nicolas Bock <nicolasbock@gmail.com>                     # @nicolasbock
 Peter Hogg <pm@pig-monkey.com>                                  Pig Monkey <pm@pig-monkey.com>                           # @pigmonkey
