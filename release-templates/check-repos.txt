@@ -1,9 +1,10 @@
 Check these repos for contributors to thank:
 
+	https://github.com/neomutt/aur-build
+	https://github.com/neomutt/gentoo-neomutt
+	https://github.com/neomutt/homebrew-neomutt
 	https://github.com/neomutt/neomutt
 	https://github.com/neomutt/neomutt.github.io
-	https://github.com/neomutt/gentoo-neomutt
-	https://github.com/neomutt/aur-build
-	https://github.com/neomutt/homebrew-neomutt
+	https://github.com/neomutt/neomutt.vim
 	https://github.com/neomutt/travis-build
 

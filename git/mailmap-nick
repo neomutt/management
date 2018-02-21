@@ -3,6 +3,7 @@ kilobyte        <kilobyte@angband.pl>                 Adam Borowski <kilobyte@an
 aladw           <AladW@users.noreply.github.com>      Alad Wenter <AladW@users.noreply.github.com>
 cyphar          <cyphar@cyphar.com>                   Aleksa Sarai <cyphar@cyphar.com>
 alexpearce      <alex@alexpearce.me>                  Alex Pearce <alex@alexpearce.me>
+anarcat         <anarcat@debian.org>                  anarcat <anarcat@users.noreply.github.com>
 andir           <andreas@rammhold.de>                 Andreas Rammhold <andreas@rammhold.de>
 hvkls           <ab@andreberger.eu>                   André Berger <ab@andreberger.eu>
 hvkls           <andre.berger@web.de>                 André Berger <andre.berger@web.de>
@@ -15,6 +16,7 @@ guyzmo          <guyzmo+github+pub@m0g.net>           Bernard 'Guyzmo' Pratz <gu
 guyzmo          <guyzmo+github+pub@m0g.net>           Bernard Pratz <guyzmo+github+pub@m0g.net>
 yuzibo          <tsu.yubo@gmail.com>                  Bo Yu <tsu.yubo@gmail.com>
 bbenne10        <bbenne10@gmail.com>                  Bryan Bennett <bbenne10@gmail.com>
+cdrage          <charlie@charliedrage.com>            Charlie Drage <charlie@charliedrage.com>
 shioyama        <chris@dejimata.com>                  Chris Salzberg <chris@dejimata.com>
 shioyama        <chris@dejimata.com>                  Chris Salzberg <csalzberg@degica.com>
 chrissl         <chris@christopher-czettel.net>       chrissl <chris@christopher-czettel.net>
@@ -28,6 +30,7 @@ d-k-c           <damien.riegel@gmail.com>             Damien Riegel <damien@rieg
 d-k-c           <damien.riegel@gmail.com>             Damien Riegel <damien.riegel@savoirfairelinux.com>
 darnir          <darnir@gmail.com>                    Darshit Shah <darnir@gmail.com>
 darnir          <darnir@gmail.com>                    Darshit Shah <darnir@users.noreply.github.com>
+kdave           <dsterba@suse.cz>                     David Sterba <dsterba@suse.com>
 kdave           <dsterba@suse.cz>                     David Sterba <dsterba@suse.cz>
 dset0x          <kmhzsem@gmx.com>                     Dimitrios Semitsoglou-Tsiapos <kmhzsem@gmx.com>
 doweaver        <doug@stone-weaver.com>               Doug Stone-Weaver <doug@stone-weaver.com>
@@ -38,6 +41,7 @@ grobian         <grobian@gentoo.org>                  Fabian Groffen <grobian@ge
 grobian         <grobian@gentoo.org>                  Fabian Groffen <grobian@orakel.ods.org>
 fbellet         <fabrice@bellet.info>                 Fabrice Bellet <fabrice@bellet.info>
 fekir           <federico.kircheis@gmail.com>         Federico Kircheis <federico.kircheis@gmail.com>
+fekir           <federico.kircheis@gmail.com>         fekir <federico.kircheis@gmail.com>
 flokli          <flokli@flokli.de>                    Florian Klink <flokli@flokli.de>
 floand          <f.a@31c0.net>                        Floyd Anderson <f.a@31c0.net>
 ferkohajik      <ferko.hajik@gmail.com>               František Hájik <ferko.hajik@gmail.com>
@@ -56,9 +60,11 @@ phroa           <jack@phroa.net>                      Jack Stratton <jack@phroa.
 jakkinstewart   <dracogoyle@gmail.com>                Jakkin <dracogoyle@gmail.com>
 jinraj          <jakub.jindra@socialbakers.com>       Jakub Jindra <jindraj@users.noreply.github.com>
 jwilk           <jwilk@jwilk.net>                     Jakub Wilk <jwilk@jwilk.net>
+jindraj         <jakub.jindra@socialbakers.com>       Jakub Jindra <jakub.jindra@socialbakers.com>
 jasperla        <jasper@humppa.nl>                    Jasper Lievisse Adriaanse <jasper@humppa.nl>
 jelly           <jelle@vdwaa.nl>                      Jelle van der Waa <jelle@vdwaa.nl>
 esovetkin       <e.sovetkin@gmail.com>                Jenya Sovetkin <e.sovetkin@gmail.com>
+jlmuir          <jlmuir@imca-cat.org>                 J. Lewis Muir <jlmuir@imca-cat.org>
 tsuflux         <johannes@frankenau.net>              Johannes Frankenau <johannes@frankenau.net>
 weisslj         <jargon@molb.org>                     Johannes Weißl <jargon@molb.org>
 jperkin         <jperkin@netbsd.org>                  Jonathan Perkin <jperkin@netbsd.org>
@@ -69,11 +75,12 @@ karelzak        <kzak@redhat.com>                     Karel Zak <kzak@redhat.com
 kdecherf        <kevin@kdecherf.com>                  Kevin Decherf <kevin@kdecherf.com>
 paretje         <kevin@paretje.be>                    Kevin Velghe <kevin@paretje.be>
 lrosenman       <larryrtx@gmail.com>                  Larry Rosenman <larryrtx@gmail.com>
-rawtaz          <leo@finalresort.org>                 Leo R. Lundgren <leo@finalresort.org>
 lbschenkel      <leonardo@schenkel.net>               Leonardo Brondani Schenkel <leonardo@schenkel.net>
 inglor          <artafinde@gmail.com>                 Leonidas Spyropoulos <artafinde@gmail.com>
+rawtaz          <leo@finalresort.org>                 Leo R. Lundgren <leo@finalresort.org>
 epilys          <el13635@mail.ntua.gr>                Manos Pitsidianakis <el13635@mail.ntua.gr>
 mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner lenovo <mrajner@gik.pw.edu.pl>
+mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner <mrajner@lenovo>
 mhinz           <mh.codebro@gmail.com>                Marco Hinz <mh.codebro@gmail.com>
 mgedmin         <marius@gedmin.as>                    Marius Gedminas <marius@gedmin.as>
 sileht          <sileht@sileht.net>                   Mehdi Abaakouk <sileht@sileht.net>
@@ -90,17 +97,20 @@ gahr            <gahr@gahr.ch>                        Pietro Cerutti <gahr@gahr.
 pigmonkey       <pm@pig-monkey.com>                   Pig Monkey <pm@pig-monkey.com>
 r3lgar          <r3lgar@openmailbox.org>              r3lgar <r3lgar@openmailbox.org>
 r3lgar          <r3lgar@users.noreply.github.com>     r3lgar <r3lgar@users.noreply.github.com>
+vrthra          <rahul@gopinath.org>                  Rahul Gopinath <rahul@gopinath.org>
 regid           <regid23@nt1.in>                      Regid Ichira <regid23@nt1.in>
 reisradomil     <reisradomil@fake-box.com>            Reis Radomil <reisradomil@fake-box.com>
 kwantam         <kwantam@gmail.com>                   Riad S. Wahby <kwantam@gmail.com>
 richih          <RichiH@users.noreply.github.com>     Richard Hartmann <RichiH@users.noreply.github.com>
 flatcap         <rich@flatcap.org>                    Richard Russon <rich@flatcap.org>
+rtlanceroad     <rtlanceroad@gmail.com>               rtlanceroad <rtlanceroad@gmail.com>
 ruben           <rubenllorente@startmail.com>         Rubén Llorente <rubenllorente@startmail.com>
 santiagotorres  <torresariass@gmail.com>              Santiago Torres <torresariass@gmail.com>
 sassmann        <sassmann@kpanic.de>                  sassmann <sassmann@users.noreply.github.com>
 seishinryohosha <seishinryohosha@jikken.de>           seishinryohosha <seishinryohosha@users.noreply.github.com>
 sgeb            <serge.gebhardt@gmail.com>            Serge Gebhardt <serge.gebhardt@gmail.com>
 s-gilles        <sgilles@math.umd.edu>                S. Gilles <sgilles@math.umd.edu>
+sharktamer      <sharktamer@users.noreply.github.com> sharktamer <sharktamer@users.noreply.github.com>
 somini          <somini29@yandex.com>                 somini <somini29@yandex.com>
 somini          <somini29@yandex.com>                 somini <somini@users.noreply.github.com>
 sassmann        <sassmann@kpanic.de>                  Stefan Assmann <sassmann@kpanic.de>
@@ -108,6 +118,7 @@ sassmann        <sassmann@kpanic.de>                  Stefan Assmann <sassmann@r
 stbuehler       <stbuehler@web.de>                    Stefan Bühler <stbuehler@web.de>
 nuclearsandwich <steven@nuclearsandwich.com>          Steven! Ragnarök <steven@nuclearsandwich.com>
 sthen           <stu-github@spacehopper.org>          Stuart Henderson <stu-github@spacehopper.org>
+telshock        <telshock@users.noreply.github.com>   telshock <telshock@users.noreply.github.com>
 thomasadam      <thomas@xteddy.org>                   Thomas Adam <thomas@xteddy.org>
 0-wiz-0         <wiz@netbsd.org>                      Thomas Klausner <wiz@netbsd.org>
 qsuscs          <qsx@qsx.re>                          Thomas Schneider <qsx@qsx.re>

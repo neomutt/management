@@ -1,14 +1,12 @@
 ## NeoMutt Contributors
 Adam Borowski <kilobyte@angband.pl>                             Adam Borowski <kilobyte@angband.pl>                      # @kilobyte
-Adam Borowski <kilobyte@angband.pl>                             Adam Borowski <kilobyte@angband.pl>                      # @kilobyte
 Alad Wenter <AladW@users.noreply.github.com>                    Alad Wenter <AladW@users.noreply.github.com>             # @aladw
-Alad Wenter <AladW@users.noreply.github.com>                    Alad Wenter <AladW@users.noreply.github.com>             # @aladw
-Aleksa Sarai <cyphar@cyphar.com>                                Aleksa Sarai <cyphar@cyphar.com>                         # @cyphar
 Aleksa Sarai <cyphar@cyphar.com>                                Aleksa Sarai <cyphar@cyphar.com>                         # @cyphar
 Alex Pearce <alex@alexpearce.me>                                Alex Pearce <alex@alexpearce.me>                         # @alexpearce
 Andreas Rammhold <andreas@rammhold.de>                          Andreas Rammhold <andreas@rammhold.de>                   # @andir
 André Berger <ab@andreberger.eu>                                André Berger <ab@andreberger.eu>                         # @hvkls
 André Berger <andre.berger@web.de>                              André Berger <andre.berger@web.de>                       # @hvkls
+Antoine Beaupré <anarcat@debian.org>                            anarcat <anarcat@users.noreply.github.com>               # @anarcat
 Anton Rieger <seishinryohosha@jikken.de>                        Anton Rieger <seishinryohosha@jikken.de>                 # seishinryohosha
 Anton Rieger <seishinryohosha@jikken.de>                        seishinryohosha <seishinryohosha@users.noreply.github.com> # seishinryohosha
 Antonio Radici <antonio@dyne.org>                               Antonio Radici <antonio@dyne.org>                        # @aradici
@@ -22,6 +20,7 @@ Bernard Pratz <guyzmo+github+pub@m0g.net>                       guyzmo <guyzmo+g
 Bletchley Park <18015852+libBletchley@users.noreply.github.com> Bletchley Park <18015852+libBletchley@users.noreply.github.com> # @libbletchley
 Bo Yu <tsu.yubo@gmail.com>                                      Bo Yu <tsu.yubo@gmail.com>                               # @yuzibo
 Bryan Bennett <bbenne10@gmail.com>                              Bryan Bennett <bbenne10@gmail.com>                       # @bbenne10
+Charlie Drage <charlie@charliedrage.com>                        Charlie Drage <charlie@charliedrage.com>                 # @cdrage
 Chris Czettel <chris@christopher-czettel.net>                   chrissl <chris@christopher-czettel.net>                  # @christopher-john-czettel
 Chris Czettel <chris@christopher-czettel.net>                   Christopher John CZETTEL <chris@christopher-czettel.net> # @christopher-john-czettel
 Chris Salzberg <chris@dejimata.com>                             Chris Salzberg <chris@dejimata.com>                      # @shioyama
@@ -36,6 +35,7 @@ Damien Riegel <damien.riegel@gmail.com>                         Damien Riegel <d
 Damien Riegel <damien.riegel@gmail.com>                         Damien Riegel <damien@riegel.io>                         # @d-k-c
 Darshit Shah <darnir@gmail.com>                                 Darshit Shah <darnir@gmail.com>                          # @darnir
 Darshit Shah <darnir@gmail.com>                                 Darshit Shah <darnir@users.noreply.github.com>           # @darnir
+David Sterba <dsterba@suse.cz>                                  David Sterba <dsterba@suse.com>                          # @kdave
 David Sterba <dsterba@suse.cz>                                  David Sterba <dsterba@suse.cz>                           # @kdave
 Dimitrios Semitsoglou-Tsiapos <kmhzsem@gmx.com>                 Dimitrios Semitsoglou-Tsiapos <kmhzsem@gmx.com>          # @dset0x
 Doug Stone-Weaver <doug@stone-weaver.com>                       Doug Stone-Weaver <doug@stone-weaver.com>                # @doweaver
@@ -46,6 +46,7 @@ Fabian Groffen <grobian@gentoo.org>                             Fabian Groffen <
 Fabian Groffen <grobian@gentoo.org>                             Fabian Groffen <grobian@orakel.ods.org>                  # @grobian
 Fabrice Bellet <fabrice@bellet.info>                            Fabrice Bellet <fabrice@bellet.info>                     # @fbellet
 Federico Kircheis <federico.kircheis@gmail.com>                 Federico Kircheis <federico.kircheis@gmail.com>          # @fekir
+Federico Kircheis <federico.kircheis@gmail.com>                 fekir <federico.kircheis@gmail.com>                      # @fekir
 Florian Klink <flokli@flokli.de>                                Florian Klink <flokli@flokli.de>                         # @flokli
 Floyd Anderson <f.a@31c0.net>                                   Floyd Anderson <f.a@31c0.net>                            # @floand
 František Hájik <ferko.hajik@gmail.com>                         František Hájik <ferko.hajik@gmail.com>                  # @ferkohajik
@@ -57,9 +58,11 @@ Ian Zimmerman <itz@very.loosely.org>                            Ian Zimmerman <i
 Ian Zimmerman <itz@very.loosely.org>                            Ian Zimmerman <nobrowser@users.noreply.github.com>       # @nobrowser
 Ismaël Bouya <ismael.bouya@normalesup.org>                      Ismaël Bouya <ismael.bouya@normalesup.org>               # @immae
 Ivan Tham <pickfire@riseup.net>                                 Ivan Tham <pickfire@riseup.net>                          # @pickfire
+J Lewis Muir <jlmuir@imca-cat.org>                              J. Lewis Muir <jlmuir@imca-cat.org>                      # @jlmuir
 Jack Stratton <jack@phroa.net>                                  Jack Stratton <jack@phroa.net>                           # @phroa
 Jakub Jindra <jakub.jindra@socialbakers.com>                    Jakub Jindra <jindraj@users.noreply.github.com>          # @jinraj
 Jakub Wilk <jwilk@jwilk.net>                                    Jakub Wilk <jwilk@jwilk.net>                             # jwilk
+Jakub Jindra <jakub.jindra@socialbakers.com>                    Jakub Jindra <jakub.jindra@socialbakers.com>             # @jindraj
 Jasper Adriaanse <jasper@humppa.nl>                             Jasper Lievisse Adriaanse <jasper@humppa.nl>             # @jasperla
 Jelle van der Waa <jelle@vdwaa.nl>                              Jelle van der Waa <jelle@vdwaa.nl>                       # jelly
 Jenya Sovetkin <e.sovetkin@gmail.com>                           Jenya Sovetkin <e.sovetkin@gmail.com>                    # @esovetkin
@@ -78,6 +81,7 @@ Leo Lundgren <leo@finalresort.org>                              Leo R. Lundgren 
 Leonardo Brondani Schenkel <leonardo@schenkel.net>              Leonardo Brondani Schenkel <leonardo@schenkel.net>       # lbschenkel
 Leonidas Spyropoulos <artafinde@gmail.com>                      Leonidas Spyropoulos <artafinde@gmail.com>               # @inglor
 Manos Pitsidianakis <el13635@mail.ntua.gr>                      Manos Pitsidianakis <el13635@mail.ntua.gr>               # @epilys
+Marcin Rajner <mrajner@gik.pw.edu.pl>                           Marcin Rajner <mrajner@lenovo>                           # @mrajner
 Marcin Rajner <mrajner@gik.pw.edu.pl>                           Marcin Rajner lenovo <mrajner@gik.pw.edu.pl>             # @mrajner
 Marco Hinz <mh.codebro@gmail.com>                               Marco Hinz <mh.codebro@gmail.com>                        # @mhinz
 Marius Gedminas <marius@gedmin.as>                              Marius Gedminas <marius@gedmin.as>                       # @mgedmin
@@ -95,6 +99,7 @@ Pietro Cerutti <gahr@gahr.ch>                                   Pietro Ceruti <g
 Pietro Cerutti <gahr@gahr.ch>                                   Pietro Cerutti <gahr@gahr.ch>                            # @gahr
 r3lgar <r3lgar@openmailbox.org>                                 r3lgar <r3lgar@openmailbox.org>                          # @r3lgar
 r3lgar <r3lgar@users.noreply.github.com>                        r3lgar <r3lgar@users.noreply.github.com>                 # @r3lgar
+Rahul Gopinath <rahul@gopinath.org>                             Rahul Gopinath <rahul@gopinath.org>                      # @vrthra
 Regid Ichira <regid23@nt1.in>                                   Regid Ichira <regid23@nt1.in>                            #
 Reis Radomil <reisradomil@fake-box.com>                         Reis Radomil <reisradomil@fake-box.com>                  # @reisradomil
 Riad Wahby <kwantam@gmail.com>                                  Riad S. Wahby <kwantam@gmail.com>                        # @kwantam
@@ -103,6 +108,8 @@ Richard Russon <rich@flatcap.org>                               Richard Russon <
 Rubén Llorente <rubenllorente@startmail.com>                    Rubén Llorente <rubenllorente@startmail.com>             #
 Santiago Torres <torresariass@gmail.com>                        Santiago Torres <torresariass@gmail.com>                 # @santiagotorres
 Serge Gebhardt <serge.gebhardt@gmail.com>                       Serge Gebhardt <serge.gebhardt@gmail.com>                # @sgeb
+sharktamer <sharktamer@users.noreply.github.com>                sharktamer <sharktamer@users.noreply.github.com>         # @sharktamer
+Shi Lee <rtlanceroad@gmail.com>                                 rtlanceroad <rtlanceroad@gmail.com>                      # @rtlanceroad
 Somini <somini29@yandex.com>                                    somini <somini29@yandex.com>                             # @somini
 Somini <somini29@yandex.com>                                    somini <somini@users.noreply.github.com>                 # @somini
 Stefan Assmann <sassmann@kpanic.de>                             sassmann <sassmann@users.noreply.github.com>             # @sassmann
@@ -112,6 +119,7 @@ Stefan Bühler <stbuehler@web.de>                                Stefan Bühler 
 Stephen Gilles <sgilles@math.umd.edu>                           S. Gilles <sgilles@math.umd.edu>                         # @s-gilles
 Steven Ragnarök <steven@nuclearsandwich.com>                    Steven! Ragnarök <steven@nuclearsandwich.com>            # @nuclearsandwich
 Stuart Henderson <stu-github@spacehopper.org>                   Stuart Henderson <stu-github@spacehopper.org>            # sthen
+telshock <telshock@users.noreply.github.com>                    telshock <telshock@users.noreply.github.com>             # @telshock
 Thomas Adam <thomas@xteddy.org>                                 Thomas Adam <thomas@xteddy.org>                          # @thomasadam
 Thomas Klausner <wiz@netbsd.org>                                Thomas Klausner <wiz@netbsd.org>                         # @0-wiz-0
 Thomas Schneider <qsx@qsx.re>                                   Thomas Schneider <qsx@qsx.re>                            # @qsuscs
