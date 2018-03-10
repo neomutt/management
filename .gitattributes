@@ -1,1 +1,2 @@
 *.cocci linguist-language=diff
+*.imp   linguist-language=python
