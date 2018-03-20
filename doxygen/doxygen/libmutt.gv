@@ -1,0 +1,51 @@
+digraph m2
+{
+        graph [
+                rankdir="TB"
+                nodesep="0.2"
+                ranksep="0.5"
+        ]
+
+        node [
+                shape="Mrecord"
+                fontsize="12"
+                style="solid"
+                height="0.2"
+                penwidth="1.5"
+		color=black
+        ]
+
+        edge [
+                penwidth="1.0"
+                arrowsize="0.5"
+        ]
+
+	address   -> idna
+	buffer    -> string
+	charset   -> regex
+	date      -> string
+	file      -> string
+	hash      -> string
+	idna      -> charset
+	list      -> string
+	logging   -> file
+	logging   -> message
+	logging   -> queue
+	logging   -> string
+	mapping   -> string
+	mbyte     -> buffer
+	mbyte     -> charset
+	md5
+	memory    -> exit
+	memory    -> logging
+	parameter -> queue
+	regex     -> mbyte
+	rfc2047   -> base64
+	rfc2047   -> charset
+	rfc2047   -> mime
+	sha1
+	signal    -> message
+	string    -> memory
+
+}
+

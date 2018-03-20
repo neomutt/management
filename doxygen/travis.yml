@@ -1,0 +1,32 @@
+notifications:
+  email:
+    recipients:
+      - rich@flatcap.org
+    on_success: change
+    on_failure: always
+
+sudo: false
+dist: trusty
+
+language: c
+compiler: gcc
+
+addons:
+  apt:
+    packages:
+      - doxygen
+      - graphviz
+
+git:
+  depth: 3
+
+env:
+  global:
+    - IGNORE: "Consider increasing DOT_GRAPH_MAX_NODES"
+
+script:
+  - .travis/gen-tables.sh conn/*.c mutt/*.c history.c envelope.c
+  - doxygen doxygen/doxygen.conf
+  - grep -v "$IGNORE" doxygen-build.txt | tee tmp.txt
+  - test ! -s tmp.txt
+
