@@ -20,5 +20,5 @@ echo
 
 pushd homebrew
 
-./update_version.sh $TAG
+./update_version.py $TAG
 
