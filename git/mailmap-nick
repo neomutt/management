@@ -1,139 +1,146 @@
 ## NeoMutt Contributors
-kilobyte        <kilobyte@angband.pl>                 Adam Borowski <kilobyte@angband.pl>
+0-wiz-0         <wiz@netbsd.org>                      Thomas Klausner <wiz@netbsd.org>
 aladw           <AladW@users.noreply.github.com>      Alad Wenter <AladW@users.noreply.github.com>
-cyphar          <cyphar@cyphar.com>                   Aleksa Sarai <cyphar@cyphar.com>
 alexpearce      <alex@alexpearce.me>                  Alex Pearce <alex@alexpearce.me>
 anarcat         <anarcat@debian.org>                  anarcat <anarcat@users.noreply.github.com>
 andir           <andreas@rammhold.de>                 Andreas Rammhold <andreas@rammhold.de>
-hvkls           <ab@andreberger.eu>                   André Berger <ab@andreberger.eu>
-hvkls           <andre.berger@web.de>                 André Berger <andre.berger@web.de>
 aradici         <antonio@dyne.org>                    Antonio Radici <antonio@dyne.org>
-seishinryohosha <seishinryohosha@jikken.de>           Anton Rieger <seishinryohosha@jikken.de>
-cinder88        <aerlanger@owlcti.com>                ate <aerlanger@owlcti.com>
+aradici         <antonio@dyne.org>                    Unknown <antonio@dyne.org>
 austin-ray      <austin.duke.ray@gmail.com>           Austin Ray <austin.duke.ray@gmail.com>
-makoshark       <mako@atdot.cc>                       Benjamin Mako Hill <mako@atdot.cc>
-guyzmo          <guyzmo+github+pub@m0g.net>           Bernard 'Guyzmo' Pratz <guyzmo+github+pub@m0g.net>
-guyzmo          <guyzmo+github+pub@m0g.net>           Bernard Pratz <guyzmo+github+pub@m0g.net>
-yuzibo          <tsu.yubo@gmail.com>                  Bo Yu <tsu.yubo@gmail.com>
+bazzinotti      <mbazzinotti@gmail.com>               Michael J. Bazzinotti <mbazzinotti@gmail.com>
 bbenne10        <bbenne10@gmail.com>                  Bryan Bennett <bbenne10@gmail.com>
+bitstreamout    <werner@suse.de>                      Werner Fink <werner@suse.de>
 cdrage          <charlie@charliedrage.com>            Charlie Drage <charlie@charliedrage.com>
-shioyama        <chris@dejimata.com>                  Chris Salzberg <chris@dejimata.com>
-shioyama        <chris@dejimata.com>                  Chris Salzberg <csalzberg@degica.com>
-chrissl         <chris@christopher-czettel.net>       chrissl <chris@christopher-czettel.net>
 cdroege         <mail@cdroege.de>                     Christian Dröge <mail@cdroege.de>
-myon            <cb@df7cb.de>                         Christoph Berg <cb@df7cb.de>
-chrissl         <chris@christopher-czettel.net>       Christopher John CZETTEL <chris@christopher-czettel.net>
-neverpanic      <neverpanic@gmail.com>                Clemens Lang <neverpanic@gmail.com>
+christopher-john-czettel <chris@christopher-czettel.net>       chrissl <chris@christopher-czettel.net>
+christopher-john-czettel <chris@christopher-czettel.net>       Christopher John CZETTEL <chris@christopher-czettel.net>
+cinder88        <aerlanger@owlcti.com>                ate <aerlanger@owlcti.com>
+cyphar          <cyphar@cyphar.com>                   Aleksa Sarai <cyphar@cyphar.com>
 d-k-c           <damien.riegel@gmail.com>             Damien R <d-k-c@users.noreply.github.com>
 d-k-c           <damien.riegel@gmail.com>             Damien Riegel <damien.riegel@gmail.com>
-d-k-c           <damien.riegel@gmail.com>             Damien Riegel <damien@riegel.io>
 d-k-c           <damien.riegel@gmail.com>             Damien Riegel <damien.riegel@savoirfairelinux.com>
+d-k-c           <damien.riegel@gmail.com>             Damien Riegel <damien@riegel.io>
 darnir          <darnir@gmail.com>                    Darshit Shah <darnir@gmail.com>
 darnir          <darnir@gmail.com>                    Darshit Shah <darnir@users.noreply.github.com>
-kdave           <dsterba@suse.cz>                     David Sterba <dsterba@suse.com>
-kdave           <dsterba@suse.cz>                     David Sterba <dsterba@suse.cz>
-dset0x          <kmhzsem@gmx.com>                     Dimitrios Semitsoglou-Tsiapos <kmhzsem@gmx.com>
 doweaver        <doug@stone-weaver.com>               Doug Stone-Weaver <doug@stone-weaver.com>
+dset0x          <kmhzsem@gmx.com>                     Dimitrios Semitsoglou-Tsiapos <kmhzsem@gmx.com>
 edwardbetts     <edward@4angle.com>                   Edward Betts <edward@4angle.com>
 elacheche       <elacheche@ubuntu.com>                El Acheche ANIS <elacheche@ubuntu.com>
-riesebie        <riesebie@lxtec.de>                   Elimar Riesebieter <riesebie@lxtec.de>
-grobian         <grobian@gentoo.org>                  Fabian Groffen <grobian@gentoo.org>
-grobian         <grobian@gentoo.org>                  Fabian Groffen <grobian@orakel.ods.org>
+eldeveloper     <yoshiki89@gmail.com>                 Yoshiki Vázquez Baeza <yoshiki89@gmail.com>
+epilys          <el13635@mail.ntua.gr>                Manos Pitsidianakis <el13635@mail.ntua.gr>
+esovetkin       <e.sovetkin@gmail.com>                Jenya Sovetkin <e.sovetkin@gmail.com>
 fbellet         <fabrice@bellet.info>                 Fabrice Bellet <fabrice@bellet.info>
 fekir           <federico.kircheis@gmail.com>         Federico Kircheis <federico.kircheis@gmail.com>
 fekir           <federico.kircheis@gmail.com>         fekir <federico.kircheis@gmail.com>
-flokli          <flokli@flokli.de>                    Florian Klink <flokli@flokli.de>
-floand          <f.a@31c0.net>                        Floyd Anderson <f.a@31c0.net>
 ferkohajik      <ferko.hajik@gmail.com>               František Hájik <ferko.hajik@gmail.com>
+flatcap         <rich@flatcap.org>                    Richard Russon <rich@flatcap.org>
+floand          <f.a@31c0.net>                        Floyd Anderson <f.a@31c0.net>
+flokli          <flokli@flokli.de>                    Florian Klink <flokli@flokli.de>
+gahr            <gahr@gahr.ch>                        Pietro Ceruti <gahr@gahr.ch>
+gahr            <gahr@gahr.ch>                        Pietro Cerutti <gahr@gahr.ch>
+grobian         <grobian@gentoo.org>                  Fabian Groffen <grobian@gentoo.org>
+grobian         <grobian@gentoo.org>                  Fabian Groffen <grobian@orakel.ods.org>
 guiniol         <gui-gui@netcourrier.com>             Guillaume Brogi <gui-gui@netcourrier.com>
 guiniol         <gui-gui@netcourrier.com>             guiniol <gui-gui@netcourrier.com>
-guyzmo          <guyzmo+github+pub@m0g.net>           guyzmo <guyzmo+github+pub@m0g.net>
+guyzmo          <guyzmo+github+pub@m0g.net>           Bernard 'Guyzmo' Pratz <guyzmo+github+pub@m0g.net>
+guyzmo          <guyzmo+github+pub@m0g.net>           Bernard Pratz <guyzmo+github+pub@m0g.net>
 guyzmo          <guyzmo+github+pub@m0g.net>           Guyzmo <guyzmo+github+pub@m0g.net>
-hobarrera       <hugo@barrera.io>                     Hugo Osvaldo Barrera <hugo@barrera.io>
+guyzmo          <guyzmo+github+pub@m0g.net>           guyzmo <guyzmo+github+pub@m0g.net>
+hvkls           <ab@andreberger.eu>                   André Berger <ab@andreberger.eu>
+hvkls           <ab@andreberger.eu>                   André Berger <andre.berger@web.de>
+immae           <ismael.bouya@normalesup.org>         Ismaël Bouya <ismael.bouya@normalesup.org>
+inglor          <artafinde@gmail.com>                 Leonidas Spyropoulos <artafinde@gmail.com>
+jakkinstewart   <dracogoyle@gmail.com>                Jakkin <dracogoyle@gmail.com>
+jakkinstewart   <dracogoyle@gmail.com>                Joshua Jordi <JakkinStewart@users.noreply.github.com>
+jasperla        <jasper@humppa.nl>                    Jasper Lievisse Adriaanse <jasper@humppa.nl>
+jelly           <jelle@vdwaa.nl>                      Jelle van der Waa <jelle@vdwaa.nl>
+jindraj         <jakub.jindra@socialbakers.com>       Jakub Jindra <jindraj@users.noreply.github.com>
+jindraj         <jakub.jindra@socialbakers.com>       Jakub Jindra <jakub.jindra@socialbakers.com>
+jlmuir          <jlmuir@imca-cat.org>                 J. Lewis Muir <jlmuir@imca-cat.org>
+jperkin         <jperkin@netbsd.org>                  Jonathan Perkin <jperkin@netbsd.org>
+julian-klode    <jak@jak-linux.org>                   Julian Andres Klode <jak@jak-linux.org>
+justinvasel     <justin.vasel@gmail.com>              Justin Vasel <justin.vasel@gmail.com>
+jwilk           <jwilk@jwilk.net>                     Jakub Wilk <jwilk@jwilk.net>
+karelzak        <kzak@redhat.com>                     Karel Zak <kzak@redhat.com>
+kdave           <dsterba@suse.cz>                     David Sterba <dsterba@suse.com>
+kdave           <dsterba@suse.cz>                     David Sterba <dsterba@suse.cz>
+kdecherf        <kevin@kdecherf.com>                  Kevin Decherf <kevin@kdecherf.com>
+kilobyte        <kilobyte@angband.pl>                 Adam Borowski <kilobyte@angband.pl>
+kwantam         <kwantam@gmail.com>                   Riad S. Wahby <kwantam@gmail.com>
+l2dy            <l2dy@icloud.com>                     Zero King <l2dy@icloud.com>
+lbschenkel      <leonardo@schenkel.net>               Leonardo Brondani Schenkel <leonardo@schenkel.net>
+libBletchley    <18015852+libBletchley@users.noreply.github.com> Bletchley Park <18015852+libBletchley@users.noreply.github.com>
+lrosenman       <larryrtx@gmail.com>                  Larry Rosenman <larryrtx@gmail.com>
+makoshark       <mako@atdot.cc>                       Benjamin Mako Hill <mako@atdot.cc>
+mgedmin         <marius@gedmin.as>                    Marius Gedminas <marius@gedmin.as>
+mhinz           <mh.codebro@gmail.com>                Marco Hinz <mh.codebro@gmail.com>
+mineo           <themineo@gmail.com>                  Wieland Hoffmann <mineo@users.noreply.github.com>
+mineo           <themineo@gmail.com>                  Wieland Hoffmann <themineo@gmail.com>
+mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner <mrajner@chalmers>
+mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner <mrajner@lenovo>
+mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner lenovo <mrajner@gik.pw.edu.pl>
+myon            <cb@df7cb.de>                         Christoph Berg <cb@df7cb.de>
+neverpanic      <neverpanic@gmail.com>                Clemens Lang <neverpanic@gmail.com>
+ng-0            <ng0@infotropique.org>                ng0 <ng0@infotropique.org>
+nicolasbock     <nicolasbock@gmail.com>               Nicolas Bock <nicolasbock@gmail.com>
 nobrowser       <itz@very.loosely.org>                Ian Zimmerman <itz@primate.net>
 nobrowser       <itz@very.loosely.org>                Ian Zimmerman <itz@very.loosely.org>
 nobrowser       <itz@very.loosely.org>                Ian Zimmerman <nobrowser@users.noreply.github.com>
-immae           <ismael.bouya@normalesup.org>         Ismaël Bouya <ismael.bouya@normalesup.org>
-libbletchley    <18015852+libBletchley@users.noreply.github.com> Bletchley Park <18015852+libBletchley@users.noreply.github.com>
-pickfire        <pickfire@riseup.net>                 Ivan Tham <pickfire@riseup.net>
-phroa           <jack@phroa.net>                      Jack Stratton <jack@phroa.net>
-jakkinstewart   <dracogoyle@gmail.com>                Jakkin <dracogoyle@gmail.com>
-jinraj          <jakub.jindra@socialbakers.com>       Jakub Jindra <jindraj@users.noreply.github.com>
-jwilk           <jwilk@jwilk.net>                     Jakub Wilk <jwilk@jwilk.net>
-jindraj         <jakub.jindra@socialbakers.com>       Jakub Jindra <jakub.jindra@socialbakers.com>
-jasperla        <jasper@humppa.nl>                    Jasper Lievisse Adriaanse <jasper@humppa.nl>
-jelly           <jelle@vdwaa.nl>                      Jelle van der Waa <jelle@vdwaa.nl>
-esovetkin       <e.sovetkin@gmail.com>                Jenya Sovetkin <e.sovetkin@gmail.com>
-jlmuir          <jlmuir@imca-cat.org>                 J. Lewis Muir <jlmuir@imca-cat.org>
-tsuflux         <johannes@frankenau.net>              Johannes Frankenau <johannes@frankenau.net>
-weisslj         <jargon@molb.org>                     Johannes Weißl <jargon@molb.org>
-jperkin         <jperkin@netbsd.org>                  Jonathan Perkin <jperkin@netbsd.org>
-jakkinstewart   <dracogoyle@gmail.com>                Joshua Jordi <JakkinStewart@users.noreply.github.com>
-julian-klode    <jak@jak-linux.org>                   Julian Andres Klode <jak@jak-linux.org>
-justinvasel     <justin.vasel@gmail.com>              Justin Vasel <justin.vasel@gmail.com>
-karelzak        <kzak@redhat.com>                     Karel Zak <kzak@redhat.com>
-kdecherf        <kevin@kdecherf.com>                  Kevin Decherf <kevin@kdecherf.com>
-paretje         <kevin@paretje.be>                    Kevin Velghe <kevin@paretje.be>
-lrosenman       <larryrtx@gmail.com>                  Larry Rosenman <larryrtx@gmail.com>
-lbschenkel      <leonardo@schenkel.net>               Leonardo Brondani Schenkel <leonardo@schenkel.net>
-inglor          <artafinde@gmail.com>                 Leonidas Spyropoulos <artafinde@gmail.com>
-rawtaz          <leo@finalresort.org>                 Leo R. Lundgren <leo@finalresort.org>
-epilys          <el13635@mail.ntua.gr>                Manos Pitsidianakis <el13635@mail.ntua.gr>
-mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner lenovo <mrajner@gik.pw.edu.pl>
-mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner <mrajner@lenovo>
-mhinz           <mh.codebro@gmail.com>                Marco Hinz <mh.codebro@gmail.com>
-mgedmin         <marius@gedmin.as>                    Marius Gedminas <marius@gedmin.as>
-sileht          <sileht@sileht.net>                   Mehdi Abaakouk <sileht@sileht.net>
-sileht          <sileht@sileht.net>                   Mehdi ABAAKOUK <sileht@sileht.net>
-bazzinotti      <mbazzinotti@gmail.com>               Michael J. Bazzinotti <mbazzinotti@gmail.com>
-ng-0            <ng0@infotropique.org>                ng0 <ng0@infotropique.org>
-nicolasbock     <nicolasbock@gmail.com>               Nicolas Bock <nicolasbock@gmail.com>
-petelewis       <pete@muddygoat.org>                  Peter Lewis <pete@muddygoat.org>
-philpennock     <phil@pennock-tech.com>               Phil Pennock <phil@pennock-tech.com>
+NONE            <mutt@cert.siemens.de>                Udo Schweigert <mutt@cert.siemens.de>
+NONE            <regid23@nt1.in>                      Regid Ichira <regid23@nt1.in>
+NONE            <rubenllorente@startmail.com>         Rubén Llorente <rubenllorente@startmail.com>
+nuclearsandwich <steven@nuclearsandwich.com>          Steven! Ragnarök <steven@nuclearsandwich.com>
 p-eb            <becue@crans.org>                     Pierre-Elliott Bécue <becue@crans.org>
 p-eb            <becue@crans.org>                     Pierre-Elliott Bécue <P-EB@users.noreply.github.com>
-gahr            <gahr@gahr.ch>                        Pietro Ceruti <gahr@gahr.ch>
-gahr            <gahr@gahr.ch>                        Pietro Cerutti <gahr@gahr.ch>
+parazyd         <parazyd@dyne.org>                    parazyd <parazyd@dyne.org>
+paretje         <kevin@paretje.be>                    Kevin Velghe <kevin@paretje.be>
+petelewis       <pete@muddygoat.org>                  Peter Lewis <pete@muddygoat.org>
+philpennock     <phil@pennock-tech.com>               Phil Pennock <phil@pennock-tech.com>
+phroa           <jack@phroa.net>                      Jack Stratton <jack@phroa.net>
+pickfire        <pickfire@riseup.net>                 Ivan Tham <pickfire@riseup.net>
 pigmonkey       <pm@pig-monkey.com>                   Pig Monkey <pm@pig-monkey.com>
+qsuscs          <qsx@qsx.re>                          Thomas Schneider <qsx@qsx.re>
 r3lgar          <r3lgar@openmailbox.org>              r3lgar <r3lgar@openmailbox.org>
-r3lgar          <r3lgar@users.noreply.github.com>     r3lgar <r3lgar@users.noreply.github.com>
-vrthra          <rahul@gopinath.org>                  Rahul Gopinath <rahul@gopinath.org>
-regid           <regid23@nt1.in>                      Regid Ichira <regid23@nt1.in>
+r3lgar          <r3lgar@openmailbox.org>              r3lgar <r3lgar@users.noreply.github.com>
+rawtaz          <leo@finalresort.org>                 Leo R. Lundgren <leo@finalresort.org>
+rawtaz          <leo@finalresort.org>                 rawtaz <rawtaz@users.noreply.github.com>
 reisradomil     <reisradomil@fake-box.com>            Reis Radomil <reisradomil@fake-box.com>
-kwantam         <kwantam@gmail.com>                   Riad S. Wahby <kwantam@gmail.com>
 richih          <RichiH@users.noreply.github.com>     Richard Hartmann <RichiH@users.noreply.github.com>
-flatcap         <rich@flatcap.org>                    Richard Russon <rich@flatcap.org>
+riesebie        <riesebie@lxtec.de>                   Elimar Riesebieter <riesebie@lxtec.de>
+royger          <roger.pau@citrix.com>                Roger Pau Monne <roger.pau@citrix.com>
 rtlanceroad     <rtlanceroad@gmail.com>               rtlanceroad <rtlanceroad@gmail.com>
-ruben           <rubenllorente@startmail.com>         Rubén Llorente <rubenllorente@startmail.com>
+rypervenche     <contact@ryper.org>                   Perry Thompson <contact@ryper.org>
+s-gilles        <sgilles@math.umd.edu>                S. Gilles <sgilles@math.umd.edu>
 santiagotorres  <torresariass@gmail.com>              Santiago Torres <torresariass@gmail.com>
 sassmann        <sassmann@kpanic.de>                  sassmann <sassmann@users.noreply.github.com>
-seishinryohosha <seishinryohosha@jikken.de>           seishinryohosha <seishinryohosha@users.noreply.github.com>
-sgeb            <serge.gebhardt@gmail.com>            Serge Gebhardt <serge.gebhardt@gmail.com>
-s-gilles        <sgilles@math.umd.edu>                S. Gilles <sgilles@math.umd.edu>
-sharktamer      <sharktamer@users.noreply.github.com> sharktamer <sharktamer@users.noreply.github.com>
-somini          <somini29@yandex.com>                 somini <somini29@yandex.com>
-somini          <somini29@yandex.com>                 somini <somini@users.noreply.github.com>
 sassmann        <sassmann@kpanic.de>                  Stefan Assmann <sassmann@kpanic.de>
 sassmann        <sassmann@kpanic.de>                  Stefan Assmann <sassmann@redhat.com>
+seishinryohosha <seishinryohosha@jikken.de>           Anton Rieger <seishinryohosha@jikken.de>
+seishinryohosha <seishinryohosha@jikken.de>           seishinryohosha <seishinryohosha@users.noreply.github.com>
+sgeb            <serge.gebhardt@gmail.com>            Serge Gebhardt <serge.gebhardt@gmail.com>
+sharktamer      <sharktamer@users.noreply.github.com> sharktamer <sharktamer@users.noreply.github.com>
+shioyama        <chris@dejimata.com>                  Chris Salzberg <chris@dejimata.com>
+shioyama        <chris@dejimata.com>                  Chris Salzberg <csalzberg@degica.com>
+sileht          <sileht@sileht.net>                   Mehdi ABAAKOUK <sileht@sileht.net>
+sileht          <sileht@sileht.net>                   Mehdi Abaakouk <sileht@sileht.net>
+somini          <somini29@yandex.com>                 somini <somini29@yandex.com>
+somini          <somini29@yandex.com>                 somini <somini@users.noreply.github.com>
 stbuehler       <stbuehler@web.de>                    Stefan Bühler <stbuehler@web.de>
-nuclearsandwich <steven@nuclearsandwich.com>          Steven! Ragnarök <steven@nuclearsandwich.com>
 sthen           <stu-github@spacehopper.org>          Stuart Henderson <stu-github@spacehopper.org>
+tecepe          <tecepe@tecepe.eng.br>                Thiago Costa de Paiva <tcpaiva@cern.ch>
+tecepe          <tecepe@tecepe.eng.br>                Thiago Costa de Paiva <tecepe@tecepe.eng.br>
 telshock        <telshock@users.noreply.github.com>   telshock <telshock@users.noreply.github.com>
 theojepsen      <theojepsen@gmail.com>                Theo <theojepsen@g-m-a-i-l-dotcom>
 thomasadam      <thomas@xteddy.org>                   Thomas Adam <thomas@xteddy.org>
-0-wiz-0         <wiz@netbsd.org>                      Thomas Klausner <wiz@netbsd.org>
-qsuscs          <qsx@qsx.re>                          Thomas Schneider <qsx@qsx.re>
 toogley         <toogley@mailbox.org>                 Tobias Angele <toogley@mailbox.org>
 toogley         <toogley@mailbox.org>                 toogley <toogley@mailbox.org>
-udo             <mutt@cert.siemens.de>                Udo Schweigert <mutt@cert.siemens.de>
-aradici         <antonio@dyne.org>                    Unknown <antonio@dyne.org>
-bitstreamout    <werner@suse.de>                      Werner Fink <werner@suse.de>
-mineo           <themineo@gmail.com>                  Wieland Hoffmann <mineo@users.noreply.github.com>
-mineo           <themineo@gmail.com>                  Wieland Hoffmann <themineo@gmail.com>
-wpettersson     <william.pettersson+github@gmail.com> William Pettersson <william.pettersson+github@gmail.com>
-WPettersson     <william.pettersson@gmail.com>        William Pettersson <william.pettersson@gmail.com>
-eldeveloper     <yoshiki89@gmail.com>                 Yoshiki Vázquez Baeza <yoshiki89@gmail.com>
-l2dy            <l2dy@icloud.com>                     Zero King <l2dy@icloud.com>
+tsuflux         <johannes@frankenau.net>              Johannes Frankenau <johannes@frankenau.net>
+vrthra          <rahul@gopinath.org>                  Rahul Gopinath <rahul@gopinath.org>
+weisslj         <jargon@molb.org>                     Johannes Weißl <jargon@molb.org>
+whynothugo      <hugo@barrera.io>                     Hugo Osvaldo Barrera <hugo@barrera.io>
+wpettersson     <william.pettersson@gmail.com>        William Pettersson <william.pettersson+github@gmail.com>
+wpettersson     <william.pettersson@gmail.com>        William Pettersson <william.pettersson@gmail.com>
+yuzibo          <tsu.yubo@gmail.com>                  Bo Yu <tsu.yubo@gmail.com>
 
 ## Mutt Contributors
 UPSTREAM <dev@mutt.org> Aaron Lehmann <aaronl@vitelus.com>
@@ -321,7 +328,6 @@ UPSTREAM <dev@mutt.org> Robert Schiele <robert.schiele@t-online.de>
 UPSTREAM <dev@mutt.org> Rocco Rutte <pdmef@gmx.net>
 UPSTREAM <dev@mutt.org> Rocco Rutte <s1118644@mail.inf.tu-dresden.de>
 UPSTREAM <dev@mutt.org> Roger Cornelius <rac@tenzing.org>
-UPSTREAM <dev@mutt.org> Roger Pau Monne <roger.pau@citrix.com>
 UPSTREAM <dev@mutt.org> Roland Rosenfeld <roland@spinnaker.de>
 UPSTREAM <dev@mutt.org> Roman Kagan <rkagan@mail.ru>
 UPSTREAM <dev@mutt.org> Roman Kraevskiy <rkraevskiy@gmail.com>
@@ -401,3 +407,4 @@ UPSTREAM <dev@mutt.org> Will Fiveash <william.fiveash@sun.com>
 UPSTREAM <dev@mutt.org> Wouter Verheijen <wv@xs2mail.com>
 UPSTREAM <dev@mutt.org> Yasuhiro Matsumoto <mattn_jp@hotmail.com>
 UPSTREAM <dev@mutt.org> YONETANI Tomokazu <qhwt+mutt@les.ath.cx>
+
