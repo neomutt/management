@@ -216,6 +216,9 @@ Marco Hinz	mh.codebro@gmail.com	mhinz
 Marius Gedminas	marius@gedmin.as	mgedmin
 	Marius Gedminas <marius@gedmin.as>
 
+Mateusz Piotrowski	mpp302@gmail.com	0mp
+	Mateusz Piotrowski <mpp302@gmail.com>
+
 Mehdi Abaakouk	sileht@sileht.net	sileht
 	Mehdi ABAAKOUK <sileht@sileht.net>
 	Mehdi Abaakouk <sileht@sileht.net>
