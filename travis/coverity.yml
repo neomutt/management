@@ -10,29 +10,29 @@ compiler: gcc
 addons:
   apt:
     packages:
+      - autopoint
       - ca-certificates
-      - libgpgme11-dev
-      - libnotmuch-dev
-      - libtokyocabinet-dev
-      - libkyotocabinet-dev
-      - libgdbm-dev
-      - libdb-dev
-      - liblmdb-dev
-      - libqdbm-dev
-      - libslang2-dev
-      - libgnutls-dev
-      - libssl-dev
-      - libsasl2-dev
-      - libgss-dev
-      - xsltproc
-      - lynx
       - docbook-simple
       - docbook-xsl
-      - libxml2-utils
       - gettext
-      - lua5.2
+      - libdb-dev
+      - libgdbm-dev
+      - libgnutls-dev
+      - libgpgme11-dev
+      - libgss-dev
+      - libkyotocabinet-dev
+      - liblmdb-dev
       - liblua5.2-dev
-      - autopoint
+      - libnotmuch-dev
+      - libqdbm-dev
+      - libsasl2-dev
+      - libslang2-dev
+      - libssl-dev
+      - libtokyocabinet-dev
+      - libxml2-utils
+      - lua5.2
+      - lynx
+      - xsltproc
   coverity_scan:
     project:
       name: "neomutt/neomutt"
@@ -47,7 +47,7 @@ git:
 
 env:
   matrix:
-    - OPTS="--disable-doc --disable-nls --flock --gpgme --lua --notmuch --bdb --with-domain=example.com --gdbm --gnutls --gss --homespool --kyotocabinet --lmdb --mixmaster --qdbm --sasl --disable-ssl --tokyocabinet"
+    - OPTS="--disable-doc --gpgme --lua --notmuch --bdb --with-domain=example.com --gdbm --gnutls --gss --homespool --kyotocabinet --lmdb --mixmaster --qdbm --sasl --tokyocabinet"
 
 script:
   - if [ ${COVERITY_SCAN_BRANCH} != 1 ]; then make ; fi
