@@ -57,7 +57,7 @@ function html_header()
 	echo ""
 	echo "<p>"
 	echo "  Read more about what would be involved in"
-	echo "  <a href=\"/dev/translate-strings\">translating NeoMutt</a>."
+	echo "  <a href=\"/dev/translate\">translating NeoMutt</a>."
 	echo "</p>"
 	echo ""
 	echo "<table class=\"lang\" summary=\"list of languages\">"
@@ -123,7 +123,11 @@ function html_line()
 	[ $FPX -gt 0 ] && [ $FPX -lt 10 ] && TPX=$((TPX-5)) # adjust for the size of a non-breaking space
 	[ $UPX -gt 0 ] && [ $UPX -lt 10 ] && TPX=$((TPX-7))
 
-	echo "    <tr>"
+	local TITLE="$NAME: $TNUM translated"
+	[ $FNUM -gt 0 ] && TITLE="$TITLE, $FNUM fuzzy"
+	[ $UNUM -gt 0 ] && TITLE="$TITLE, $UNUM untranslated"
+
+	echo "    <tr title=\"$TITLE\">"
 	echo "      <td><img src=\"/images/flags/$IMG\">$NAME</td>"
 	echo "      <td>"
 	if [ $TPX -gt 0 ]; then
