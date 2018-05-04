@@ -3,6 +3,15 @@
 This repo is a collection of scripts and notes that help to automate the
 day-to-day running of the [NeoMutt Project](http://www.neomutt.org).
 
+## Developer Build Scripts
+
+Two scripts to [automate the building of NeoMutt](build/README.md).
+
+| Script                                   | Description                                        |
+| :--------------------------------------- | :------------------------------------------------- |
+| [build.sh](build/build.sh)               | Build NeoMutt with your favourite options          |
+| [test-configs.sh](build/test-configs.sh) | Build NeoMutt with a wide set of configure options |
+
 ## Feature Templates
 
 It's important for new features to be
