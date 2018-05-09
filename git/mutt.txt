@@ -25,6 +25,9 @@ Alexey Tourbin	at@altlinux.org
 Ambrose Li	a.c.li@ieee.org
 	Ambrose Li <a.c.li@ieee.org>
 
+Ammon Riley	ammon.riley@gmail.com
+	Ammon Riley <ammon.riley@gmail.com>
+
 Anatoly Vorobey	mellon@pobox.com
 	Anatoly Vorobey <mellon@pobox.com>
 
@@ -330,6 +333,9 @@ Lars Hecking	lhecking@nmrc.ucc.ie
 	Lars Hecking <lhecking@nmrc.ie>
 	Lars Hecking <lhecking@nmrc.ucc.ie>
 	Lars Hecking <lhecking@users.sourceforge.net>
+
+lilydjwg	lilydjwg@gmail.com
+	lilydjwg <lilydjwg@gmail.com>
 
 Luke Mewburn	luke@mewburn.net
 	Luke Mewburn <luke@mewburn.net>

@@ -10,6 +10,9 @@ Aleksa Sarai	cyphar@cyphar.com	cyphar
 Alex Pearce	alex@alexpearce.me	alexpearce
 	Alex Pearce <alex@alexpearce.me>
 
+Alexandre Simon	as@as-home.fr	igit
+	Alexandre SIMON <as@as-home.fr>
+
 Andreas Rammhold	andreas@rammhold.de	andir
 	Andreas Rammhold <andreas@rammhold.de>
 
@@ -28,8 +31,9 @@ Antonio Radici	antonio@dyne.org	aradici
 	Antonio Radici <antonio@dyne.org>
 	Unknown <antonio@dyne.org>
 
-Austin Ray	austin.duke.ray@gmail.com	austin-ray
+Austin Ray	austin@austinray.io	austin-ray
 	Austin Ray <austin.duke.ray@gmail.com>
+	Austin Ray <austin@austinray.io>
 
 Benjamin Mako Hill	mako@atdot.cc	makoshark
 	Benjamin Mako Hill <mako@atdot.cc>
@@ -45,6 +49,8 @@ Bletchley Park	18015852+libBletchley@users.noreply.github.com	libBletchley
 
 Bo Yu	tsu.yubo@gmail.com	yuzibo
 	Bo Yu <tsu.yubo@gmail.com>
+	Bo <tsu.yubo@gmail.com>
+	Bo YU <yuzibode@126.com>
 
 Bryan Bennett	bbenne10@gmail.com	bbenne10
 	Bryan Bennett <bbenne10@gmail.com>
@@ -161,6 +167,9 @@ Jelle van der Waa	jelle@vdwaa.nl	jelly
 Jenya Sovetkin	e.sovetkin@gmail.com	esovetkin
 	Jenya Sovetkin <e.sovetkin@gmail.com>
 
+Joey Pabalinas	joeypabalinas@gmail.com	alyptik
+	Joey Pabalinas <joeypabalinas@gmail.com>
+
 Johannes Frankenau	johannes@frankenau.net	tsuflux
 	Johannes Frankenau <johannes@frankenau.net>
 
@@ -191,6 +200,9 @@ Kevin Velghe	kevin@paretje.be	paretje
 
 Larry Rosenman	larryrtx@gmail.com	lrosenman
 	Larry Rosenman <larryrtx@gmail.com>
+
+Lars Kellogg-Stedman	lars@oddbit.com	larsks
+	Lars Kellogg-Stedman <lars@oddbit.com>
 
 Leo Lundgren	leo@finalresort.org	rawtaz
 	Leo R. Lundgren <leo@finalresort.org>
@@ -276,6 +288,7 @@ Richard Hartmann	RichiH@users.noreply.github.com	richih
 
 Richard Russon	rich@flatcap.org	flatcap
 	Richard Russon <rich@flatcap.org>
+	Richard Russon (DEPLOY) <rich@flatcap.org>
 
 Roger Pau Monne	roger.pau@citrix.com	royger
 	Roger Pau Monne <roger.pau@citrix.com>
@@ -295,9 +308,10 @@ sharktamer	sharktamer@users.noreply.github.com	sharktamer
 Shi Lee	rtlanceroad@gmail.com	rtlanceroad
 	rtlanceroad <rtlanceroad@gmail.com>
 
-somini	somini29@yandex.com	somini
+somini	dev@somini.xyz	somini
 	somini <somini29@yandex.com>
 	somini <somini@users.noreply.github.com>
+	somini <dev@somini.xyz>
 
 Stefan Assmann	sassmann@kpanic.de	sassmann
 	sassmann <sassmann@users.noreply.github.com>
@@ -342,6 +356,9 @@ Tobias Angele	toogley@mailbox.org	toogley
 Udo Schweigert	mutt@cert.siemens.de	NONE
 	Udo Schweigert <mutt@cert.siemens.de>
 
+Vladimir Zakharov	zakharov.vv@gmail.com	z2v
+	Vladimir Zakharov <zakharov.vv@gmail.com>
+
 Werner Fink	werner@suse.de	bitstreamout
 	Werner Fink <werner@suse.de>
 
@@ -349,12 +366,18 @@ Wieland Hoffmann	themineo@gmail.com	mineo
 	Wieland Hoffmann <mineo@users.noreply.github.com>
 	Wieland Hoffmann <themineo@gmail.com>
 
+Will Curry	will@robotican.org	wcurry
+	Will Curry <will@robotican.org>
+
 William Pettersson	william.pettersson@gmail.com	wpettersson
 	William Pettersson <william.pettersson+github@gmail.com>
 	William Pettersson <william.pettersson@gmail.com>
 
 Yoshiki Vázquez Baeza	yoshiki89@gmail.com	eldeveloper
 	Yoshiki Vázquez Baeza <yoshiki89@gmail.com>
+
+Yubin Ruan	ablacktshirt@gmail.com	walkerlala
+	Yubin Ruan <ablacktshirt@gmail.com>
 
 Zero King	l2dy@icloud.com	l2dy
 	Zero King <l2dy@icloud.com>

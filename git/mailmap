@@ -3,6 +3,7 @@ Adam Borowski <kilobyte@angband.pl>                             Adam Borowski <k
 Alad Wenter <AladW@users.noreply.github.com>                    Alad Wenter <AladW@users.noreply.github.com>             # @aladw
 Aleksa Sarai <cyphar@cyphar.com>                                Aleksa Sarai <cyphar@cyphar.com>                         # @cyphar
 Alex Pearce <alex@alexpearce.me>                                Alex Pearce <alex@alexpearce.me>                         # @alexpearce
+Alexandre Simon <as@as-home.fr>                                 Alexandre SIMON <as@as-home.fr>                          # @igit
 Andreas Rammhold <andreas@rammhold.de>                          Andreas Rammhold <andreas@rammhold.de>                   # @andir
 André Berger <ab@andreberger.eu>                               André Berger <ab@andreberger.eu>                        # @hvkls
 André Berger <ab@andreberger.eu>                               André Berger <andre.berger@web.de>                      # @hvkls
@@ -11,14 +12,17 @@ Anton Rieger <seishinryohosha@jikken.de>                        Anton Rieger <se
 Anton Rieger <seishinryohosha@jikken.de>                        seishinryohosha <seishinryohosha@users.noreply.github.com> # @seishinryohosha
 Antonio Radici <antonio@dyne.org>                               Antonio Radici <antonio@dyne.org>                        # @aradici
 Antonio Radici <antonio@dyne.org>                               Unknown <antonio@dyne.org>                               # @aradici
-Austin Ray <austin.duke.ray@gmail.com>                          Austin Ray <austin.duke.ray@gmail.com>                   # @austin-ray
+Austin Ray <austin@austinray.io>                                Austin Ray <austin.duke.ray@gmail.com>                   # @austin-ray
+Austin Ray <austin@austinray.io>                                Austin Ray <austin@austinray.io>                         # @austin-ray
 Benjamin Mako Hill <mako@atdot.cc>                              Benjamin Mako Hill <mako@atdot.cc>                       # @makoshark
 Bernard Pratz <guyzmo+github+pub@m0g.net>                       Bernard 'Guyzmo' Pratz <guyzmo+github+pub@m0g.net>       # @guyzmo
 Bernard Pratz <guyzmo+github+pub@m0g.net>                       Bernard Pratz <guyzmo+github+pub@m0g.net>                # @guyzmo
 Bernard Pratz <guyzmo+github+pub@m0g.net>                       Guyzmo <guyzmo+github+pub@m0g.net>                       # @guyzmo
 Bernard Pratz <guyzmo+github+pub@m0g.net>                       guyzmo <guyzmo+github+pub@m0g.net>                       # @guyzmo
 Bletchley Park <18015852+libBletchley@users.noreply.github.com> Bletchley Park <18015852+libBletchley@users.noreply.github.com> # @libBletchley
+Bo Yu <tsu.yubo@gmail.com>                                      Bo <tsu.yubo@gmail.com>                                  # @yuzibo
 Bo Yu <tsu.yubo@gmail.com>                                      Bo Yu <tsu.yubo@gmail.com>                               # @yuzibo
+Bo Yu <tsu.yubo@gmail.com>                                      Bo YU <yuzibode@126.com>                                 # @yuzibo
 Bryan Bennett <bbenne10@gmail.com>                              Bryan Bennett <bbenne10@gmail.com>                       # @bbenne10
 Charlie Drage <charlie@charliedrage.com>                        Charlie Drage <charlie@charliedrage.com>                 # @cdrage
 Chris Czettel <chris@christopher-czettel.net>                   chrissl <chris@christopher-czettel.net>                  # @christopher-john-czettel
@@ -66,6 +70,7 @@ Jakub Wilk <jwilk@jwilk.net>                                    Jakub Wilk <jwil
 Jasper Adriaanse <jasper@humppa.nl>                             Jasper Lievisse Adriaanse <jasper@humppa.nl>             # @jasperla
 Jelle van der Waa <jelle@vdwaa.nl>                              Jelle van der Waa <jelle@vdwaa.nl>                       # @jelly
 Jenya Sovetkin <e.sovetkin@gmail.com>                           Jenya Sovetkin <e.sovetkin@gmail.com>                    # @esovetkin
+Joey Pabalinas <joeypabalinas@gmail.com>                        Joey Pabalinas <joeypabalinas@gmail.com>                 # @alyptik
 Johannes Frankenau <johannes@frankenau.net>                     Johannes Frankenau <johannes@frankenau.net>              # @tsuflux
 Johannes Weißl <jargon@molb.org>                               Johannes Weißl <jargon@molb.org>                        # @weisslj
 Jonathan Perkin <jperkin@netbsd.org>                            Jonathan Perkin <jperkin@netbsd.org>                     # @jperkin
@@ -77,6 +82,7 @@ Karel Zak <kzak@redhat.com>                                     Karel Zak <kzak@
 Kevin Decherf <kevin@kdecherf.com>                              Kevin Decherf <kevin@kdecherf.com>                       # @kdecherf
 Kevin Velghe <kevin@paretje.be>                                 Kevin Velghe <kevin@paretje.be>                          # @paretje
 Larry Rosenman <larryrtx@gmail.com>                             Larry Rosenman <larryrtx@gmail.com>                      # @lrosenman
+Lars Kellogg-Stedman <lars@oddbit.com>                          Lars Kellogg-Stedman <lars@oddbit.com>                   # @larsks
 Leo Lundgren <leo@finalresort.org>                              Leo R. Lundgren <leo@finalresort.org>                    # @rawtaz
 Leo Lundgren <leo@finalresort.org>                              rawtaz <rawtaz@users.noreply.github.com>                 # @rawtaz
 Leonardo Brondani Schenkel <leonardo@schenkel.net>              Leonardo Brondani Schenkel <leonardo@schenkel.net>       # @lbschenkel
@@ -109,6 +115,7 @@ Regid Ichira <regid23@nt1.in>                                   Regid Ichira <re
 Reis Radomil <reisradomil@fake-box.com>                         Reis Radomil <reisradomil@fake-box.com>                  # @reisradomil
 Riad Wahby <kwantam@gmail.com>                                  Riad S. Wahby <kwantam@gmail.com>                        # @kwantam
 Richard Hartmann <RichiH@users.noreply.github.com>              Richard Hartmann <RichiH@users.noreply.github.com>       # @richih
+Richard Russon <rich@flatcap.org>                               Richard Russon (DEPLOY) <rich@flatcap.org>               # @flatcap
 Richard Russon <rich@flatcap.org>                               Richard Russon <rich@flatcap.org>                        # @flatcap
 Roger Pau Monne <roger.pau@citrix.com>                          Roger Pau Monne <roger.pau@citrix.com>                   # @royger
 Rubén Llorente <rubenllorente@startmail.com>                   Rubén Llorente <rubenllorente@startmail.com>            #
@@ -116,8 +123,9 @@ Santiago Torres <torresariass@gmail.com>                        Santiago Torres 
 Serge Gebhardt <serge.gebhardt@gmail.com>                       Serge Gebhardt <serge.gebhardt@gmail.com>                # @sgeb
 sharktamer <sharktamer@users.noreply.github.com>                sharktamer <sharktamer@users.noreply.github.com>         # @sharktamer
 Shi Lee <rtlanceroad@gmail.com>                                 rtlanceroad <rtlanceroad@gmail.com>                      # @rtlanceroad
-somini <somini29@yandex.com>                                    somini <somini29@yandex.com>                             # @somini
-somini <somini29@yandex.com>                                    somini <somini@users.noreply.github.com>                 # @somini
+somini <dev@somini.xyz>                                         somini <dev@somini.xyz>                                  # @somini
+somini <dev@somini.xyz>                                         somini <somini29@yandex.com>                             # @somini
+somini <dev@somini.xyz>                                         somini <somini@users.noreply.github.com>                 # @somini
 Stefan Assmann <sassmann@kpanic.de>                             sassmann <sassmann@users.noreply.github.com>             # @sassmann
 Stefan Assmann <sassmann@kpanic.de>                             Stefan Assmann <sassmann@kpanic.de>                      # @sassmann
 Stefan Assmann <sassmann@kpanic.de>                             Stefan Assmann <sassmann@redhat.com>                     # @sassmann
@@ -135,12 +143,15 @@ Thomas Schneider <qsx@qsx.re>                                   Thomas Schneider
 Tobias Angele <toogley@mailbox.org>                             Tobias Angele <toogley@mailbox.org>                      # @toogley
 Tobias Angele <toogley@mailbox.org>                             toogley <toogley@mailbox.org>                            # @toogley
 Udo Schweigert <mutt@cert.siemens.de>                           Udo Schweigert <mutt@cert.siemens.de>                    #
+Vladimir Zakharov <zakharov.vv@gmail.com>                       Vladimir Zakharov <zakharov.vv@gmail.com>                # @z2v
 Werner Fink <werner@suse.de>                                    Werner Fink <werner@suse.de>                             # @bitstreamout
 Wieland Hoffmann <themineo@gmail.com>                           Wieland Hoffmann <mineo@users.noreply.github.com>        # @mineo
 Wieland Hoffmann <themineo@gmail.com>                           Wieland Hoffmann <themineo@gmail.com>                    # @mineo
+Will Curry <will@robotican.org>                                 Will Curry <will@robotican.org>                          # @wcurry
 William Pettersson <william.pettersson@gmail.com>               William Pettersson <william.pettersson+github@gmail.com> # @wpettersson
 William Pettersson <william.pettersson@gmail.com>               William Pettersson <william.pettersson@gmail.com>        # @wpettersson
 Yoshiki Vázquez Baeza <yoshiki89@gmail.com>                    Yoshiki Vázquez Baeza <yoshiki89@gmail.com>             # @eldeveloper
+Yubin Ruan <ablacktshirt@gmail.com>                             Yubin Ruan <ablacktshirt@gmail.com>                      # @walkerlala
 Zero King <l2dy@icloud.com>                                     Zero King <l2dy@icloud.com>                              # @l2dy
 
 ## Mutt Contributors
@@ -155,6 +166,7 @@ Alain Penders <alain@finale-dev.com>                            Alain Penders <a
 Alexey Froloff <raorn@altlinux.org>                             Alexey I. Froloff <raorn@altlinux.org>
 Alexey Tourbin <at@altlinux.org>                                Alexey Tourbin <at@altlinux.org>
 Ambrose Li <a.c.li@ieee.org>                                    Ambrose Li <a.c.li@ieee.org>
+Ammon Riley <ammon.riley@gmail.com>                             Ammon Riley <ammon.riley@gmail.com>
 Anatoly Vorobey <mellon@pobox.com>                              Anatoly Vorobey <mellon@pobox.com>
 Anders Helmersson <anders.helmersson.utsikt@wasadata.net>       Anders Helmersson <anders.helmersson.utsikt@wasadata.net>
 Anders Helmersson <anders.helmersson.utsikt@wasadata.net>       Anders Helmersson <anders.helmersson@telia.com>
@@ -271,6 +283,7 @@ Kyle Wheeler <kyle@memoryhole.net>                              Kyle Wheeler <un
 Lars Hecking <lhecking@nmrc.ucc.ie>                             Lars Hecking <lhecking@nmrc.ie>
 Lars Hecking <lhecking@nmrc.ucc.ie>                             Lars Hecking <lhecking@nmrc.ucc.ie>
 Lars Hecking <lhecking@nmrc.ucc.ie>                             Lars Hecking <lhecking@users.sourceforge.net>
+lilydjwg <lilydjwg@gmail.com>                                   lilydjwg <lilydjwg@gmail.com>
 Luke Mewburn <luke@mewburn.net>                                 Luke Mewburn <luke@mewburn.net>
 Mads Martin Joergensen <mmj@suse.de>                            Mads Martin Joergensen <mmj@suse.de>
 Malcolm Parsons <malcolm.parsons@gmail.com>                     Malcolm Parsons <malcolm.parsons@gmail.com>
