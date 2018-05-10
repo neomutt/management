@@ -18,41 +18,45 @@ and our **regular contributors**:
 
 ## Features
 
-- Long description
+- description
 
 ## Contrib
 
-- Long description
+- description
 
 ## Bug Fixes
 
-- Long description
+- description
 
 ## Translations
 
-- Long description
+- description
 
 ## Coverity defects
 
-- Long description
+- description
 
 ## Docs
 
-- Long description
+- description
 
 ## Website
 
-- Long description
+- description
 
 ## Build
 
-- Long description
+- description
+
+## Code
+
+- description
 
 ## Tidy
 
-- Long description
+- description
 
 ## Upstream
 
-- Long description
+- description
 

@@ -1,4 +1,4 @@
-Subject: NeoMutt 0000-00-00 (1.8.2)
+Subject: NeoMutt 0000-00-00
 
 ## Notes
 
@@ -18,8 +18,52 @@ and our *regular contributors*:
 
 ## Issues closed
 
-123 Long description
-124 Long description
-125 Long description
+123 description
+124 description
+125 description
 ...
+
+## Features
+
+- description
+
+## Contrib
+
+- description
+
+## Bug Fixes
+
+- description
+
+## Translations
+
+- description
+
+## Coverity defects
+
+- description
+
+## Docs
+
+- description
+
+## Website
+
+- description
+
+## Build
+
+- description
+
+## Code
+
+- description
+
+## Tidy
+
+- description
+
+## Upstream
+
+- description
 
