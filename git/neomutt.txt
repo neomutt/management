@@ -69,7 +69,7 @@ Chris Salzberg	chris@dejimata.com	shioyama
 Christian Dröge	mail@cdroege.de	cdroege
 	Christian Dröge <mail@cdroege.de>
 
-Christoph Berg	cb@df7cb.de	myon
+Christoph Berg	cb@df7cb.de	christophberg
 	Christoph Berg <cb@df7cb.de>
 
 cinder88	aerlanger@owlcti.com	cinder88
@@ -208,7 +208,7 @@ Leo Lundgren	leo@finalresort.org	rawtaz
 	Leo R. Lundgren <leo@finalresort.org>
 	rawtaz <rawtaz@users.noreply.github.com>
 
-Leonardo Brondani Schenkel	leonardo@schenkel.net	lbschenkel
+Leonardo Schenkel	leonardo@schenkel.net	lbschenkel
 	Leonardo Brondani Schenkel <leonardo@schenkel.net>
 
 Leonidas Spyropoulos	artafinde@gmail.com	inglor
