@@ -10,6 +10,24 @@
  * written.  Some descriptions are a bit vague, due to ignorance, or poor
  * design decisions.
  *
+ * ## Libraries
+ *
+ * Each library helps to untangle the code by grouping similar functions and
+ * reducing dependencies.
+ *
+ * The goal is that each library is:
+ * - Self-contained (it may rely on other libraries)
+ * - Independently testable (i.e. without using NeoMutt)
+ * - Fully documented
+ * - Robust
+ *
+ * Libraries:
+ * - libmutt - @ref mutt
+ * - libhcache - @ref hc_hcache
+ * - libimap - @ref imap_imap
+ * - libconn - @ref conn
+ * - libncrypt - @ref ncrypt
+ *
  * ## Building these Docs
  *
  * The config for building the docs is in the main source repo.
