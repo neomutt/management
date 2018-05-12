@@ -41,7 +41,7 @@ echo
 pushd copr
 
 SPEC="neomutt.spec"
-OS="fc27"
+OS="fc28"
 HERE=$(pwd)
 
 echo "Edit: $SPEC"
