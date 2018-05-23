@@ -1,0 +1,72 @@
+From f6c4aaf911ed6832efed7553cb0e6f3fc7f48b46 Mon Sep 17 00:00:00 2001
+From: Richard Russon <rich@flatcap.org>
+Date: Thu, 25 Jan 2018 00:41:14 +0000
+Subject: [PATCH] doxygen extras
+
+---
+ .gitignore            |   2 +
+ Makefile.autosetup    |  21 +++
+ mutt/mutt.h           |   2 +
+
+diff --git a/.gitignore b/.gitignore
+index 867dec843..bb56f5fba 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -3,6 +3,7 @@
+ *.a
+ *.in
+ tags
++*.inc
+ 
+ # Autosetup's jimsh
+ autosetup/jimsh0
+@@ -95,3 +96,4 @@ po/neomutt.pot
+ .clang_complete
+ 
+ html
++doxygen-build.txt
+diff --git a/Makefile.autosetup b/Makefile.autosetup
+index 3f913c899..9db10b84b 100644
+--- a/Makefile.autosetup
++++ b/Makefile.autosetup
+@@ -316,6 +316,27 @@ distclean: clean
+ 	$(RM) $(DEPFILES) conststrings.c config.h config.log doc/neomutt.1 \
+ 		Makefile po/Makefile contrib/Makefile doc/Makefile \
+ 		test/Makefile autosetup/jimsh0 .clang_complete
++	$(RM) html mutt/*.inc doxygen-build.txt
++
++# Web Code docs (doxygen)
++.PHONY: html $(PWD)/mutt
++html:
++	$(SRCDIR)/.travis/gen-tables.sh $(SRCDIR)/conn/*.c $(SRCDIR)/hcache/hcache.h \
++		$(SRCDIR)/imap/*.c $(SRCDIR)/mutt/*.c $(SRCDIR)/ncrypt/*.c \
++		$(SRCDIR)/addrbook.c $(SRCDIR)/body.c $(SRCDIR)/complete.c \
++		$(SRCDIR)/compress.c $(SRCDIR)/copy.c $(SRCDIR)/editmsg.c \
++		$(SRCDIR)/enter.c $(SRCDIR)/envelope.c $(SRCDIR)/filter.c \
++		$(SRCDIR)/flags.c $(SRCDIR)/*from.c $(SRCDIR)/history.c \
++		$(SRCDIR)/hook.c $(SRCDIR)/main.c $(SRCDIR)/mutt_account.c \
++		$(SRCDIR)/mutt_logging.c $(SRCDIR)/mutt_signal.c $(SRCDIR)/mutt_socket.c \
++		$(SRCDIR)/mutt_window.c $(SRCDIR)/mx.c $(SRCDIR)/newsrc.c \
++		$(SRCDIR)/nntp.c $(SRCDIR)/pop.c $(SRCDIR)/pop_auth.c \
++		$(SRCDIR)/postpone.c $(SRCDIR)/progress.c $(SRCDIR)/resize.c \
++		$(SRCDIR)/rfc1524.c $(SRCDIR)/safe_asprintf.c $(SRCDIR)/sidebar.c \
++		$(SRCDIR)/status.c $(SRCDIR)/system.c $(SRCDIR)/tags.c \
++		$(SRCDIR)/terminal.c $(SRCDIR)/version.c
++	doxygen $(SRCDIR)/doxygen/doxygen.conf
++	@grep -v "Consider increasing DOT_GRAPH_MAX_NODES" doxygen-build.txt || true
+ 
+ ##############################################################################
+ # include generated dependency files
+diff --git a/mutt/mutt.h b/mutt/mutt.h
+index 662f4db80..96ac189a4 100644
+--- a/mutt/mutt.h
++++ b/mutt/mutt.h
+@@ -53,6 +53,8 @@
+  *
+  * @note The library is self-contained -- some files may depend on others in
+  *       the library, but none depends on source from outside.
++ *
++ * @image html libmutt.svg
+  */
+ 
+ #ifndef _MUTT_MUTT_H
