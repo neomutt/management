@@ -115,7 +115,7 @@ post-extract {
     reinplace -W ${worksrcpath}/contrib "s|/usr/bin/|${prefix}/bin/|g" \
               smime_keys
     reinplace -W ${worksrcpath}/contrib "s|/usr/lib/|${prefix}/lib/|g" \
-              gpg.rc pgp5.rc smime.rc
+              gpg.rc smime.rc
 }
 post-destroot {
     move ${destroot}${prefix}/etc/neomuttrc \
