@@ -17,11 +17,12 @@ long_description    Mutt is a small but very powerful text-based MIME \
                     threading, regular expression searches and \
                     a powerful pattern matching language for selecting \
                     groups of messages.
-homepage            https://www.neomutt.org
+homepage            https://neomutt.org
+
 fetch.type          git
 git.url             file://@@REPO_PATH@@
 
-depends_build       port:docbook-xml-4.2 port:docbook-xsl port:libxslt port:w3m
+depends_build       port:docbook-xml-4.2 port:docbook-xsl-nons port:libxslt port:w3m
 depends_lib         path:lib/libssl.dylib:openssl \
                     port:gettext \
                     port:libiconv \
@@ -31,13 +32,13 @@ depends_run         path:share/curl/curl-ca-bundle.crt:curl-ca-bundle
 # needed by smime_keys
 depends_run-append  path:bin/perl:perl5
 
-configure.cmd       ./configure.autosetup
 configure.args      --disable-idn \
                     --with-ncurses=${prefix} \
                     --with-nls=${prefix} \
                     --with-ssl=${prefix}
 
-# disable auto-detection of ccache, as MacPorts already adds it
+# disable ccache, build issues with autosetup
+configure.ccache     no
 configure.env-append CCACHE=none
 
 default_variants    +idn +mutt
@@ -46,9 +47,7 @@ if {${install.user} ne "root"} {
 }
 
 variant db4 description {Support Berkeley DB database} {
-    configure.args-append       --with-bdb=${prefix}
-    configure.cppflags-append   "-I${prefix}/include/db48"
-    configure.ldflags-append    "-L${prefix}/lib/db48"
+    configure.args-append       --with-bdb=${prefix} --with-bdb-version=4.8
     depends_lib-append          port:db48
 }
 variant gdbm description {Support GNU dbm database} {
