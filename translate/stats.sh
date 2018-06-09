@@ -17,7 +17,7 @@ for i in $ARGS; do
 	[ $? = 1 ] && ERROR=1
 done > "$TMP_FILE"
 
-sed 's/ \(message\|translation\)s*\.*//g' "$TMP_FILE" | sort -nr -k2 -k4 -k6
+sed 's/ \(message\|translation\)s*\.*//g' "$TMP_FILE" | sort -k1 | sort -s -nr -k2 -k4 -k6
 rm -f "$TMP_FILE"
 
 exit $ERROR
