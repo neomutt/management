@@ -1,0 +1,62 @@
+notifications:
+  recipients:
+    - rich@flatcap.org
+  on_success: change
+  on_failure: always
+
+sudo: false
+dist: trusty
+
+language: c
+compiler: gcc
+cache: ccache
+
+addons:
+  apt:
+    packages:
+      - autopoint
+      - docbook-simple
+      - docbook-xsl
+      - gettext
+      - gpgsm
+      - libdb-dev
+      - libgdbm-dev
+      - libgnutls-dev
+      - libgpgme11-dev
+      - libgss-dev
+      - libkyotocabinet-dev
+      - liblmdb-dev
+      - liblua5.2-dev
+      - libnotmuch-dev
+      - libqdbm-dev
+      - libsasl2-dev
+      - libslang2-dev
+      - libssl-dev
+      - libtokyocabinet-dev
+      - libxml2-utils
+      - lua5.2
+      - luarocks
+      - lynx
+      - xsltproc
+
+git:
+  depth: 3
+
+install:
+  - luarocks install --local busted
+
+before_script:
+  - ccache --zero-stats
+  - export ANSI_CLEAR
+  - export -f travis_fold
+  - export -f travis_nanoseconds
+  - export -f travis_time_finish
+  - export -f travis_time_start
+  # - eval $(luarocks path --bin)
+
+script:
+  - .travis/release-test.sh
+
+after_script:
+  - ccache --show-stats
+
