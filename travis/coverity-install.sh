@@ -8,6 +8,8 @@ SOURCE="${0%/*}"
 YAML="$SOURCE/coverity.yml"
 TRAVIS=".travis.yml"
 
+git checkout -b coverity master
+
 cp -v "$YAML" "$TRAVIS"
 git add "$TRAVIS"
 git commit -m "travis: add coverity config"
