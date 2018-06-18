@@ -44,6 +44,9 @@ Bernard Pratz	guyzmo+github+pub@m0g.net	guyzmo
 	Guyzmo <guyzmo+github+pub@m0g.net>
 	guyzmo <guyzmo+github+pub@m0g.net>
 
+Bertram Scharpf	software@bertram-scharpf.de	bertramscharpf
+	Bertram Scharpf <software@bertram-scharpf.de>
+
 Bletchley Park	18015852+libBletchley@users.noreply.github.com	libBletchley
 	Bletchley Park <18015852+libBletchley@users.noreply.github.com>
 
@@ -329,6 +332,7 @@ Steven Ragnarök	steven@nuclearsandwich.com	nuclearsandwich
 
 Stuart Henderson	stu-github@spacehopper.org	sthen
 	Stuart Henderson <stu-github@spacehopper.org>
+	Stuart Henderson <sthen@users.noreply.github.com>
 
 telshock	telshock@users.noreply.github.com	telshock
 	telshock <telshock@users.noreply.github.com>
