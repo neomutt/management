@@ -145,6 +145,9 @@ Ian Zimmerman	itz@very.loosely.org	nobrowser
 Ismaël Bouya	ismael.bouya@normalesup.org	immae
 	Ismaël Bouya <ismael.bouya@normalesup.org>
 
+Ivan J	parazyd@dyne.org	parazyd
+	Ivan J <parazyd@users.noreply.github.com>
+
 Ivan Tham	pickfire@riseup.net	pickfire
 	Ivan Tham <pickfire@riseup.net>
 
