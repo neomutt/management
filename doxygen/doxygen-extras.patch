@@ -4,27 +4,9 @@ Date: Thu, 25 Jan 2018 00:41:14 +0000
 Subject: [PATCH] doxygen extras
 
 ---
- .gitignore            |   2 +
  Makefile.autosetup    |  21 +++
  mutt/mutt.h           |   2 +
 
-diff --git a/.gitignore b/.gitignore
-index 867dec843..bb56f5fba 100644
---- a/.gitignore
-+++ b/.gitignore
-@@ -3,6 +3,7 @@
- *.a
- *.in
- tags
-+*.inc
- 
- # Autosetup's jimsh
- autosetup/jimsh0
-@@ -95,3 +96,4 @@ po/neomutt.pot
- .clang_complete
- 
- html
-+doxygen-build.txt
 diff --git a/Makefile.autosetup b/Makefile.autosetup
 index 3f913c899..9db10b84b 100644
 --- a/Makefile.autosetup
