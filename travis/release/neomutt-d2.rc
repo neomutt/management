@@ -211,6 +211,7 @@ set pager_stop=yes
 set pgp_auto_decode=yes
 set pgp_autoinline=yes
 set pgp_check_exit=no
+set pgp_check_gpg_decrypt_status_fd=no
 set pgp_clearsign_command="command"
 set pgp_decode_command="command"
 set pgp_decrypt_command="command"

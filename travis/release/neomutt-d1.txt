@@ -211,6 +211,7 @@ pager_stop is unset
 pgp_auto_decode is unset
 pgp_autoinline is unset
 pgp_check_exit is set
+pgp_check_gpg_decrypt_status_fd is set
 pgp_clearsign_command=""
 pgp_decode_command=""
 pgp_decrypt_command=""
