@@ -2,7 +2,7 @@ abort_noattach=yes
 abort_noattach_regex="attach"
 abort_nosubject=ask-no
 abort_unmodified=no
-alias_file="alias"
+alias_file="/tmp/alias"
 alias_format="alias %4n %2f %t %-10a   %r"
 allow_8bit is unset
 allow_ansi is set
@@ -162,7 +162,7 @@ menu_context=5
 menu_move_off is unset
 menu_scroll is set
 message_cache_clean is set
-message_cachedir="dir"
+message_cachedir="/tmp/dir"
 message_format="!%s"
 meta_key is set
 metoo is set
@@ -180,7 +180,7 @@ move=yes
 narrow_tree is set
 net_inc=20
 new_mail_command="command"
-news_cache_dir="dir"
+news_cache_dir="/tmp/dir"
 news_server="hos"
 newsgroups_charset="us-ascii"
 newsrc="~/newsrc"
@@ -329,8 +329,8 @@ sleep_time=2
 smart_wrap is unset
 smileys="(>From )"
 smime_ask_cert_label is unset
-smime_ca_location="file"
-smime_certificates="file"
+smime_ca_location="/tmp/file"
+smime_certificates="/tmp/file"
 smime_decrypt_command="command"
 smime_decrypt_use_default_key is unset
 smime_default_key="1233456.0"
@@ -342,7 +342,7 @@ smime_get_cert_email_command="command"
 smime_get_signer_cert_command="command"
 smime_import_cert_command="command"
 smime_is_default is set
-smime_keys="key"
+smime_keys="/tmp/key"
 smime_pk7out_command="command"
 smime_self_encrypt is unset
 smime_sign_as="12343556.0"
@@ -361,9 +361,9 @@ sort_browser=date
 sort_re is unset
 spam_separator=" "
 spoolfile="=inbox"
-ssl_ca_certificates_file="cert"
+ssl_ca_certificates_file="/tmp/cert"
 ssl_ciphers="des"
-ssl_client_cert="cert"
+ssl_client_cert="/tmp/cert"
 ssl_force_tls is set
 ssl_min_dh_prime_bits=5
 ssl_starttls=no
