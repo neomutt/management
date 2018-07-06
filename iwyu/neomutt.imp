@@ -15,5 +15,6 @@
   { include: [ '<bits/types/struct_tm.h>',       private, '<time.h>',     public ] },
   { include: [ '<bits/types/time_t.h>',          private, '<time.h>',     public ] },
   { include: [ '<bits/types/wint_t.h>',          private, '<wchar.h>',    public ] },
+  { include: [ '<gpgme-64.h>',                   private, '<gpgme.h>',    public ] },
 ]
 
