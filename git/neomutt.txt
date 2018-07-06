@@ -173,6 +173,9 @@ Jelle van der Waa	jelle@vdwaa.nl	jelly
 Jenya Sovetkin	e.sovetkin@gmail.com	esovetkin
 	Jenya Sovetkin <e.sovetkin@gmail.com>
 
+JerikoOne	jeriko.one@gmx.us	jeriko-one
+	JerikoOne <jeriko.one@gmx.us>
+
 Joey Pabalinas	joeypabalinas@gmail.com	alyptik
 	Joey Pabalinas <joeypabalinas@gmail.com>
 
@@ -230,6 +233,9 @@ Marcin Rajner	mrajner@gik.pw.edu.pl	mrajner
 
 Marco Hinz	mh.codebro@gmail.com	mhinz
 	Marco Hinz <mh.codebro@gmail.com>
+
+Marco Sirabella	marco@sirabella.org	mjsir911
+	Marco Sirabella <marco@sirabella.org>
 
 Marius Gedminas	marius@gedmin.as	mgedmin
 	Marius Gedminas <marius@gedmin.as>

@@ -53,7 +53,8 @@ Andrew Nosenko	awn@bcs.zp.ua
 Antoine Reilles	tonio@netbsd.org
 	Antoine Reilles <tonio@netbsd.org>
 
-Anton Lindqvist	anton.lindqvist@gmail.com
+Anton Lindqvist	anton@basename.se
+	Anton Lindqvist <anton@basename.se>
 	Anton Lindqvist <anton.lindqvist@gmail.com>
 
 Armin Wolfermann	aw@osn.de
