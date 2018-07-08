@@ -20,6 +20,6 @@ cp -v "$DOXYDIR/doxygen/"* doxygen
 git apply "$DOXYDIR/doxygen-extras.patch"
 
 git add -f "$TRAVIS" .travis doxygen *.inc mutt/mutt.h Makefile.autosetup .gitignore
-git commit -m "travis: add doxgen config"
+git commit -m "travis: add doxygen config"
 git log --oneline -n1
 
