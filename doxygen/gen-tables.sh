@@ -3,13 +3,14 @@
 [ $# = 0 ] && exit 1
 
 IFS=$'\n'
+LANG=C
 
 function gen_config()
 {
 	local FILE="$1"
 	local LINES=()
 
-	LINES+=($(grep "/\\*\\*< Config: " "$FILE" | sort))
+	LINES+=($(LANG=C grep "/\\*\\*< Config: " "$FILE" | sort))
 
 	[ ${#LINES[@]} = 0 ] && return
 
@@ -44,8 +45,8 @@ function gen_data()
 	local FILE="$1"
 	local LINES=()
 
-	LINES+=($(grep "^ \\* [A-Z][A-Za-z0-9_]\\+ - " "$FILE"))
-	LINES+=($(grep "^[^ ].*/\\*\\*< " "$FILE" | grep -v "Config:"))
+	LINES+=($(LANG=C grep "^ \\* [A-Z][A-Za-z0-9_]\\+ - " "$FILE"))
+	LINES+=($(LANG=C grep "^[^ ].*/\\*\\*< " "$FILE" | grep -v "Config:"))
 
 	[ ${#LINES[@]} = 0 ] && return
 
@@ -82,7 +83,7 @@ function gen_functions()
 	local FILE="$1"
 	local LINES=()
 
-	LINES=($(grep "^ \\* [a-z0-9_]\\+ - " "$FILE" | sort))
+	LINES=($(LANG=C grep "^ \\* [a-z0-9_]\\+ - " "$FILE" | LANG=C sort))
 
 	[ ${#LINES[@]} = 0 ] && return
 
@@ -93,7 +94,7 @@ function gen_functions()
 	echo " * | :------- | :---------- |"
 
 	for L in ${LINES[*]}; do
-		if [[ "$L" =~ ^[[:space:]*]*((crypto*_|driver_|getdns|imap_|log_|mutt_|mx_|nntp_|pgp_|pop_|raw_|rfc1524_|smime_).*)[[:space:]]-[[:space:]](.*) ]]; then
+		if [[ "$L" =~ ^[[:space:]*]*((crypto*_|driver_|getdns|imap_|log_|mbox_|mmdf_|mutt_|mx_|nm_|nntp_|pgp_|pop_|raw_|rfc1524_|smime_|tunnel_).*)[[:space:]]-[[:space:]](.*) ]]; then
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[3]}"
 			echo " * | $FUNC() | $DESC |"

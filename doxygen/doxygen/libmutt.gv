@@ -20,7 +20,6 @@ digraph m2
                 arrowsize="0.5"
         ]
 
-	address   -> idna
 	buffer    -> string
 	charset   -> regex
 	date      -> string
@@ -47,5 +46,6 @@ digraph m2
 	signal    -> message
 	string    -> memory
 
+	{ rank=same file message queue sha1 md5 }
 }
 

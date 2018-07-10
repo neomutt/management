@@ -13,6 +13,7 @@ git checkout -b doxygen master
 
 mkdir .travis
 cp -v "$YAML" "$TRAVIS"
+cp -v "$DOXYDIR/gitignore" .gitignore
 cp -v "$DOXYDIR"/*.inc .
 cp -v "$DOXYDIR"/*.sh  .travis
 cp -v "$DOXYDIR/doxygen/"* doxygen

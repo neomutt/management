@@ -25,7 +25,7 @@ env:
     - IGNORE: "Consider increasing DOT_GRAPH_MAX_NODES"
 
 script:
-  - .travis/gen-tables.sh conn/*.c hcache/hcache.h imap/*.c mutt/*.c ncrypt/*.c addrbook.c body.c complete.c compress.c copy.c editmsg.c enter.c envelope.c filter.c flags.c from.c history.c hook.c main.c mutt_account.c mutt_logging.c mutt_signal.c mutt_socket.c mutt_window.c mx.c newsrc.c nntp.c pop.c pop_auth.c postpone.c progress.c resize.c rfc1524.c safe_asprintf.c sidebar.c status.c system.c tags.c terminal.c version.c
+  - .travis/gen-tables.sh conn/*.c email/*.c hcache/hcache.h imap/*.c maildir/*.c mbox/*.c mutt/*.c ncrypt/*.c notmuch/*.c nntp/*.c pop/*.c addrbook.c complete.c compress.c copy.c editmsg.c enter.c filter.c flags.c from.c history.c hook.c main.c mutt_account.c mutt_logging.c mutt_signal.c mutt_socket.c mutt_window.c mx.c postpone.c progress.c resize.c rfc1524.c safe_asprintf.c sidebar.c status.c system.c terminal.c version.c
   - doxygen doxygen/doxygen.conf
   - grep -v "$IGNORE" doxygen-build.txt | tee tmp.txt
   - test ! -s tmp.txt
