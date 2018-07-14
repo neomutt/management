@@ -94,7 +94,7 @@ function gen_functions()
 	echo " * | :------- | :---------- |"
 
 	for L in ${LINES[*]}; do
-		if [[ "$L" =~ ^[[:space:]*]*((crypto*_|driver_|getdns|imap_|log_|mbox_|mmdf_|mutt_|mx_|nm_|nntp_|pgp_|pop_|raw_|rfc1524_|smime_|tunnel_).*)[[:space:]]-[[:space:]](.*) ]]; then
+		if [[ "$L" =~ ^[[:space:]*]*((crypto*_|driver_|getdns|imap_|log_|mbox_|mmdf_|mutt_|mx_|nm_|nntp_|pgp_|pop_|raw_|rfc1524_|rfc2047_|rfc2231_|smime_|tunnel_).*)[[:space:]]-[[:space:]](.*) ]]; then
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[3]}"
 			echo " * | $FUNC() | $DESC |"

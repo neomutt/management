@@ -25,7 +25,6 @@ digraph m2
 	date      -> string
 	file      -> string
 	hash      -> string
-	idna      -> charset
 	list      -> string
 	logging   -> file
 	logging   -> message
@@ -39,9 +38,6 @@ digraph m2
 	memory    -> logging
 	parameter -> queue
 	regex     -> mbyte
-	rfc2047   -> base64
-	rfc2047   -> charset
-	rfc2047   -> mime
 	sha1
 	signal    -> message
 	string    -> memory
