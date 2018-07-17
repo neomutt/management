@@ -1,17 +1,19 @@
-From f6c4aaf911ed6832efed7553cb0e6f3fc7f48b46 Mon Sep 17 00:00:00 2001
+From 1481c319b08c8be33d2a04b35f99a2d4e599e754 Mon Sep 17 00:00:00 2001
 From: Richard Russon <rich@flatcap.org>
-Date: Thu, 25 Jan 2018 00:41:14 +0000
-Subject: [PATCH] doxygen extras
+Date: Tue, 17 Jul 2018 01:28:42 +0100
+Subject: [PATCH] travis: add doxygen config
 
 ---
- Makefile.autosetup    |  21 +++
- mutt/mutt.h           |   2 +
+ Makefile.autosetup | 21 +++++++++++++++++++++
+ email/email.h      |  2 ++
+ mutt/mutt.h        |  2 ++
+ 3 files changed, 25 insertions(+)
 
 diff --git a/Makefile.autosetup b/Makefile.autosetup
-index 3f913c899..9db10b84b 100644
+index 8699c51b3..93d9ce046 100644
 --- a/Makefile.autosetup
 +++ b/Makefile.autosetup
-@@ -316,6 +316,27 @@ distclean: clean
+@@ -403,6 +403,27 @@ distclean: clean
  	$(RM) $(DEPFILES) conststrings.c config.h config.log doc/neomutt.1 \
  		Makefile po/Makefile contrib/Makefile doc/Makefile \
  		test/Makefile autosetup/jimsh0 .clang_complete
@@ -39,11 +41,24 @@ index 3f913c899..9db10b84b 100644
  
  ##############################################################################
  # include generated dependency files
+diff --git a/email/email.h b/email/email.h
+index 4f26f8e76..908913c71 100644
+--- a/email/email.h
++++ b/email/email.h
+@@ -42,6 +42,8 @@
+  * | email/tags.c      | @subpage email_tags      |
+  * | email/thread.c    | @subpage email_thread    |
+  * | email/url.c       | @subpage email_url       |
++ *
++ * @image html libemail.svg
+  */
+ 
+ #ifndef _EMAIL_EMAIL_H
 diff --git a/mutt/mutt.h b/mutt/mutt.h
-index 662f4db80..96ac189a4 100644
+index cdc31d4b3..c1c2a1d0b 100644
 --- a/mutt/mutt.h
 +++ b/mutt/mutt.h
-@@ -53,6 +53,8 @@
+@@ -49,6 +49,8 @@
   *
   * @note The library is self-contained -- some files may depend on others in
   *       the library, but none depends on source from outside.

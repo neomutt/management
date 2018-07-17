@@ -9,6 +9,8 @@ source "$SCRIPT_DIR/sync-common.sh"
 
 MGMT=(
 	"doxygen/doxygen/doxygen.conf"
+	"doxygen/doxygen/libemail.gv"
+	"doxygen/doxygen/libemail.svg"
 	"doxygen/doxygen/libmutt.gv"
 	"doxygen/doxygen/libmutt.svg"
 	"doxygen/gen-tables.sh"
@@ -20,6 +22,8 @@ MGMT=(
 
 CODE=(
 	"doxygen/doxygen.conf"
+	"doxygen/libemail.gv"
+	"doxygen/libemail.svg"
 	"doxygen/libmutt.gv"
 	"doxygen/libmutt.svg"
 	".travis/gen-tables.sh"
