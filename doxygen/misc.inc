@@ -13,8 +13,6 @@
  * | enter.c         | @subpage enter         |
  * | filter.c        | @subpage filter        |
  * | flags.c         | @subpage flags         |
- * | from.c          | @subpage from          |
- * | history.c       | @subpage history       |
  * | hook.c          | @subpage hook          |
  * | main.c          | @subpage main          |
  * | mutt_account.c  | @subpage mutt_account  |
