@@ -108,6 +108,15 @@ FAILURES=()
 TOTAL=$((${#COMPILERS[@]} * ${#OPTIONS[@]})) 
 echo "Testing $TOTAL configurations"
 
+if [ -f configure ]; then
+	CONFIGURE="./configure"
+elif [ -f ../configure ]; then
+	CONFIGURE="../configure"
+else
+	echo "Can't find configure.  Aborting."
+	exit 1
+fi
+
 COUNT=0
 SUCCESS=0
 for c in "${COMPILERS[@]}"; do
@@ -117,10 +126,10 @@ for c in "${COMPILERS[@]}"; do
 		: $((COUNT++))
 		echo "------------------------------------------------------------------------------"
 		echo -e "\\e[1;36mBuild $COUNT of $TOTAL\\e[m -- $(date '+%F %R:%S')"
-		echo -e "\\e[1m./configure $o\\e[m"
+		echo -e "\\e[1m$CONFIGURE $o\\e[m"
 		echo
 		git clean -xdfq
-		chronic ./configure --disable-doc $o CC="$c"
+		chronic $CONFIGURE --disable-doc $o CC="$c"
 		if make -s CC="$c" EXTRA_CFLAGS="${EXTRA_CFLAGS[*]}" EXTRA_LDFLAGS="${EXTRA_LDFLAGS[*]}"; then
 			log_success "Build succeeded"
 			: $((SUCCESS++))
@@ -139,7 +148,7 @@ else
 	log_error "Only: $SUCCESS/$COUNT builds succeeded"
 	echo "Failed configurations:"
 	for i in "${FAILURES[@]}"; do
-		echo "    ./configure $i"
+		echo "    $CONFIGURE $i"
 	done
 fi
 date '+%F %R:%S'
