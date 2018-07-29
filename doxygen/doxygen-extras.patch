@@ -1,61 +1,50 @@
-From 1481c319b08c8be33d2a04b35f99a2d4e599e754 Mon Sep 17 00:00:00 2001
+From db82113637529952bf62923690bd4b672ed50c0e Mon Sep 17 00:00:00 2001
 From: Richard Russon <rich@flatcap.org>
-Date: Tue, 17 Jul 2018 01:28:42 +0100
+Date: Sun, 29 Jul 2018 17:27:21 +0100
 Subject: [PATCH] travis: add doxygen config
 
 ---
- Makefile.autosetup | 21 +++++++++++++++++++++
- email/email.h      |  2 ++
- mutt/mutt.h        |  2 ++
- 3 files changed, 25 insertions(+)
+ Makefile.autosetup | 6 ++++++
+ email/email.h      | 2 ++
+ mutt/mutt.h        | 2 ++
+ 3 files changed, 10 insertions(+)
 
 diff --git a/Makefile.autosetup b/Makefile.autosetup
-index 8699c51b3..93d9ce046 100644
+index f6005f0ae..4e9fc1971 100644
 --- a/Makefile.autosetup
 +++ b/Makefile.autosetup
-@@ -403,6 +403,27 @@ distclean: clean
- 	$(RM) $(DEPFILES) conststrings.c config.h config.log doc/neomutt.1 \
- 		Makefile po/Makefile contrib/Makefile doc/Makefile \
- 		test/Makefile autosetup/jimsh0 .clang_complete
-+	$(RM) html mutt/*.inc doxygen-build.txt
-+
+@@ -422,10 +422,16 @@ distclean: clean
+ 	$(RM) $(DEPFILES) .clang_complete autosetup/jimsh0 config.h config.log \
+ 		conststrings.c contrib/Makefile doc/Makefile doc/neomutt.1 \
+ 		html Makefile po/Makefile test/Makefile
++	$(RM) zzz.inc doxygen-build.txt tmp.txt
+ 
+ # Tests for the config code
+ config-test: libmutt.a libemail.a libconfig.a
+ 
 +# Web Code docs (doxygen)
 +.PHONY: html $(PWD)/mutt
 +html:
-+	$(SRCDIR)/.travis/gen-tables.sh $(SRCDIR)/conn/*.c $(SRCDIR)/hcache/hcache.h \
-+		$(SRCDIR)/imap/*.c $(SRCDIR)/mutt/*.c $(SRCDIR)/ncrypt/*.c \
-+		$(SRCDIR)/addrbook.c $(SRCDIR)/body.c $(SRCDIR)/complete.c \
-+		$(SRCDIR)/compress.c $(SRCDIR)/copy.c $(SRCDIR)/editmsg.c \
-+		$(SRCDIR)/enter.c $(SRCDIR)/envelope.c $(SRCDIR)/filter.c \
-+		$(SRCDIR)/flags.c $(SRCDIR)/*from.c $(SRCDIR)/history.c \
-+		$(SRCDIR)/hook.c $(SRCDIR)/main.c $(SRCDIR)/mutt_account.c \
-+		$(SRCDIR)/mutt_logging.c $(SRCDIR)/mutt_signal.c $(SRCDIR)/mutt_socket.c \
-+		$(SRCDIR)/mutt_window.c $(SRCDIR)/mx.c $(SRCDIR)/newsrc.c \
-+		$(SRCDIR)/nntp.c $(SRCDIR)/pop.c $(SRCDIR)/pop_auth.c \
-+		$(SRCDIR)/postpone.c $(SRCDIR)/progress.c $(SRCDIR)/resize.c \
-+		$(SRCDIR)/rfc1524.c $(SRCDIR)/safe_asprintf.c $(SRCDIR)/sidebar.c \
-+		$(SRCDIR)/status.c $(SRCDIR)/system.c $(SRCDIR)/tags.c \
-+		$(SRCDIR)/terminal.c $(SRCDIR)/version.c
-+	doxygen $(SRCDIR)/doxygen/doxygen.conf
-+	@grep -v "Consider increasing DOT_GRAPH_MAX_NODES" doxygen-build.txt || true
- 
++	$(SRCDIR)/doxygen/generate.sh
++
  ##############################################################################
  # include generated dependency files
+ -include $(DEPFILES)
 diff --git a/email/email.h b/email/email.h
-index 4f26f8e76..908913c71 100644
+index 0c70db626..0c71e6a70 100644
 --- a/email/email.h
 +++ b/email/email.h
-@@ -42,6 +42,8 @@
-  * | email/tags.c      | @subpage email_tags      |
-  * | email/thread.c    | @subpage email_thread    |
-  * | email/url.c       | @subpage email_url       |
+@@ -43,6 +43,8 @@
+  * | email/tags.c           | @subpage email_tags      |
+  * | email/thread.c         | @subpage email_thread    |
+  * | email/url.c            | @subpage email_url       |
 + *
 + * @image html libemail.svg
   */
  
  #ifndef _EMAIL_EMAIL_H
 diff --git a/mutt/mutt.h b/mutt/mutt.h
-index cdc31d4b3..c1c2a1d0b 100644
+index b8b771302..bd4425f00 100644
 --- a/mutt/mutt.h
 +++ b/mutt/mutt.h
 @@ -49,6 +49,8 @@

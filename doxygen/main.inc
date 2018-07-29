@@ -10,6 +10,14 @@
  * written.  Some descriptions are a bit vague, due to ignorance, or poor
  * design decisions.
  *
+ * <img style="float: left; padding-right: 0.5em;" src="functions.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="structs.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="members.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="enums.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="globals.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="config.svg">
+ * <br>
+ *
  * ## Libraries
  *
  * Each library helps to untangle the code by grouping similar functions and
@@ -21,18 +29,53 @@
  * - Fully documented
  * - Robust
  *
- * Libraries:
- * - libconn - @ref conn
- * - libemail - @ref email
- * - libhcache - @ref hc_hcache
- * - libimap - @ref imap_imap
- * - libmaildir - @ref maildir
- * - libmbox - @ref mbox
- * - libmutt - @ref mutt
- * - libncrypt - @ref ncrypt
- * - libnntp - @ref nntp
- * - libnotmuch - @ref notmuch
- * - libpop - @ref pop
+ * | Libarary       |
+ * | :------------- |
+ * | @ref config    |
+ * | @ref conn      |
+ * | @ref email     |
+ * | @ref hcache    |
+ * | @ref imap_imap |
+ * | @ref maildir   |
+ * | @ref mbox      |
+ * | @ref mutt      |
+ * | @ref ncrypt    |
+ * | @ref nntp      |
+ * | @ref notmuch   |
+ * | @ref pop       |
+ *
+ * ## Miscellaneous files
+ *
+ * These file form the main body of NeoMutt.
+ *
+ * | File            | Description            |
+ * | :-------------- | :--------------------- |
+ * | addrbook.c      | @subpage addrbook      |
+ * | complete.c      | @subpage complete      |
+ * | compress.c      | @subpage compress      |
+ * | copy.c          | @subpage copy          |
+ * | editmsg.c       | @subpage editmsg       |
+ * | enter.c         | @subpage enter         |
+ * | filter.c        | @subpage filter        |
+ * | flags.c         | @subpage flags         |
+ * | hook.c          | @subpage hook          |
+ * | main.c          | @subpage main          |
+ * | mutt_account.c  | @subpage mutt_account  |
+ * | mutt_logging.c  | @subpage mutt_logging  |
+ * | mutt_signal.c   | @subpage mutt_signal   |
+ * | mutt_socket.c   | @subpage mutt_socket   |
+ * | mutt_window.c   | @subpage window        |
+ * | mx.c            | @subpage mx            |
+ * | postpone.c      | @subpage postpone      |
+ * | progress.c      | @subpage progress      |
+ * | resize.c        | @subpage resize        |
+ * | rfc1524.c       | @subpage rfc1524       |
+ * | safe_asprintf.c | @subpage safe_asprintf |
+ * | sidebar.c       | @subpage sidebar       |
+ * | status.c        | @subpage status        |
+ * | system.c        | @subpage system        |
+ * | terminal.c      | @subpage terminal      |
+ * | version.c       | @subpage version       |
  *
  * ## Building these Docs
  *

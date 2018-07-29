@@ -10,6 +10,7 @@ Makefile
 doc/makedoc
 neomutt
 pgpewrap
+test/config-test
 test/neomutt-test
 
 # Build products
@@ -44,3 +45,4 @@ tags
 html
 doxygen-build.txt
 *.inc
+tmp.txt
