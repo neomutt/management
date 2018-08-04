@@ -17,6 +17,52 @@ The defaults are:
 - Include a lot of warning options
 - Enable optimum debugging
 
+## [build-parallel.sh](build-parallel.sh)
+
+Build NeoMutt more quickly with your favourite options.
+This is a stripped down `build.sh` designed to be used with Gnu Parallel.
+
+It performs several builds at once.
+Each build is performed in a separate directory (out-of-tree) called `buildNUM`.
+
+**Note**: If you use environment variable `$MAKEFLAGS`, remove any parallel
+      build options, e.g. `-j4`, before using this script (or your load average
+      will get rather large).
+
+First create a list of configure options, `clist.txt`, that you'd like to test, e.g.
+
+**Note**: The blank line at the begining is a build with zero configure options
+
+```
+
+--with-ui=slang
+--disable-nls
+--disable-idn
+--disable-pgp
+--disable-smime
+--disable-nls --disable-idn --disable-pgp --disable-smime
+--lua
+--with-lock=flock
+--locales-fix
+--homespool
+--with-domain=example.com
+--notmuch
+--gpgme
+--mixmaster
+--with-lock=flock --lua --locales-fix --homespool --with-domain=example.com --notmuch --gpgme --mixmaster
+--tokyocabinet --qdbm --gdbm --bdb --lmdb --kyotocabinet
+--gss
+--ssl
+--gnutls
+--sasl
+```
+
+Then run parallel:
+
+```
+parallel build-parallel.sh gcc {} :::: clist.txt
+```
+
 ## [test-configs.sh](test-configs.sh)
 
 Perform a wide spread of compilations.
