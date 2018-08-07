@@ -29,7 +29,7 @@
  * - Fully documented
  * - Robust
  *
- * | Libarary       |
+ * | Library        |
  * | :------------- |
  * | @ref config    |
  * | @ref conn      |
