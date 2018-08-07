@@ -1,7 +1,7 @@
 # NeoMutt Management
 
 This repo is a collection of scripts and notes that help to automate the
-day-to-day running of the [NeoMutt Project](http://www.neomutt.org).
+day-to-day running of the [NeoMutt Project](https://neomutt.org).
 
 ## Developer Build Scripts
 
@@ -15,27 +15,24 @@ Two scripts to [automate the building of NeoMutt](build/README.md).
 ## Feature Templates
 
 It's important for new features to be
-[well-documented](https://github.com/neomutt/management/tree/master/template-docs).
+[well-documented](https://github.com/neomutt/management/tree/master/feature-templates).
 To help new users, each NeoMutt feature comes with a **Chapter in the Manual**,
 a **sample muttrc** and for Vim users a **vim syntax file** for config-file
 highlighting.
 
 ## Release Templates
 
-When [making a release](https://www.neomutt.org/run/release), these templates
+When [making a release](https://neomutt.org/run/release), these templates
 save time preparing the accompanying notes.
 
 | File                                                           | Description                      |
 |----------------------------------------------------------------|----------------------------------|
-| [check-repos](release-templates/check-repos.txt)               | Which repos to check for credits |
-| [milestone](release-templates/milestone.txt)                   | List of work in a milestone      |
 | [template-changelog](release-templates/template-changelog.txt) | ChangeLog.neomutt                |
 | [template-dev-ml](release-templates/template-dev-ml.txt)       | NeoMutt Devel Mailing List       |
 | [template-github](release-templates/template-github.txt)       | GitHub Release Announcement      |
 | [template-rpm](release-templates/template-rpm.txt)             | RPM Spec changelog               |
 | [template-user-ml](release-templates/template-user-ml.txt)     | NeoMutt Users Mailing List       |
 | [template-website](release-templates/template-website.txt)     | Website News Article             |
-| [website.vim](release-templates/website.vim)                   | Transform (@nick) links          |
 
 ## Update Distro Bin
 
@@ -56,7 +53,6 @@ Various useful scripts.
 
 | Script                                          | Description                                    |
 | :---------------------------------------------- | :--------------------------------------------- |
-| [merge-upstream.sh](misc-bin/merge-upstream.sh) | Apply upstream commits on top of master        |
 | [update-from-hg.sh](misc-bin/update-from-hg.sh) | Pull upstream commits into our NeoMutt repo    |
 | [webhook-bridge.py](misc-bin/webhook-bridge.py) | Notify poeditor.com of changes to translations |
 
@@ -74,13 +70,15 @@ A list of the [minimum requirements to build NeoMutt](standard-functions/README.
 
 These are copies of our Travis control files.
 
-| File                                    | Branch                                                                                                   |
-| :-------------------------------------- | :------------------------------------------------------------------------------------------------------- |
-| [aur.yml](travis/aur.yml)               | [https://github.com/neomutt/aur-buildll](https://github.com/neomutt/aur-build)                           |
-| [coverity.yml](travis/coverity.yml)     | [https://github.com/neomutt/neomutt/tree/coverity](https://github.com/neomutt/neomutt/tree/coverity)     |
-| [macports.yml](travis/macports.yml)     | [https://github.com/neomutt/neomutt/tree/macports](https://github.com/neomutt/neomutt/tree/macports)     |
-| [master.yml](travis/master.yml)         | [https://github.com/neomutt/neomutt/tree/master](https://github.com/neomutt/neomutt/tree/master)         |
-| [translate.yml](travis/translate.yml)   | [https://github.com/neomutt/neomutt/tree/translate](https://github.com/neomutt/neomutt/tree/translate)   |
+| File                                    | Branch                                                                                                             |
+| :-------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| [aur.yml](travis/aur.yml)               | [https://github.com/neomutt/aur-buildll](https://github.com/neomutt/aur-build)                                     |
+| [coverity.yml](travis/coverity.yml)     | [https://github.com/neomutt/neomutt/tree/coverity](https://github.com/neomutt/neomutt/tree/coverity)               |
+| [macports.yml](travis/macports.yml)     | [https://github.com/neomutt/neomutt/tree/distro/macports](https://github.com/neomutt/neomutt/tree/distro/macports) |
+| [master.yml](travis/master.yml)         | [https://github.com/neomutt/neomutt/tree/master](https://github.com/neomutt/neomutt/tree/master)                   |
+| [translate.yml](travis/translate.yml)   | [https://github.com/neomutt/neomutt/tree/translate](https://github.com/neomutt/neomutt/tree/translate)             |
+
+
 
 ## Min-Build
 
@@ -96,7 +94,7 @@ For those times that you just want to look at the **code**.
 
 ## Translation Deployment Scripts
 
-[How to set up deployment using Travis](https://www.neomutt.org/dev/deploy)
+[How to set up deployment using Travis](https://neomutt.org/dev/deploy)
 
 | File                                                           | Description                                  |
 | :------------------------------------------------------------- | :------------------------------------------- |
