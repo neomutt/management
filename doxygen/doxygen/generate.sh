@@ -122,15 +122,29 @@ function build_zzz()
 	done
 }
 
+function git_version()
+{
+	git describe --abbrev=6 --match "neomutt-*" $(git merge-base master HEAD) |
+		sed 's/neomutt-\(....\)\(..\)\(..\)-\([0-9]\+\)-g\([0-9a-f]\+\)/\1-\2-\3 +\4-\5/'
+}
+
 function build_docs()
 {
-	doxygen doxygen/doxygen.conf
+	VERSION=$(git_version)
+
+	(
+		cat doxygen/doxygen.conf
+		echo "HAVE_DOT=yes"
+		echo "PROJECT_NUMBER=\"$VERSION\""
+	) | doxygen -
+
 	grep -v "Consider increasing DOT_GRAPH_MAX_NODES" doxygen-build.txt | tee tmp.txt
 	test ! -s tmp.txt
 }
 
+git fetch --unshallow --tags
+git fetch origin 'refs/heads/master:refs/heads/master'
 
 build_zzz conn/*.c email/*.c config/*.c hcache/*.c hcache/hcache.h hcache/serialize.c imap/*.c maildir/*.c mbox/*.c mutt/*.c ncrypt/*.c notmuch/*.c nntp/*.c pop/*.c addrbook.c complete.c compress.c copy.c editmsg.c enter.c filter.c flags.c hook.c main.c mutt_account.c mutt_logging.c mutt_signal.c mutt_socket.c mutt_window.c mx.c postpone.c progress.c resize.c rfc1524.c safe_asprintf.c sidebar.c status.c system.c terminal.c version.c > zzz.inc
 build_docs
-realpath html/index.html
 

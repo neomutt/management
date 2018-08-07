@@ -9,6 +9,7 @@ source "$SCRIPT_DIR/sync-common.sh"
 
 MGMT=(
 	"doxygen/doxygen/config.svg"
+	"doxygen/doxygen/deploy.sh"
 	"doxygen/doxygen/doxygen.conf"
 	"doxygen/doxygen/enums.svg"
 	"doxygen/doxygen/functions.svg"
@@ -20,6 +21,7 @@ MGMT=(
 	"doxygen/doxygen/libmutt.svg"
 	"doxygen/doxygen/members.svg"
 	"doxygen/doxygen/structs.svg"
+	"doxygen/doxygen/travis-deploy-doxygen.enc"
 	"doxygen/gitignore"
 	"doxygen/main.inc"
 	"doxygen/travis.yml"
@@ -27,6 +29,7 @@ MGMT=(
 
 CODE=(
 	"doxygen/config.svg"
+	"doxygen/deploy.sh"
 	"doxygen/doxygen.conf"
 	"doxygen/enums.svg"
 	"doxygen/functions.svg"
@@ -38,6 +41,7 @@ CODE=(
 	"doxygen/libmutt.svg"
 	"doxygen/members.svg"
 	"doxygen/structs.svg"
+	"doxygen/travis-deploy-doxygen.enc"
 	".gitignore"
 	"main.inc"
 	".travis.yml"

@@ -17,9 +17,8 @@ addons:
       - doxygen
       - graphviz
 
-git:
-  depth: 3
-
 script:
   - doxygen/generate.sh
 
+after_success:
+  - doxygen/deploy.sh

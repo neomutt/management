@@ -1,5 +1,5 @@
 /**
- * @mainpage NeoMutt Code Docs
+ * @mainpage Code Docs
  *
  * ## State of Play
  *
