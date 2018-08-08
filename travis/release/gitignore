@@ -10,12 +10,14 @@ Makefile
 doc/makedoc
 neomutt
 pgpewrap
+test/config-test
 test/neomutt-test
 
 # Build products
 *.o
 *.Po
 *.Tpo
+html
 lib*.a
 po/*.mo
 po/neomutt.pot
