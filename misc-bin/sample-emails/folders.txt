@@ -1,0 +1,16 @@
+ocean/pacific
+ocean/atlantic
+ocean/southern
+ocean/indian
+fruit/lemon
+fruit/orange
+fruit/nectarine
+fruit/melon
+cars/audi
+cars/daimler
+cars/bentley
+cars/chrysler
+trees/oak
+trees/poplar
+trees/rowan
+trees/maple
