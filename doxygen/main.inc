@@ -1,21 +1,13 @@
 /**
  * @mainpage Code Docs
  *
- * ## State of Play
- *
- * This is a Work in Progress.  All the existing comments have been converted
- * to doxygen format and now appear in these pages.
- *
- * Furthermore, all the files, structs, enums and unions have had descriptions
- * written.  Some descriptions are a bit vague, due to ignorance, or poor
- * design decisions.
- *
- * <img style="float: left; padding-right: 0.5em;" src="functions.svg">
  * <img style="float: left; padding-right: 0.5em;" src="structs.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="functions.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="config.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="pages.svg">
  * <img style="float: left; padding-right: 0.5em;" src="members.svg">
  * <img style="float: left; padding-right: 0.5em;" src="enums.svg">
  * <img style="float: left; padding-right: 0.5em;" src="globals.svg">
- * <img style="float: left; padding-right: 0.5em;" src="config.svg">
  * <br>
  *
  * ## Libraries
@@ -43,6 +35,11 @@
  * | @ref nntp      |
  * | @ref notmuch   |
  * | @ref pop       |
+ *
+ * ## Config Variables
+ *
+ * NeoMutt has a lot of configuration options.
+ * @ref config_vars 
  *
  * ## Miscellaneous files
  *
@@ -89,6 +86,5 @@
  * ## Installing the Docs
  *
  * These docs aren't in the main website repo -- they weigh in at 100M
- * Instead, they're stored in the [doxygen repo](https://github.com/neomutt/doxygen)
- * They are included in the website as a "git submodule"
+ * Instead, they're stored in the [code repo](https://github.com/neomutt/code)
  */

@@ -41,6 +41,46 @@ function zzz_config()
 	echo
 }
 
+function zzz_config_summary()
+{
+	local FILES="$*"
+	local LINES=()
+
+	LINES+=($(grep "///< Config: " $FILES))
+	[ ${#LINES[@]} = 0 ] && return
+
+	echo "/**"
+	echo " * @page config_vars Neomutt's Configuration variables"
+	echo " *"
+ 	echo " * Brief overview of all of Neomutt's Configuration variables."
+	echo " *"
+	echo " * | Global Variable | Config Item | Description |"
+	echo " * | :-------------- | :---------- | :---------- |"
+
+	(
+	for L in ${LINES[*]}; do
+		if [[ "$L" =~ .*[[:space:]*](.*)[[:space:]]=[[:space:]].*\;[[:space:]]*///\<[[:space:]]Config:[[:space:]](.*) ]]; then
+			VAR="${BASH_REMATCH[1]}"
+			DESC="${BASH_REMATCH[2]}"
+			CFG="$(echo "$VAR" | sed -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
+
+			echo " * | #$VAR | \$$CFG | $DESC |"
+		elif [[ "$L" =~ .*[[:space:]*](.*)\;[[:space:]]*///\<[[:space:]]Config:[[:space:]](.*) ]]; then
+			VAR="${BASH_REMATCH[1]}"
+			DESC="${BASH_REMATCH[2]}"
+			CFG="$(echo "$VAR" | sed -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
+
+			echo " * | #$VAR | \$$CFG | $DESC |"
+		else
+			echo "UNKNOWN:: $L"
+		fi
+	done
+	) | sort
+
+	echo " */"
+	echo
+}
+
 function zzz_data()
 {
 	local FILE="$1"
@@ -146,9 +186,21 @@ function build_docs()
 	test ! -s tmp.txt
 }
 
-git fetch --unshallow --tags
-git fetch origin 'refs/heads/master:refs/heads/master'
+if [ -n "$TRAVIS" ]; then
+	git fetch --unshallow --tags
+	git fetch origin 'refs/heads/master:refs/heads/master'
+fi
 
-build_zzz conn/*.c email/*.c config/*.c hcache/*.c hcache/hcache.h hcache/serialize.c imap/*.c maildir/*.c mbox/*.c mutt/*.c ncrypt/*.c notmuch/*.c nntp/*.c pop/*.c addrbook.c complete.c compress.c copy.c editmsg.c enter.c filter.c flags.c hook.c main.c mutt_account.c mutt_logging.c mutt_signal.c mutt_socket.c mutt_window.c mx.c postpone.c progress.c resize.c rfc1524.c safe_asprintf.c sidebar.c status.c system.c terminal.c version.c > zzz.inc
+build_zzz conn/*.c email/*.c config/*.c hcache/*.c hcache/hcache.h \
+	hcache/serialize.c imap/*.c maildir/*.c mbox/*.c mutt/*.c ncrypt/*.c \
+	notmuch/*.c nntp/*.c pop/*.c addrbook.c complete.c compress.c copy.c \
+	editmsg.c enter.c filter.c flags.c hook.c main.c mutt_account.c \
+	mutt_logging.c mutt_signal.c mutt_socket.c mutt_window.c mx.c \
+	postpone.c progress.c resize.c rfc1524.c safe_asprintf.c sidebar.c \
+	status.c system.c terminal.c version.c > zzz.inc
+
+zzz_config_summary *.[ch] {config,conn,email,hcache,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop}/*.[ch] \
+	| grep -v -e SslUseSslv2 -e SslUsesystemcerts >> zzz.inc
+
 build_docs
 
