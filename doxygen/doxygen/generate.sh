@@ -95,7 +95,11 @@ function zzz_functions()
 	echo " * | :------- | :---------- |"
 
 	for L in ${LINES[*]}; do
-		if [[ "$L" =~ ^[[:space:]*]*((address|bool|command|crypto*_|cs|driver_|dump|getdns|hcache|imap_|log_|long|magic|mbox_|mbtable|mmdf_|mutt_|mx_|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|serial_|smime_|sort|string|tunnel_|url).*)[[:space:]]-[[:space:]](.*) ]]; then
+		if [[ "$L" =~ ^[[:space:]*]*((address|bool|command|crypto*_|cs|driver_|dump|getdns|hcache|imap_|log_|long|magic|mbox_|mbtable|mmdf_|mutt_|mx_|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|serial_|smime_|sort|string|tunnel_|url).*)[[:space:]]-[[:space:]](.*[[:space:]]-[[:space:]].*) ]]; then
+			FUNC="${BASH_REMATCH[1]}"
+			DESC="${BASH_REMATCH[3]}"
+			echo " * | $FUNC() | $DESC |"
+		elif [[ "$L" =~ ^[[:space:]*]*((address|bool|command|crypto*_|cs|driver_|dump|getdns|hcache|imap_|log_|long|magic|mbox_|mbtable|mmdf_|mutt_|mx_|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|serial_|smime_|sort|string|tunnel_|url).*)[[:space:]]-[[:space:]](.*) ]]; then
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[3]}"
 			echo " * | $FUNC() | $DESC |"
