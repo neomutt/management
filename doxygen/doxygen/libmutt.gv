@@ -23,6 +23,7 @@ digraph m2
 	buffer    -> string
 	charset   -> regex
 	date      -> string
+	path      -> string
 	file      -> string
 	hash      -> string
 	list      -> string
