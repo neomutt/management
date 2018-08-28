@@ -7,10 +7,6 @@ function die()
 {
 	local ERROR=$?
 
-	echo "--------------------------------------------------------------------------------"
-	[ "$ERROR" = 0 ] && echo "SUCCESS" || echo "ERROR"
-	echo "--------------------------------------------------------------------------------"
-
 	if [ "${#SOFT_FAIL[@]}" -gt 0 ]; then
 		echo "Soft Failures:"
 		for i in "${SOFT_FAIL[@]}"; do
@@ -19,6 +15,10 @@ function die()
 		echo "--------------------------------------------------------------------------------"
 		ERROR=1
 	fi
+
+	echo "--------------------------------------------------------------------------------"
+	[ "$ERROR" = 0 ] && echo "SUCCESS" || echo "FAILED"
+	echo "--------------------------------------------------------------------------------"
 
 	exit $ERROR
 }
@@ -280,6 +280,18 @@ function test_update_po()
 	end_fold "update_po"
 }
 
+function test_doxygen()
+{
+	start_fold "Doxygen Code Docs" "doxygen"
+
+	(
+		cat doxygen/doxygen.conf
+		echo "WARN_AS_ERROR=yes"
+	) | doxygen - || SOFT_FAIL+=("doxygen")
+
+	end_fold "doxygen"
+}
+
 
 header
 
@@ -303,6 +315,7 @@ test_acutest
 # test_lua
 clean_dir
 test_whitespace
+test_doxygen
 
 # Out-of-tree build
 clean_dir
