@@ -17,8 +17,10 @@ addons:
       - autopoint
       - docbook-simple
       - docbook-xsl
+      - doxygen
       - gettext
       - gpgsm
+      - graphviz
       - libdb-dev
       - libgdbm-dev
       - libgnutls-dev
