@@ -37,7 +37,6 @@ digraph m2
 	md5
 	memory    -> exit
 	memory    -> logging
-	parameter -> queue
 	regex     -> mbyte
 	sha1
 	signal    -> message
