@@ -18,6 +18,7 @@ MGMT=(
 	"release/neomutt-d2.txt"
 	"release/release-test.sh"
 	"release/README.md"
+	"release/doxygen.conf"
 )
 
 CODE=(
@@ -31,6 +32,7 @@ CODE=(
 	".travis/neomutt-d2.txt"
 	".travis/release-test.sh"
 	"README.md"
+	"doxygen/doxygen.conf"
 )
 
 sync_perform "$@"
