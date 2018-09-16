@@ -23,7 +23,7 @@ André Berger	ab@andreberger.eu	hvkls
 Antoine Beaupré	anarcat@debian.org	anarcat
 	anarcat <anarcat@users.noreply.github.com>
 
-Anton Rieger	seishinryohosha@jikken.de	seishinryohosha
+Anton Rieger	seishinryohosha@jikken.de	inrin
 	Anton Rieger <seishinryohosha@jikken.de>
 	seishinryohosha <seishinryohosha@users.noreply.github.com>
 
