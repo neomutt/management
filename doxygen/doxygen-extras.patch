@@ -1,19 +1,19 @@
-From db82113637529952bf62923690bd4b672ed50c0e Mon Sep 17 00:00:00 2001
+From 90c685925b0b854d0f28d9c2e6766e923bb8e594 Mon Sep 17 00:00:00 2001
 From: Richard Russon <rich@flatcap.org>
-Date: Sun, 29 Jul 2018 17:27:21 +0100
-Subject: [PATCH] travis: add doxygen config
+Date: Thu, 27 Sep 2018 11:07:48 +0100
+Subject: [PATCH] doxy
 
 ---
  Makefile.autosetup | 6 ++++++
- email/email.h      | 2 ++
+ email/lib.h        | 2 ++
  mutt/mutt.h        | 2 ++
  3 files changed, 10 insertions(+)
 
 diff --git a/Makefile.autosetup b/Makefile.autosetup
-index f6005f0ae..4e9fc1971 100644
+index 697134f1c..3a05af8c2 100644
 --- a/Makefile.autosetup
 +++ b/Makefile.autosetup
-@@ -422,10 +422,16 @@ distclean: clean
+@@ -425,10 +425,16 @@ distclean: clean
  	$(RM) $(DEPFILES) .clang_complete autosetup/jimsh0 config.h config.log \
  		conststrings.c contrib/Makefile doc/Makefile doc/neomutt.1 \
  		html Makefile po/Makefile test/Makefile
@@ -30,10 +30,10 @@ index f6005f0ae..4e9fc1971 100644
  ##############################################################################
  # include generated dependency files
  -include $(DEPFILES)
-diff --git a/email/email.h b/email/email.h
-index 0c70db626..0c71e6a70 100644
---- a/email/email.h
-+++ b/email/email.h
+diff --git a/email/lib.h b/email/lib.h
+index ef1a20a8a..5794d4111 100644
+--- a/email/lib.h
++++ b/email/lib.h
 @@ -43,6 +43,8 @@
   * | email/tags.c           | @subpage email_tags      |
   * | email/thread.c         | @subpage email_thread    |
@@ -42,12 +42,12 @@ index 0c70db626..0c71e6a70 100644
 + * @image html libemail.svg
   */
  
- #ifndef _EMAIL_EMAIL_H
+ #ifndef MUTT_EMAIL_LIB_H
 diff --git a/mutt/mutt.h b/mutt/mutt.h
-index b8b771302..bd4425f00 100644
+index ffc53041f..9a0eb6b29 100644
 --- a/mutt/mutt.h
 +++ b/mutt/mutt.h
-@@ -49,6 +49,8 @@
+@@ -50,6 +50,8 @@
   *
   * @note The library is self-contained -- some files may depend on others in
   *       the library, but none depends on source from outside.
@@ -55,4 +55,4 @@ index b8b771302..bd4425f00 100644
 + * @image html libmutt.svg
   */
  
- #ifndef _MUTT_MUTT_H
+ #ifndef MUTT_LIB_MUTT_H

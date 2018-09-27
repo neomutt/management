@@ -81,10 +81,10 @@
  * Everything possible is turned on in the config file, so you'll need to
  * install a few dependencies like `dot` from the graphviz package.
  *
- * Simply: `doxygen doxygen/doxygen.conf` in the main directory.
+ * Simply run: `doxygen doxygen/doxygen.conf` in the main directory.
  *
  * ## Installing the Docs
  *
- * These docs aren't in the main website repo -- they weigh in at 100M
+ * These docs aren't in the main website repo -- they weigh in at 100Mb.
  * Instead, they're stored in the [code repo](https://github.com/neomutt/code)
  */
