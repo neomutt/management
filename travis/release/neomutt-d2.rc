@@ -390,7 +390,7 @@ set tilde = yes
 set time_inc = 5
 set timeout = 300
 set tmpdir = "/var/tmp"
-set to_chars = " +tcfl"
+set to_chars = " +tcflr"
 set trash = "=trash"
 set ts_enabled = yes
 set ts_icon_format = "icon M%?n?AIL&ail?"
