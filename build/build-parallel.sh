@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# parallel build-parallel.sh gcc {} :::: build-parallel.txt
+
 set -o errexit	# set -e
 set -o nounset	# set -u
 
@@ -43,7 +45,7 @@ EXTRA_CFLAGS+=("-Wstrict-prototypes")
 EXTRA_CFLAGS+=("-Wundef")
 EXTRA_CFLAGS+=("-Wunused-result")
 EXTRA_CFLAGS+=("-Wimplicit-fallthrough")
-EXTRA_CFLAGS+=("-Wformat-truncation=0");
+EXTRA_CFLAGS+=("-Wformat-truncation=0")
 EXTRA_CFLAGS+=("-Werror")
 
 # EXTRA_CFLAGS+=("-fsanitize=address -fsanitize-recover=address")

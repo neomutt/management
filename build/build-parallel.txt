@@ -1,0 +1,21 @@
+
+--with-ui=slang
+--disable-nls
+--disable-idn
+--disable-pgp
+--disable-smime
+--disable-nls --disable-idn --disable-pgp --disable-smime
+--lua
+--with-lock=flock
+--locales-fix
+--homespool
+--with-domain=example.com
+--notmuch
+--gpgme
+--mixmaster
+--with-lock=flock --lua --locales-fix --homespool --with-domain=example.com --notmuch --gpgme --mixmaster
+--tokyocabinet --qdbm --gdbm --bdb --lmdb --kyotocabinet
+--gss
+--ssl
+--gnutls
+--sasl
