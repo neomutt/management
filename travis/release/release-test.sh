@@ -232,7 +232,7 @@ function test_potfiles()
 
 	(
 		echo opcodes.h
-		find . \( -name .git -o -path './test/*' -o -path './autosetup/*' -o -path './doc/*' -o -name 'conststrings.c' \) -prune -o -type f -name '*.c' -print | cut -b3-
+		find . \( -name .git -o -path './test/*' -o -path './autosetup/*' -o -path './doc/*' -o -name 'conststrings.c' -o -name 'git_ver.c' \) -prune -o -type f -name '*.c' -print | cut -b3-
 	) | sort > potfiles.txt
 
 	if ! diff <(sort po/POTFILES.in) <(sort potfiles.txt) > potfiles-diff.txt; then
