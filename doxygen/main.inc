@@ -1,12 +1,12 @@
 /**
  * @mainpage Code Docs
  *
- * <img style="float: left; padding-right: 0.5em;" src="structs.svg">
  * <img style="float: left; padding-right: 0.5em;" src="functions.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="structs.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="enums.svg">
  * <img style="float: left; padding-right: 0.5em;" src="config.svg">
  * <img style="float: left; padding-right: 0.5em;" src="pages.svg">
  * <img style="float: left; padding-right: 0.5em;" src="members.svg">
- * <img style="float: left; padding-right: 0.5em;" src="enums.svg">
  * <img style="float: left; padding-right: 0.5em;" src="globals.svg">
  * <br>
  *
