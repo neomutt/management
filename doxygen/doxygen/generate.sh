@@ -139,7 +139,11 @@ function zzz_functions()
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[3]}"
 			echo " * | $FUNC() | $DESC |"
-		elif [[ "$L" =~ ^[[:space:]*]*((address|bool|command|crypto*_|cs|driver_|dump|getdns|hcache|imap_|log_|long|magic|mbox_|mbtable|mmdf_|mutt_|mx_|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|serial_|smime_|sort|string|tunnel_|url).*)[[:space:]]-[[:space:]](.*) ]]; then
+		elif [[ "$L" =~ ^[[:space:]*]*(.*_validator)[[:space:]]-[[:space:]](.*[[:space:]]-[[:space:]].*) ]]; then
+			FUNC="${BASH_REMATCH[1]}"
+			DESC="${BASH_REMATCH[2]}"
+			echo " * | $FUNC() | $DESC |"
+		elif [[ "$L" =~ ^[[:space:]*]*((account|address|attach|bool|ci|command|crypto*_|cs|driver_|dump|getdns|hcache|imap_|km|log_|long|magic|mbox_|mbtable|menu|mix|mmdf_|mutt_|mx_|myvar|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|rfc3676|serial_|smime_|sort|state|string|text|tunnel_|update|url|wcs).*)[[:space:]]-[[:space:]](.*) ]]; then
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[3]}"
 			echo " * | $FUNC() | $DESC |"
@@ -191,13 +195,21 @@ if [ -n "$TRAVIS" ]; then
 	git fetch origin 'refs/heads/master:refs/heads/master'
 fi
 
-build_zzz conn/*.c email/*.c config/*.c hcache/*.c hcache/hcache.h \
-	hcache/serialize.c imap/*.c maildir/*.c mbox/*.c mutt/*.c ncrypt/*.c \
-	notmuch/*.c nntp/*.c pop/*.c addrbook.c complete.c compress.c copy.c \
-	editmsg.c enter.c filter.c flags.c hook.c main.c mutt_account.c \
-	mutt_logging.c mutt_signal.c mutt_socket.c mutt_window.c mx.c \
-	postpone.c progress.c resize.c rfc1524.c safe_asprintf.c sidebar.c \
-	status.c system.c terminal.c version.c > zzz.inc
+build_zzz \
+	config/*.c \
+	conn/*.c \
+	email/*.c \
+	hcache/*.c \
+	hcache/hcache.h \
+	imap/*.c \
+	maildir/*.c \
+	mbox/*.c \
+	mutt/*.c \
+	ncrypt/*.c \
+	nntp/*.c \
+	notmuch/*.c \
+	pop/*.c \
+	*.c > zzz.inc
 
 zzz_config_summary *.[ch] {config,conn,email,hcache,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop}/*.[ch] \
 	| grep -v -e SslUseSslv2 -e SslUsesystemcerts >> zzz.inc
