@@ -85,7 +85,11 @@ Bjoern Jacke	bjoern@j3e.de
 	Bjoern Jacke <bjoern@j3e.de>
 	Bjoern Jacke <muttbug@j3e.de>
 
-Brendan Cully	brendan@kublai.com
+Brandon Long	blong@fiction.net	blong42
+	Brandon Long <blong@fiction.net>
+
+Brendan Cully	brendan@cully.org	bcully
+	Brendan Cully <brendan@cully.org>
 	Brendan Cully <brendan@kublai.com>
 
 Brent Nordquist	brent@nordist.net
@@ -115,6 +119,9 @@ Christian Vogel	vogelchr@vogel.cx
 
 Christoph Ludwig	cludwig@cdc.informatik.tu-darmstadt.de
 	Christoph Ludwig <cludwig@cdc.informatik.tu-darmstadt.de>
+
+Cody Brownstein	cbrownstein@liquidityllc.com
+	Cody Brownstein <cbrownstein@liquidityllc.com>
 
 Consus	consus@gmx.com
 	Consus <consus@gmx.com>
@@ -149,6 +156,9 @@ Daniel Burrows	dburrows@debian.org
 
 Daniel Jacobowitz	dan@debian.org
 	Daniel Jacobowitz <dan@debian.org>
+
+Daniel Schmitz	dr1s@users.noreply.github.com
+	Daniel Schmitz <dr1s@users.noreply.github.com>
 
 David Champion	dgc@bikeshed.us
 	David Champion <dgc@bikeshed.us>
@@ -203,6 +213,9 @@ Erik Hovland	erik@hovland.org
 Fahri Cihan Demirci	fcdemirci@fastmail.fm
 	Fahri Cihan Demirci <fcdemirci@fastmail.fm>
 
+Flammie Pirinen	flammie@iki.fi
+	Flammie Pirinen <flammie@iki.fi>
+
 Florian Weimer	fw@deneb.enyo.de
 	Florian Weimer <fw@deneb.enyo.de>
 
@@ -211,7 +224,9 @@ Gary Johnson	garyjohn@spk.agilent.com
 	Gary Johnson <unknown>
 
 Gero Treuner	gerotick@faveve.uni-stuttgart.de
+	Gero Treuner <gero@70t.de>
 	Gero Treuner <gerotick@faveve.uni-stuttgart.de>
+	gt_16_gitlab.com@innocircle.com <gt_16_gitlab.com@innocircle.com>
 
 Gregory Shapiro	dev.mutt.org@g.gshapiro.net
 	Gregory Shapiro <dev.mutt.org@g.gshapiro.net>
@@ -475,6 +490,9 @@ Petr Písař	petr.pisar@atlas.cz
 Phil Pennock	mutt-dev@spodhuis.demon.nl
 	Phil Pennock <mutt-dev@spodhuis.demon.nl>
 
+Philipp Gesang	philipp.gesang@intra2net.com
+	Philipp Gesang <philipp.gesang@intra2net.com>
+
 Piarres Beobide Egaña	pi@beobide.net
 	Piarres Beobide Egaña <pi@beobide.net>
 	pi <pi@beobide.net>
@@ -515,6 +533,9 @@ Roman Kagan	rkagan@mail.ru
 Roman Kraevskiy	rkraevskiy@gmail.com
 	Roman Kraevskiy <rkraevskiy@gmail.com>
 
+Rosen Penev	rosenp@gmail.com
+	Rosen Penev <rosenp@gmail.com>
+
 Ronny Haryanto	ronny@haryan.to
 	Ronny Haryanto <ronny@haryan.to>
 	Ronny Haryanto <ronnylist@haryan.to>
@@ -530,6 +551,9 @@ Rupert Levene	rupert@levene.dyndns.org
 
 Sahil Tandon	sahil@brandeis.edu
 	Sahil Tandon <sahil@brandeis.edu>
+
+Sam Pablo Kuper	sampablokuper@riseup.net
+	Sam Pablo Kuper <sampablokuper@riseup.net>
 
 Sami Farin	hvtaifwkbgefbaei@gmail.com
 	Sami Farin <hvtaifwkbgefbaei@gmail.com>

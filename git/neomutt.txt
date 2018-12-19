@@ -1,6 +1,9 @@
 Adam Borowski	kilobyte@angband.pl	kilobyte
 	Adam Borowski <kilobyte@angband.pl>
 
+Ahmed El Gabri	ahmed@gabri.me	ahmedelgabri
+	Ahmed El Gabri <ahmed@gabri.me>
+
 Alad Wenter	AladW@users.noreply.github.com	aladw
 	Alad Wenter <AladW@users.noreply.github.com>
 
@@ -17,6 +20,7 @@ Andreas Rammhold	andreas@rammhold.de	andir
 	Andreas Rammhold <andreas@rammhold.de>
 
 André Berger	ab@andreberger.eu	hvkls
+	ab <Andre Berger andre.berger@web.de>
 	André Berger <ab@andreberger.eu>
 	André Berger <andre.berger@web.de>
 
@@ -87,6 +91,10 @@ Damien Riegel	damien.riegel@gmail.com	d-k-c
 	Damien Riegel <damien.riegel@savoirfairelinux.com>
 	Damien Riegel <damien@riegel.io>
 
+Dapeng Gao	peter@dpgao.cc	dpgao
+	Dapeng Gao <31944689+dpgao@users.noreply.github.com>
+	Dapeng Gao <peter@dpgao.cc>
+
 Darshit Shah	darnir@gmail.com	darnir
 	Darshit Shah <darnir@gmail.com>
 	Darshit Shah <darnir@users.noreply.github.com>
@@ -98,6 +106,9 @@ David Sterba	dsterba@suse.cz	kdave
 Dimitrios Semitsoglou-Tsiapos	kmhzsem@gmx.com	dset0x
 	Dimitrios Semitsoglou-Tsiapos <kmhzsem@gmx.com>
 
+Doron Behar	doron.behar@gmail.com	doronbehar
+	Doron Behar <doron.behar@gmail.com>
+
 Doug Stone-Weaver	doug@stone-weaver.com	doweaver
 	Doug Stone-Weaver <doug@stone-weaver.com>
 
@@ -106,6 +117,9 @@ Edward Betts	edward@4angle.com	edwardbetts
 
 El Acheche ANIS	elacheche@ubuntu.com	elacheche
 	El Acheche ANIS <elacheche@ubuntu.com>
+
+Eli Winderickx	eli.winderickx@ap.be
+	Winderickx Eli (p087068) <eli.winderickx@ap.be>
 
 Elimar Riesebieter	riesebie@lxtec.de	riesebie
 	Elimar Riesebieter <riesebie@lxtec.de>
@@ -124,6 +138,9 @@ Federico Kircheis	federico.kircheis@gmail.com	fekir
 Florian Klink	flokli@flokli.de	flokli
 	Florian Klink <flokli@flokli.de>
 
+Florian Wehner	florian@whnr.de	whnr
+	Florian Wehner <florian@whnr.de>
+
 Floyd Anderson	f.a@31c0.net	floand
 	Floyd Anderson <f.a@31c0.net>
 
@@ -137,7 +154,8 @@ Guillaume Brogi	gui-gui@netcourrier.com	guiniol
 Hugo Barrera	hugo@barrera.io	whynothugo
 	Hugo Osvaldo Barrera <hugo@barrera.io>
 
-Ian Zimmerman	itz@very.loosely.org	nobrowser
+Ian Zimmerman	itz@no-use.mooo.com	nobrowser
+	Ian Zimmerman <itz@no-use.mooo.com>
 	Ian Zimmerman <itz@primate.net>
 	Ian Zimmerman <itz@very.loosely.org>
 	Ian Zimmerman <nobrowser@users.noreply.github.com>
@@ -164,6 +182,9 @@ Jakub Jindra	jakub.jindra@socialbakers.com	jindraj
 Jakub Wilk	jwilk@jwilk.net	jwilk
 	Jakub Wilk <jwilk@jwilk.net>
 
+James Vaughan	james@jamesbvaughan.com	jamesbvaughan
+	James Vaughan <james@jamesbvaughan.com>
+
 Jasper Adriaanse	jasper@humppa.nl	jasperla
 	Jasper Lievisse Adriaanse <jasper@humppa.nl>
 
@@ -187,6 +208,9 @@ Johannes Weißl	jargon@molb.org	weisslj
 
 Jonathan Perkin	jperkin@netbsd.org	jperkin
 	Jonathan Perkin <jperkin@netbsd.org>
+
+Josh Poimboeuf	jpoimboe@redhat.com	jpoimboe
+	Josh Poimboeuf <jpoimboe@redhat.com>
 
 Joshua Jordi	dracogoyle@gmail.com	jakkinstewart
 	Jakkin <dracogoyle@gmail.com>
@@ -253,8 +277,14 @@ Michael Bazzinotti	mbazzinotti@gmail.com	bazzinotti
 ng0	ng0@infotropique.org	ng-0
 	ng0 <ng0@infotropique.org>
 
+Nicholas Steeves	nsteeves@gmail.com	sten0
+	Nicholas D Steeves <nsteeves@gmail.com>
+
 Nicolas Bock	nicolasbock@gmail.com	nicolasbock
 	Nicolas Bock <nicolasbock@gmail.com>
+
+Pablo Ovelleiro Corral	pablo1@mailbox.org	binaryplease
+	Pablo Ovelleiro Corral <pablo1@mailbox.org>
 
 parazyd	parazyd@dyne.org	parazyd
 	parazyd <parazyd@dyne.org>
@@ -308,6 +338,9 @@ Roger Pau Monne	roger.pau@citrix.com	royger
 Rubén Llorente	rubenllorente@startmail.com	NONE
 	Rubén Llorente <rubenllorente@startmail.com>
 
+ryt	0x747972@gmail.com	0x747972
+	ryt <0x747972@gmail.com>
+
 Santiago Torres	torresariass@gmail.com	santiagotorres
 	Santiago Torres <torresariass@gmail.com>
 
@@ -319,6 +352,9 @@ sharktamer	sharktamer@users.noreply.github.com	sharktamer
 
 Shi Lee	rtlanceroad@gmail.com	rtlanceroad
 	rtlanceroad <rtlanceroad@gmail.com>
+
+Simon Symeonidis	lethaljellybean@gmail.com	psyomn
+	Simon Symeonidis <lethaljellybean@gmail.com>
 
 somini	dev@somini.xyz	somini
 	somini <somini29@yandex.com>
@@ -333,8 +369,16 @@ Stefan Assmann	sassmann@kpanic.de	sassmann
 Stefan Bühler	stbuehler@web.de	stbuehler
 	Stefan Bühler <stbuehler@web.de>
 
+Stefano Zacchiroli	zack@upsilon.cc	zacchiro
+	Stefano Zacchiroli <zack@upsilon.cc>
+
 Stephen Gilles	sgilles@math.umd.edu	s-gilles
 	S. Gilles <sgilles@math.umd.edu>
+
+Stefan Kropp	stefan@debxwoody.de	debxwoody
+	DebXWoody <stefan@debxwoody.de>
+	Stefan <32964719+DebXWoody@users.noreply.github.com>
+	Stefan Kropp <stefan@debxwoody.de>
 
 Steven Ragnarök	steven@nuclearsandwich.com	nuclearsandwich
 	Steven! Ragnarök <steven@nuclearsandwich.com>
@@ -350,6 +394,8 @@ Theo Jepsen	theojepsen@gmail.com	theojepsen
 	Theo <theojepsen@g-m-a-i-l-dotcom>
 
 Thiago Costa de Paiva	tecepe@tecepe.eng.br	tecepe
+	tecepe <tecepe@tecepe.eng.br>
+	tecepe <tecepe@users.noreply.github.com>
 	Thiago Costa de Paiva <tcpaiva@cern.ch>
 	Thiago Costa de Paiva <tecepe@tecepe.eng.br>
 
@@ -365,6 +411,9 @@ Thomas Schneider	qsx@qsx.re	qsuscs
 Tobias Angele	toogley@mailbox.org	toogley
 	Tobias Angele <toogley@mailbox.org>
 	toogley <toogley@mailbox.org>
+
+Tobias Stoeckmann	tobias@stoeckmann.org	stoeckmann
+	Tobias Stoeckmann <tobias@stoeckmann.org>
 
 Udo Schweigert	mutt@cert.siemens.de	NONE
 	Udo Schweigert <mutt@cert.siemens.de>
@@ -385,6 +434,9 @@ Will Curry	will@robotican.org	wcurry
 William Pettersson	william.pettersson@gmail.com	wpettersson
 	William Pettersson <william.pettersson+github@gmail.com>
 	William Pettersson <william.pettersson@gmail.com>
+
+x3nb63	25959223+x3nb63@users.noreply.github.com	x3nb63
+	x3nb63 <25959223+x3nb63@users.noreply.github.com>
 
 Yoshiki Vázquez Baeza	yoshiki89@gmail.com	eldeveloper
 	Yoshiki Vázquez Baeza <yoshiki89@gmail.com>
