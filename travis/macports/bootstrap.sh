@@ -11,3 +11,4 @@ unset CC && source /opt/local/share/macports/setupenv.bash
 echo "ui_interactive no" | sudo tee -a /opt/local/etc/macports/macports.conf
 sudo /opt/local/postflight && sudo rm -f /opt/local/postflight
 sudo port -v sync
+set +e

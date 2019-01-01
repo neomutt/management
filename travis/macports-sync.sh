@@ -16,7 +16,7 @@ MGMT=(
 CODE=(
 	".travis.yml"
 	"macports/bootstrap.sh"
-	"macports/Portfile"
+	"macports/mail/neomutt-mp/Portfile"
 )
 
 sync_perform "$@"

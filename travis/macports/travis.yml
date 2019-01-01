@@ -13,7 +13,11 @@ env:
 before_install:
   - source ./macports/bootstrap.sh
 script:
-  - sed -i '' "s|@@REPO_PATH@@|${PWD}|g" macports/Portfile
-  - sudo port install "file://${PWD}/macports" || (port log "file://${PWD}/macports" | tail -n 1000)
-  - port contents "file://${PWD}/macports"
+  - sed -i '' "s|@@REPO_PATH@@|${PWD}|g" macports/mail/neomutt-mp/Portfile
+  - echo "file://${PWD}/macports" | sudo tee -a /opt/local/etc/macports/sources.conf
+  - portindex -e macports
+  - sudo port install neomutt-mp
+  - port contents neomutt-mp
   - neomutt -v
+after_failure:
+  - port log neomutt-mp | tail -n 256 && sleep 8
