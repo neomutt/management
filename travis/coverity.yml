@@ -1,8 +1,7 @@
 notifications:
   email: false
 
-sudo: false
-dist: trusty
+dist: xenial
 
 language: c
 compiler: gcc
