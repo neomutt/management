@@ -48,6 +48,7 @@
 ./usr/share/doc/neomutt/samples/colors.default
 ./usr/share/doc/neomutt/samples/colors.linux
 ./usr/share/doc/neomutt/samples/gpg.rc
+./usr/share/doc/neomutt/samples/mairix_filter.pl
 ./usr/share/doc/neomutt/samples/Mush.rc
 ./usr/share/doc/neomutt/samples/Pine.rc
 ./usr/share/doc/neomutt/samples/sample.mailcap
