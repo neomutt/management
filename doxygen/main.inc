@@ -7,6 +7,7 @@
  * <img style="float: left; padding-right: 0.5em;" src="functions.svg">
  * <img style="float: left; padding-right: 0.5em;" src="enums.svg">
  * <img style="float: left; padding-right: 0.5em;" src="config.svg">
+ * <img style="float: left; padding-right: 0.5em;" src="defines.svg">
  * <img style="float: left; padding-right: 0.5em;" src="members.svg">
  * <br>
  *
@@ -65,7 +66,6 @@
  * | enter.c         | @subpage enter         |
  * | filter.c        | @subpage filter        |
  * | flags.c         | @subpage flags         |
- * | group.c         | @subpage group         |
  * | handler.c       | @subpage handler       |
  * | hdrline.c       | @subpage hdrline       |
  * | help.c          | @subpage help          |
