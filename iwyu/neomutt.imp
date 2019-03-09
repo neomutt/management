@@ -6,8 +6,8 @@
   { include: [ '@"mutt/.*"',   private, '"mutt/mutt.h"',  public ] },
 
   # Include our header, rather than the system header.
-  { include: [ '<curses.h>', private, '"mutt_curses.h"', public ] },
-  { include: [ '<ncursesw/term.h>', private, '"mutt_curses.h"', public ] },
+  { include: [ '<curses.h>',           private, '"mutt_curses.h"', public ] },
+  { include: [ '<ncursesw/term.h>',    private, '"mutt_curses.h"', public ] },
   { include: [ '<ncursesw/ncurses.h>', private, '"mutt_curses.h"', public ] },
 
   # Some glibc headers files cause problems
