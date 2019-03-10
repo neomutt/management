@@ -26,8 +26,6 @@ digraph libmutt
 	date    -> string
 	envlist -> string
 	file    -> string
-	group   -> hash
-	group   -> regex
 	hash    -> string
 	history -> charset
 	history -> hash
