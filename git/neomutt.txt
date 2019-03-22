@@ -16,6 +16,12 @@ Alex Pearce	alex@alexpearce.me	alexpearce
 Alexandre Simon	as@as-home.fr	igit
 	Alexandre SIMON <as@as-home.fr>
 
+Alvaro Herrera	alvherre@alvh.no-ip.org	alvherre
+	Alvaro Herrera <alvherre@alvh.no-ip.org>
+
+Alyssa Ross	hi@alyssa.is	alyssais
+	Alyssa Ross <hi@alyssa.is>
+
 Andreas Rammhold	andreas@rammhold.de	andir
 	Andreas Rammhold <andreas@rammhold.de>
 
@@ -23,6 +29,9 @@ André Berger	ab@andreberger.eu	hvkls
 	ab <Andre Berger andre.berger@web.de>
 	André Berger <ab@andreberger.eu>
 	André Berger <andre.berger@web.de>
+
+Antoine Amarilli	a3nm@a3nm.net	a3nm
+	Antoine Amarilli <a3nm@a3nm.net>
 
 Antoine Beaupré	anarcat@debian.org	anarcat
 	anarcat <anarcat@users.noreply.github.com>
@@ -51,7 +60,7 @@ Bernard Pratz	guyzmo+github+pub@m0g.net	guyzmo
 Bertram Scharpf	software@bertram-scharpf.de	bertramscharpf
 	Bertram Scharpf <software@bertram-scharpf.de>
 
-Bletchley Park	18015852+libBletchley@users.noreply.github.com	libBletchley
+Bletchley Park	18015852+libBletchley@users.noreply.github.com	libbletchley
 	Bletchley Park <18015852+libBletchley@users.noreply.github.com>
 
 Bo Yu	tsu.yubo@gmail.com	yuzibo
@@ -118,7 +127,7 @@ Edward Betts	edward@4angle.com	edwardbetts
 El Acheche ANIS	elacheche@ubuntu.com	elacheche
 	El Acheche ANIS <elacheche@ubuntu.com>
 
-Eli Winderickx	eli.winderickx@ap.be
+Eli Winderickx	eli.winderickx@ap.be	NONE
 	Winderickx Eli (p087068) <eli.winderickx@ap.be>
 
 Elimar Riesebieter	riesebie@lxtec.de	riesebie
@@ -146,6 +155,9 @@ Floyd Anderson	f.a@31c0.net	floand
 
 František Hájik	ferko.hajik@gmail.com	ferkohajik
 	František Hájik <ferko.hajik@gmail.com>
+
+Frederick Eaton	frederik@ofb.net	archenemies
+	Frederick Eaton <frederik@ofb.net>
 
 Guillaume Brogi	gui-gui@netcourrier.com	guiniol
 	Guillaume Brogi <gui-gui@netcourrier.com>
@@ -264,6 +276,9 @@ Marco Sirabella	marco@sirabella.org	mjsir911
 Marius Gedminas	marius@gedmin.as	mgedmin
 	Marius Gedminas <marius@gedmin.as>
 
+Mark Stenglein	mark@stengle.in	ocelotsloth
+	Mark Stenglein <mark@stengle.in>
+
 Mateusz Piotrowski	mpp302@gmail.com	0mp
 	Mateusz Piotrowski <mpp302@gmail.com>
 
@@ -273,6 +288,12 @@ Mehdi Abaakouk	sileht@sileht.net	sileht
 
 Michael Bazzinotti	mbazzinotti@gmail.com	bazzinotti
 	Michael J. Bazzinotti <mbazzinotti@gmail.com>
+
+Nagefire	nagefire.dev@gmail.com	nagefire
+	Nagefire <nagefire.dev@gmail.com>
+
+Naveen Nathan	naveen@lastninja.net	nnathan
+	Naveen Nathan <naveen@lastninja.net>
 
 ng0	ng0@infotropique.org	ng-0
 	ng0 <ng0@infotropique.org>
@@ -402,6 +423,9 @@ Thiago Costa de Paiva	tecepe@tecepe.eng.br	tecepe
 Thomas Adam	thomas@xteddy.org	thomasadam
 	Thomas Adam <thomas@xteddy.org>
 
+Thomas Jarosch	thomas.jarosch@intra2net.com	thomasjfox
+	Thomas Jarosch <thomas.jarosch@intra2net.com>
+
 Thomas Klausner	wiz@netbsd.org	0-wiz-0
 	Thomas Klausner <wiz@netbsd.org>
 
@@ -417,6 +441,9 @@ Tobias Stoeckmann	tobias@stoeckmann.org	stoeckmann
 
 Udo Schweigert	mutt@cert.siemens.de	NONE
 	Udo Schweigert <mutt@cert.siemens.de>
+
+Victor Fernandes	criw@pm.me	ghikio
+	Victor Fernandes <criw@pm.me>
 
 Vladimir Zakharov	zakharov.vv@gmail.com	z2v
 	Vladimir Zakharov <zakharov.vv@gmail.com>

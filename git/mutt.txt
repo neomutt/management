@@ -129,6 +129,9 @@ Consus	consus@gmx.com
 convert-repo	unknown
 	convert-repo <unknown>
 
+Corey Minyard	cminyard@mvista.com
+	Corey Minyard <cminyard@mvista.com>
+
 Dale Woolridge	dale-list-mutt-dev-2@woolridge.org
 	Dale Woolridge <dale-flea-mutt-bug@woolridge.org>
 	Dale Woolridge <dale-list-mutt-dev-2@woolridge.org>
@@ -430,6 +433,9 @@ Morten Bo Johansen	mbj@spamcop.net
 	Morten Bo Johansen <mojo@mbjnet.dk>
 	Morten Bo Johansen <morten.bo.johansen@gmail.com>
 
+Muh Muhten	muh.muhten@gmail.com
+	Muh Muhten <muh.muhten@gmail.com>
+
 N.J. Mann	njm@njm.f2s.com
 	N.J. Mann <njm@njm.f2s.com>
 
@@ -579,6 +585,9 @@ Simon Ruderich	simon@ruderich.org
 
 Stefan Kuhn	wuodan@hispeed.ch
 	Stefan Kuhn <wuodan@hispeed.ch>
+
+Stefan Strogin	stefan.strogin@gmail.com
+	Stefan Strogin <stefan.strogin@gmail.com>
 
 Steve Kemp	skx@debian.org
 	Steve Kemp <skx@debian.org>
