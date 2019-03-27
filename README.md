@@ -78,8 +78,6 @@ These are copies of our Travis control files.
 | [master.yml](travis/master.yml)         | [https://github.com/neomutt/neomutt/tree/master](https://github.com/neomutt/neomutt/tree/master)                   |
 | [translate.yml](travis/translate.yml)   | [https://github.com/neomutt/neomutt/tree/translate](https://github.com/neomutt/neomutt/tree/translate)             |
 
-
-
 ## Min-Build
 
 This script minimises a NeoMutt git repo.
@@ -103,4 +101,15 @@ For those times that you just want to look at the **code**.
 | [stats.sh](translate/stats.sh)                                 | Parse the translation files into statistics  |
 | [travis-deploy-github.enc](translate/travis-deploy-github.enc) | Encrypted gpg key (decryption key on Travis) |
 | [travis.yml](translate/travis.yml)                             | Travis control script                        |
+
+## Universal Ctags
+
+These files configure [Universal Ctags](https://ctags.io/) to parse some of
+NeoMutt's pre-processor macros.
+
+The `ctags` directory can be symlinked from your home dir as `.ctags.d`
+
+| File                             | Description                                 |
+| :------------------------------- | :------------------------------------------ |
+| [queue.ctags](ctags/queue.ctags) | Expand macros to reveal the struct within   |
 

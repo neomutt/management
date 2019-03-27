@@ -1,0 +1,3 @@
+-D SLIST_HEAD(name,type)=struct name {}
+-D STAILQ_HEAD(name,type)=struct name {}
+-D TAILQ_HEAD(name,type)=struct name {}
