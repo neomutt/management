@@ -85,10 +85,10 @@ Bjoern Jacke	bjoern@j3e.de
 	Bjoern Jacke <bjoern@j3e.de>
 	Bjoern Jacke <muttbug@j3e.de>
 
-Brandon Long	blong@fiction.net	blong42
+Brandon Long	blong@fiction.net
 	Brandon Long <blong@fiction.net>
 
-Brendan Cully	brendan@cully.org	bcully
+Brendan Cully	brendan@cully.org
 	Brendan Cully <brendan@cully.org>
 	Brendan Cully <brendan@kublai.com>
 
