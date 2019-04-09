@@ -89,7 +89,6 @@
  * | mutt_signal.c   | @subpage mutt_signal   |
  * | mutt_socket.c   | @subpage mutt_socket   |
  * | mutt_thread.c   | @subpage mutt_thread   |
- * | mutt_url.c      | @subpage mutt_url      |
  * | mutt_window.c   | @subpage window        |
  * | mx.c            | @subpage mx            |
  * | myvar.c         | @subpage myvar         |
@@ -104,7 +103,6 @@
  * | resize.c        | @subpage resize        |
  * | rfc1524.c       | @subpage rfc1524       |
  * | rfc3676.c       | @subpage rfc3676       |
- * | safe_asprintf.c | @subpage safe_asprintf |
  * | score.c         | @subpage score         |
  * | send.c          | @subpage send          |
  * | sendlib.c       | @subpage sendlib       |
