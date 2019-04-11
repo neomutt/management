@@ -368,10 +368,10 @@ Santiago Torres	torresariass@gmail.com	santiagotorres
 Serge Gebhardt	serge.gebhardt@gmail.com	sgeb
 	Serge Gebhardt <serge.gebhardt@gmail.com>
 
-sharktamer	sharktamer@users.noreply.github.com	sharktamer
+sharktamer	sharktamer@users.noreply.github.com	NONE
 	sharktamer <sharktamer@users.noreply.github.com>
 
-Shi Lee	rtlanceroad@gmail.com	rtlanceroad
+Shi Lee	rtlanceroad@gmail.com	NONE
 	rtlanceroad <rtlanceroad@gmail.com>
 
 Simon Symeonidis	lethaljellybean@gmail.com	psyomn
