@@ -85,7 +85,7 @@ Chris Salzberg	chris@dejimata.com	shioyama
 Christian Dröge	mail@cdroege.de	cdroege
 	Christian Dröge <mail@cdroege.de>
 
-Christoph Berg	cb@df7cb.de	christophberg
+Christoph Berg	cb@df7cb.de	NONE
 	Christoph Berg <cb@df7cb.de>
 
 cinder88	aerlanger@owlcti.com	cinder88
@@ -368,7 +368,8 @@ Santiago Torres	torresariass@gmail.com	santiagotorres
 Serge Gebhardt	serge.gebhardt@gmail.com	sgeb
 	Serge Gebhardt <serge.gebhardt@gmail.com>
 
-sharktamer	sharktamer@users.noreply.github.com	NONE
+Shane Donohoe	donohoe.shane@gmail.com	shanedabes
+	Shane Donohoe <donohoe.shane@gmail.com>
 	sharktamer <sharktamer@users.noreply.github.com>
 
 Shi Lee	rtlanceroad@gmail.com	NONE
@@ -393,7 +394,7 @@ Stefan Bühler	stbuehler@web.de	stbuehler
 Stefano Zacchiroli	zack@upsilon.cc	zacchiro
 	Stefano Zacchiroli <zack@upsilon.cc>
 
-Stephen Gilles	sgilles@math.umd.edu	s-gilles
+Stephen Gilles	sgilles@math.umd.edu	NONE
 	S. Gilles <sgilles@math.umd.edu>
 
 Stefan Kropp	stefan@debxwoody.de	debxwoody
