@@ -25,13 +25,13 @@ function zzz_config()
 		if [[ "$L" =~ .*[[:space:]*](.*)[[:space:]]=[[:space:]].*\;[[:space:]]*/\*\*\<[[:space:]]Config:[[:space:]](.*)[[:space:]]\*/ ]]; then
 			VAR="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[2]}"
-			CFG="$(echo "$VAR" | sed -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
+			CFG="$(echo "$VAR" | sed -e 's/\<C_//' -e 's/8bit/_&/' -e 's/\(Tlsv1\)\([0-9]\)/\1_\2/' -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
 
 			echo " * | '$CFG' | #$VAR | $DESC |"
 		elif [[ "$L" =~ .*[[:space:]*](.*)\;[[:space:]]*/\*\*\<[[:space:]]Config:[[:space:]](.*)[[:space:]]\*/ ]]; then
 			VAR="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[2]}"
-			CFG="$(echo "$VAR" | sed -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
+			CFG="$(echo "$VAR" | sed -e 's/\<C_//' -e 's/8bit/_&/' -e 's/\(Tlsv1\)\([0-9]\)/\1_\2/' -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
 
 			echo " * | '$CFG' | #$VAR | $DESC |"
 		fi
@@ -62,13 +62,13 @@ function zzz_config_summary()
 		if [[ "$L" =~ .*[[:space:]*](.*)[[:space:]]=[[:space:]].*\;[[:space:]]*///\<[[:space:]]Config:[[:space:]](.*) ]]; then
 			VAR="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[2]}"
-			CFG="$(echo "$VAR" | sed -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
+			CFG="$(echo "$VAR" | sed -e 's/\<C_//' -e 's/8bit/_&/' -e 's/\(Tlsv1\)\([0-9]\)/\1_\2/' -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
 
 			echo " * | #$VAR | \$$CFG | $DESC |"
 		elif [[ "$L" =~ .*[[:space:]*](.*)\;[[:space:]]*///\<[[:space:]]Config:[[:space:]](.*) ]]; then
 			VAR="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[2]}"
-			CFG="$(echo "$VAR" | sed -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
+			CFG="$(echo "$VAR" | sed -e 's/\<C_//' -e 's/8bit/_&/' -e 's/\(Tlsv1\)\([0-9]\)/\1_\2/' -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
 
 			echo " * | #$VAR | \$$CFG | $DESC |"
 		else
@@ -196,6 +196,7 @@ if [ -n "$TRAVIS" ]; then
 fi
 
 build_zzz \
+	address/*.c \
 	config/*.c \
 	conn/*.c \
 	email/*.c \
@@ -211,7 +212,7 @@ build_zzz \
 	pop/*.c \
 	*.c > zzz.inc
 
-zzz_config_summary *.[ch] {config,conn,email,hcache,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop}/*.[ch] \
+zzz_config_summary *.[ch] {address,config,conn,email,hcache,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop}/*.[ch] \
 	| grep -v -e SslUseSslv2 -e SslUsesystemcerts >> zzz.inc
 
 build_docs

@@ -23,21 +23,17 @@ digraph libemail
 
 	thread    [ label="MuttThread" ]
 	envelope  [ label="Envelope"   ]
-	address   [ label="Address"    ]
 	content   [ label="Content"    ]
 	attachptr [ label="AttachPtr"  ]
 	body      [ label="Body"       ]
 	email     [ label="Email"      ]
 	parameter [ label="Parameter"  ]
 	tags      [ label="Tags"       ]
-	group     [ label="Group"      ]
 
 	attachptr -> body
 	body      -> attachptr
 	body      -> content
 	body      -> parameter
-	group     -> address
-	envelope  -> address
 	email     -> body
 	email     -> envelope
 	email     -> tags

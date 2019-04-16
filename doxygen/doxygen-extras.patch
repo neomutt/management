@@ -1,40 +1,32 @@
-From 90c685925b0b854d0f28d9c2e6766e923bb8e594 Mon Sep 17 00:00:00 2001
-From: Richard Russon <rich@flatcap.org>
-Date: Thu, 27 Sep 2018 11:07:48 +0100
-Subject: [PATCH] doxy
-
----
- Makefile.autosetup | 6 ++++++
- email/lib.h        | 2 ++
- mutt/mutt.h        | 2 ++
- 3 files changed, 10 insertions(+)
-
 diff --git a/Makefile.autosetup b/Makefile.autosetup
-index 697134f1c..3a05af8c2 100644
+index 2ba78677a..0fedab3f5 100644
 --- a/Makefile.autosetup
 +++ b/Makefile.autosetup
-@@ -425,10 +425,16 @@ distclean: clean
- 	$(RM) $(DEPFILES) .clang_complete autosetup/jimsh0 config.h config.log \
- 		conststrings.c contrib/Makefile doc/Makefile doc/neomutt.1 \
+@@ -442,6 +442,7 @@ distclean: clean
  		html Makefile po/Makefile test/Makefile
+ 	$(RM) *.gc?? */*.gc?? test/*/*.gc??
+ 	$(RM) lcov.info lcov
 +	$(RM) zzz.inc doxygen-build.txt tmp.txt
  
- # Tests for the config code
- config-test: libmutt.a libemail.a libconfig.a
+ # coverage testing
+ coverage: all test
+@@ -450,6 +451,11 @@ coverage: all test
+ 	lcov -t "result" -o lcov.info -c -d mutt -d config
+ 	genhtml -o lcov lcov.info
  
 +# Web Code docs (doxygen)
 +.PHONY: html $(PWD)/mutt
 +html:
 +	$(SRCDIR)/doxygen/generate.sh
 +
- ##############################################################################
- # include generated dependency files
- -include $(DEPFILES)
+ # Tests for the config code
+ config-test: libmutt.a libemail.a libconfig.a libaddress.a
+ 
 diff --git a/email/lib.h b/email/lib.h
-index ef1a20a8a..5794d4111 100644
+index 6b086a8ea..7d050b8e3 100644
 --- a/email/lib.h
 +++ b/email/lib.h
-@@ -43,6 +43,8 @@
+@@ -41,6 +41,8 @@
   * | email/tags.c           | @subpage email_tags      |
   * | email/thread.c         | @subpage email_thread    |
   * | email/url.c            | @subpage email_url       |

@@ -24,6 +24,7 @@
  *
  * | Library      |
  * | :----------- |
+ * | @ref address |
  * | @ref config  |
  * | @ref conn    |
  * | @ref email   |
@@ -58,6 +59,7 @@
  * | complete.c      | @subpage complete      |
  * | compose.c       | @subpage compose       |
  * | compress.c      | @subpage compress      |
+ * | context.c       | @subpage ctx           |
  * | copy.c          | @subpage copy          |
  * | curs_lib.c      | @subpage curs_lib      |
  * | edit.c          | @subpage edit          |
@@ -70,6 +72,7 @@
  * | hdrline.c       | @subpage hdrline       |
  * | help.c          | @subpage help          |
  * | hook.c          | @subpage hook          |
+ * | icommands.c     | @subpage icommands     |
  * | index.c         | @subpage index2        |
  * | init.c          | @subpage init          |
  * | keymap.c        | @subpage keymap        |
