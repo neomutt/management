@@ -85,6 +85,9 @@ Chris Salzberg	chris@dejimata.com	shioyama
 Christian Dröge	mail@cdroege.de	cdroege
 	Christian Dröge <mail@cdroege.de>
 
+Christian Storm	storm@mailbox.org	stormc
+	Christian Storm <storm@mailbox.org>
+
 Christoph Berg	cb@df7cb.de	NONE
 	Christoph Berg <cb@df7cb.de>
 
@@ -104,7 +107,8 @@ Dapeng Gao	peter@dpgao.cc	dpgao
 	Dapeng Gao <31944689+dpgao@users.noreply.github.com>
 	Dapeng Gao <peter@dpgao.cc>
 
-Darshit Shah	darnir@gmail.com	darnir
+Darshit Shah	git@darnir.net	darnir
+	Darshit Shah <git@darnir.net>
 	Darshit Shah <darnir@gmail.com>
 	Darshit Shah <darnir@users.noreply.github.com>
 
@@ -288,6 +292,9 @@ Mehdi Abaakouk	sileht@sileht.net	sileht
 
 Michael Bazzinotti	mbazzinotti@gmail.com	bazzinotti
 	Michael J. Bazzinotti <mbazzinotti@gmail.com>
+
+Mingcong Bai	jeffbai@aosc.xyz	MingcongBai
+	Mingcong Bai <jeffbai@aosc.xyz>
 
 Nagefire	nagefire.dev@gmail.com	nagefire
 	Nagefire <nagefire.dev@gmail.com>
