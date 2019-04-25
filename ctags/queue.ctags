@@ -1,3 +1,9 @@
+-D LIST_HEAD(name,type)=struct name {}
 -D SLIST_HEAD(name,type)=struct name {}
 -D STAILQ_HEAD(name,type)=struct name {}
 -D TAILQ_HEAD(name,type)=struct name {}
+
+-D LIST_ENTRY(name)=struct name##_entries
+-D SLIST_ENTRY(name)=struct name##_entries
+-D STAILQ_ENTRY(name)=struct name##_entries
+-D TAILQ_ENTRY(name)=struct name##_entries

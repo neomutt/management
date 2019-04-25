@@ -1,0 +1,2 @@
+# Ignore the INITVAL, so ctags can recognise the global variable
+-D INITVAL(name)=
