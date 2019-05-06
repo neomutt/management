@@ -52,7 +52,7 @@ function zzz_config_summary()
 	echo "/**"
 	echo " * @page config_vars Neomutt's Configuration variables"
 	echo " *"
- 	echo " * Brief overview of all of Neomutt's Configuration variables."
+	echo " * Brief overview of all of Neomutt's Configuration variables."
 	echo " *"
 	echo " * | Global Variable | Config Item | Description |"
 	echo " * | :-------------- | :---------- | :---------- |"
