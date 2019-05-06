@@ -146,6 +146,7 @@ set imap_peek = no
 set imap_pipeline_depth = 30
 set imap_poll_timeout = 30
 set imap_qresync = yes
+set imap_rfc5161 = no
 set imap_servernoise = no
 set imap_user = "user"
 set implicit_autoview = yes
