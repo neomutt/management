@@ -119,7 +119,6 @@ nobrowser       <itz@no-use.mooo.com>                 Ian Zimmerman <itz@primate
 nobrowser       <itz@no-use.mooo.com>                 Ian Zimmerman <itz@very.loosely.org>
 nobrowser       <itz@no-use.mooo.com>                 Ian Zimmerman <nobrowser@users.noreply.github.com>
 NONE            <cb@df7cb.de>                         Christoph Berg <cb@df7cb.de>
-NONE            <eli.winderickx@ap.be>                Winderickx Eli (p087068) <eli.winderickx@ap.be>
 NONE            <mutt@cert.siemens.de>                Udo Schweigert <mutt@cert.siemens.de>
 NONE            <regid23@nt1.in>                      Regid Ichira <regid23@nt1.in>
 NONE            <rtlanceroad@gmail.com>               rtlanceroad <rtlanceroad@gmail.com>
@@ -185,6 +184,7 @@ wcurry          <will@robotican.org>                  Will Curry <will@robotican
 weisslj         <jargon@molb.org>                     Johannes Weißl <jargon@molb.org>
 whnr            <florian@whnr.de>                     Florian Wehner <florian@whnr.de>
 whynothugo      <hugo@barrera.io>                     Hugo Osvaldo Barrera <hugo@barrera.io>
+winderickxeli   <eli.winderickx@ap.be>                Winderickx Eli (p087068) <eli.winderickx@ap.be>
 wpettersson     <william.pettersson@gmail.com>        William Pettersson <william.pettersson+github@gmail.com>
 wpettersson     <william.pettersson@gmail.com>        William Pettersson <william.pettersson@gmail.com>
 x3nb63          <25959223+x3nb63@users.noreply.github.com> x3nb63 <25959223+x3nb63@users.noreply.github.com>
@@ -298,6 +298,7 @@ UPSTREAM <dev@mutt.org> Im Eunjea <eunjea@koru.org>
 UPSTREAM <dev@mutt.org> Ivan Vilata i Balaguer <ivan@selidor.net>
 UPSTREAM <dev@mutt.org> James McCoy <jamessan@jamessan.com>
 UPSTREAM <dev@mutt.org> Jeff Ito <jeffi@rcn.com>
+UPSTREAM <dev@mutt.org> Jeremy Sowden <jeremy@azazel.net>
 UPSTREAM <dev@mutt.org> Jesus Climent <jesus.climent@hispalinux.es>
 UPSTREAM <dev@mutt.org> Jim Mock <mij@soupnazi.org>
 UPSTREAM <dev@mutt.org> Joel Dahl <joel@freebsd.org>
@@ -312,6 +313,7 @@ UPSTREAM <dev@mutt.org> Joël Riou <joel.riou@normalesup.org>
 UPSTREAM <dev@mutt.org> Juan Altmayer Pizzorno <juan@altmayer.com>
 UPSTREAM <dev@mutt.org> Jukka Salmi <j+mutt@2007.salmi.ch>
 UPSTREAM <dev@mutt.org> Jukka Salmi <jukka@salmi.ch>
+UPSTREAM <dev@mutt.org> Julian Gilbey <julian-git@d-and-j.net>
 UPSTREAM <dev@mutt.org> Julien Cristau <unknown>
 UPSTREAM <dev@mutt.org> Julius Plenz <plenz@cis.fu-berlin.de>
 UPSTREAM <dev@mutt.org> Jörgen Tegnér <jorgen.tegner@telia.com>

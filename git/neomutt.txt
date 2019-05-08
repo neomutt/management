@@ -131,7 +131,7 @@ Edward Betts	edward@4angle.com	edwardbetts
 El Acheche ANIS	elacheche@ubuntu.com	elacheche
 	El Acheche ANIS <elacheche@ubuntu.com>
 
-Eli Winderickx	eli.winderickx@ap.be	NONE
+Eli Winderickx	eli.winderickx@ap.be	winderickxeli
 	Winderickx Eli (p087068) <eli.winderickx@ap.be>
 
 Elimar Riesebieter	riesebie@lxtec.de	riesebie

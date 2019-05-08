@@ -278,6 +278,9 @@ James McCoy	jamessan@jamessan.com
 Jeff Ito	jeffi@rcn.com
 	Jeff Ito <jeffi@rcn.com>
 
+Jeremy Sowden	jeremy@azazel.net
+	Jeremy Sowden <jeremy@azazel.net>
+
 Jesus Climent	jesus.climent@hispalinux.es
 	Jesus Climent <jesus.climent@hispalinux.es>
 	Unknown <jesus.climent@hispalinux.es>
@@ -319,6 +322,9 @@ Juan Altmayer Pizzorno	juan@altmayer.com
 Jukka Salmi	jukka@salmi.ch
 	Jukka Salmi <j+mutt@2007.salmi.ch>
 	Jukka Salmi <jukka@salmi.ch>
+
+Julian Gilbey	julian-git@d-and-j.net
+	Julian Gilbey <julian-git@d-and-j.net>
 
 Julien Cristau	unknown
 	Julien Cristau <unknown>
