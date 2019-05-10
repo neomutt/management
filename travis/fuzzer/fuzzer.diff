@@ -1,0 +1,80 @@
+diff --git c/.gitignore w/.gitignore
+index 34272350b..91c64e337 100644
+--- c/.gitignore
++++ w/.gitignore
+@@ -47,6 +47,7 @@ test/string-test
+ test/tags-test
+ test/thread-test
+ test/url-test
++fuzz/address-fuzz
+ 
+ # Build products
+ *.o
+diff --git c/Makefile.autosetup w/Makefile.autosetup
+index e01d2b22e..05dd3604a 100644
+--- c/Makefile.autosetup
++++ w/Makefile.autosetup
+@@ -465,5 +465,8 @@ include doc/Makefile
+ @if ENABLE_UNIT_TESTS
+ include test/Makefile
+ @endif
++@if ENABLE_FUZZ_TESTS
++include fuzz/Makefile
++@endif
+ 
+ # vim: set ts=8 noexpandtab:
+diff --git c/auto.def w/auto.def
+index 5988a9571..ddf7a3f76 100644
+--- c/auto.def
++++ w/auto.def
+@@ -92,6 +92,8 @@ options {
+ # Testing
+   testing=0                 => "Enable Unit Testing"
+   coverage=0                => "Enable Coverage Testing"
++# Fuzzing
++  fuzzing                   => "Enable Fuzz Testing"
+ # Enable all options
+   everything=0              => "Enable all options"
+ }
+@@ -104,7 +106,7 @@ options {
+ if {1} {
+   # Keep sorted, please.
+   foreach opt {
+-    bdb coverage doc everything fmemopen full-doc gdbm gnutls gpgme gss
++    bdb coverage doc everything fmemopen full-doc fuzzing gdbm gnutls gpgme gss
+     homespool idn idn2 inotify kyotocabinet lmdb locales-fix lua mixmaster nls
+     notmuch pgp qdbm sasl smime ssl testing tokyocabinet
+   } {
+@@ -465,6 +467,13 @@ if {[get-define want-testing]} {
+   lappend subdirs test
+ }
+ 
++###############################################################################
++# Fuzz Testing
++if {[get-define want-fuzzing]} {
++  define ENABLE_FUZZ_TESTS
++  lappend subdirs fuzz
++}
++
+ ###############################################################################
+ # Lua
+ if {[get-define want-lua]} {
+diff --git c/main.c w/main.c
+index a82d9bcf1..22aebd105 100644
+--- c/main.c
++++ w/main.c
+@@ -403,7 +403,13 @@ bool get_user_info(struct ConfigSet *cs)
+  * @retval 0 Success
+  * @retval 1 Error
+  */
+-int main(int argc, char *argv[], char *envp[])
++int
++#ifdef ENABLE_FUZZ_TESTS
++disabled_main
++#else
++main
++#endif
++(int argc, char *argv[], char *envp[])
+ {
+   char *subject = NULL;
+   char *include_file = NULL;
