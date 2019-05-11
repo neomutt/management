@@ -53,6 +53,7 @@
 ./usr/share/doc/neomutt/samples/Pine.rc
 ./usr/share/doc/neomutt/samples/sample.mailcap
 ./usr/share/doc/neomutt/samples/sample.neomuttrc
+./usr/share/doc/neomutt/samples/sample.neomuttrc-starter
 ./usr/share/doc/neomutt/samples/sample.neomuttrc-tlr
 ./usr/share/doc/neomutt/samples/smime.rc
 ./usr/share/doc/neomutt/samples/smime_keys_test.pl
