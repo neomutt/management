@@ -35,7 +35,7 @@ eval INSTALL_DIR="~/install"
 BUILD_DEFAULT=""
 BUILD_EVERYTHING="--everything"
 BUILD_SLANG="--with-ui=slang --with-lock=flock --with-domain=example.com --fmemopen --homespool --locales-fix --mixmaster --ssl"
-BUILD_CURSES="--with-ui=ncurses --with-lock=fcntl --gnutls --gpgme --gss --sasl --lua --notmuch --bdb --gdbm --kyotocabinet --lmdb --qdbm --tokyocabinet --full-doc"
+BUILD_CURSES="--with-ui=ncurses --with-lock=fcntl --gnutls --gpgme --gss --sasl --lua --notmuch --bdb --gdbm --kyotocabinet --lmdb --qdbm --tokyocabinet --full-doc --testing --coverage"
 
 SOFT_FAIL=()
 
