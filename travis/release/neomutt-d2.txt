@@ -85,6 +85,7 @@ set external_search_command = "/usr/bin/grep"
 set fast_reply = yes
 set fcc_attach = no
 set fcc_clear = yes
+set fcc_before_send = yes
 set flag_chars = "*!DDRONON- "
 set flag_safe = yes
 set folder = "~/mail"

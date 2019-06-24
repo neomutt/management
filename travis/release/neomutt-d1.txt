@@ -84,6 +84,7 @@ set escape = "~"
 set external_search_command = ""
 set fast_reply = no
 set fcc_attach = yes
+set fcc_before_send = no
 set fcc_clear = no
 set flag_chars = "*!DdrONon- "
 set flag_safe = no
