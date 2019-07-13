@@ -143,7 +143,7 @@ function zzz_functions()
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[2]}"
 			echo " * | $FUNC() | $DESC |"
-		elif [[ "$L" =~ ^[[:space:]*]*((account|address|attach|bool|ci|command|crypto*_|cs|driver_|dump|getdns|hcache|imap_|km|log_|long|magic|mbox_|mbtable|menu|mix|mmdf_|mutt_|mx_|myvar|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|rfc3676|serial_|smime_|sort|state|string|text|tunnel_|update|url|wcs).*)[[:space:]]-[[:space:]](.*) ]]; then
+		elif [[ "$L" =~ ^[[:space:]*]*((account|address|attach|bool|ci|command|crypto*_|cs|driver_|dump|getdns|hcache|imap_|km|log_|long|magic|mailbox|mbox_|mbtable|menu|mix|mmdf_|mutt_|mx_|myvar|neomutt|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|rfc3676|serial_|smime_|sort|state|string|text|tunnel_|update|url|wcs).*)[[:space:]]-[[:space:]](.*) ]]; then
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[3]}"
 			echo " * | $FUNC() | $DESC |"
@@ -199,6 +199,7 @@ build_zzz \
 	address/*.c \
 	config/*.c \
 	conn/*.c \
+	core/*.c \
 	email/*.c \
 	hcache/*.c \
 	hcache/hcache.h \
@@ -212,7 +213,7 @@ build_zzz \
 	pop/*.c \
 	*.c > zzz.inc
 
-zzz_config_summary *.[ch] {address,config,conn,email,hcache,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop}/*.[ch] \
+zzz_config_summary *.[ch] {address,config,conn,core,email,hcache,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop}/*.[ch] \
 	| grep -v -e SslUseSslv2 -e SslUsesystemcerts >> zzz.inc
 
 build_docs

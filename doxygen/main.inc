@@ -27,6 +27,7 @@
  * | @ref address |
  * | @ref config  |
  * | @ref conn    |
+ * | @ref core    |
  * | @ref email   |
  * | @ref hcache  |
  * | @ref imap    |
@@ -49,9 +50,9 @@
  *
  * | File            | Description            |
  * | :-------------- | :--------------------- |
- * | account.c       | @subpage account       |
  * | addrbook.c      | @subpage addrbook      |
  * | alias.c         | @subpage alias         |
+ * | backtrace.c     | @subpage backtrace     |
  * | bcache.c        | @subpage bcache        |
  * | browser.c       | @subpage browser       |
  * | color.c         | @subpage color         |
@@ -76,7 +77,6 @@
  * | index.c         | @subpage index2        |
  * | init.c          | @subpage init          |
  * | keymap.c        | @subpage keymap        |
- * | mailbox.c       | @subpage mailbox       |
  * | main.c          | @subpage main          |
  * | menu.c          | @subpage menu          |
  * | monitor.c       | @subpage monitor       |
