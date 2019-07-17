@@ -71,9 +71,11 @@ mkdir -p "$DIR"
 cd "$DIR"
 rm -fr *
 
-../configure CC="$COMPILER" --disable-doc $OPTIONS >> build.log 2>&1
+../configure CC="$COMPILER" --testing --disable-doc $OPTIONS >> build.log 2>&1
 
 make -j1 -s CC="$COMPILER" EXTRA_CFLAGS="${EXTRA_CFLAGS[*]}" EXTRA_LDFLAGS="${EXTRA_LDFLAGS[*]}" >> build.log 2>&1
+echo make test
+chronic make test
 
 log_success "Build succeeded"
 date '+%F %R:%S'
