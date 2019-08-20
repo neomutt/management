@@ -21,10 +21,10 @@ int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
 		fclose(fp);
 	}
 	fp = fopen(file, "rb");
-	struct Email *e = mutt_email_new();
+	struct Email *e = email_new();
 	struct Envelope *env = mutt_rfc822_read_header(fp, e, 0, 0);
 	mutt_parse_part(fp, e->content);
-	mutt_email_free(&e);
+	email_free(&e);
 	mutt_env_free(&env);
 	fclose(fp);
 	return 0;
