@@ -197,6 +197,7 @@ fi
 
 build_zzz \
 	address/*.c \
+	autocrypt/*.c \
 	config/*.c \
 	conn/*.c \
 	core/*.c \
@@ -213,7 +214,7 @@ build_zzz \
 	pop/*.c \
 	*.c > zzz.inc
 
-zzz_config_summary *.[ch] {address,config,conn,core,email,hcache,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop}/*.[ch] \
+zzz_config_summary *.[ch] {address,autocrypt,config,conn,core,email,hcache,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop}/*.[ch] \
 	| grep -v -e SslUseSslv2 -e SslUsesystemcerts >> zzz.inc
 
 build_docs

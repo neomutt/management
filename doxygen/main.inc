@@ -22,22 +22,23 @@
  * - Fully documented
  * - Robust
  *
- * | Library      |
- * | :----------- |
- * | @ref address |
- * | @ref config  |
- * | @ref conn    |
- * | @ref core    |
- * | @ref email   |
- * | @ref hcache  |
- * | @ref imap    |
- * | @ref maildir |
- * | @ref mbox    |
- * | @ref mutt    |
- * | @ref ncrypt  |
- * | @ref nntp    |
- * | @ref notmuch |
- * | @ref pop     |
+ * | Library        |
+ * | :------------- |
+ * | @ref address   |
+ * | @ref autocrypt |
+ * | @ref config    |
+ * | @ref conn      |
+ * | @ref core      |
+ * | @ref email     |
+ * | @ref hcache    |
+ * | @ref imap      |
+ * | @ref maildir   |
+ * | @ref mbox      |
+ * | @ref mutt      |
+ * | @ref ncrypt    |
+ * | @ref nntp      |
+ * | @ref notmuch   |
+ * | @ref pop       |
  *
  * ## Config Variables
  *
