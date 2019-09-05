@@ -1,7 +1,7 @@
 
 --with-ui=slang
 --disable-nls
---disable-idn
+--disable-idn --idn2
 --disable-pgp
 --disable-smime
 --disable-nls --disable-idn --disable-pgp --disable-smime
@@ -13,6 +13,7 @@
 --notmuch
 --gpgme
 --mixmaster
+--autocrypt --sqlite
 --with-lock=flock --lua --locales-fix --homespool --with-domain=example.com --notmuch --gpgme --mixmaster
 --tokyocabinet --qdbm --gdbm --bdb --lmdb --kyotocabinet
 --gss
