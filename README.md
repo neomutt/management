@@ -113,3 +113,12 @@ The `ctags` directory can be symlinked from your home dir as `.ctags.d`
 | :------------------------------- | :------------------------------------------ |
 | [queue.ctags](ctags/queue.ctags) | Expand macros to reveal the struct within   |
 
+## Doc Bin
+
+A couple of tools for processing DocBook into HTML.
+
+| File                                                  | Description              |
+| :---------------------------------------------------- | :----------------------- |
+| [fix-feature-since.sh](docs-bin/fix-feature-since.sh) | Restore the 'since' date |
+| [transform-links.vim](docs-bin/transform-links.vim)   | Fix the html links       |
+
