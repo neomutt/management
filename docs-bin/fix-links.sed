@@ -1,0 +1,15 @@
+s:#sidebar-neomuttrc:#neomuttrc:g
+s:/feature/custom-tags#custom-tags-colors:/feature/custom-tags#colors:g
+s:/feature/custom-tags#custom-tags-commands:/feature/custom-tags#commands:g
+s:/feature/custom-tags#custom-tags-functions:/feature/custom-tags#functions:g
+s:/feature/custom-tags#custom-tags-variables:/feature/custom-tags#variables:g
+s:/guide/tuning.html#tuning-search:/guide/tuning.html#search:g
+s:configuration.html#configuration-files:configuration.html#files:g
+s:optionalfeatures.html#optionalfeatures-notes:optionalfeatures.html#notes:g
+s:security.html#security-external:security.html#external:g
+s:security.html#security-leaks:security.html#leaks:g
+s:security.html#security-passwords:security.html#passwords:g
+s:security.html#security-tempfiles:security.html#tempfiles:g
+s:tuning.html#tuning-mailboxes:tuning.html#mailboxes:g
+s:tuning.html#tuning-messages:tuning.html#messages:g
+s:tuning.html#tuning-search:tuning.html#search:g

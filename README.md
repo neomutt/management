@@ -121,4 +121,5 @@ A couple of tools for processing DocBook into HTML.
 | :---------------------------------------------------- | :----------------------- |
 | [fix-feature-since.sh](docs-bin/fix-feature-since.sh) | Restore the 'since' date |
 | [transform-links.vim](docs-bin/transform-links.vim)   | Fix the html links       |
+| [fix-links.sed](docs-bin/fix-links.sed)               | Fix some internal links  |
 
