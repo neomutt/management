@@ -17,6 +17,6 @@ cp -v "$TRANSDIR"/*.sh  .travis
 cp -v "$TRANSDIR"/*.enc .travis
 
 git add "$TRAVIS" .travis
-git commit -m "travis: add translate config" -m "[ci skip]"
+git commit -m "travis: add translate config"
 git log --oneline -n1
 
