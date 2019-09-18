@@ -17,11 +17,15 @@ Alex Pearce	alex@alexpearce.me	alexpearce
 Alexandre Simon	as@as-home.fr	igit
 	Alexandre SIMON <as@as-home.fr>
 
+Alok Singh	NONE	alok
+
 Alvaro Herrera	alvherre@alvh.no-ip.org	alvherre
 	Alvaro Herrera <alvherre@alvh.no-ip.org>
 
 Alyssa Ross	hi@alyssa.is	alyssais
 	Alyssa Ross <hi@alyssa.is>
+
+Ander Punnar	NONE	4nd3r
 
 Andreas Rammhold	andreas@rammhold.de	andir
 	Andreas Rammhold <andreas@rammhold.de>
@@ -51,6 +55,8 @@ Antonio Radici	antonio@dyne.org	aradici
 Austin Ray	austin@austinray.io	austin-ray
 	Austin Ray <austin.duke.ray@gmail.com>
 	Austin Ray <austin@austinray.io>
+
+Baptiste Daroussin	NONE	bapt
 
 Benjamin Mako Hill	mako@atdot.cc	makoshark
 	Benjamin Mako Hill <mako@atdot.cc>
@@ -150,12 +156,18 @@ Elimar Riesebieter	riesebie@lxtec.de	riesebie
 Enno Nagel	Konfekt@users.noreply.github.com	konfekt
 	Enno <Konfekt@users.noreply.github.com>
 
+Evgeni Golov	NONE	evgeni
+
 Fabian Groffen	grobian@gentoo.org	grobian
 	Fabian Groffen <grobian@gentoo.org>
 	Fabian Groffen <grobian@orakel.ods.org>
 
+Fabio Locati	NONE	Fale
+
 Fabrice Bellet	fabrice@bellet.info	fbellet
 	Fabrice Bellet <fabrice@bellet.info>
+
+Faidon Liambotis	NONE	paravoid
 
 Federico Kircheis	federico.kircheis@gmail.com	fekir
 	Federico Kircheis <federico.kircheis@gmail.com>
@@ -263,6 +275,8 @@ Kevin Decherf	kevin@kdecherf.com	kdecherf
 Kevin Velghe	kevin@paretje.be	paretje
 	Kevin Velghe <kevin@paretje.be>
 
+Kurt Jaeger	NONE	opsec
+
 Larry Rosenman	larryrtx@gmail.com	lrosenman
 	Larry Rosenman <larryrtx@gmail.com>
 
@@ -303,6 +317,8 @@ Mark Stenglein	mark@stengle.in	ocelotsloth
 Mateusz Piotrowski	mpp302@gmail.com	0mp
 	Mateusz Piotrowski <mpp302@gmail.com>
 
+Matteo Vescovi	NONE	mfvescovi
+
 Mehdi Abaakouk	sileht@sileht.net	sileht
 	Mehdi ABAAKOUK <sileht@sileht.net>
 	Mehdi Abaakouk <sileht@sileht.net>
@@ -331,6 +347,8 @@ Nicholas Wieland	ngw@nofeed.org	ngw
 Nicolas Bock	nicolasbock@gmail.com	nicolasbock
 	Nicolas Bock <nicolasbock@gmail.com>
 
+Olaf Lessenich	NONE	xai
+
 Pablo Ovelleiro Corral	pablo1@mailbox.org	binaryplease
 	Pablo Ovelleiro Corral <pablo1@mailbox.org>
 
@@ -348,6 +366,8 @@ Peter Lewis	pete@muddygoat.org	petelewis
 
 Phil Pennock	phil@pennock-tech.com	philpennock
 	Phil Pennock <phil@pennock-tech.com>
+
+Philipp Marek	NONE	phmarek
 
 Pierre-Elliott Bécue	becue@crans.org	p-eb
 	Pierre-Elliott Bécue <P-EB@users.noreply.github.com>
@@ -427,26 +447,30 @@ Stefan Assmann	sassmann@kpanic.de	sassmann
 Stefan Bühler	stbuehler@web.de	stbuehler
 	Stefan Bühler <stbuehler@web.de>
 
+Stefan Kropp	stefan@debxwoody.de	debxwoody
+	DebXWoody <stefan@debxwoody.de>
+	Stefan <32964719+DebXWoody@users.noreply.github.com>
+	Stefan Kropp <stefan@debxwoody.de>
+
 Stefano Zacchiroli	zack@upsilon.cc	zacchiro
 	Stefano Zacchiroli <zack@upsilon.cc>
 
 Stephen Gilles	sgilles@math.umd.edu	NONE
 	S. Gilles <sgilles@math.umd.edu>
 
-Stéphane Lesimple	speed47_github@speed47.net	speed47
-	Stéphane Lesimple <speed47_github@speed47.net>
-
-Stefan Kropp	stefan@debxwoody.de	debxwoody
-	DebXWoody <stefan@debxwoody.de>
-	Stefan <32964719+DebXWoody@users.noreply.github.com>
-	Stefan Kropp <stefan@debxwoody.de>
-
 Steven Ragnarök	steven@nuclearsandwich.com	nuclearsandwich
 	Steven! Ragnarök <steven@nuclearsandwich.com>
+
+Steve Bennett	NONE	msteveb
 
 Stuart Henderson	stu-github@spacehopper.org	sthen
 	Stuart Henderson <stu-github@spacehopper.org>
 	Stuart Henderson <sthen@users.noreply.github.com>
+
+Stéphane Lesimple	speed47_github@speed47.net	speed47
+	Stéphane Lesimple <speed47_github@speed47.net>
+
+Sven Guckes	NONE	guckes
 
 telshock	telshock@users.noreply.github.com	telshock
 	telshock <telshock@users.noreply.github.com>
