@@ -1,9 +1,15 @@
+s:#autocryptdoc-acctmgmt:#acctmgmt:g
 s:#sidebar-neomuttrc:#neomuttrc:g
 s:/feature/custom-tags#custom-tags-colors:/feature/custom-tags#colors:g
 s:/feature/custom-tags#custom-tags-commands:/feature/custom-tags#commands:g
 s:/feature/custom-tags#custom-tags-functions:/feature/custom-tags#functions:g
 s:/feature/custom-tags#custom-tags-variables:/feature/custom-tags#variables:g
 s:/guide/tuning.html#tuning-search:/guide/tuning.html#search:g
+s:autocryptdoc.html#autocryptdoc-acctmgmt:autocryptdoc.html#acctmgmt:g
+s:autocryptdoc.html#autocryptdoc-compose:autocryptdoc.html#compose:g
+s:autocryptdoc.html#autocryptdoc-init:autocryptdoc.html#init:g
+s:autocryptdoc.html#autocryptdoc-keyrings:autocryptdoc.html#keyrings:g
+s:autocryptdoc.html#autocryptdoc-requirements:autocryptdoc.html#requirements:g
 s:configuration.html#configuration-files:configuration.html#files:g
 s:optionalfeatures.html#optionalfeatures-notes:optionalfeatures.html#notes:g
 s:security.html#security-external:security.html#external:g
