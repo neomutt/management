@@ -78,6 +78,7 @@
  * | index.c         | @subpage index2        |
  * | init.c          | @subpage init          |
  * | keymap.c        | @subpage keymap        |
+ * | mailcap.c       | @subpage mailcap       |
  * | main.c          | @subpage main          |
  * | menu.c          | @subpage menu          |
  * | monitor.c       | @subpage monitor       |
@@ -105,7 +106,6 @@
  * | recvcmd.c       | @subpage recvcmd       |
  * | remailer.c      | @subpage remailer      |
  * | resize.c        | @subpage resize        |
- * | rfc1524.c       | @subpage rfc1524       |
  * | rfc3676.c       | @subpage rfc3676       |
  * | score.c         | @subpage score         |
  * | send.c          | @subpage send          |
