@@ -1,4 +1,5 @@
 %s:"attach-headers-color":"feature/attach-headers-color":
+%s:"autocrypt":"guide/autocrypt":
 %s:"compose-to-sender":"feature/compose-to-sender":
 %s:"compress":"feature/compress":
 %s:"cond-date":"feature/cond-date":
