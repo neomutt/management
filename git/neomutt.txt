@@ -2,6 +2,7 @@ Adam Borowski	kilobyte@angband.pl	kilobyte
 	Adam Borowski <kilobyte@angband.pl>
 
 Ahmed El Gabri	ahmed@gabri.me	ahmedelgabri
+	Ahmed El Gabri <ahmed+github@gabri.me>
 	Ahmed El Gabri <ahmed@gabri.me>
 
 Alad Wenter	AladW@users.noreply.github.com	aladw
@@ -24,6 +25,9 @@ Alyssa Ross	hi@alyssa.is	alyssais
 
 Andreas Rammhold	andreas@rammhold.de	andir
 	Andreas Rammhold <andreas@rammhold.de>
+
+Andres Freund	andres@anarazel.de	anarazel
+	Andres Freund <andres@anarazel.de>
 
 André Berger	ab@andreberger.eu	hvkls
 	ab <Andre Berger andre.berger@web.de>
@@ -97,6 +101,9 @@ cinder88	aerlanger@owlcti.com	cinder88
 Clemens Lang	neverpanic@gmail.com	neverpanic
 	Clemens Lang <neverpanic@gmail.com>
 
+Dai Mochinaga	mochidai@gmail.com	mochidai
+	mochidai <mochidai@gmail.com>
+
 Damien Riegel	damien.riegel@gmail.com	d-k-c
 	Damien R <d-k-c@users.noreply.github.com>
 	Damien Riegel <damien.riegel@gmail.com>
@@ -111,6 +118,9 @@ Darshit Shah	git@darnir.net	darnir
 	Darshit Shah <git@darnir.net>
 	Darshit Shah <darnir@gmail.com>
 	Darshit Shah <darnir@users.noreply.github.com>
+
+David Harrigan	dharrigan@gmail.com	dharrigan
+	David Harrigan <dharrigan@gmail.com>
 
 David Sterba	dsterba@suse.cz	kdave
 	David Sterba <dsterba@suse.com>
@@ -136,6 +146,9 @@ Eli Winderickx	eli.winderickx@ap.be	winderickxeli
 
 Elimar Riesebieter	riesebie@lxtec.de	riesebie
 	Elimar Riesebieter <riesebie@lxtec.de>
+
+Enno Nagel	Konfekt@users.noreply.github.com	konfekt
+	Enno <Konfekt@users.noreply.github.com>
 
 Fabian Groffen	grobian@gentoo.org	grobian
 	Fabian Groffen <grobian@gentoo.org>
@@ -225,6 +238,9 @@ Johannes Weißl	jargon@molb.org	weisslj
 Jonathan Perkin	jperkin@netbsd.org	jperkin
 	Jonathan Perkin <jperkin@netbsd.org>
 
+Joseph Bisch	joseph.bisch@gmail.com	josephbisch
+	Joseph Bisch <joseph.bisch@gmail.com>
+
 Josh Poimboeuf	jpoimboe@redhat.com	jpoimboe
 	Josh Poimboeuf <jpoimboe@redhat.com>
 
@@ -269,6 +285,7 @@ Manos Pitsidianakis	el13635@mail.ntua.gr	epilys
 Marcin Rajner	mrajner@gik.pw.edu.pl	mrajner
 	Marcin Rajner <mrajner@chalmers>
 	Marcin Rajner <mrajner@lenovo>
+	Marcin Rajner <mrajner@lenovoarch>
 	Marcin Rajner lenovo <mrajner@gik.pw.edu.pl>
 
 Marco Hinz	mh.codebro@gmail.com	mhinz
@@ -307,6 +324,9 @@ ng0	ng0@infotropique.org	ng-0
 
 Nicholas Steeves	nsteeves@gmail.com	sten0
 	Nicholas D Steeves <nsteeves@gmail.com>
+
+Nicholas Wieland	ngw@nofeed.org	ngw
+	Nicholas Wieland <ngw@nofeed.org>
 
 Nicolas Bock	nicolasbock@gmail.com	nicolasbock
 	Nicolas Bock <nicolasbock@gmail.com>
@@ -372,12 +392,21 @@ ryt	0x747972@gmail.com	0x747972
 Santiago Torres	torresariass@gmail.com	santiagotorres
 	Santiago Torres <torresariass@gmail.com>
 
+Scott Kostyshak	scott.kostyshak@gmail.com	scottkosty
+	Scott Kostyshak <scott.kostyshak@gmail.com>
+
+Sebastian Stark	sstark@mailbox.org	sstark
+	Sebastian Stark <sstark@mailbox.org>
+
 Serge Gebhardt	serge.gebhardt@gmail.com	sgeb
 	Serge Gebhardt <serge.gebhardt@gmail.com>
 
 Shane Donohoe	donohoe.shane@gmail.com	shanedabes
 	Shane Donohoe <donohoe.shane@gmail.com>
 	sharktamer <sharktamer@users.noreply.github.com>
+
+Sheoak	sheoak@users.noreply.github.com	sheoak
+	Sheoak <sheoak@users.noreply.github.com>
 
 Shi Lee	rtlanceroad@gmail.com	NONE
 	rtlanceroad <rtlanceroad@gmail.com>
@@ -404,6 +433,9 @@ Stefano Zacchiroli	zack@upsilon.cc	zacchiro
 Stephen Gilles	sgilles@math.umd.edu	NONE
 	S. Gilles <sgilles@math.umd.edu>
 
+Stéphane Lesimple	speed47_github@speed47.net	speed47
+	Stéphane Lesimple <speed47_github@speed47.net>
+
 Stefan Kropp	stefan@debxwoody.de	debxwoody
 	DebXWoody <stefan@debxwoody.de>
 	Stefan <32964719+DebXWoody@users.noreply.github.com>
@@ -426,6 +458,7 @@ Thiago Costa de Paiva	tecepe@tecepe.eng.br	tecepe
 	tecepe <tecepe@tecepe.eng.br>
 	tecepe <tecepe@users.noreply.github.com>
 	Thiago Costa de Paiva <tcpaiva@cern.ch>
+	Thiago Costa de Paiva <tcpaiva@users.noreply.github.com>
 	Thiago Costa de Paiva <tecepe@tecepe.eng.br>
 
 Thomas Adam	thomas@xteddy.org	thomasadam
@@ -442,6 +475,7 @@ Thomas Schneider	qsx@qsx.re	qsuscs
 
 Tobias Angele	toogley@mailbox.org	toogley
 	Tobias Angele <toogley@mailbox.org>
+	toogley <9417950+toogley@users.noreply.github.com>
 	toogley <toogley@mailbox.org>
 
 Tobias Stoeckmann	tobias@stoeckmann.org	stoeckmann

@@ -47,6 +47,9 @@ Andreas Jobs	unknown
 Andrew Gaul	andrew@gaul.org
 	Andrew Gaul <andrew@gaul.org>
 
+Andrew Marks	amarks@red.ridge.amrx.net
+	Andrew Marks <amarks@red.ridge.amrx.net>
+
 Andrew Nosenko	awn@bcs.zp.ua
 	Andrew W. Nosenko <awn@bcs.zp.ua>
 
@@ -162,6 +165,9 @@ Daniel Burrows	dburrows@debian.org
 
 Daniel Jacobowitz	dan@debian.org
 	Daniel Jacobowitz <dan@debian.org>
+
+Daniel Kahn Gillmor	dkg@fifthhorseman.net
+	Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 
 Daniel Schmitz	dr1s@users.noreply.github.com
 	Daniel Schmitz <dr1s@users.noreply.github.com>
@@ -437,6 +443,7 @@ Moritz Schulte	moritz@g10code.com
 	Unknown <Moritz.Schulte@ruhr-uni-bochum.de>
 
 Morten Bo Johansen	mbj@spamcop.net
+	Morten Bo Johansen <mbj@mbjnet.dk>
 	Morten Bo Johansen <mbj@spamcop.net>
 	Morten Bo Johansen <mjb@spamcop.net>
 	Morten Bo Johansen <mojo@mbjnet.dk>
@@ -466,6 +473,9 @@ Olaf Hering	olaf@aepfle.de
 
 Ondřej Bílka	neleai@seznam.cz
 	Ondřej Bílka <neleai@seznam.cz>
+
+Oneric	Nyff@protonmail.ch
+	Oneric <Nyff@protonmail.ch>
 
 Oota Toshiya	oota@mspd.mt.nec.co.jp
 	oota toshiya <oota@mspd.mt.nec.co.jp>
