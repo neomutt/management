@@ -9,6 +9,7 @@ for i in "$@"; do
 		-D__EXTENSIONS__ \
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
+		-D_STRING_ARCH_unaligned \
 		-I . \
 		-I mutt \
     -I /usr/lib/gcc/x86_64-redhat-linux/9/include \

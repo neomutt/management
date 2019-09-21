@@ -1,4 +1,6 @@
 [
+  { symbol: ["wchar_t",  "private", "<wchar.h>",  "public"] },
+
   { ref: "glibc.imp" },
   { ref: "curses.imp" },
 ]

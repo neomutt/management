@@ -7,6 +7,8 @@
   { include: [ '@"email/.*"',   private, '"email/lib.h"',   public ] },
   { include: [ '@"mutt/.*"',    private, '"mutt/mutt.h"',   public ] },
 
+  { symbol: ["wchar_t",  "private", "<wchar.h>",  "public"] },
+
   { ref: "glibc.imp" },
   { ref: "curses.imp" },
 ]
