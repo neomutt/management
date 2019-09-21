@@ -4,21 +4,6 @@
   { include: [ '@"email/.*"',   private, '"email/lib.h"',   public ] },
   { include: [ '@"mutt/.*"',    private, '"mutt/mutt.h"',   public ] },
 
-  # Include our header, rather than the system header.
-  { include: [ '<curses.h>',           private, '"mutt_curses.h"', public ] },
-  { include: [ '<ncursesw/term.h>',    private, '"mutt_curses.h"', public ] },
-  { include: [ '<ncursesw/ncurses.h>', private, '"mutt_curses.h"', public ] },
-
-  # Some glibc headers files cause problems
-  { include: [ '"stdbool.h"',                    private, '<stdbool.h>',  public ] },
-  { include: [ '<bits/getopt_core.h>',           private, '<getopt.h>',   public ] },
-  { include: [ '<bits/stdint-uintn.h>',          private, '<stdint.h>',   public ] },
-  { include: [ '<bits/types/mbstate_t.h>',       private, '<wchar.h>',    public ] },
-  { include: [ '<bits/types/struct_timespec.h>', private, '<time.h>',     public ] },
-  { include: [ '<bits/types/struct_timeval.h>',  private, '<sys/time.h>', public ] },
-  { include: [ '<bits/types/struct_tm.h>',       private, '<time.h>',     public ] },
-  { include: [ '<bits/types/time_t.h>',          private, '<time.h>',     public ] },
-  { include: [ '<bits/types/wint_t.h>',          private, '<wchar.h>',    public ] },
-  { include: [ '<gpgme-64.h>',                   private, '<gpgme.h>',    public ] },
+  { ref: "glibc.imp" },
+  { ref: "curses.imp" },
 ]
-

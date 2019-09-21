@@ -1,0 +1,19 @@
+[
+  # Some glibc headers files cause problems
+  { include: [ '"libunwind-x86_64.h"',           private, '<libunwind.h>', public ] },
+  { include: [ '"stdbool.h"',                    private, '<stdbool.h>',   public ] },
+  { include: [ '<bits/getopt_core.h>',           private, '<getopt.h>',    public ] },
+  { include: [ '<bits/stdint-uintn.h>',          private, '<stdint.h>',    public ] },
+  { include: [ '<bits/termios-c_cc.h>',          private, '<termios.h>',   public ] },
+  { include: [ '<bits/termios-c_lflag.h>',       private, '<termios.h>',   public ] },
+  { include: [ '<bits/termios-struct.h>',        private, '<termios.h>',   public ] },
+  { include: [ '<bits/termios-tcflow.h>',        private, '<termios.h>',   public ] },
+  { include: [ '<bits/types/mbstate_t.h>',       private, '<wchar.h>',     public ] },
+  { include: [ '<bits/types/struct_timespec.h>', private, '<time.h>',      public ] },
+  { include: [ '<bits/types/struct_timeval.h>',  private, '<sys/time.h>',  public ] },
+  { include: [ '<bits/types/struct_tm.h>',       private, '<time.h>',      public ] },
+  { include: [ '<bits/types/time_t.h>',          private, '<time.h>',      public ] },
+  { include: [ '<bits/types/wint_t.h>',          private, '<wchar.h>',     public ] },
+  { include: [ '<gpgme-64.h>',                   private, '<gpgme.h>',     public ] },
+  { include: [ '<libunwind-x86_64.h>',           private, '<libunwind.h>', public ] },
+]
