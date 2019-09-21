@@ -3,6 +3,9 @@
 BASE_DIR="${0%/*}"
 
 for i in "$@"; do
+	[ "$i" = "init.h"        ] && continue
+	[ "$i" = "mutt_curses.h" ] && continue
+
 	iwyu \
 		-D_ALL_SOURCE=1 \
 		-D_GNU_SOURCE=1 \
