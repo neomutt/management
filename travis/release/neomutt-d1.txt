@@ -414,6 +414,7 @@ set time_inc = 0
 set timeout = 600
 set tmpdir = "/tmp"
 set to_chars = " +TCFLR"
+set toggle_quoted_show_levels = 0
 set trash = ""
 set ts_enabled = no
 set ts_icon_format = "M%?n?AIL&ail?"
