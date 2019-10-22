@@ -11,7 +11,8 @@ git:
 env:
   - COLUMNS=78
 before_install:
-  - source ./macports/bootstrap.sh
+  - ./macports/bootstrap.sh
+  - unset CC && source /opt/local/share/macports/setupenv.bash
 script:
   - sed -i '' "s|@@REPO_PATH@@|${PWD}|g" macports/mail/neomutt-mp/Portfile
   - echo "file://${PWD}/macports" | sudo tee -a /opt/local/etc/macports/sources.conf
