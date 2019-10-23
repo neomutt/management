@@ -120,6 +120,9 @@ Dapeng Gao	peter@dpgao.cc	dpgao
 	Dapeng Gao <31944689+dpgao@users.noreply.github.com>
 	Dapeng Gao <peter@dpgao.cc>
 
+Darren Kenny	darren.kenny@oracle.com	darrenkenny
+	Darren Kenny <darren.kenny@oracle.com>
+
 Darshit Shah	git@darnir.net	darnir
 	Darshit Shah <git@darnir.net>
 	Darshit Shah <darnir@gmail.com>

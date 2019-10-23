@@ -44,6 +44,9 @@ Andreas Jaggi	unknown
 Andreas Jobs	unknown
 	Andreas Jobs <unknown>
 
+Andre Beck	beck@ibh.de
+	Beck, Andre <beck@ibh.de>
+
 Andrew Gaul	andrew@gaul.org
 	Andrew Gaul <andrew@gaul.org>
 
