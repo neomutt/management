@@ -19,13 +19,13 @@ rpmbuild_tree()
 }
 
 
-eval SRC_DIR="${1:-~/work/neo}"
+eval SRC_DIR="${1:-~/neo}"
 GH_URL="https://github.com/neomutt/neomutt/archive"
 
 pushd "$SRC_DIR"
 
-TAG="$(git tag -l --sort='-authordate' 'neomutt-*' | head -1)"
-VERSION="${TAG#neomutt-}"
+TAG="$(git tag -l --sort='-authordate' '20*' | head -1)"
+VERSION="${TAG//-}"
 
 popd
 
@@ -53,9 +53,9 @@ echo
 rm -fr rpmbuild
 rpmbuild_tree
 
-cp ../neomutt-${VERSION}.tar.gz rpmbuild/SOURCES
-cp *.patch                      rpmbuild/SOURCES
-cp mutt_ldap_query              rpmbuild/SOURCES
+cp ../${VERSION}.tar.gz rpmbuild/SOURCES/${VERSION}.tar.gz
+cp *.patch          rpmbuild/SOURCES
+cp mutt_ldap_query  rpmbuild/SOURCES
 
 rpmbuild -bs --target=noarch --define=_topdir\ $HERE/rpmbuild "$SPEC"
 
