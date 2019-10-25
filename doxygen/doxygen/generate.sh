@@ -172,8 +172,7 @@ function build_zzz()
 
 function git_version()
 {
-	git describe --abbrev=6 --match "neomutt-*" $(git merge-base master HEAD) |
-		sed 's/neomutt-\(....\)\(..\)\(..\)-\([0-9]\+\)-g\([0-9a-f]\+\)/\1-\2-\3 +\4-\5/'
+	git describe --abbrev=6 --match "20*" $(git merge-base master HEAD)
 }
 
 function build_docs()
