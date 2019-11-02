@@ -172,7 +172,7 @@ function build_zzz()
 
 function git_version()
 {
-	git describe --abbrev=6 --match "20*" $(git merge-base master HEAD)
+	git describe --abbrev=6 --match "20*" $(git merge-base master HEAD) | sed 's/\(....\)\(..\)\(..\)/\1-\2-\3/'
 }
 
 function build_docs()
