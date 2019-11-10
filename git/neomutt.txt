@@ -116,6 +116,9 @@ Damien Riegel	damien.riegel@gmail.com	d-k-c
 	Damien Riegel <damien.riegel@savoirfairelinux.com>
 	Damien Riegel <damien@riegel.io>
 
+Daniel Gray	dng@disroot.org	dngray
+	Daniel Gray <dng@disroot.org>
+
 Dapeng Gao	peter@dpgao.cc	dpgao
 	Dapeng Gao <31944689+dpgao@users.noreply.github.com>
 	Dapeng Gao <peter@dpgao.cc>
@@ -338,8 +341,9 @@ Nagefire	nagefire.dev@gmail.com	nagefire
 Naveen Nathan	naveen@lastninja.net	nnathan
 	Naveen Nathan <naveen@lastninja.net>
 
-ng0	ng0@infotropique.org	ng-0
+ng0	ng0@n0.is	ng-0
 	ng0 <ng0@infotropique.org>
+	ng0 <ng0@n0.is>
 
 Nicholas Steeves	nsteeves@gmail.com	sten0
 	Nicholas D Steeves <nsteeves@gmail.com>
