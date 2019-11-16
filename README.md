@@ -25,14 +25,15 @@ highlighting.
 When [making a release](https://neomutt.org/run/release), these templates
 save time preparing the accompanying notes.
 
-| File                                                           | Description                      |
-|----------------------------------------------------------------|----------------------------------|
-| [template-changelog](release-templates/template-changelog.txt) | ChangeLog.neomutt                |
-| [template-dev-ml](release-templates/template-dev-ml.txt)       | NeoMutt Devel Mailing List       |
-| [template-github](release-templates/template-github.txt)       | GitHub Release Announcement      |
-| [template-rpm](release-templates/template-rpm.txt)             | RPM Spec changelog               |
-| [template-user-ml](release-templates/template-user-ml.txt)     | NeoMutt Users Mailing List       |
-| [template-website](release-templates/template-website.txt)     | Website News Article             |
+| File                                         | Description                      |
+|----------------------------------------------|----------------------------------|
+| [changelog](release-templates/changelog.txt) | ChangeLog                        |
+| [dev-ml](release-templates/dev-ml.txt)       | NeoMutt Devel Mailing List       |
+| [emojis](release-templates/emojis.md)        | Emojis for website/GitHub        |
+| [github](release-templates/github.md)        | GitHub Release Announcement      |
+| [rpm](release-templates/rpm.txt)             | RPM Spec changelog               |
+| [user-ml](release-templates/user-ml.txt)     | NeoMutt Users Mailing List       |
+| [website](release-templates/website.md)      | Website News Article             |
 
 ## Update Distro Bin
 

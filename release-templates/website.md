@@ -4,63 +4,63 @@ author: flatcap
 title: Release 0000-00-00
 ---
 
-## Notes
+## :book: Notes
 
 - XXX
   - YYY
 - ZZZ
 
-## Thanks
+## :heart: Thanks
 
 Many thanks to our **new contributors**:
 
-- First Last ([@nick](https://github.com/nick))
+- First Last (@nick)
 
 and our **regular contributors**:
 
-- First Last ([@nick](https://github.com/nick))
+- First Last (@nick)
 
-## Features
-
-- description
-
-## Contrib
+## :gift: Features
 
 - description
 
-## Bug Fixes
+## :sparkles: Contrib
 
 - description
 
-## Translations
+## :beetle: Bug Fixes
 
 - description
 
-## Coverity defects
+## :black_flag: Translations
 
 - description
 
-## Docs
+## :shield: Coverity defects
 
 - description
 
-## Website
+## :books: Docs
 
 - description
 
-## Build
+## :link: Website
 
 - description
 
-## Code
+## :building_construction: Build
 
 - description
 
-## Tidy
+## :gear: Code
 
 - description
 
-## Upstream
+## :wastebasket: Tidy
+
+- description
+
+## :recycle: Upstream
 
 - description
 

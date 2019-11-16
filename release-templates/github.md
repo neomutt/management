@@ -1,12 +1,12 @@
 NeoMutt 0000-00-00
 
-## Notes
+## :book: Notes
 
 - XXX
   - YYY
 - ZZZ
 
-## Thanks
+## :heart: Thanks
 
 Many thanks to our **new contributors**:
 
@@ -16,47 +16,47 @@ and our **regular contributors**:
 
 - First Last (@nick)
 
-## Features
+## :gift: Features
 
 - description
 
-## Contrib
+## :sparkles: Contrib
 
 - description
 
-## Bug Fixes
+## :beetle: Bug Fixes
 
 - description
 
-## Translations
+## :black_flag: Translations
 
 - description
 
-## Coverity defects
+## :shield: Coverity defects
 
 - description
 
-## Docs
+## :books: Docs
 
 - description
 
-## Website
+## :link: Website
 
 - description
 
-## Build
+## :building_construction: Build
 
 - description
 
-## Code
+## :gear: Code
 
 - description
 
-## Tidy
+## :wastebasket: Tidy
 
 - description
 
-## Upstream
+## :recycle: Upstream
 
 - description
 
