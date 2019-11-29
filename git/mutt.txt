@@ -175,8 +175,10 @@ Daniel Kahn Gillmor	dkg@fifthhorseman.net
 Daniel Schmitz	dr1s@users.noreply.github.com
 	Daniel Schmitz <dr1s@users.noreply.github.com>
 
-David Champion	dgc@bikeshed.us
+David Champion	dgc@c13.us
+	David Champion <dgc.github@c13.us>
 	David Champion <dgc@bikeshed.us>
+	David Champion <dgc@c13.us>
 	David Champion <dgc@uchicago.edu>
 
 David Jardine	david@jardine.de
@@ -446,6 +448,7 @@ Moritz Schulte	moritz@g10code.com
 	Unknown <Moritz.Schulte@ruhr-uni-bochum.de>
 
 Morten Bo Johansen	mbj@spamcop.net
+	Morten Bo Johansen <listmail@mbjnet.dk>
 	Morten Bo Johansen <mbj@mbjnet.dk>
 	Morten Bo Johansen <mbj@spamcop.net>
 	Morten Bo Johansen <mjb@spamcop.net>
@@ -630,6 +633,7 @@ Tamotsu Takahashi	ttakah@lapis.plala.or.jp
 	TAKAHASHI Tamotsu <tamo@momonga-linux.org>
 	TAKAHASHI Tamotsu <ttakah@lapis.plala.or.jp>
 	Takahashi Tamotsu <ttakah@lapis.plala.or.jp>
+	Tamotsu TAKAHASHI <ttakah@gmail.com>
 	Tamotsu TAKAHASHI <ttakah@lapis.plala.or.jp>
 
 ta_panta_rei	7vvtch802@sneakemail.com

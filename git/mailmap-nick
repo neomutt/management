@@ -2,6 +2,7 @@
 0-wiz-0         <wiz@netbsd.org>                      Thomas Klausner <wiz@netbsd.org>
 0mp             <mpp302@gmail.com>                    Mateusz Piotrowski <mpp302@gmail.com>
 0x747972        <0x747972@gmail.com>                  ryt <0x747972@gmail.com>
+@caspervector   <CasperVector@gmail.com>              Casper Ti. Vector <CasperVector@gmail.com>
 a3nm            <a3nm@a3nm.net>                       Antoine Amarilli <a3nm@a3nm.net>
 ahmedelgabri    <ahmed@gabri.me>                      Ahmed El Gabri <ahmed+github@gabri.me>
 ahmedelgabri    <ahmed@gabri.me>                      Ahmed El Gabri <ahmed@gabri.me>
@@ -10,6 +11,7 @@ alexpearce      <alex@alexpearce.me>                  Alex Pearce <alex@alexpear
 alvherre        <alvherre@alvh.no-ip.org>             Alvaro Herrera <alvherre@alvh.no-ip.org>
 alyptik         <joeypabalinas@gmail.com>             Joey Pabalinas <joeypabalinas@gmail.com>
 alyssais        <hi@alyssa.is>                        Alyssa Ross <hi@alyssa.is>
+amudtogal       <simms1@web.de>                       Simon Reichel <simms1@web.de>
 anarazel        <andres@anarazel.de>                  Andres Freund <andres@anarazel.de>
 anarcat         <anarcat@debian.org>                  anarcat <anarcat@users.noreply.github.com>
 andir           <andreas@rammhold.de>                 Andreas Rammhold <andreas@rammhold.de>
@@ -106,6 +108,7 @@ larsks          <lars@oddbit.com>                     Lars Kellogg-Stedman <lars
 lbschenkel      <leonardo@schenkel.net>               Leonardo Brondani Schenkel <leonardo@schenkel.net>
 lrosenman       <larryrtx@gmail.com>                  Larry Rosenman <larryrtx@gmail.com>
 makoshark       <mako@atdot.cc>                       Benjamin Mako Hill <mako@atdot.cc>
+mcmilk          <github@mcmilk.de>                    Tino Reichardt <github@mcmilk.de>
 mgedmin         <marius@gedmin.as>                    Marius Gedminas <marius@gedmin.as>
 mhinz           <mh.codebro@gmail.com>                Marco Hinz <mh.codebro@gmail.com>
 mineo           <themineo@gmail.com>                  Wieland Hoffmann <mineo@users.noreply.github.com>
@@ -116,6 +119,7 @@ mochidai        <mochidai@gmail.com>                  mochidai <mochidai@gmail.c
 mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner <mrajner@chalmers>
 mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner <mrajner@lenovo>
 mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner <mrajner@lenovoarch>
+mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner <mrajner@pwarch>
 mrajner         <mrajner@gik.pw.edu.pl>               Marcin Rajner lenovo <mrajner@gik.pw.edu.pl>
 nagefire        <nagefire.dev@gmail.com>              Nagefire <nagefire.dev@gmail.com>
 neverpanic      <neverpanic@gmail.com>                Clemens Lang <neverpanic@gmail.com>
@@ -156,6 +160,7 @@ rawtaz          <leo@finalresort.org>                 rawtaz <rawtaz@users.norep
 reisradomil     <reisradomil@fake-box.com>            Reis Radomil <reisradomil@fake-box.com>
 richih          <RichiH@users.noreply.github.com>     Richard Hartmann <RichiH@users.noreply.github.com>
 riesebie        <riesebie@lxtec.de>                   Elimar Riesebieter <riesebie@lxtec.de>
+ronisbr         <ronisbr@gmail.com>                   Ronan Arraes Jardim Chagas <ronisbr@gmail.com>
 royger          <roger.pau@citrix.com>                Roger Pau Monne <roger.pau@citrix.com>
 rypervenche     <contact@ryper.org>                   Perry Thompson <contact@ryper.org>
 santiagotorres  <torresariass@gmail.com>              Santiago Torres <torresariass@gmail.com>
@@ -180,6 +185,7 @@ stbuehler       <stbuehler@web.de>                    Stefan Bühler <stbuehler@
 sten0           <nsteeves@gmail.com>                  Nicholas D Steeves <nsteeves@gmail.com>
 sthen           <stu-github@spacehopper.org>          Stuart Henderson <sthen@users.noreply.github.com>
 sthen           <stu-github@spacehopper.org>          Stuart Henderson <stu-github@spacehopper.org>
+stigtsp         <stig@stig.io>                        Stig Palmquist <stig@stig.io>
 stoeckmann      <tobias@stoeckmann.org>               Tobias Stoeckmann <tobias@stoeckmann.org>
 stormc          <storm@mailbox.org>                   Christian Storm <storm@mailbox.org>
 tecepe          <tecepe@tecepe.eng.br>                tecepe <tecepe@tecepe.eng.br>
@@ -276,7 +282,9 @@ UPSTREAM <dev@mutt.org> Daniel Burrows <dburrows@debian.org>
 UPSTREAM <dev@mutt.org> Daniel Jacobowitz <dan@debian.org>
 UPSTREAM <dev@mutt.org> Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 UPSTREAM <dev@mutt.org> Daniel Schmitz <dr1s@users.noreply.github.com>
+UPSTREAM <dev@mutt.org> David Champion <dgc.github@c13.us>
 UPSTREAM <dev@mutt.org> David Champion <dgc@bikeshed.us>
+UPSTREAM <dev@mutt.org> David Champion <dgc@c13.us>
 UPSTREAM <dev@mutt.org> David Champion <dgc@uchicago.edu>
 UPSTREAM <dev@mutt.org> David Jardine <david@jardine.de>
 UPSTREAM <dev@mutt.org> David Shaw <dshaw@jabberwocky.com>
@@ -373,6 +381,7 @@ UPSTREAM <dev@mutt.org> Mike Schiraldi <1074468571@schiraldi.org>
 UPSTREAM <dev@mutt.org> Miroslav Lichvar <mlichvar@redhat.com>
 UPSTREAM <dev@mutt.org> Moritz Schulte <Moritz.Schulte@ruhr-uni-bochum.de>
 UPSTREAM <dev@mutt.org> Moritz Schulte <moritz@g10code.com>
+UPSTREAM <dev@mutt.org> Morten Bo Johansen <listmail@mbjnet.dk>
 UPSTREAM <dev@mutt.org> Morten Bo Johansen <mbj@mbjnet.dk>
 UPSTREAM <dev@mutt.org> Morten Bo Johansen <mbj@spamcop.net>
 UPSTREAM <dev@mutt.org> Morten Bo Johansen <mjb@spamcop.net>
@@ -449,6 +458,7 @@ UPSTREAM <dev@mutt.org> TAKAHASHI Tamotsu <ttakah@lapis.plala.or.jp>
 UPSTREAM <dev@mutt.org> Takahashi Tamotsu <ttakah@lapis.plala.or.jp>
 UPSTREAM <dev@mutt.org> Takashi TAKIZAWA <taki@cyber.email.ne.jp>
 UPSTREAM <dev@mutt.org> TAKIZAWA Takashi <taki@luna.email.ne.jp>
+UPSTREAM <dev@mutt.org> Tamotsu TAKAHASHI <ttakah@gmail.com>
 UPSTREAM <dev@mutt.org> Tamotsu TAKAHASHI <ttakah@lapis.plala.or.jp>
 UPSTREAM <dev@mutt.org> ta_panta_rei <7vvtch802@sneakemail.com>
 UPSTREAM <dev@mutt.org> Thomas Glanzmann <sithglan@stud.uni-erlangen.de>
