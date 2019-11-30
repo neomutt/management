@@ -436,6 +436,6 @@ set weed = no
 set wrap = 5
 set wrap_headers = 90
 set wrap_search = no
-set write_bcc = no
+set write_bcc = yes
 set write_inc = 20
 set x_comment_to = yes
