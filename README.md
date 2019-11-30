@@ -27,7 +27,7 @@ save time preparing the accompanying notes.
 
 | File                                         | Description                      |
 |----------------------------------------------|----------------------------------|
-| [changelog](release-templates/changelog.txt) | ChangeLog                        |
+| [changelog](release-templates/changelog.md)  | ChangeLog                        |
 | [dev-ml](release-templates/dev-ml.txt)       | NeoMutt Devel Mailing List       |
 | [emojis](release-templates/emojis.md)        | Emojis for website/GitHub        |
 | [github](release-templates/github.md)        | GitHub Release Announcement      |

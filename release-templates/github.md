@@ -28,6 +28,10 @@ and our **regular contributors**:
 
 - description
 
+## :wrench: Changed Config
+
+- description
+
 ## :black_flag: Translations
 
 - description
