@@ -435,6 +435,9 @@ Sebastian Stark	sstark@mailbox.org	sstark
 Serge Gebhardt	serge.gebhardt@gmail.com	sgeb
 	Serge Gebhardt <serge.gebhardt@gmail.com>
 
+Sergey Alirzaev	zl29ah@gmail.com	l29ah
+	Sergey Alirzaev <zl29ah@gmail.com>
+
 Shane Donohoe	donohoe.shane@gmail.com	shanedabes
 	Shane Donohoe <donohoe.shane@gmail.com>
 	sharktamer <sharktamer@users.noreply.github.com>
@@ -517,6 +520,9 @@ Thomas Klausner	wiz@netbsd.org	0-wiz-0
 Thomas Schneider	qsx@qsx.re	qsuscs
 	Thomas Schneider <qsx@qsx.re>
 
+Timmy Xiao	timmyxiao1@gmail.com	eralwen
+	Timmy Xiao <timmyxiao1@gmail.com>
+
 Tino Reichardt	github@mcmilk.de	mcmilk
 	Tino Reichardt <github@mcmilk.de>
 
@@ -563,3 +569,5 @@ Yubin Ruan	ablacktshirt@gmail.com	walkerlala
 Zero King	l2dy@icloud.com	l2dy
 	Zero King <l2dy@icloud.com>
 
+zsugabubus	zsugabubus@users.noreply.github.com	zsugabubus
+	zsugabubus <zsugabubus@users.noreply.github.com>
