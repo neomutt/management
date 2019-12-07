@@ -520,7 +520,7 @@ Thomas Klausner	wiz@netbsd.org	0-wiz-0
 Thomas Schneider	qsx@qsx.re	qsuscs
 	Thomas Schneider <qsx@qsx.re>
 
-Timmy Xiao	timmyxiao1@gmail.com	eralwen
+Timmy Xiao	timmyxiao1@gmail.com	yimmt
 	Timmy Xiao <timmyxiao1@gmail.com>
 
 Tino Reichardt	github@mcmilk.de	mcmilk
