@@ -44,5 +44,5 @@ digraph libmutt
 	signal  -> message
 	string  -> memory
 
-	{ rank=same file message queue sha1 md5 }
+	{ rank=same file message queue md5 }
 }
