@@ -5,6 +5,8 @@
   - description
 * Bug Fixes
   - description
+* Changed Config
+  - description
 * Translations
   - description
 * Coverity defects
