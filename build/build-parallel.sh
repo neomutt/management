@@ -5,6 +5,9 @@
 set -o errexit	# set -e
 set -o nounset	# set -u
 
+renice --priority 19 --pid $$ > /dev/null
+ionice --class 3     --pid $$ > /dev/null
+
 function log_error()
 {
 	echo -e "\e[1;31m$@\e[m"
