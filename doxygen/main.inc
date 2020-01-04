@@ -30,6 +30,7 @@
  * | @ref conn      |
  * | @ref core      |
  * | @ref email     |
+ * | @ref gui       |
  * | @ref hcache    |
  * | @ref imap      |
  * | @ref maildir   |
@@ -56,14 +57,12 @@
  * | backtrace.c     | @subpage backtrace     |
  * | bcache.c        | @subpage bcache        |
  * | browser.c       | @subpage browser       |
- * | color.c         | @subpage color         |
  * | commands.c      | @subpage commands      |
  * | complete.c      | @subpage complete      |
  * | compose.c       | @subpage compose       |
  * | compress.c      | @subpage compress      |
  * | context.c       | @subpage ctx           |
  * | copy.c          | @subpage copy          |
- * | curs_lib.c      | @subpage curs_lib      |
  * | edit.c          | @subpage edit          |
  * | editmsg.c       | @subpage editmsg       |
  * | enriched.c      | @subpage enriched      |
@@ -94,7 +93,6 @@
  * | mutt_signal.c   | @subpage mutt_signal   |
  * | mutt_socket.c   | @subpage mutt_socket   |
  * | mutt_thread.c   | @subpage mutt_thread   |
- * | mutt_window.c   | @subpage window        |
  * | mx.c            | @subpage mx            |
  * | myvar.c         | @subpage myvar         |
  * | pager.c         | @subpage pager         |
@@ -116,7 +114,6 @@
  * | state.c         | @subpage state         |
  * | status.c        | @subpage status        |
  * | system.c        | @subpage system        |
- * | terminal.c      | @subpage terminal      |
  * | version.c       | @subpage version       |
  * | wcscasecmp.c    | @subpage wcscasecmp    |
  *
