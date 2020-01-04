@@ -8,7 +8,7 @@ SCRIPT_DIR="${0%/*}"
 source "$SCRIPT_DIR/sync-common.sh"
 
 MGMT=(
-	"coverity.yml"
+	"coveralls.yml"
 )
 
 CODE=(

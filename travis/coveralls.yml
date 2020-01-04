@@ -33,7 +33,7 @@ addons:
       - lua5.2
       - lynx
       - python-pip
-      - python-software-properties
+      - software-properties-common
       - xsltproc
 
 git:
