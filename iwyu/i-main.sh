@@ -3,7 +3,7 @@
 BASE_DIR="${0%/*}"
 
 for i in "$@"; do
-	[ "$i" = "init.h"        ] && continue
+	# [ "$i" = "init.h"        ] && continue
 	[ "$i" = "mutt_curses.h" ] && continue
 
 	iwyu \
