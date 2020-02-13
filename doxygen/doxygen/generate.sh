@@ -135,7 +135,7 @@ function zzz_functions()
 	echo " * | :------- | :---------- |"
 
 	for L in ${LINES[*]}; do
-		if [[ "$L" =~ ^[[:space:]*]*((address|bool|command|crypto*_|cs|driver_|dump|getdns|hcache|imap_|log_|long|magic|mbox_|mbtable|mmdf_|mutt_|mx_|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|serial_|smime_|sort|string|tunnel_|url).*)[[:space:]]-[[:space:]](.*[[:space:]]-[[:space:]].*) ]]; then
+		if [[ "$L" =~ ^[[:space:]*]*((address|bool|command|comp|crypto*_|cs|driver_|dump|filter|getdns|hcache|imap_|log_|long|magic|mbox_|mbtable|mmdf_|mutt_|mx_|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|serial_|smime_|sort|string|tunnel_|url|window).*)[[:space:]]-[[:space:]](.*[[:space:]]-[[:space:]].*) ]]; then
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[3]}"
 			echo " * | $FUNC() | $DESC |"
@@ -143,11 +143,11 @@ function zzz_functions()
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[2]}"
 			echo " * | $FUNC() | $DESC |"
-		elif [[ "$L" =~ ^[[:space:]*]*((account|address|attach|bool|ci|command|compr_|crypto*_|cs|driver_|dump|getdns|hcache|imap_|km|log_|long|magic|mailbox|mbox_|mbtable|menu|mix|mmdf_|mutt_|mx_|myvar|neomutt|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|rfc3676|serial_|smime_|sort|state|string|text|tunnel_|update|url|wcs).*)[[:space:]]-[[:space:]](.*) ]]; then
+		elif [[ "$L" =~ ^[[:space:]*]*((account|address|attach|bool|ci|command|comp|crypto*_|cs|driver_|dump|filter|getdns|hcache|imap_|km|log_|long|magic|mailbox|mbox_|mbtable|menu|mix|mmdf_|mutt_|mx_|myvar|neomutt|nm_|nntp_|number|path|pgp_|pop_|quad|raw_|regex|rfc1524_|rfc2047_|rfc2231_|rfc3676|serial_|smime_|sort|state|string|text|tunnel_|update|url|wcs|window).*)[[:space:]]-[[:space:]](.*) ]]; then
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[3]}"
 			echo " * | $FUNC() | $DESC |"
-		elif [[ "$L" =~ ^[[:space:]*]*(edit_or_view_message|feature_enabled|is_from|log_disp_curses|main|menu_status_line|print_copyright|print_version|safe_asprintf)[[:space:]]-[[:space:]](.*) ]]; then
+		elif [[ "$L" =~ ^[[:space:]*]*(comp|edit_or_view_message|feature_enabled|is_from|log_disp_curses|main|menu_status_line|print_copyright|print_version|safe_asprintf)[[:space:]]-[[:space:]](.*) ]]; then
 			FUNC="${BASH_REMATCH[1]}"
 			DESC="${BASH_REMATCH[2]}"
 			echo " * | $FUNC() | $DESC |"
@@ -197,12 +197,15 @@ fi
 build_zzz \
 	address/*.c \
 	autocrypt/*.c \
+	compress/*.c \
 	config/*.c \
 	conn/*.c \
 	core/*.c \
+	debug/*.c \
 	email/*.c \
+	gui/*.c \
 	hcache/*.c \
-	hcache/hcache.h \
+	hcache/lib.h \
 	imap/*.c \
 	maildir/*.c \
 	mbox/*.c \

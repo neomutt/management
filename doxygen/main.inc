@@ -27,8 +27,10 @@
  * | @ref address   |
  * | @ref autocrypt |
  * | @ref config    |
+ * | @ref comp      |
  * | @ref conn      |
  * | @ref core      |
+ * | @ref debug     |
  * | @ref email     |
  * | @ref gui       |
  * | @ref hcache    |
@@ -54,21 +56,20 @@
  * | :-------------- | :--------------------- |
  * | addrbook.c      | @subpage addrbook      |
  * | alias.c         | @subpage alias         |
- * | backtrace.c     | @subpage backtrace     |
  * | bcache.c        | @subpage bcache        |
  * | browser.c       | @subpage browser       |
  * | commands.c      | @subpage commands      |
+ * | command_parse.c | @subpage command_parse |
  * | complete.c      | @subpage complete      |
  * | compose.c       | @subpage compose       |
- * | compress.c      | @subpage compress      |
  * | context.c       | @subpage ctx           |
  * | copy.c          | @subpage copy          |
  * | edit.c          | @subpage edit          |
  * | editmsg.c       | @subpage editmsg       |
  * | enriched.c      | @subpage enriched      |
  * | enter.c         | @subpage enter         |
- * | filter.c        | @subpage filter        |
  * | flags.c         | @subpage flags         |
+ * | functions.c     | @subpage functions     |
  * | handler.c       | @subpage handler       |
  * | hdrline.c       | @subpage hdrline       |
  * | help.c          | @subpage help          |
@@ -85,14 +86,18 @@
  * | mutt_account.c  | @subpage mutt_account  |
  * | mutt_attach.c   | @subpage mutt_attach   |
  * | mutt_body.c     | @subpage mutt_body     |
+ * | mutt_commands.c | @subpage mutt_commands |
+ * | mutt_config.c   | @subpage mutt_config   |
  * | mutt_header.c   | @subpage mutt_header   |
  * | mutt_history.c  | @subpage mutt_history  |
  * | mutt_logging.c  | @subpage mutt_logging  |
  * | mutt_lua.c      | @subpage mutt_lua      |
+ * | mutt_mailbox.c  | @subpage mailbox       |
  * | mutt_parse.c    | @subpage mutt_parse    |
  * | mutt_signal.c   | @subpage mutt_signal   |
  * | mutt_socket.c   | @subpage mutt_socket   |
  * | mutt_thread.c   | @subpage mutt_thread   |
+ * | mutt_zstrm.c    | @subpage zlib          |
  * | mx.c            | @subpage mx            |
  * | myvar.c         | @subpage myvar         |
  * | pager.c         | @subpage pager         |
