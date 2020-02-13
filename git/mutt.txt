@@ -207,6 +207,9 @@ Derek Schrock	dereks@lifeofadishwasher.com
 Dmitri Vereshchagin	dmitri.vereshchagin@gmail.com
 	Dmitri Vereshchagin <dmitri.vereshchagin@gmail.com>
 
+Ed Neville	ed@s5h.net
+	ed@s5h.net <ed@s5h.net>
+
 Edmund Grimley Evans	edmundo@rano.org
 	Edmund GRIMLEY EVANS <edmund820@rano.org>
 	Edmund GRIMLEY EVANS <edmundo@rano.org>
@@ -397,6 +400,9 @@ Marco d'Itri	md@linux.it
 
 Marco Paolone	marcopaolone@gmail.com
 	Marco Paolone <marcopaolone@gmail.com>
+
+Marek Marczykowski-Górecki	marmarek@invisiblethingslab.com
+	Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>
 
 Martin Michlmayr	tbm@cyrius.com
 	Martin Michlmayr <tbm@cyrius.com>

@@ -81,7 +81,7 @@ Bo Yu	tsu.yubo@gmail.com	yuzibo
 Bryan Bennett	bbenne10@gmail.com	bbenne10
 	Bryan Bennett <bbenne10@gmail.com>
 
-Casper Ti. Vector	CasperVector@gmail.com	@caspervector
+Casper Ti Vector	CasperVector@gmail.com	caspervector
 	Casper Ti. Vector <CasperVector@gmail.com>
 
 Charlie Drage	charlie@charliedrage.com	cdrage

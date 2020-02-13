@@ -2,7 +2,6 @@
 0-wiz-0         <wiz@netbsd.org>                      Thomas Klausner <wiz@netbsd.org>
 0mp             <mpp302@gmail.com>                    Mateusz Piotrowski <mpp302@gmail.com>
 0x747972        <0x747972@gmail.com>                  ryt <0x747972@gmail.com>
-@caspervector   <CasperVector@gmail.com>              Casper Ti. Vector <CasperVector@gmail.com>
 a3nm            <a3nm@a3nm.net>                       Antoine Amarilli <a3nm@a3nm.net>
 ahmedelgabri    <ahmed@gabri.me>                      Ahmed El Gabri <ahmed+github@gabri.me>
 ahmedelgabri    <ahmed@gabri.me>                      Ahmed El Gabri <ahmed@gabri.me>
@@ -25,6 +24,7 @@ bbenne10        <bbenne10@gmail.com>                  Bryan Bennett <bbenne10@gm
 bertramscharpf  <software@bertram-scharpf.de>         Bertram Scharpf <software@bertram-scharpf.de>
 binaryplease    <pablo1@mailbox.org>                  Pablo Ovelleiro Corral <pablo1@mailbox.org>
 bitstreamout    <werner@suse.de>                      Werner Fink <werner@suse.de>
+caspervector    <CasperVector@gmail.com>              Casper Ti. Vector <CasperVector@gmail.com>
 cdrage          <charlie@charliedrage.com>            Charlie Drage <charlie@charliedrage.com>
 cdroege         <mail@cdroege.de>                     Christian Dröge <mail@cdroege.de>
 christopher-john-czettel <chris@christopher-czettel.net>       chrissl <chris@christopher-czettel.net>
@@ -299,6 +299,7 @@ UPSTREAM <dev@mutt.org> Derek Martin <code@pizzashack.org>
 UPSTREAM <dev@mutt.org> Derek Martin <invalid@pizzashack.org>
 UPSTREAM <dev@mutt.org> Derek Schrock <dereks@lifeofadishwasher.com>
 UPSTREAM <dev@mutt.org> Dmitri Vereshchagin <dmitri.vereshchagin@gmail.com>
+UPSTREAM <dev@mutt.org> ed@s5h.net <ed@s5h.net>
 UPSTREAM <dev@mutt.org> Edmund GRIMLEY EVANS <edmund820@rano.org>
 UPSTREAM <dev@mutt.org> Edmund GRIMLEY EVANS <edmundo@rano.org>
 UPSTREAM <dev@mutt.org> Eike Rathke <erack@erack.de>
@@ -367,6 +368,7 @@ UPSTREAM <dev@mutt.org> Mantas Mikulėnas <grawity@gmail.com>
 UPSTREAM <dev@mutt.org> Marcel Telka <marcel@telka.sk>
 UPSTREAM <dev@mutt.org> Marco d'Itri <md@linux.it>
 UPSTREAM <dev@mutt.org> Marco Paolone <marcopaolone@gmail.com>
+UPSTREAM <dev@mutt.org> Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>
 UPSTREAM <dev@mutt.org> Martin Michlmayr <tbm@cyrius.com>
 UPSTREAM <dev@mutt.org> Martin Sandsmark <martin@sandsmark.ninja>
 UPSTREAM <dev@mutt.org> Martin Siegert <siegert@sfu.ca>
