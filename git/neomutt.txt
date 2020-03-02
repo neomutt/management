@@ -197,6 +197,9 @@ František Hájik	ferko.hajik@gmail.com	ferkohajik
 Frederick Eaton	frederik@ofb.net	archenemies
 	Frederick Eaton <frederik@ofb.net>
 
+ftilde	ftilde@protonmail.com	ftilde
+	ftilde <ftilde@protonmail.com>
+
 Guillaume Brogi	gui-gui@netcourrier.com	guiniol
 	Guillaume Brogi <gui-gui@netcourrier.com>
 	guiniol <gui-gui@netcourrier.com>
@@ -289,6 +292,9 @@ Kurt Jaeger	NONE	opsec
 Larry Rosenman	larryrtx@gmail.com	lrosenman
 	Larry Rosenman <larryrtx@gmail.com>
 
+Lars Haalck	l_haal02@uni-muenster.de	larshaalck
+	Lars Haalck <l_haal02@uni-muenster.de>
+
 Lars Kellogg-Stedman	lars@oddbit.com	larsks
 	Lars Kellogg-Stedman <lars@oddbit.com>
 
@@ -360,7 +366,7 @@ Nicolas Bock	nicolasbock@gmail.com	nicolasbock
 
 Olaf Lessenich	NONE	xai
 
-Pablo Ovelleiro Corral	pablo1@mailbox.org	binaryplease
+Pablo Ovelleiro Corral	pablo1@mailbox.org	pinpox
 	Pablo Ovelleiro Corral <pablo1@mailbox.org>
 
 parazyd	parazyd@dyne.org	parazyd
@@ -536,6 +542,9 @@ Tobias Stoeckmann	tobias@stoeckmann.org	stoeckmann
 
 Udo Schweigert	mutt@cert.siemens.de	NONE
 	Udo Schweigert <mutt@cert.siemens.de>
+
+Valeri	valsy@mail.ru	vpub
+	vpub <valsy@mail.ru>
 
 Victor Fernandes	criw@pm.me	ghikio
 	Victor Fernandes <criw@pm.me>
