@@ -1,5 +1,6 @@
 ## NeoMutt Contributors
 Adam Borowski (@kilobyte) <kilobyte@angband.pl>                            Adam Borowski <kilobyte@angband.pl>
+Adán Somoza (@darkadin) <adansomoza@outlook.com>                          DarkAdin <adansomoza@outlook.com>
 Ahmed El Gabri (@ahmedelgabri) <ahmed@gabri.me>                            Ahmed El Gabri <ahmed+github@gabri.me>
 Ahmed El Gabri (@ahmedelgabri) <ahmed@gabri.me>                            Ahmed El Gabri <ahmed@gabri.me>
 Alad Wenter (@aladw) <AladW@users.noreply.github.com>                      Alad Wenter <AladW@users.noreply.github.com>
@@ -208,7 +209,7 @@ Tobias Angele (@toogley) <toogley@mailbox.org>                             toogl
 Tobias Angele (@toogley) <toogley@mailbox.org>                             toogley <toogley@mailbox.org>
 Tobias Stoeckmann (@stoeckmann) <tobias@stoeckmann.org>                    Tobias Stoeckmann <tobias@stoeckmann.org>
 Udo Schweigert <mutt@cert.siemens.de>                                      Udo Schweigert <mutt@cert.siemens.de>
-Valeri (@vpub) <valsy@mail.ru>                                             vpub <valsy@mail.ru>
+Valeri Sergeev (@vpub) <valsy@mail.ru>                                     Valeri Y.Sergeev <valsy@mail.ru>
 Victor Fernandes (@ghikio) <criw@pm.me>                                    Victor Fernandes <criw@pm.me>
 Vladimir Zakharov (@z2v) <zakharov.vv@gmail.com>                           Vladimir Zakharov <zakharov.vv@gmail.com>
 Werner Fink (@bitstreamout) <werner@suse.de>                               Werner Fink <werner@suse.de>
@@ -289,6 +290,7 @@ UPSTREAM Daniel Burrows <dburrows@debian.org>                            Daniel 
 UPSTREAM Daniel Jacobowitz <dan@debian.org>                              Daniel Jacobowitz <dan@debian.org>
 UPSTREAM Daniel Kahn Gillmor <dkg@fifthhorseman.net>                     Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 UPSTREAM Daniel Schmitz <dr1s@users.noreply.github.com>                  Daniel Schmitz <dr1s@users.noreply.github.com>
+UPSTREAM Daniel Tameling <tamelingdaniel@gmail.com>                      Daniel Tameling <tamelingdaniel@gmail.com>
 UPSTREAM David Champion <dgc@c13.us>                                     David Champion <dgc.github@c13.us>
 UPSTREAM David Champion <dgc@c13.us>                                     David Champion <dgc@bikeshed.us>
 UPSTREAM David Champion <dgc@c13.us>                                     David Champion <dgc@c13.us>

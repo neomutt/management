@@ -1,6 +1,9 @@
 Adam Borowski	kilobyte@angband.pl	kilobyte
 	Adam Borowski <kilobyte@angband.pl>
 
+Adán Somoza	adansomoza@outlook.com	darkadin
+	DarkAdin <adansomoza@outlook.com>
+
 Ahmed El Gabri	ahmed@gabri.me	ahmedelgabri
 	Ahmed El Gabri <ahmed+github@gabri.me>
 	Ahmed El Gabri <ahmed@gabri.me>
@@ -543,8 +546,8 @@ Tobias Stoeckmann	tobias@stoeckmann.org	stoeckmann
 Udo Schweigert	mutt@cert.siemens.de	NONE
 	Udo Schweigert <mutt@cert.siemens.de>
 
-Valeri	valsy@mail.ru	vpub
-	vpub <valsy@mail.ru>
+Valeri Sergeev	valsy@mail.ru	vpub
+	Valeri Y.Sergeev <valsy@mail.ru>
 
 Victor Fernandes	criw@pm.me	ghikio
 	Victor Fernandes <criw@pm.me>

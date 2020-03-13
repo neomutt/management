@@ -175,6 +175,9 @@ Daniel Kahn Gillmor	dkg@fifthhorseman.net
 Daniel Schmitz	dr1s@users.noreply.github.com
 	Daniel Schmitz <dr1s@users.noreply.github.com>
 
+Daniel Tameling	tamelingdaniel@gmail.com
+	Daniel Tameling <tamelingdaniel@gmail.com>
+
 David Champion	dgc@c13.us
 	David Champion <dgc.github@c13.us>
 	David Champion <dgc@bikeshed.us>
