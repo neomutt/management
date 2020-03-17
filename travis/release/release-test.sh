@@ -74,7 +74,11 @@ function test_build()
 
 	start_fold "Configure" "configure.$NAME"
 
-	clean_dir
+	if [ "$DIR" = "." ]; then
+		clean_dir
+	else
+		rm -fr * .??*
+	fi
 
 	echo "-------------------------------------------------------------------------------"
 	echo "BUILD:  $NAME"
