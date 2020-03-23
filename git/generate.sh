@@ -77,7 +77,7 @@ function mailmap(){
 function credits(){
 	if [ "$preference" == "preferred" ]
 	then
-		if [ "$github_username" != "NONE" ]
+		if [ "$github_username" != "NONE" ] && [ "$github_username" != "null" ]
 		then
 			printf '[%s](%s "%s"),\n' "${preferred_name// / }" "https://github.com/$github_username" "$github_username"
 		else
