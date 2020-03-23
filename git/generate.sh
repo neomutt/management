@@ -1,14 +1,13 @@
 #!/bin/bash
 
 function init(){
-	suffix="_new" # remove suffix from everywhere before commiting
 	files=(
-		"neomutt${suffix}.txt"
-		"mutt${suffix}.txt"
+		"neomutt.txt"
+		"mutt.txt"
 	)
 	mailmap_header=(
-		"## NeoMutt Contributors"
-		"## Mutt Contributors"
+		"## NeoMutt Contributors - auto-generated: https://github.com/neomutt/management/tree/master/git"
+		"## Mutt Contributors - auto-generated: https://github.com/neomutt/management/tree/master/git"
 	)
 }
 
@@ -89,11 +88,11 @@ function credits(){
 
 function main(){
 	init
-	iterateFiles mailmap-name-nick | column -t -s $'\t' > mailmap-name-nick$suffix
-	iterateFiles mailmap-nick      | column -t -s $'\t' > mailmap-nick$suffix
-	iterateFiles mailmap           | column -t -s $'\t' > mailmap$suffix
+	iterateFiles mailmap-name-nick > mailmap-name-nick
+	iterateFiles mailmap-nick > mailmap-nick
+	iterateFiles mailmap > mailmap
 	echo "Generating credits for ${files[0]}" 1>&2
-	generate credits < ${files[0]} > credits${suffix}
+	generate credits < ${files[0]} > credits
 }
 
 main

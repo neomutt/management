@@ -1,585 +1,270 @@
-Adam Borowski	kilobyte@angband.pl	kilobyte
-	Adam Borowski <kilobyte@angband.pl>
-
-Adán Somoza	adansomoza@outlook.com	darkadin
-	DarkAdin <adansomoza@outlook.com>
-
-Ahmed El Gabri	ahmed@gabri.me	ahmedelgabri
-	Ahmed El Gabri <ahmed+github@gabri.me>
-	Ahmed El Gabri <ahmed@gabri.me>
-
-Alad Wenter	AladW@users.noreply.github.com	aladw
-	Alad Wenter <AladW@users.noreply.github.com>
-
-Aleksa Sarai	cyphar@cyphar.com	cyphar
-	Aleksa Sarai <cyphar@cyphar.com>
-
-Alex Pearce	alex@alexpearce.me	alexpearce
-	Alex Pearce <alex@alexpearce.me>
-
-Alexandre Simon	as@as-home.fr	igit
-	Alexandre SIMON <as@as-home.fr>
-
-Alok Singh	NONE	alok
-
-Alvaro Herrera	alvherre@alvh.no-ip.org	alvherre
-	Alvaro Herrera <alvherre@alvh.no-ip.org>
-
-Alyssa Ross	hi@alyssa.is	alyssais
-	Alyssa Ross <hi@alyssa.is>
-
-Ander Punnar	NONE	4nd3r
-
-Andreas Rammhold	andreas@rammhold.de	andir
-	Andreas Rammhold <andreas@rammhold.de>
-
-Andres Freund	andres@anarazel.de	anarazel
-	Andres Freund <andres@anarazel.de>
-
-André Berger	ab@andreberger.eu	hvkls
-	ab <Andre Berger andre.berger@web.de>
-	André Berger <ab@andreberger.eu>
-	André Berger <andre.berger@web.de>
-
-Antoine Amarilli	a3nm@a3nm.net	a3nm
-	Antoine Amarilli <a3nm@a3nm.net>
-
-Antoine Beaupré	anarcat@debian.org	anarcat
-	anarcat <anarcat@users.noreply.github.com>
-
-Anton Rieger	seishinryohosha@jikken.de	inrin
-	Anton Rieger <seishinryohosha@jikken.de>
-	seishinryohosha <seishinryohosha@users.noreply.github.com>
-
-Antonio Radici	antonio@dyne.org	aradici
-	Antonio Radici <antonio@dyne.org>
-	Unknown <antonio@dyne.org>
-
-Austin Ray	austin@austinray.io	austin-ray
-	Austin Ray <austin.duke.ray@gmail.com>
-	Austin Ray <austin@austinray.io>
-
-Baptiste Daroussin	NONE	bapt
-
-Benjamin Mako Hill	mako@atdot.cc	makoshark
-	Benjamin Mako Hill <mako@atdot.cc>
-
-Bernard Pratz	guyzmo+github+pub@m0g.net	guyzmo
-	Bernard 'Guyzmo' Pratz <guyzmo+github+pub@m0g.net>
-	Bernard Pratz <guyzmo+github+pub@m0g.net>
-	Guyzmo <guyzmo+github+pub@m0g.net>
-	guyzmo <guyzmo+github+pub@m0g.net>
-
-Bertram Scharpf	software@bertram-scharpf.de	bertramscharpf
-	Bertram Scharpf <software@bertram-scharpf.de>
-
-Bletchley Park	18015852+libBletchley@users.noreply.github.com	NONE
-	Bletchley Park <18015852+libBletchley@users.noreply.github.com>
-
-Bo Yu	tsu.yubo@gmail.com	yuzibo
-	Bo Yu <tsu.yubo@gmail.com>
-	Bo <tsu.yubo@gmail.com>
-	Bo YU <yuzibode@126.com>
-
-Bryan Bennett	bbenne10@gmail.com	bbenne10
-	Bryan Bennett <bbenne10@gmail.com>
-
-Casper Ti Vector	CasperVector@gmail.com	caspervector
-	Casper Ti. Vector <CasperVector@gmail.com>
-
-Charlie Drage	charlie@charliedrage.com	cdrage
-	Charlie Drage <charlie@charliedrage.com>
-
-Chris Czettel	chris@christopher-czettel.net	christopher-john-czettel
-	Christopher John CZETTEL <chris@christopher-czettel.net>
-	chrissl <chris@christopher-czettel.net>
-
-Chris Salzberg	chris@dejimata.com	shioyama
-	Chris Salzberg <chris@dejimata.com>
-	Chris Salzberg <csalzberg@degica.com>
-
-Christian Dröge	mail@cdroege.de	cdroege
-	Christian Dröge <mail@cdroege.de>
-
-Christian Storm	storm@mailbox.org	stormc
-	Christian Storm <storm@mailbox.org>
-
-Christoph Berg	cb@df7cb.de	NONE
-	Christoph Berg <cb@df7cb.de>
-
-cinder88	aerlanger@owlcti.com	cinder88
-	ate <aerlanger@owlcti.com>
-
-Clemens Lang	neverpanic@gmail.com	neverpanic
-	Clemens Lang <neverpanic@gmail.com>
-
-Dai Mochinaga	mochidai@gmail.com	mochidai
-	mochidai <mochidai@gmail.com>
-
-Damien Riegel	damien.riegel@gmail.com	d-k-c
-	Damien R <d-k-c@users.noreply.github.com>
-	Damien Riegel <damien.riegel@gmail.com>
-	Damien Riegel <damien.riegel@savoirfairelinux.com>
-	Damien Riegel <damien@riegel.io>
-
-Daniel Gray	dng@disroot.org	dngray
-	Daniel Gray <dng@disroot.org>
-
-Dapeng Gao	peter@dpgao.cc	dpgao
-	Dapeng Gao <31944689+dpgao@users.noreply.github.com>
-	Dapeng Gao <peter@dpgao.cc>
-
-Darren Kenny	darren.kenny@oracle.com	darrenkenny
-	Darren Kenny <darren.kenny@oracle.com>
-
-Darshit Shah	git@darnir.net	darnir
-	Darshit Shah <git@darnir.net>
-	Darshit Shah <darnir@gmail.com>
-	Darshit Shah <darnir@users.noreply.github.com>
-
-David Harrigan	dharrigan@gmail.com	dharrigan
-	David Harrigan <dharrigan@gmail.com>
-
-David Sterba	dsterba@suse.cz	kdave
-	David Sterba <dsterba@suse.com>
-	David Sterba <dsterba@suse.cz>
-
-Dimitrios Semitsoglou-Tsiapos	kmhzsem@gmx.com	dset0x
-	Dimitrios Semitsoglou-Tsiapos <kmhzsem@gmx.com>
-
-Doron Behar	doron.behar@gmail.com	doronbehar
-	Doron Behar <doron.behar@gmail.com>
-
-Doug Stone-Weaver	doug@stone-weaver.com	doweaver
-	Doug Stone-Weaver <doug@stone-weaver.com>
-
-Edward Betts	edward@4angle.com	edwardbetts
-	Edward Betts <edward@4angle.com>
-
-El Acheche ANIS	elacheche@ubuntu.com	elacheche
-	El Acheche ANIS <elacheche@ubuntu.com>
-
-Eli Winderickx	eli.winderickx@ap.be	winderickxeli
-	Winderickx Eli (p087068) <eli.winderickx@ap.be>
-
-Elimar Riesebieter	riesebie@lxtec.de	riesebie
-	Elimar Riesebieter <riesebie@lxtec.de>
-
-Enno Nagel	Konfekt@users.noreply.github.com	konfekt
-	Enno <Konfekt@users.noreply.github.com>
-
-Evgeni Golov	NONE	evgeni
-
-Fabian Groffen	grobian@gentoo.org	grobian
-	Fabian Groffen <grobian@gentoo.org>
-	Fabian Groffen <grobian@orakel.ods.org>
-
-Fabio Locati	NONE	Fale
-
-Fabrice Bellet	fabrice@bellet.info	fbellet
-	Fabrice Bellet <fabrice@bellet.info>
-
-Faidon Liambotis	NONE	paravoid
-
-Federico Kircheis	federico.kircheis@gmail.com	fekir
-	Federico Kircheis <federico.kircheis@gmail.com>
-	fekir <federico.kircheis@gmail.com>
-
-Florian Klink	flokli@flokli.de	flokli
-	Florian Klink <flokli@flokli.de>
-
-Florian Wehner	florian@whnr.de	whnr
-	Florian Wehner <florian@whnr.de>
-
-Floyd Anderson	f.a@31c0.net	floand
-	Floyd Anderson <f.a@31c0.net>
-
-František Hájik	ferko.hajik@gmail.com	ferkohajik
-	František Hájik <ferko.hajik@gmail.com>
-
-Frederick Eaton	frederik@ofb.net	archenemies
-	Frederick Eaton <frederik@ofb.net>
-
-ftilde	ftilde@protonmail.com	ftilde
-	ftilde <ftilde@protonmail.com>
-
-Guillaume Brogi	gui-gui@netcourrier.com	guiniol
-	Guillaume Brogi <gui-gui@netcourrier.com>
-	guiniol <gui-gui@netcourrier.com>
-
-Hugo Barrera	hugo@barrera.io	whynothugo
-	Hugo Osvaldo Barrera <hugo@barrera.io>
-
-Ian Zimmerman	itz@no-use.mooo.com	nobrowser
-	Ian Zimmerman <itz@no-use.mooo.com>
-	Ian Zimmerman <itz@primate.net>
-	Ian Zimmerman <itz@very.loosely.org>
-	Ian Zimmerman <nobrowser@users.noreply.github.com>
-
-Ismaël Bouya	ismael.bouya@normalesup.org	immae
-	Ismaël Bouya <ismael.bouya@normalesup.org>
-
-Ivan J	parazyd@dyne.org	parazyd
-	Ivan J <parazyd@users.noreply.github.com>
-
-Ivan Tham	pickfire@riseup.net	pickfire
-	Ivan Tham <pickfire@riseup.net>
-
-J Lewis Muir	jlmuir@imca-cat.org	jlmuir
-	J. Lewis Muir <jlmuir@imca-cat.org>
-
-Jack Stratton	jack@phroa.net	phroa
-	Jack Stratton <jack@phroa.net>
-
-Jakub Jindra	jakub.jindra@socialbakers.com	jindraj
-	Jakub Jindra <jindraj@users.noreply.github.com>
-	Jakub Jindra <jakub.jindra@socialbakers.com>
-
-Jakub Wilk	jwilk@jwilk.net	jwilk
-	Jakub Wilk <jwilk@jwilk.net>
-
-James Vaughan	james@jamesbvaughan.com	jamesbvaughan
-	James Vaughan <james@jamesbvaughan.com>
-
-Jasper Adriaanse	jasper@humppa.nl	jasperla
-	Jasper Lievisse Adriaanse <jasper@humppa.nl>
-
-Jelle van der Waa	jelle@vdwaa.nl	jelly
-	Jelle van der Waa <jelle@vdwaa.nl>
-
-Jenya Sovetkin	e.sovetkin@gmail.com	esovetkin
-	Jenya Sovetkin <e.sovetkin@gmail.com>
-
-JerikoOne	jeriko.one@gmx.us	jeriko-one
-	JerikoOne <jeriko.one@gmx.us>
-
-Joey Pabalinas	joeypabalinas@gmail.com	alyptik
-	Joey Pabalinas <joeypabalinas@gmail.com>
-
-Johannes Frankenau	johannes@frankenau.net	tsuflux
-	Johannes Frankenau <johannes@frankenau.net>
-
-Johannes Weißl	jargon@molb.org	weisslj
-	Johannes Weißl <jargon@molb.org>
-
-Jonathan Perkin	jperkin@netbsd.org	jperkin
-	Jonathan Perkin <jperkin@netbsd.org>
-
-Joseph Bisch	joseph.bisch@gmail.com	josephbisch
-	Joseph Bisch <joseph.bisch@gmail.com>
-
-Josh Poimboeuf	jpoimboe@redhat.com	jpoimboe
-	Josh Poimboeuf <jpoimboe@redhat.com>
-
-Joshua Jordi	dracogoyle@gmail.com	jakkinstewart
-	Jakkin <dracogoyle@gmail.com>
-	Joshua Jordi <JakkinStewart@users.noreply.github.com>
-
-Julian Andres Klode	jak@jak-linux.org	julian-klode
-	Julian Andres Klode <jak@jak-linux.org>
-
-Justin Vasel	justin.vasel@gmail.com	justinvasel
-	Justin Vasel <justin.vasel@gmail.com>
-
-Karel Zak	kzak@redhat.com	karelzak
-	Karel Zak <kzak@redhat.com>
-
-Kevin Decherf	kevin@kdecherf.com	kdecherf
-	Kevin Decherf <kevin@kdecherf.com>
-
-Kevin Velghe	kevin@paretje.be	paretje
-	Kevin Velghe <kevin@paretje.be>
-
-Kurt Jaeger	NONE	opsec
-
-Larry Rosenman	larryrtx@gmail.com	lrosenman
-	Larry Rosenman <larryrtx@gmail.com>
-
-Lars Haalck	l_haal02@uni-muenster.de	larshaalck
-	Lars Haalck <l_haal02@uni-muenster.de>
-
-Lars Kellogg-Stedman	lars@oddbit.com	larsks
-	Lars Kellogg-Stedman <lars@oddbit.com>
-
-Leo Lundgren	leo@finalresort.org	rawtaz
-	Leo R. Lundgren <leo@finalresort.org>
-	rawtaz <rawtaz@users.noreply.github.com>
-
-Leonardo Schenkel	leonardo@schenkel.net	lbschenkel
-	Leonardo Brondani Schenkel <leonardo@schenkel.net>
-
-Leonidas Spyropoulos	artafinde@gmail.com	inglor
-	Leonidas Spyropoulos <artafinde@gmail.com>
-
-Manos Pitsidianakis	el13635@mail.ntua.gr	epilys
-	Manos Pitsidianakis <el13635@mail.ntua.gr>
-
-Marcin Rajner	mrajner@gik.pw.edu.pl	mrajner
-	Marcin Rajner <mrajner@chalmers>
-	Marcin Rajner <mrajner@lenovo>
-	Marcin Rajner <mrajner@lenovoarch>
-	Marcin Rajner <mrajner@pwarch>
-	Marcin Rajner lenovo <mrajner@gik.pw.edu.pl>
-
-Marco Hinz	mh.codebro@gmail.com	mhinz
-	Marco Hinz <mh.codebro@gmail.com>
-
-Marco Sirabella	marco@sirabella.org	mjsir911
-	Marco Sirabella <marco@sirabella.org>
-
-Marius Gedminas	marius@gedmin.as	mgedmin
-	Marius Gedminas <marius@gedmin.as>
-
-Mark Stenglein	mark@stengle.in	ocelotsloth
-	Mark Stenglein <mark@stengle.in>
-
-Mateusz Piotrowski	mpp302@gmail.com	0mp
-	Mateusz Piotrowski <mpp302@gmail.com>
-
-Matteo Vescovi	NONE	mfvescovi
-
-Mehdi Abaakouk	sileht@sileht.net	sileht
-	Mehdi ABAAKOUK <sileht@sileht.net>
-	Mehdi Abaakouk <sileht@sileht.net>
-
-Michael Bazzinotti	mbazzinotti@gmail.com	bazzinotti
-	Michael J. Bazzinotti <mbazzinotti@gmail.com>
-
-Mingcong Bai	jeffbai@aosc.xyz	MingcongBai
-	Mingcong Bai <jeffbai@aosc.xyz>
-
-Nagefire	nagefire.dev@gmail.com	nagefire
-	Nagefire <nagefire.dev@gmail.com>
-
-Naveen Nathan	naveen@lastninja.net	nnathan
-	Naveen Nathan <naveen@lastninja.net>
-
-ng0	ng0@n0.is	ng-0
-	ng0 <ng0@infotropique.org>
-	ng0 <ng0@n0.is>
-
-Nicholas Steeves	nsteeves@gmail.com	sten0
-	Nicholas D Steeves <nsteeves@gmail.com>
-
-Nicholas Wieland	ngw@nofeed.org	ngw
-	Nicholas Wieland <ngw@nofeed.org>
-
-Nicolas Bock	nicolasbock@gmail.com	nicolasbock
-	Nicolas Bock <nicolasbock@gmail.com>
-
-Olaf Lessenich	NONE	xai
-
-Pablo Ovelleiro Corral	pablo1@mailbox.org	pinpox
-	Pablo Ovelleiro Corral <pablo1@mailbox.org>
-
-parazyd	parazyd@dyne.org	parazyd
-	parazyd <parazyd@dyne.org>
-
-Perry Thompson	contact@ryper.org	rypervenche
-	Perry Thompson <contact@ryper.org>
-
-Peter Hogg	pm@pig-monkey.com	pigmonkey
-	Pig Monkey <pm@pig-monkey.com>
-
-Peter Lewis	pete@muddygoat.org	petelewis
-	Peter Lewis <pete@muddygoat.org>
-
-Phil Pennock	phil@pennock-tech.com	philpennock
-	Phil Pennock <phil@pennock-tech.com>
-
-Philipp Marek	NONE	phmarek
-
-Pierre-Elliott Bécue	becue@crans.org	p-eb
-	Pierre-Elliott Bécue <P-EB@users.noreply.github.com>
-	Pierre-Elliott Bécue <becue@crans.org>
-
-Pietro Cerutti	gahr@gahr.ch	gahr
-	Pietro Ceruti <gahr@gahr.ch>
-	Pietro Cerutti <gahr@gahr.ch>
-
-r3lgar	r3lgar@openmailbox.org	r3lgar
-	r3lgar <r3lgar@openmailbox.org>
-	r3lgar <r3lgar@users.noreply.github.com>
-
-Rahul Gopinath	rahul@gopinath.org	vrthra
-	Rahul Gopinath <rahul@gopinath.org>
-
-Regid Ichira	regid23@nt1.in	NONE
-	Regid Ichira <regid23@nt1.in>
-
-Reis Radomil	reisradomil@fake-box.com	reisradomil
-	Reis Radomil <reisradomil@fake-box.com>
-
-Riad Wahby	kwantam@gmail.com	kwantam
-	Riad S. Wahby <kwantam@gmail.com>
-
-Richard Hartmann	RichiH@users.noreply.github.com	richih
-	Richard Hartmann <RichiH@users.noreply.github.com>
-
-Richard Russon	rich@flatcap.org	flatcap
-	Richard Russon <rich@flatcap.org>
-	Richard Russon (DEPLOY) <rich@flatcap.org>
-
-Roger Pau Monne	roger.pau@citrix.com	royger
-	Roger Pau Monne <roger.pau@citrix.com>
-
-Ronan Arraes Jardim Chagas	ronisbr@gmail.com	ronisbr
-	Ronan Arraes Jardim Chagas <ronisbr@gmail.com>
-
-Rubén Llorente	rubenllorente@startmail.com	NONE
-	Rubén Llorente <rubenllorente@startmail.com>
-
-ryt	0x747972@gmail.com	0x747972
-	ryt <0x747972@gmail.com>
-
-Santiago Torres	torresariass@gmail.com	santiagotorres
-	Santiago Torres <torresariass@gmail.com>
-
-Scott Kostyshak	scott.kostyshak@gmail.com	scottkosty
-	Scott Kostyshak <scott.kostyshak@gmail.com>
-
-Sebastian Stark	sstark@mailbox.org	sstark
-	Sebastian Stark <sstark@mailbox.org>
-
-Serge Gebhardt	serge.gebhardt@gmail.com	sgeb
-	Serge Gebhardt <serge.gebhardt@gmail.com>
-
-Sergey Alirzaev	zl29ah@gmail.com	l29ah
-	Sergey Alirzaev <zl29ah@gmail.com>
-
-Shane Donohoe	donohoe.shane@gmail.com	shanedabes
-	Shane Donohoe <donohoe.shane@gmail.com>
-	sharktamer <sharktamer@users.noreply.github.com>
-
-Sheoak	sheoak@users.noreply.github.com	sheoak
-	Sheoak <sheoak@users.noreply.github.com>
-
-Shi Lee	rtlanceroad@gmail.com	NONE
-	rtlanceroad <rtlanceroad@gmail.com>
-
-Simon Reichel	simms1@web.de	amudtogal
-	Simon Reichel <simms1@web.de>
-
-Simon Symeonidis	lethaljellybean@gmail.com	psyomn
-	Simon Symeonidis <lethaljellybean@gmail.com>
-
-somini	dev@somini.xyz	somini
-	somini <somini29@yandex.com>
-	somini <somini@users.noreply.github.com>
-	somini <dev@somini.xyz>
-
-Stefan Assmann	sassmann@kpanic.de	sassmann
-	sassmann <sassmann@users.noreply.github.com>
-	Stefan Assmann <sassmann@kpanic.de>
-	Stefan Assmann <sassmann@redhat.com>
-
-Stefan Bühler	stbuehler@web.de	stbuehler
-	Stefan Bühler <stbuehler@web.de>
-
-Stefan Kropp	stefan@debxwoody.de	debxwoody
-	DebXWoody <stefan@debxwoody.de>
-	Stefan <32964719+DebXWoody@users.noreply.github.com>
-	Stefan Kropp <stefan@debxwoody.de>
-
-Stefano Zacchiroli	zack@upsilon.cc	zacchiro
-	Stefano Zacchiroli <zack@upsilon.cc>
-
-Stephen Gilles	sgilles@math.umd.edu	NONE
-	S. Gilles <sgilles@math.umd.edu>
-
-Steven Ragnarök	steven@nuclearsandwich.com	nuclearsandwich
-	Steven! Ragnarök <steven@nuclearsandwich.com>
-
-Steve Bennett	NONE	msteveb
-
-Stig Palmquist	stig@stig.io	stigtsp
-	Stig Palmquist <stig@stig.io>
-
-Stuart Henderson	stu-github@spacehopper.org	sthen
-	Stuart Henderson <stu-github@spacehopper.org>
-	Stuart Henderson <sthen@users.noreply.github.com>
-
-Stéphane Lesimple	speed47_github@speed47.net	speed47
-	Stéphane Lesimple <speed47_github@speed47.net>
-
-Sven Guckes	NONE	guckes
-
-telshock	telshock@users.noreply.github.com	telshock
-	telshock <telshock@users.noreply.github.com>
-
-Theo Jepsen	theojepsen@gmail.com	theojepsen
-	Theo <theojepsen@g-m-a-i-l-dotcom>
-
-Thiago Costa de Paiva	tecepe@tecepe.eng.br	tecepe
-	tecepe <tecepe@tecepe.eng.br>
-	tecepe <tecepe@users.noreply.github.com>
-	Thiago Costa de Paiva <tcpaiva@cern.ch>
-	Thiago Costa de Paiva <tcpaiva@users.noreply.github.com>
-	Thiago Costa de Paiva <tecepe@tecepe.eng.br>
-
-Thomas Adam	thomas@xteddy.org	thomasadam
-	Thomas Adam <thomas@xteddy.org>
-
-Thomas Jarosch	thomas.jarosch@intra2net.com	thomasjfox
-	Thomas Jarosch <thomas.jarosch@intra2net.com>
-
-Thomas Klausner	wiz@netbsd.org	0-wiz-0
-	Thomas Klausner <wiz@netbsd.org>
-
-Thomas Schneider	qsx@qsx.re	qsuscs
-	Thomas Schneider <qsx@qsx.re>
-
-Timmy Xiao	timmyxiao1@gmail.com	yimmt
-	Timmy Xiao <timmyxiao1@gmail.com>
-
-Tino Reichardt	github@mcmilk.de	mcmilk
-	Tino Reichardt <github@mcmilk.de>
-
-Tobias Angele	toogley@mailbox.org	toogley
-	Tobias Angele <toogley@mailbox.org>
-	toogley <9417950+toogley@users.noreply.github.com>
-	toogley <toogley@mailbox.org>
-
-Tobias Stoeckmann	tobias@stoeckmann.org	stoeckmann
-	Tobias Stoeckmann <tobias@stoeckmann.org>
-
-Udo Schweigert	mutt@cert.siemens.de	NONE
-	Udo Schweigert <mutt@cert.siemens.de>
-
-Valeri Sergeev	valsy@mail.ru	vpub
-	Valeri Y.Sergeev <valsy@mail.ru>
-
-Victor Fernandes	criw@pm.me	ghikio
-	Victor Fernandes <criw@pm.me>
-
-Vladimir Zakharov	zakharov.vv@gmail.com	z2v
-	Vladimir Zakharov <zakharov.vv@gmail.com>
-
-Werner Fink	werner@suse.de	bitstreamout
-	Werner Fink <werner@suse.de>
-
-Wieland Hoffmann	themineo@gmail.com	mineo
-	Wieland Hoffmann <mineo@users.noreply.github.com>
-	Wieland Hoffmann <themineo@gmail.com>
-
-Will Curry	will@robotican.org	wcurry
-	Will Curry <will@robotican.org>
-
-William Pettersson	william.pettersson@gmail.com	wpettersson
-	William Pettersson <william.pettersson+github@gmail.com>
-	William Pettersson <william.pettersson@gmail.com>
-
-x3nb63	25959223+x3nb63@users.noreply.github.com	x3nb63
-	x3nb63 <25959223+x3nb63@users.noreply.github.com>
-
-Yoshiki Vázquez Baeza	yoshiki89@gmail.com	eldeveloper
-	Yoshiki Vázquez Baeza <yoshiki89@gmail.com>
-
-Yubin Ruan	ablacktshirt@gmail.com	walkerlala
-	Yubin Ruan <ablacktshirt@gmail.com>
-
-Zero King	l2dy@icloud.com	l2dy
-	Zero King <l2dy@icloud.com>
-
-zsugabubus	zsugabubus@users.noreply.github.com	zsugabubus
-	zsugabubus <zsugabubus@users.noreply.github.com>
+neomutt,0-wiz-0,wiz@netbsd.org,wiz@netbsd.org,Thomas Klausner,preferred
+neomutt,0mp,mpp302@gmail.com,mpp302@gmail.com,Mateusz Piotrowski,preferred
+neomutt,0x747972,0x747972@gmail.com,0x747972@gmail.com,ryt,preferred
+neomutt,4nd3r,NONE,NONE,Ander Punnar,preferred
+neomutt,Fale,NONE,NONE,Fabio Locati,preferred
+neomutt,MingcongBai,jeffbai@aosc.xyz,jeffbai@aosc.xyz,Mingcong Bai,preferred
+neomutt,NONE,18015852+libBletchley@users.noreply.github.com,18015852+libBletchley@users.noreply.github.com,Bletchley Park,preferred
+neomutt,NONE,cb@df7cb.de,cb@df7cb.de,Christoph Berg,preferred
+neomutt,NONE,mutt@cert.siemens.de,mutt@cert.siemens.de,Udo Schweigert,preferred
+neomutt,NONE,regid23@nt1.in,regid23@nt1.in,Regid Ichira,preferred
+neomutt,NONE,rtlanceroad@gmail.com,rtlanceroad@gmail.com,Shi Lee,preferred
+neomutt,NONE,rtlanceroad@gmail.com,rtlanceroad@gmail.com,rtlanceroad,secondary
+neomutt,NONE,rubenllorente@startmail.com,rubenllorente@startmail.com,Rubén Llorente,preferred
+neomutt,NONE,sgilles@math.umd.edu,sgilles@math.umd.edu,Stephen Gilles,preferred
+neomutt,NONE,sgilles@math.umd.edu,sgilles@math.umd.edu,S. Gilles,secondary
+neomutt,a3nm,a3nm@a3nm.net,a3nm@a3nm.net,Antoine Amarilli,preferred
+neomutt,ahmedelgabri,ahmed@gabri.me,ahmed@gabri.me,Ahmed El Gabri,preferred
+neomutt,ahmedelgabri,ahmed@gabri.me,ahmed+github@gabri.me,Ahmed El Gabri,secondary
+neomutt,aladw,AladW@users.noreply.github.com,AladW@users.noreply.github.com,Alad Wenter,preferred
+neomutt,alexpearce,alex@alexpearce.me,alex@alexpearce.me,Alex Pearce,preferred
+neomutt,alok,NONE,NONE,Alok Singh,preferred
+neomutt,alvherre,alvherre@alvh.no-ip.org,alvherre@alvh.no-ip.org,Alvaro Herrera,preferred
+neomutt,alyptik,joeypabalinas@gmail.com,joeypabalinas@gmail.com,Joey Pabalinas,preferred
+neomutt,alyssais,hi@alyssa.is,hi@alyssa.is,Alyssa Ross,preferred
+neomutt,amudtogal,simms1@web.de,simms1@web.de,Simon Reichel,preferred
+neomutt,anarazel,andres@anarazel.de,andres@anarazel.de,Andres Freund,preferred
+neomutt,anarcat,anarcat@debian.org,anarcat@debian.org,Antoine Beaupré,preferred
+neomutt,anarcat,anarcat@debian.org,anarcat@users.noreply.github.com,anarcat,secondary
+neomutt,andir,andreas@rammhold.de,andreas@rammhold.de,Andreas Rammhold,preferred
+neomutt,aradici,antonio@dyne.org,antonio@dyne.org,Antonio Radici,preferred
+neomutt,aradici,antonio@dyne.org,antonio@dyne.org,Unknown,secondary
+neomutt,archenemies,frederik@ofb.net,frederik@ofb.net,Frederick Eaton,preferred
+neomutt,austin-ray,austin@austinray.io,austin@austinray.io,Austin Ray,preferred
+neomutt,austin-ray,austin@austinray.io,austin.duke.ray@gmail.com,Austin Ray,secondary
+neomutt,bapt,NONE,NONE,Baptiste Daroussin,preferred
+neomutt,bazzinotti,mbazzinotti@gmail.com,mbazzinotti@gmail.com,Michael Bazzinotti,preferred
+neomutt,bazzinotti,mbazzinotti@gmail.com,mbazzinotti@gmail.com,Michael J. Bazzinotti,secondary
+neomutt,bbenne10,bbenne10@gmail.com,bbenne10@gmail.com,Bryan Bennett,preferred
+neomutt,bertramscharpf,software@bertram-scharpf.de,software@bertram-scharpf.de,Bertram Scharpf,preferred
+neomutt,bitstreamout,werner@suse.de,werner@suse.de,Werner Fink,preferred
+neomutt,caspervector,CasperVector@gmail.com,CasperVector@gmail.com,Casper Ti Vector,preferred
+neomutt,caspervector,CasperVector@gmail.com,CasperVector@gmail.com,Casper Ti. Vector,secondary
+neomutt,cdrage,charlie@charliedrage.com,charlie@charliedrage.com,Charlie Drage,preferred
+neomutt,cdroege,mail@cdroege.de,mail@cdroege.de,Christian Dröge,preferred
+neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,Chris Czettel,preferred
+neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,Christopher John CZETTEL,secondary
+neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,chrissl,secondary
+neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,cinder88,preferred
+neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,ate,secondary
+neomutt,cyphar,cyphar@cyphar.com,cyphar@cyphar.com,Aleksa Sarai,preferred
+neomutt,d-k-c,damien.riegel@gmail.com,damien.riegel@gmail.com,Damien Riegel,preferred
+neomutt,d-k-c,damien.riegel@gmail.com,d-k-c@users.noreply.github.com,Damien R,secondary
+neomutt,d-k-c,damien.riegel@gmail.com,damien.riegel@savoirfairelinux.com,Damien Riegel,secondary
+neomutt,d-k-c,damien.riegel@gmail.com,damien@riegel.io,Damien Riegel,secondary
+neomutt,darkadin,adansomoza@outlook.com,adansomoza@outlook.com,Adán Somoza,preferred
+neomutt,darkadin,adansomoza@outlook.com,adansomoza@outlook.com,DarkAdin,secondary
+neomutt,darnir,git@darnir.net,git@darnir.net,Darshit Shah,preferred
+neomutt,darnir,git@darnir.net,darnir@gmail.com,Darshit Shah,secondary
+neomutt,darnir,git@darnir.net,darnir@users.noreply.github.com,Darshit Shah,secondary
+neomutt,darrenkenny,darren.kenny@oracle.com,darren.kenny@oracle.com,Darren Kenny,preferred
+neomutt,debxwoody,stefan@debxwoody.de,stefan@debxwoody.de,Stefan Kropp,preferred
+neomutt,debxwoody,stefan@debxwoody.de,32964719+DebXWoody@users.noreply.github.com,Stefan,secondary
+neomutt,debxwoody,stefan@debxwoody.de,stefan@debxwoody.de,DebXWoody,secondary
+neomutt,dharrigan,dharrigan@gmail.com,dharrigan@gmail.com,David Harrigan,preferred
+neomutt,dngray,dng@disroot.org,dng@disroot.org,Daniel Gray,preferred
+neomutt,doronbehar,doron.behar@gmail.com,doron.behar@gmail.com,Doron Behar,preferred
+neomutt,doweaver,doug@stone-weaver.com,doug@stone-weaver.com,Doug Stone-Weaver,preferred
+neomutt,dpgao,peter@dpgao.cc,peter@dpgao.cc,Dapeng Gao,preferred
+neomutt,dpgao,peter@dpgao.cc,31944689+dpgao@users.noreply.github.com,Dapeng Gao,secondary
+neomutt,dset0x,kmhzsem@gmx.com,kmhzsem@gmx.com,Dimitrios Semitsoglou-Tsiapos,preferred
+neomutt,edwardbetts,edward@4angle.com,edward@4angle.com,Edward Betts,preferred
+neomutt,elacheche,elacheche@ubuntu.com,elacheche@ubuntu.com,El Acheche ANIS,preferred
+neomutt,eldeveloper,yoshiki89@gmail.com,yoshiki89@gmail.com,Yoshiki Vázquez Baeza,preferred
+neomutt,epilys,el13635@mail.ntua.gr,el13635@mail.ntua.gr,Manos Pitsidianakis,preferred
+neomutt,esovetkin,e.sovetkin@gmail.com,e.sovetkin@gmail.com,Jenya Sovetkin,preferred
+neomutt,evgeni,NONE,NONE,Evgeni Golov,preferred
+neomutt,fbellet,fabrice@bellet.info,fabrice@bellet.info,Fabrice Bellet,preferred
+neomutt,fekir,federico.kircheis@gmail.com,federico.kircheis@gmail.com,Federico Kircheis,preferred
+neomutt,fekir,federico.kircheis@gmail.com,federico.kircheis@gmail.com,fekir,secondary
+neomutt,ferkohajik,ferko.hajik@gmail.com,ferko.hajik@gmail.com,František Hájik,preferred
+neomutt,flatcap,rich@flatcap.org,rich@flatcap.org,Richard Russon,preferred
+neomutt,flatcap,rich@flatcap.org,rich@flatcap.org,Richard Russon (DEPLOY),secondary
+neomutt,floand,f.a@31c0.net,f.a@31c0.net,Floyd Anderson,preferred
+neomutt,flokli,flokli@flokli.de,flokli@flokli.de,Florian Klink,preferred
+neomutt,ftilde,ftilde@protonmail.com,ftilde@protonmail.com,ftilde,preferred
+neomutt,gahr,gahr@gahr.ch,gahr@gahr.ch,Pietro Cerutti,preferred
+neomutt,gahr,gahr@gahr.ch,gahr@gahr.ch,Pietro Ceruti,secondary
+neomutt,ghikio,criw@pm.me,criw@pm.me,Victor Fernandes,preferred
+neomutt,grobian,grobian@gentoo.org,grobian@gentoo.org,Fabian Groffen,preferred
+neomutt,grobian,grobian@gentoo.org,grobian@orakel.ods.org,Fabian Groffen,secondary
+neomutt,guckes,NONE,NONE,Sven Guckes,preferred
+neomutt,guiniol,gui-gui@netcourrier.com,gui-gui@netcourrier.com,Guillaume Brogi,preferred
+neomutt,guiniol,gui-gui@netcourrier.com,gui-gui@netcourrier.com,guiniol,secondary
+neomutt,guyzmo,guyzmo+github+pub@m0g.net,guyzmo+github+pub@m0g.net,Bernard Pratz,preferred
+neomutt,guyzmo,guyzmo+github+pub@m0g.net,guyzmo+github+pub@m0g.net,Bernard 'Guyzmo' Pratz,secondary
+neomutt,guyzmo,guyzmo+github+pub@m0g.net,guyzmo+github+pub@m0g.net,Guyzmo,secondary
+neomutt,guyzmo,guyzmo+github+pub@m0g.net,guyzmo+github+pub@m0g.net,guyzmo,secondary
+neomutt,hvkls,ab@andreberger.eu,ab@andreberger.eu,André Berger,preferred
+neomutt,hvkls,ab@andreberger.eu,Andre Berger andre.berger@web.de,ab,secondary
+neomutt,hvkls,ab@andreberger.eu,andre.berger@web.de,André Berger,secondary
+neomutt,igit,as@as-home.fr,as@as-home.fr,Alexandre Simon,preferred
+neomutt,igit,as@as-home.fr,as@as-home.fr,Alexandre SIMON,secondary
+neomutt,immae,ismael.bouya@normalesup.org,ismael.bouya@normalesup.org,Ismaël Bouya,preferred
+neomutt,inglor,artafinde@gmail.com,artafinde@gmail.com,Leonidas Spyropoulos,preferred
+neomutt,inrin,seishinryohosha@jikken.de,seishinryohosha@jikken.de,Anton Rieger,preferred
+neomutt,inrin,seishinryohosha@jikken.de,seishinryohosha@users.noreply.github.com,seishinryohosha,secondary
+neomutt,ivilata,ivan@selidor.net,ivan@selidor.net,Ivan Vilata i Balaguer,preferred
+neomutt,jakkinstewart,dracogoyle@gmail.com,dracogoyle@gmail.com,Joshua Jordi,preferred
+neomutt,jakkinstewart,dracogoyle@gmail.com,JakkinStewart@users.noreply.github.com,Joshua Jordi,secondary
+neomutt,jakkinstewart,dracogoyle@gmail.com,dracogoyle@gmail.com,Jakkin,secondary
+neomutt,jamesbvaughan,james@jamesbvaughan.com,james@jamesbvaughan.com,James Vaughan,preferred
+neomutt,jasperla,jasper@humppa.nl,jasper@humppa.nl,Jasper Adriaanse,preferred
+neomutt,jasperla,jasper@humppa.nl,jasper@humppa.nl,Jasper Lievisse Adriaanse,secondary
+neomutt,jelly,jelle@vdwaa.nl,jelle@vdwaa.nl,Jelle van der Waa,preferred
+neomutt,jeriko-one,jeriko.one@gmx.us,jeriko.one@gmx.us,JerikoOne,preferred
+neomutt,jindraj,jakub.jindra@socialbakers.com,jakub.jindra@socialbakers.com,Jakub Jindra,preferred
+neomutt,jindraj,jakub.jindra@socialbakers.com,jakub.jindra@socialbakers.com,Jakub Jindra,secondary
+neomutt,jindraj,jakub.jindra@socialbakers.com,jindraj@users.noreply.github.com,Jakub Jindra,secondary
+neomutt,jlmuir,jlmuir@imca-cat.org,jlmuir@imca-cat.org,J Lewis Muir,preferred
+neomutt,jlmuir,jlmuir@imca-cat.org,jlmuir@imca-cat.org,J. Lewis Muir,secondary
+neomutt,josephbisch,joseph.bisch@gmail.com,joseph.bisch@gmail.com,Joseph Bisch,preferred
+neomutt,jperkin,jperkin@netbsd.org,jperkin@netbsd.org,Jonathan Perkin,preferred
+neomutt,jpoimboe,jpoimboe@redhat.com,jpoimboe@redhat.com,Josh Poimboeuf,preferred
+neomutt,julian-klode,jak@jak-linux.org,jak@jak-linux.org,Julian Andres Klode,preferred
+neomutt,justinvasel,justin.vasel@gmail.com,justin.vasel@gmail.com,Justin Vasel,preferred
+neomutt,jwilk,jwilk@jwilk.net,jwilk@jwilk.net,Jakub Wilk,preferred
+neomutt,karelzak,kzak@redhat.com,kzak@redhat.com,Karel Zak,preferred
+neomutt,kdave,dsterba@suse.cz,dsterba@suse.cz,David Sterba,preferred
+neomutt,kdave,dsterba@suse.cz,dsterba@suse.com,David Sterba,secondary
+neomutt,kdecherf,kevin@kdecherf.com,kevin@kdecherf.com,Kevin Decherf,preferred
+neomutt,kilobyte,kilobyte@angband.pl,kilobyte@angband.pl,Adam Borowski,preferred
+neomutt,konfekt,Konfekt@users.noreply.github.com,Konfekt@users.noreply.github.com,Enno Nagel,preferred
+neomutt,konfekt,Konfekt@users.noreply.github.com,Konfekt@users.noreply.github.com,Enno,secondary
+neomutt,kwantam,kwantam@gmail.com,kwantam@gmail.com,Riad Wahby,preferred
+neomutt,kwantam,kwantam@gmail.com,kwantam@gmail.com,Riad S. Wahby,secondary
+neomutt,l29ah,zl29ah@gmail.com,zl29ah@gmail.com,Sergey Alirzaev,preferred
+neomutt,l2dy,l2dy@icloud.com,l2dy@icloud.com,Zero King,preferred
+neomutt,larshaalck,l_haal02@uni-muenster.de,l_haal02@uni-muenster.de,Lars Haalck,preferred
+neomutt,larsks,lars@oddbit.com,lars@oddbit.com,Lars Kellogg-Stedman,preferred
+neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Schenkel,preferred
+neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Brondani Schenkel,secondary
+neomutt,lrosenman,larryrtx@gmail.com,larryrtx@gmail.com,Larry Rosenman,preferred
+neomutt,makoshark,mako@atdot.cc,mako@atdot.cc,Benjamin Mako Hill,preferred
+neomutt,mcmilk,,milky-neomutt@mcmilk.de,Tino Reichardt,secondary
+neomutt,mcmilk,github@mcmilk.de,github@mcmilk.de,Tino Reichardt,preferred
+neomutt,mfvescovi,NONE,NONE,Matteo Vescovi,preferred
+neomutt,mgedmin,marius@gedmin.as,marius@gedmin.as,Marius Gedminas,preferred
+neomutt,mhinz,mh.codebro@gmail.com,mh.codebro@gmail.com,Marco Hinz,preferred
+neomutt,mineo,themineo@gmail.com,themineo@gmail.com,Wieland Hoffmann,preferred
+neomutt,mineo,themineo@gmail.com,mineo@users.noreply.github.com,Wieland Hoffmann,secondary
+neomutt,mjsir911,marco@sirabella.org,marco@sirabella.org,Marco Sirabella,preferred
+neomutt,mochidai,mochidai@gmail.com,mochidai@gmail.com,Dai Mochinaga,preferred
+neomutt,mochidai,mochidai@gmail.com,mochidai@gmail.com,mochidai,secondary
+neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@gik.pw.edu.pl,Marcin Rajner,preferred
+neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@chalmers,Marcin Rajner,secondary
+neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@gik.pw.edu.pl,Marcin Rajner lenovo,secondary
+neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@lenovo,Marcin Rajner,secondary
+neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@lenovoarch,Marcin Rajner,secondary
+neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@pwarch,Marcin Rajner,secondary
+neomutt,msteveb,NONE,NONE,Steve Bennett,preferred
+neomutt,nagefire,nagefire.dev@gmail.com,nagefire.dev@gmail.com,Nagefire,preferred
+neomutt,neverpanic,neverpanic@gmail.com,neverpanic@gmail.com,Clemens Lang,preferred
+neomutt,ng-0,ng0@n0.is,ng0@n0.is,ng0,preferred
+neomutt,ng-0,ng0@n0.is,ng0@infotropique.org,ng0,secondary
+neomutt,ngw,ngw@nofeed.org,ngw@nofeed.org,Nicholas Wieland,preferred
+neomutt,nicolasbock,nicolasbock@gmail.com,nicolasbock@gmail.com,Nicolas Bock,preferred
+neomutt,nnathan,naveen@lastninja.net,naveen@lastninja.net,Naveen Nathan,preferred
+neomutt,nobrowser,itz@no-use.mooo.com,itz@no-use.mooo.com,Ian Zimmerman,preferred
+neomutt,nobrowser,itz@no-use.mooo.com,itz@primate.net,Ian Zimmerman,secondary
+neomutt,nobrowser,itz@no-use.mooo.com,itz@very.loosely.org,Ian Zimmerman,secondary
+neomutt,nobrowser,itz@no-use.mooo.com,nobrowser@users.noreply.github.com,Ian Zimmerman,secondary
+neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,Steven Ragnarök,preferred
+neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,Steven! Ragnarök,secondary
+neomutt,null,listmail@mbjnet.dk,listmail@mbjnet.dk,Morten Bo Johansen,preferred
+neomutt,null,ttakah@gmail.com,ttakah@gmail.com,Tamotsu TAKAHASHI,preferred
+neomutt,null,vvv@mutt.org.ua,vvv@mutt.org.ua,Vsevolod Volkov,preferred
+neomutt,ocelotsloth,mark@stengle.in,mark@stengle.in,Mark Stenglein,preferred
+neomutt,olafhering,olaf@aepfle.de,olaf@aepfle.de,Olaf Hering,preferred
+neomutt,opsec,NONE,NONE,Kurt Jaeger,preferred
+neomutt,p-eb,becue@crans.org,becue@crans.org,Pierre-Elliott Bécue,preferred
+neomutt,p-eb,becue@crans.org,P-EB@users.noreply.github.com,Pierre-Elliott Bécue,secondary
+neomutt,paravoid,NONE,NONE,Faidon Liambotis,preferred
+neomutt,parazyd,parazyd@dyne.org,parazyd@dyne.org,Ivan J,preferred
+neomutt,parazyd,parazyd@dyne.org,parazyd@dyne.org,parazyd,preferred
+neomutt,parazyd,parazyd@dyne.org,parazyd@users.noreply.github.com,Ivan J,secondary
+neomutt,paretje,kevin@paretje.be,kevin@paretje.be,Kevin Velghe,preferred
+neomutt,petelewis,pete@muddygoat.org,pete@muddygoat.org,Peter Lewis,preferred
+neomutt,petrpisaratlascz,petr.pisar@atlas.cz,petr.pisar@atlas.cz,Petr Pisar,preferred
+neomutt,philpennock,phil@pennock-tech.com,phil@pennock-tech.com,Phil Pennock,preferred
+neomutt,phmarek,NONE,NONE,Philipp Marek,preferred
+neomutt,phroa,jack@phroa.net,jack@phroa.net,Jack Stratton,preferred
+neomutt,pickfire,pickfire@riseup.net,pickfire@riseup.net,Ivan Tham,preferred
+neomutt,pigmonkey,pm@pig-monkey.com,pm@pig-monkey.com,Peter Hogg,preferred
+neomutt,pigmonkey,pm@pig-monkey.com,pm@pig-monkey.com,Pig Monkey,secondary
+neomutt,pinpox,pablo1@mailbox.org,pablo1@mailbox.org,Pablo Ovelleiro Corral,preferred
+neomutt,psyomn,lethaljellybean@gmail.com,lethaljellybean@gmail.com,Simon Symeonidis,preferred
+neomutt,qsuscs,qsx@qsx.re,qsx@qsx.re,Thomas Schneider,preferred
+neomutt,r3lgar,r3lgar@openmailbox.org,r3lgar@openmailbox.org,r3lgar,preferred
+neomutt,r3lgar,r3lgar@openmailbox.org,r3lgar@users.noreply.github.com,r3lgar,secondary
+neomutt,rawtaz,leo@finalresort.org,leo@finalresort.org,Leo Lundgren,preferred
+neomutt,rawtaz,leo@finalresort.org,leo@finalresort.org,Leo R. Lundgren,secondary
+neomutt,rawtaz,leo@finalresort.org,rawtaz@users.noreply.github.com,rawtaz,secondary
+neomutt,reisradomil,reisradomil@fake-box.com,reisradomil@fake-box.com,Reis Radomil,preferred
+neomutt,richih,RichiH@users.noreply.github.com,RichiH@users.noreply.github.com,Richard Hartmann,preferred
+neomutt,riesebie,riesebie@lxtec.de,riesebie@lxtec.de,Elimar Riesebieter,preferred
+neomutt,ronisbr,ronisbr@gmail.com,ronisbr@gmail.com,Ronan Arraes Jardim Chagas,preferred
+neomutt,royger,roger.pau@citrix.com,roger.pau@citrix.com,Roger Pau Monne,preferred
+neomutt,rypervenche,contact@ryper.org,contact@ryper.org,Perry Thompson,preferred
+neomutt,santiagotorres,torresariass@gmail.com,torresariass@gmail.com,Santiago Torres,preferred
+neomutt,sassmann,sassmann@kpanic.de,sassmann@kpanic.de,Stefan Assmann,preferred
+neomutt,sassmann,sassmann@kpanic.de,sassmann@redhat.com,Stefan Assmann,secondary
+neomutt,sassmann,sassmann@kpanic.de,sassmann@users.noreply.github.com,sassmann,secondary
+neomutt,scottkosty,scott.kostyshak@gmail.com,scott.kostyshak@gmail.com,Scott Kostyshak,preferred
+neomutt,sgeb,serge.gebhardt@gmail.com,serge.gebhardt@gmail.com,Serge Gebhardt,preferred
+neomutt,shanedabes,donohoe.shane@gmail.com,donohoe.shane@gmail.com,Shane Donohoe,preferred
+neomutt,shanedabes,donohoe.shane@gmail.com,sharktamer@users.noreply.github.com,sharktamer,secondary
+neomutt,sheoak,sheoak@users.noreply.github.com,sheoak@users.noreply.github.com,Sheoak,preferred
+neomutt,shioyama,chris@dejimata.com,chris@dejimata.com,Chris Salzberg,preferred
+neomutt,shioyama,chris@dejimata.com,csalzberg@degica.com,Chris Salzberg,secondary
+neomutt,sileht,sileht@sileht.net,sileht@sileht.net,Mehdi Abaakouk,preferred
+neomutt,sileht,sileht@sileht.net,sileht@sileht.net,Mehdi ABAAKOUK,secondary
+neomutt,somini,dev@somini.xyz,dev@somini.xyz,somini,preferred
+neomutt,somini,dev@somini.xyz,somini29@yandex.com,somini,secondary
+neomutt,somini,dev@somini.xyz,somini@users.noreply.github.com,somini,secondary
+neomutt,speed47,speed47_github@speed47.net,speed47_github@speed47.net,Stéphane Lesimple,preferred
+neomutt,sstark,sstark@mailbox.org,sstark@mailbox.org,Sebastian Stark,preferred
+neomutt,stbuehler,stbuehler@web.de,stbuehler@web.de,Stefan Bühler,preferred
+neomutt,sten0,nsteeves@gmail.com,nsteeves@gmail.com,Nicholas Steeves,preferred
+neomutt,sten0,nsteeves@gmail.com,nsteeves@gmail.com,Nicholas D Steeves,secondary
+neomutt,sthen,stu-github@spacehopper.org,stu-github@spacehopper.org,Stuart Henderson,preferred
+neomutt,sthen,stu-github@spacehopper.org,sthen@users.noreply.github.com,Stuart Henderson,secondary
+neomutt,stigtsp,stig@stig.io,stig@stig.io,Stig Palmquist,preferred
+neomutt,stoeckmann,tobias@stoeckmann.org,tobias@stoeckmann.org,Tobias Stoeckmann,preferred
+neomutt,stormc,storm@mailbox.org,storm@mailbox.org,Christian Storm,preferred
+neomutt,tecepe,tecepe@tecepe.eng.br,tecepe@tecepe.eng.br,Thiago Costa de Paiva,preferred
+neomutt,tecepe,tecepe@tecepe.eng.br,tcpaiva@cern.ch,Thiago Costa de Paiva,secondary
+neomutt,tecepe,tecepe@tecepe.eng.br,tcpaiva@users.noreply.github.com,Thiago Costa de Paiva,secondary
+neomutt,tecepe,tecepe@tecepe.eng.br,tecepe@tecepe.eng.br,tecepe,secondary
+neomutt,tecepe,tecepe@tecepe.eng.br,tecepe@users.noreply.github.com,tecepe,secondary
+neomutt,telshock,telshock@users.noreply.github.com,telshock@users.noreply.github.com,telshock,preferred
+neomutt,theojepsen,theojepsen@gmail.com,theojepsen@gmail.com,Theo Jepsen,preferred
+neomutt,theojepsen,theojepsen@gmail.com,theojepsen@g-m-a-i-l-dotcom,Theo,secondary
+neomutt,thomasadam,thomas@xteddy.org,thomas@xteddy.org,Thomas Adam,preferred
+neomutt,thomasjfox,thomas.jarosch@intra2net.com,thomas.jarosch@intra2net.com,Thomas Jarosch,preferred
+neomutt,toogley,toogley@mailbox.org,toogley@mailbox.org,Tobias Angele,preferred
+neomutt,toogley,toogley@mailbox.org,9417950+toogley@users.noreply.github.com,toogley,secondary
+neomutt,toogley,toogley@mailbox.org,toogley@mailbox.org,toogley,secondary
+neomutt,tsuflux,johannes@frankenau.net,johannes@frankenau.net,Johannes Frankenau,preferred
+neomutt,vpub,valsy@mail.ru,valsy@mail.ru,Valeri Sergeev,preferred
+neomutt,vpub,valsy@mail.ru,valsy@mail.ru,Valeri Y.Sergeev,secondary
+neomutt,vrthra,rahul@gopinath.org,rahul@gopinath.org,Rahul Gopinath,preferred
+neomutt,walkerlala,ablacktshirt@gmail.com,ablacktshirt@gmail.com,Yubin Ruan,preferred
+neomutt,wcurry,will@robotican.org,will@robotican.org,Will Curry,preferred
+neomutt,weisslj,jargon@molb.org,jargon@molb.org,Johannes Weißl,preferred
+neomutt,whnr,florian@whnr.de,florian@whnr.de,Florian Wehner,preferred
+neomutt,whynothugo,hugo@barrera.io,hugo@barrera.io,Hugo Barrera,preferred
+neomutt,whynothugo,hugo@barrera.io,hugo@barrera.io,Hugo Osvaldo Barrera,secondary
+neomutt,winderickxeli,eli.winderickx@ap.be,eli.winderickx@ap.be,Eli Winderickx,preferred
+neomutt,winderickxeli,eli.winderickx@ap.be,eli.winderickx@ap.be,Winderickx Eli (p087068),secondary
+neomutt,wpettersson,william.pettersson@gmail.com,william.pettersson@gmail.com,William Pettersson,preferred
+neomutt,wpettersson,william.pettersson@gmail.com,william.pettersson+github@gmail.com,William Pettersson,secondary
+neomutt,x3nb63,25959223+x3nb63@users.noreply.github.com,25959223+x3nb63@users.noreply.github.com,x3nb63,preferred
+neomutt,xai,NONE,NONE,Olaf Lessenich,preferred
+neomutt,yimmt,timmyxiao1@gmail.com,timmyxiao1@gmail.com,Timmy Xiao,preferred
+neomutt,yuzibo,tsu.yubo@gmail.com,tsu.yubo@gmail.com,Bo Yu,preferred
+neomutt,yuzibo,tsu.yubo@gmail.com,tsu.yubo@gmail.com,Bo,secondary
+neomutt,yuzibo,tsu.yubo@gmail.com,yuzibode@126.com,Bo YU,secondary
+neomutt,z2v,zakharov.vv@gmail.com,zakharov.vv@gmail.com,Vladimir Zakharov,preferred
+neomutt,zacchiro,zack@upsilon.cc,zack@upsilon.cc,Stefano Zacchiroli,preferred
+neomutt,zsugabubus,zsugabubus@users.noreply.github.com,zsugabubus@users.noreply.github.com,zsugabubus,preferred

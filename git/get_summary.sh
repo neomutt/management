@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 # This script gets all commits since last release to HEAD,
 # iterate through them by 250 commits bulk (github limit),
 # gets authors github username, name and e-mail address,
@@ -36,13 +37,15 @@ function checkdeps(){
 }
 
 function init(){
+	source "$(dirname "$0")/lang_vars.sh"
+
 	if [ ! -d "$1" ] || [ -z "$1" ]
 	then
 		help
 		exit 1
 	fi
 	export repo=$1
-	export mailfile="$(dirname "$0")/neomutt_new.txt"
+	export mailfile="$(dirname "$0")/neomutt.txt"
 	export contributors_new=()
 	export contributors_reg=()
 	export new_to_contrib_file=()
@@ -137,11 +140,33 @@ function getcontribs(){
 	record_new
 }
 
-issues(){
+function translations(){
+	# TODO: add error reporting in the end of the script to let know about any issues here and on other places also
+	ERROR=()
+	ARGS=$(git --git-dir="$repo/.git" log --name-only --grep='translat' --pretty=format: $last_rel.. -- 'po/*.po' | sort -u)
+	cd $repo
+	for i in $ARGS; do
+		L=${i##*/}
+		for n in ${!lc[*]}
+		do
+			[ "${L%.po}" == "${lc[n]}" ] && break
+		done
+
+		echo -ne "- ${flag_emoji[n]:-:triangular_flag_on_post:}\\t"
+		msgfmt --statistics -c -o /dev/null "$i" 2>&1 \
+			| tr -d '.,[a-zA-Z]' \
+			| awk '{printf "%0.2f% ", (($1+$2)/($1+$2+$3)*100)}'
+		[ $? = 1 ] && ERROR+=( "$L" )
+		echo "${language[n]}"
+	done | sort -rg -k3,3 
+	cd - &> /dev/null
+}
+
+function issues_and_translations(){
 	last_rel_date=$(git --git-dir="$repo/.git"  log -1 --format=%aI $last_rel)
 	issues=$(curl -Ns "https://api.github.com/repos/neomutt/neomutt/issues?state=closed&since=${last_rel_date}")
 
-	echo "# this is just an example." 
+	echo "# This is still just an example." 
 
 	echo
 	echo "## :beetle: Bug Fixes"
@@ -149,7 +174,7 @@ issues(){
 
 	echo
 	echo "## :black_flag: Translations"
-	echo " - how to get the stats?"
+	translations
 
 	echo
 	echo "## :gift: Features" # assuming featurs are not bug fixes or changed configs
@@ -164,7 +189,7 @@ function main(){
 	checkdeps
 	init "$@"
 	getcommits | iteratecommits | getcontribs
-	issues
+	issues_and_translations
 }
 
 main "$@"
