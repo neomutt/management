@@ -1,759 +1,312 @@
-Aaron Lehmann	aaronl@vitelus.com
-	Aaron Lehmann <aaronl@vitelus.com>
-
-Aaron Schrab	aaron@schrab.com
-	Aaron Schrab <aaron+mutt@schrab.com>
-	Aaron Schrab <aaron@schrab.com>
-
-Adeodato Simó	asp16@alu.ua.es
-	Adeodato Simó <asp16@alu.ua.es>
-	Adeodato Simó <dato@net.com.org.es>
-
-Alain Bench	veronatif@free.fr
-	Alain Bench <messtic@oreka.com>
-	Alain Bench <veronatif@free.fr>
-
-Alain Penders	alain@finale-dev.com
-	Alain Penders <alain@finale-dev.com>
-
-Alexey Froloff	raorn@altlinux.org
-	Alexey I. Froloff <raorn@altlinux.org>
-
-Alexey Tourbin	at@altlinux.org
-	Alexey Tourbin <at@altlinux.org>
-
-Ambrose Li	a.c.li@ieee.org
-	Ambrose Li <a.c.li@ieee.org>
-
-Ammon Riley	ammon.riley@gmail.com
-	Ammon Riley <ammon.riley@gmail.com>
-
-Anatoly Vorobey	mellon@pobox.com
-	Anatoly Vorobey <mellon@pobox.com>
-
-Anders Helmersson	anders.helmersson.utsikt@wasadata.net
-	Anders Helmersson <anders.helmersson@telia.com>
-	Anders Helmersson <anders.helmersson.utsikt@wasadata.net>
-
-Andreas Amann	andreas.amann@tyndall.ie
-	Unknown <andreas.amann@tyndall.ie>
-
-Andreas Jaggi	unknown
-	Andreas Jaggi <unknown>
-
-Andreas Jobs	unknown
-	Andreas Jobs <unknown>
-
-Andre Beck	beck@ibh.de
-	Beck, Andre <beck@ibh.de>
-
-Andrew Gaul	andrew@gaul.org
-	Andrew Gaul <andrew@gaul.org>
-
-Andrew Marks	amarks@red.ridge.amrx.net
-	Andrew Marks <amarks@red.ridge.amrx.net>
-
-Andrew Nosenko	awn@bcs.zp.ua
-	Andrew W. Nosenko <awn@bcs.zp.ua>
-
-Andrey Skvortsov	andrej.skvortzov@gmail.com
-	Andrey Skvortsov <andrej.skvortzov@gmail.com>
-
-Antoine Reilles	tonio@netbsd.org
-	Antoine Reilles <tonio@netbsd.org>
-
-Anton Lindqvist	anton@basename.se
-	Anton Lindqvist <anton@basename.se>
-	Anton Lindqvist <anton.lindqvist@gmail.com>
-
-Armin Wolfermann	aw@osn.de
-	Armin Wolfermann <aw@osn.de>
-
-Aron Griffis	agriffis@n01se.net
-	Aron Griffis <agriffis@n01se.net>
-
-Athanasios Douitsis	aduitsis@gmail.com
-	Athanasios Douitsis <aduitsis@gmail.com>
-
-Benno Schulenberg	i18n@benno.vertaalt.nl
-	Benno Schulenberg <i18n@benno.vertaalt.nl>
-
-Bernd Ahlers	bernd@ba-net.org
-	Bernd Ahlers <bernd@ba-net.org>
-
-Bertram Felgenhauer	int-e@gmx.de
-	Bertram Felgenhauer <int-e@gmx.de>
-
-Bertrand Janin	tamentis@neopulsar.org
-	Bertrand Janin <tamentis@neopulsar.org>
-
-Bill Nottingham	notting@redhat.com
-	Bill Nottingham <notting@redhat.com>
-
-Bjoern Jacke	bjoern@j3e.de
-	Bjoern Jacke <bjoern@j3e.de>
-	Bjoern Jacke <muttbug@j3e.de>
-
-Brandon Long	blong@fiction.net
-	Brandon Long <blong@fiction.net>
-
-Brendan Cully	brendan@cully.org
-	Brendan Cully <brendan@cully.org>
-	Brendan Cully <brendan@kublai.com>
-
-Brent Nordquist	brent@nordist.net
-	Brent J. Nordquist <brent@nordist.net>
-
-Bruno Postle	bruno@postle.net
-	Bruno Postle <bruno@postle.net>
-
-Byrial Jensen	byrial@image.dk
-	Byrial Jensen <byrial@image.dk>
-
-Cameron Patrick	cameron@patrick.wattle.id.au
-	Cameron Patrick <cameron@patrick.wattle.id.au>
-
-Cedric Duval	cedricduval@free.fr
-	Cedric Duval <cedricduval@free.fr>
-	Cedric Duval <cedricduval+web@free.fr>
-
-Christian Aichinger	greek0@gmx.net
-	Christian Aichinger <greek0@gmx.net>
-
-Christian Ebert	blacktrash@gmx.net
-	Christian Ebert <blacktrash@gmx.net>
-
-Christian Vogel	vogelchr@vogel.cx
-	Christian Vogel <vogelchr@vogel.cx>
-
-Christoph Ludwig	cludwig@cdc.informatik.tu-darmstadt.de
-	Christoph Ludwig <cludwig@cdc.informatik.tu-darmstadt.de>
-
-Cody Brownstein	cbrownstein@liquidityllc.com
-	Cody Brownstein <cbrownstein@liquidityllc.com>
-
-Consus	consus@gmx.com
-	Consus <consus@gmx.com>
-
-convert-repo	unknown
-	convert-repo <unknown>
-
-Corey Minyard	cminyard@mvista.com
-	Corey Minyard <cminyard@mvista.com>
-
-Dale Woolridge	dale-list-mutt-dev-2@woolridge.org
-	Dale Woolridge <dale-flea-mutt-bug@woolridge.org>
-	Dale Woolridge <dale-list-mutt-dev-2@woolridge.org>
-
-Dan Born	dan@danborn.net
-	Dan Born <dan@danborn.net>
-
-Dan Fandrich	dan@coneharvesters.com
-	Dan Fandrich <dan@coneharvesters.com>
-
-Dan Hopper	ku4nf@austin.rr.com
-	Dan Hopper <ku4nf@austin.rr.com>
-
-Dan Loewenherz	daniel.loewenherz@yale.edu
-	Dan Loewenherz <daniel.loewenherz@yale.edu>
-
-Dan Nelson	dnelson@allantgroup.com
-	Dan Nelson <dnelson@allantgroup.com>
-
-Dan Ohnesorg	dan@ohnesorg.cz
-	Dan Ohnesorg <dan@ohnesorg.cz>
-
-Daniel Burrows	dburrows@debian.org
-	Daniel Burrows <dburrows@debian.org>
-
-Daniel Jacobowitz	dan@debian.org
-	Daniel Jacobowitz <dan@debian.org>
-
-Daniel Kahn Gillmor	dkg@fifthhorseman.net
-	Daniel Kahn Gillmor <dkg@fifthhorseman.net>
-
-Daniel Schmitz	dr1s@users.noreply.github.com
-	Daniel Schmitz <dr1s@users.noreply.github.com>
-
-Daniel Tameling	tamelingdaniel@gmail.com
-	Daniel Tameling <tamelingdaniel@gmail.com>
-
-David Champion	dgc@c13.us
-	David Champion <dgc.github@c13.us>
-	David Champion <dgc@bikeshed.us>
-	David Champion <dgc@c13.us>
-	David Champion <dgc@uchicago.edu>
-
-David Jardine	david@jardine.de
-	David Jardine <david@jardine.de>
-
-David Shaw	dshaw@jabberwocky.com
-	David Shaw <dshaw@jabberwocky.com>
-
-David Wilson	dw@botanicus.net
-	David Wilson <dw@botanicus.net>
-
-David Yitzchak Cohen	lists+mutt_devs@bigfatdave.com
-	David Yitzchak Cohen <lists+mutt_bugs@bigfatdave.com>
-	David Yitzchak Cohen <lists+mutt_devs@bigfatdave.com>
-
-Deng Xiyue	manphiz@gmail.com
-	Deng Xiyue <manphiz@gmail.com>
-
-Derek Martin	code@pizzashack.org
-	Derek Martin <code@pizzashack.org>
-	Derek Martin <invalid@pizzashack.org>
-
-Derek Schrock	dereks@lifeofadishwasher.com
-	Derek Schrock <dereks@lifeofadishwasher.com>
-
-Dmitri Vereshchagin	dmitri.vereshchagin@gmail.com
-	Dmitri Vereshchagin <dmitri.vereshchagin@gmail.com>
-
-Ed Neville	ed@s5h.net
-	ed@s5h.net <ed@s5h.net>
-
-Edmund Grimley Evans	edmundo@rano.org
-	Edmund GRIMLEY EVANS <edmund820@rano.org>
-	Edmund GRIMLEY EVANS <edmundo@rano.org>
-
-Eike Rathke	erack@erack.de
-	Eike Rathke <erack@erack.de>
-
-Elmar Hoffmann	mutt-dev-ml@elho.net
-	Elmar Hoffmann <mutt-dev-ml@elho.net>
-
-Emanuele Giaquinta	e.giaquinta@glauco.it
-	Emanuele Giaquinta <e.giaquinta@glauco.it>
-	Emanuele Giaquinta <unknown>
-
-Eric Raymond	esr@thyrsus.com
-	Unknown <esr@thyrsus.com>
-
-Erik Hovland	erik@hovland.org
-	Erik Hovland <erik@hovland.org>
-
-Fahri Cihan Demirci	fcdemirci@fastmail.fm
-	Fahri Cihan Demirci <fcdemirci@fastmail.fm>
-
-Flammie Pirinen	flammie@iki.fi
-	Flammie Pirinen <flammie@iki.fi>
-
-Florian Weimer	fw@deneb.enyo.de
-	Florian Weimer <fw@deneb.enyo.de>
-
-Gary Johnson	garyjohn@spk.agilent.com
-	Gary Johnson <garyjohn@spk.agilent.com>
-	Gary Johnson <unknown>
-
-Gero Treuner	gerotick@faveve.uni-stuttgart.de
-	Gero Treuner <gero@70t.de>
-	Gero Treuner <gerotick@faveve.uni-stuttgart.de>
-	gt_16_gitlab.com@innocircle.com <gt_16_gitlab.com@innocircle.com>
-
-Gregory Shapiro	dev.mutt.org@g.gshapiro.net
-	Gregory Shapiro <dev.mutt.org@g.gshapiro.net>
-
-Grzegorz Szymaszek	gszymaszek@short.pl
-	Grzegorz Szymaszek <gszymaszek@short.pl>
-
-Guilhem Moulin	guilhem@guilhem.org
-	Guilhem Moulin <guilhem@guilhem.org>
-
-guns	self@sungpae.com
-	guns <self@sungpae.com>
-
-H.N.Caldwell	unknown
-	hncaldwell <unknown>
-
-Holger Weiss	lists@jhweiss.de
-	Holger Weiss <holger@zedat.fu-berlin.de>
-	Holger Weiss <lists@jhweiss.de>
-
-Honza Horak	hhorak@redhat.com
-	Honza Horak <hhorak@redhat.com>
-	Unknown <hhorak@redhat.com>
-
-Horst Schirmeier	horst@schirmeier.com
-	Horst Schirmeier <horst@schirmeier.com>
-
-Horvath Szabolcs	horvaths@fi.inf.elte.hu
-	Horvath Szabolcs <horvaths@fi.inf.elte.hu>
-
-Hugo Haas	hugo@larve.net
-	Hugo Haas <hugo@larve.net>
-
-Im Eunjea	eunjea@koru.org
-	Im Eunjea <eunjea@koru.org>
-
-Ivan Vilata i Balaguer	ivan@selidor.net
-	Ivan Vilata i Balaguer <ivan@selidor.net>
-
-James McCoy	jamessan@jamessan.com
-	James McCoy <jamessan@jamessan.com>
-
-Jeff Ito	jeffi@rcn.com
-	Jeff Ito <jeffi@rcn.com>
-
-Jeremy Sowden	jeremy@azazel.net
-	Jeremy Sowden <jeremy@azazel.net>
-
-Jesus Climent	jesus.climent@hispalinux.es
-	Jesus Climent <jesus.climent@hispalinux.es>
-	Unknown <jesus.climent@hispalinux.es>
-
-Jim Mock	mij@soupnazi.org
-	Jim Mock <mij@soupnazi.org>
-
-Joel Dahl	joel@freebsd.org
-	Joel Dahl <joel@freebsd.org>
-
-Johan D	djo33@free.fr
-	Johan D <djo33@free.fr>
-
-Johan Svedberg	johan@svedberg.com
-	Johan Svedberg <johan@svedberg.com>
-	Johan Svedberg <johan@svedberg.pp.se>
-
-John Beck	john.beck@oracle.com
-	Unknown <john.beck@oracle.com>
-
-John Hawkinson	jhawk@mit.edu
-	John Hawkinson <jhawk@mit.edu>
-
-John Swinbank	john@swinbank.org
-	John Swinbank <john@swinbank.org>
-
-Jon Miles	jon@zetnet.net
-	Jon Miles <jon@zetnet.net>
-
-Jonathan Wakely	bugs@kayari.org
-	Jonathan Wakely <bugs@kayari.org>
-
-Joël Riou	joel.riou@normalesup.org
-	Joël Riou <joel.riou@normalesup.org>
-
-Juan Altmayer Pizzorno	juan@altmayer.com
-	Juan Altmayer Pizzorno <juan@altmayer.com>
-
-Jukka Salmi	jukka@salmi.ch
-	Jukka Salmi <j+mutt@2007.salmi.ch>
-	Jukka Salmi <jukka@salmi.ch>
-
-Julian Gilbey	julian-git@d-and-j.net
-	Julian Gilbey <julian-git@d-and-j.net>
-
-Julien Cristau	unknown
-	Julien Cristau <unknown>
-
-Julius Plenz	plenz@cis.fu-berlin.de
-	Julius Plenz <plenz@cis.fu-berlin.de>
-
-Jörgen Tegnér	jorgen.tegner@telia.com
-	Jörgen Tegnér <jorgen.tegner@telia.com>
-
-Kees Cook	kees@outflux.net
-	Kees Cook <kees@outflux.net>
-	Unknown <kees@outflux.net>
-
-Kevin McCarthy	kevin@8t8.us
-	Kevin McCarthy <kevin@8t8.us>
-
-Kevin Scannell	kscanne@gmail.com
-	Kevin Scannell <kscanne@gmail.com>
-	Kevin Scannell <scannell@slu.edu>
-
-Kimihiro Nonaka	nonakap@gmail.com
-	NONAKA Kimihiro <nonakap@gmail.com>
-
-Konstantin Stephan	pigleich3@gmx.net
-	Konstantin Stephan <pigleich3@gmx.net>
-
-Kyle Wheeler	kyle@memoryhole.net
-	Kyle Wheeler <kyle@memoryhole.net>
-	Kyle Wheeler <kyle-mutt-dev@memoryhole.net>
-	Kyle Wheeler <unknown>
-
-Lars Hecking	lhecking@nmrc.ucc.ie
-	Lars Hecking <lhecking@nmrc.ie>
-	Lars Hecking <lhecking@nmrc.ucc.ie>
-	Lars Hecking <lhecking@users.sourceforge.net>
-
-lilydjwg	lilydjwg@gmail.com
-	lilydjwg <lilydjwg@gmail.com>
-
-Luke Mewburn	luke@mewburn.net
-	Luke Mewburn <luke@mewburn.net>
-
-Mads Martin Joergensen	mmj@suse.de
-	Mads Martin Joergensen <mmj@suse.de>
-
-Malcolm Parsons	malcolm.parsons@gmail.com
-	Malcolm Parsons <malcolm.parsons@gmail.com>
-
-Mantas Mikulėnas	grawity@gmail.com
-	Mantas Mikulėnas <grawity@gmail.com>
-
-Marcel Telka	marcel@telka.sk
-	Marcel Telka <marcel@telka.sk>
-	Unknown <marcel@telka.sk>
-
-Marco d'Itri	md@linux.it
-	Marco d'Itri <md@linux.it>
-
-Marco Paolone	marcopaolone@gmail.com
-	Marco Paolone <marcopaolone@gmail.com>
-
-Marek Marczykowski-Górecki	marmarek@invisiblethingslab.com
-	Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>
-
-Martin Michlmayr	tbm@cyrius.com
-	Martin Michlmayr <tbm@cyrius.com>
-
-Martin Sandsmark	martin@sandsmark.ninja
-	Martin Sandsmark <martin@sandsmark.ninja>
-
-Martin Siegert	siegert@sfu.ca
-	Martin Siegert <siegert@sfu.ca>
-
-Masayuki Moriyama	unknown
-	Masayuki Moriyama <unknown>
-
-Matt Kraai	kraai@ftbfs.org
-	Matt Kraai <kraai@ftbfs.org>
-
-Matthias Andree	matthias.andree@gmx.de
-	Matthias Andree <matthias.andree@gmx.de>
-
-Michael Elkins	me@mutt.org
-	Michael Elkins <me@mutt.org>
-	Michael Elkins <me@sigpipe.org>
-	Unknown <me@sigpipe.org>
-
-Michael Tatge	michael.tatge@web.de
-	Michael Tatge <michael.tatge@web.de>
-
-Michael Vrable	mvrable@cs.ucsd.edu
-	Michael Vrable <mvrable@cs.ucsd.edu>
-
-Michał Kępień	mutt@kempniu.pl
-	Michał Kępień <mutt@kempniu.pl>
-
-Mike Frysinger	vapier@gentoo.org
-	Mike Frysinger <vapier@gentoo.org>
-
-Mike Hallock	mhallock@scs.uiuc.edu
-	Mike Hallock <mhallock@scs.uiuc.edu>
-
-Mike Schiraldi	1074468571@schiraldi.org
-	Mike Schiraldi <1074468571@schiraldi.org>
-
-Miroslav Lichvar	mlichvar@redhat.com
-	Miroslav Lichvar <mlichvar@redhat.com>
-
-Moritz Schulte	moritz@g10code.com
-	Moritz Schulte <moritz@g10code.com>
-	Moritz Schulte <Moritz.Schulte@ruhr-uni-bochum.de>
-	Unknown <Moritz.Schulte@ruhr-uni-bochum.de>
-
-Morten Bo Johansen	mbj@spamcop.net
-	Morten Bo Johansen <listmail@mbjnet.dk>
-	Morten Bo Johansen <mbj@mbjnet.dk>
-	Morten Bo Johansen <mbj@spamcop.net>
-	Morten Bo Johansen <mjb@spamcop.net>
-	Morten Bo Johansen <mojo@mbjnet.dk>
-	Morten Bo Johansen <morten.bo.johansen@gmail.com>
-
-Muh Muhten	muh.muhten@gmail.com
-	Muh Muhten <muh.muhten@gmail.com>
-
-N.J. Mann	njm@njm.f2s.com
-	N.J. Mann <njm@njm.f2s.com>
-
-Nathan Dushman	nhd+mutt@andrew.cmu.edu
-	Nathan Dushman <nhd+mutt@andrew.cmu.edu>
-
-Neil Brown	neilb@cse.unsw.edu.au
-	Neil Brown <neilb@cse.unsw.edu.au>
-
-Nicolas Rachinsky	nr@rachinsky.de
-	Nicolas Rachinsky <nicolas@dauerreden.de>
-	Nicolas Rachinsky <nr@rachinsky.de>
-
-Nik Melchior	nam1@cec.wustl.edu
-	Nik A. Melchior <nam1@cec.wustl.edu>
-
-Olaf Hering	olaf@aepfle.de
-	Olaf Hering <olaf@aepfle.de>
-
-Ondřej Bílka	neleai@seznam.cz
-	Ondřej Bílka <neleai@seznam.cz>
-
-Oneric	Nyff@protonmail.ch
-	Oneric <Nyff@protonmail.ch>
-
-Oota Toshiya	oota@mspd.mt.nec.co.jp
-	oota toshiya <oota@mspd.mt.nec.co.jp>
-
-Oswald Buddenhagen	ossi@kde.org
-	Oswald Buddenhagen <ossi@kde.org>
-
-Patrick Welche	prlw1@cam.ac.uk
-	Patrick Welche <prlw1@cam.ac.uk>
-	Patrick Welche <prlw1@newn.cam.ac.uk>
-
-Paul Eggert	eggert@cs.ucla.edu
-	Paul Eggert <eggert@cs.ucla.edu>
-
-Paul Walker	paul@black-sun.demon.co.uk
-	Paul Walker <paul@black-sun.demon.co.uk>
-	Paul WALKER <paul.walker@st.com>
-
-Pawel Dziekonski	dzieko@pwr.wroc.pl
-	Pawel Dziekonski <dzieko@pwr.wroc.pl>
-	Pawel Dziekonski <pawel.dziekonski@pwr.wroc.pl>
-
-Peter Collingbourne	peter@pcc.me.uk
-	Peter Collingbourne <peter@pcc.me.uk>
-
-Peter Rosin	peda@lysator.liu.se
-	Peter Rosin <peda@lysator.liu.se>
-
-Peter Wu	peter@lekensteyn.nl
-	Peter Wu <peter@lekensteyn.nl>
-
-Petr Písař	petr.pisar@atlas.cz
-	Petr Pisar <petr.pisar@atlas.cz>
-	Petr Písař <petr.pisar@atlas.cz>
-	Petr P√≠sa≈ô <petr.pisar@atlas.cz>
-
-Phil Pennock	mutt-dev@spodhuis.demon.nl
-	Phil Pennock <mutt-dev@spodhuis.demon.nl>
-
-Philipp Gesang	philipp.gesang@intra2net.com
-	Philipp Gesang <philipp.gesang@intra2net.com>
-
-Piarres Beobide Egaña	pi@beobide.net
-	Piarres Beobide Egaña <pi@beobide.net>
-	pi <pi@beobide.net>
-
-Rado Smiljanic	regrado@web.de
-	Rado Smiljanic <regrado@web.de>
-	Rado S <regrado@web.de>
-
-Ralf Wildenhues	wildenhues@ins.uni-bonn.de
-	Ralf Wildenhues <wildenhues@ins.uni-bonn.de>
-
-Recai Oktas	roktas@omu.edu.tr
-	Recai Oktas <roktas@omu.edu.tr>
-
-René Clerc	rene@clerc.nl
-	Ren√© Clerc <rene@clerc.nl>
-	René Clerc <rene@clerc.nl>
-
-Rich Burridge	rich.burridge@oracle.com
-	Unknown <rich.burridge@oracle.com>
-
-Robert Schiele	robert.schiele@t-online.de
-	Robert Schiele <robert.schiele@t-online.de>
-
-Rocco Rutte	pdmef@gmx.net
-	Rocco Rutte <pdmef@gmx.net>
-	Rocco Rutte <s1118644@mail.inf.tu-dresden.de>
-
-Roger Cornelius	rac@tenzing.org
-	Roger Cornelius <rac@tenzing.org>
-
-Roland Rosenfeld	roland@spinnaker.de
-	Roland Rosenfeld <roland@spinnaker.de>
-
-Roman Kagan	rkagan@mail.ru
-	Roman Kagan <rkagan@mail.ru>
-
-Roman Kraevskiy	rkraevskiy@gmail.com
-	Roman Kraevskiy <rkraevskiy@gmail.com>
-
-Rosen Penev	rosenp@gmail.com
-	Rosen Penev <rosenp@gmail.com>
-
-Ronny Haryanto	ronny@haryan.to
-	Ronny Haryanto <ronny@haryan.to>
-	Ronny Haryanto <ronnylist@haryan.to>
-
-Rudi Chiarito	nutello@sweetness.com
-	Rudi Chiarito <nutello@sweetness.com>
-
-Rudy Taraschi	rudy@cae.com
-	Rudy Taraschi <rudy@cae.com>
-
-Rupert Levene	rupert@levene.dyndns.org
-	Rupert Levene <rupert@levene.dyndns.org>
-
-Sahil Tandon	sahil@brandeis.edu
-	Sahil Tandon <sahil@brandeis.edu>
-
-Sam Pablo Kuper	sampablokuper@riseup.net
-	Sam Pablo Kuper <sampablokuper@riseup.net>
-
-Sami Farin	hvtaifwkbgefbaei@gmail.com
-	Sami Farin <hvtaifwkbgefbaei@gmail.com>
-	Sami Farin <safari-mutt@safari.iki.fi>
-
-Samuel Tardieu	sam@rfc1149.net
-	Samuel Tardieu <sam@rfc1149.net>
-
-Scott Koranda	skoranda@gravity.phys.uwm.edu
-	Scott Koranda <skoranda@gravity.phys.uwm.edu>
-
-Sertaç Ö. Yıldız	unknown
-	Sertaç Ö. Yıldız <unknown>
-
-Seth Arnold	seth.arnold@suse.de
-	Seth Arnold <seth.arnold@suse.de>
-
-Seth Forshee	seth@forshee.me
-	Seth Forshee <seth@forshee.me>
-
-Simon Ruderich	simon@ruderich.org
-	Simon Ruderich <simon@ruderich.org>
-
-Stefan Kuhn	wuodan@hispeed.ch
-	Stefan Kuhn <wuodan@hispeed.ch>
-
-Stefan Strogin	stefan.strogin@gmail.com
-	Stefan Strogin <stefan.strogin@gmail.com>
-
-Steve Kemp	skx@debian.org
-	Steve Kemp <skx@debian.org>
-
-Steve Kennedy	steve-md@gbnet.net
-	Steve Kennedy <steve-md@gbnet.net>
-
-Sébastien Hinderer	Sebastien.Hinderer@libertysurf.fr
-	Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
-	Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>
-
-Takashi Takizawa	taki@luna.email.ne.jp
-	Takashi TAKIZAWA <taki@cyber.email.ne.jp>
-	TAKIZAWA Takashi <taki@luna.email.ne.jp>
-
-Tamotsu Takahashi	ttakah@lapis.plala.or.jp
-	TAKAHASHI Tamotsu <arms405@jade.dti.ne.jp>
-	TAKAHASHI Tamotsu <tamo@momonga-linux.org>
-	TAKAHASHI Tamotsu <ttakah@lapis.plala.or.jp>
-	Takahashi Tamotsu <ttakah@lapis.plala.or.jp>
-	Tamotsu TAKAHASHI <ttakah@gmail.com>
-	Tamotsu TAKAHASHI <ttakah@lapis.plala.or.jp>
-
-ta_panta_rei	7vvtch802@sneakemail.com
-	ta_panta_rei <7vvtch802@sneakemail.com>
-
-Thomas Glanzmann	sithglan@stud.uni-erlangen.de
-	Thomas Glanzmann <sithglan@stud.uni-erlangen.de>
-
-Thomas Roessler	roessler@does-not-exist.org
-	Thomas Roessler <roessler@does-not-exist.org>
-
-Thomas Wiegner	wiegner@gmx.de
-	Thomas Wiegner <wiegner@gmx.de>
-
-Tim Stoakes	tim@stoakes.net
-	Tim Stoakes <tim@stoakes.net>
-
-Todd Zullinger	tmz@pobox.com
-	Todd Zullinger <tmz@pobox.com>
-
-Tomas Hoger	thoger@redhat.com
-	Tomas Hoger <thoger@redhat.com>
-
-Tommi Komulainen	tommi.komulainen@iki.fi
-	Tommi Komulainen <tommi.komulainen@iki.fi>
-
-Tomokazu Yonetani	qhwt+mutt@les.ath.cx
-	YONETANI Tomokazu <qhwt+mutt@les.ath.cx>
-
-Tony Leneis	tony@cvr.ds.adp.com
-	Tony Leneis <tony@cvr.ds.adp.com>
-
-Toomas Soome	Toomas.Soome@microlink.ee
-	Toomas Soome <Toomas.Soome@microlink.ee>
-	Toomas Soome <tsoome@muhv.pri.ee>
-
-Unknown	bat.guano@don.blech.e4ward.com
-	Unknown <bat.guano@don.blech.e4ward.com>
-
-Unknown	ckillian@cs.ucsd.edu
-	Unknown <ckillian@cs.ucsd.edu>
-
-Unknown	cypher@conuropsis.org
-	Unknown <cypher@conuropsis.org>
-
-Unknown	duvall@emufarm.org
-	Unknown <duvall@emufarm.org>
-
-Unknown	exg@gentoo.org
-	Unknown <exg@gentoo.org>
-
-Unknown	g1pi@libero.it
-	Unknown <g1pi@libero.it>
-
-Unknown	is@netbsd.org
-	Unknown <is@netbsd.org>
-
-Unknown	ludwig@fh-worms.de
-	Unknown <ludwig@fh-worms.de>
-
-Unknown	nihilhill@gmail.com
-	Unknown <nihilhill@gmail.com>
-
-Unknown	peb@mppmu.mpg.de
-	Unknown <peb@mppmu.mpg.de>
-
-Unknown	ph04169@cc.uoi.gr
-	Unknown <ph04169@cc.uoi.gr>
-
-Unknown	pywatson@gmail.com
-	Unknown <pywatson@gmail.com>
-
-Unknown	rea-mutt@codelabs.ru
-	Unknown <rea-mutt@codelabs.ru>
-
-Unknown	rtc@gmx.de
-	Unknown <rtc@gmx.de>
-
-Unknown	Zardoz@users.sourceforge.net
-	Unknown <Zardoz@users.sourceforge.net>
-
-Urs Janßen	urs@tin.org
-	Urs Janßen <urs@tin.org>
-
-Velko Hristov	hristov@informatik.hu-berlin.de
-	Velko Hristov <hristov@informatik.hu-berlin.de>
-
-Vincent Lefevre	vincent@vinc17.org
-	Vincent Lefevre <vincent@vinc17.net>
-	Vincent Lefevre <vincent@vinc17.org>
-
-Vladimir Marek	vladimir.marek@sun.com
-	Vladimir Marek <vladimir.marek@sun.com>
-
-Vsevolod Volkov	vvv@mutt.org.ua
-	Vsevolod Volkov <vvv@mutt.org.ua>
-
-Werner Koch	wk@gnupg.org
-	Werner Koch <wk@gnupg.org>
-
-Wilfried Goesgens	dothebart@uncensored.citadel.org
-	Wilfried Goesgens <dothebart@uncensored.citadel.org>
-
-Will Fiveash	will.fiveash@oracle.com
-	Will Fiveash <will.fiveash@oracle.com>
-	Will Fiveash <Will.Fiveash@Sun.COM>
-	Will Fiveash <william.fiveash@sun.com>
-
-Wouter Verheijen	wv@xs2mail.com
-	Wouter Verheijen <wv@xs2mail.com>
-
-Yasuhiro Matsumoto	mattn_jp@hotmail.com
-	Yasuhiro Matsumoto <mattn_jp@hotmail.com>
-
+mutt,,1074468571@schiraldi.org,1074468571@schiraldi.org,Mike Schiraldi,preferred
+mutt,,7vvtch802@sneakemail.com,7vvtch802@sneakemail.com,ta_panta_rei,preferred
+mutt,,Nyff@protonmail.ch,Nyff@protonmail.ch,Oneric,preferred
+mutt,,Sebastien.Hinderer@libertysurf.fr,Sebastien.Hinderer@libertysurf.fr,Sébastien Hinderer,preferred
+mutt,,Sebastien.Hinderer@libertysurf.fr,Sebastien.Hinderer@ens-lyon.org,Sébastien Hinderer,secondary
+mutt,,Toomas.Soome@microlink.ee,Toomas.Soome@microlink.ee,Toomas Soome,preferred
+mutt,,Toomas.Soome@microlink.ee,tsoome@muhv.pri.ee,Toomas Soome,secondary
+mutt,,Zardoz@users.sourceforge.net,Zardoz@users.sourceforge.net,Unknown,preferred
+mutt,,a.c.li@ieee.org,a.c.li@ieee.org,Ambrose Li,preferred
+mutt,,aaron@schrab.com,aaron@schrab.com,Aaron Schrab,preferred
+mutt,,aaron@schrab.com,aaron+mutt@schrab.com,Aaron Schrab,secondary
+mutt,,aaronl@vitelus.com,aaronl@vitelus.com,Aaron Lehmann,preferred
+mutt,,aduitsis@gmail.com,aduitsis@gmail.com,Athanasios Douitsis,preferred
+mutt,,agriffis@n01se.net,agriffis@n01se.net,Aron Griffis,preferred
+mutt,,alain@finale-dev.com,alain@finale-dev.com,Alain Penders,preferred
+mutt,,amarks@red.ridge.amrx.net,amarks@red.ridge.amrx.net,Andrew Marks,preferred
+mutt,,ammon.riley@gmail.com,ammon.riley@gmail.com,Ammon Riley,preferred
+mutt,,anders.helmersson.utsikt@wasadata.net,anders.helmersson.utsikt@wasadata.net,Anders Helmersson,preferred
+mutt,,anders.helmersson.utsikt@wasadata.net,anders.helmersson@telia.com,Anders Helmersson,secondary
+mutt,,andreas.amann@tyndall.ie,andreas.amann@tyndall.ie,Andreas Amann,preferred
+mutt,,andreas.amann@tyndall.ie,andreas.amann@tyndall.ie,Unknown,secondary
+mutt,,andrej.skvortzov@gmail.com,andrej.skvortzov@gmail.com,Andrey Skvortsov,preferred
+mutt,,andrew@gaul.org,andrew@gaul.org,Andrew Gaul,preferred
+mutt,,anton@basename.se,anton@basename.se,Anton Lindqvist,preferred
+mutt,,anton@basename.se,anton.lindqvist@gmail.com,Anton Lindqvist,secondary
+mutt,,asp16@alu.ua.es,asp16@alu.ua.es,Adeodato Simó,preferred
+mutt,,asp16@alu.ua.es,dato@net.com.org.es,Adeodato Simó,secondary
+mutt,,at@altlinux.org,at@altlinux.org,Alexey Tourbin,preferred
+mutt,,aw@osn.de,aw@osn.de,Armin Wolfermann,preferred
+mutt,,awn@bcs.zp.ua,awn@bcs.zp.ua,Andrew Nosenko,preferred
+mutt,,awn@bcs.zp.ua,awn@bcs.zp.ua,Andrew W. Nosenko,secondary
+mutt,,bat.guano@don.blech.e4ward.com,bat.guano@don.blech.e4ward.com,Unknown,preferred
+mutt,,beck@ibh.de,beck@ibh.de,Beck, Andre,secondary
+mutt,,beck@ibh.de,beck@ibh.de,Andre Beck,preferred
+mutt,,bernd@ba-net.org,bernd@ba-net.org,Bernd Ahlers,preferred
+mutt,,bjoern@j3e.de,bjoern@j3e.de,Bjoern Jacke,preferred
+mutt,,bjoern@j3e.de,muttbug@j3e.de,Bjoern Jacke,secondary
+mutt,,blacktrash@gmx.net,blacktrash@gmx.net,Christian Ebert,preferred
+mutt,,blong@fiction.net,blong@fiction.net,Brandon Long,preferred
+mutt,,brendan@cully.org,brendan@cully.org,Brendan Cully,preferred
+mutt,,brendan@cully.org,brendan@kublai.com,Brendan Cully,secondary
+mutt,,brent@nordist.net,brent@nordist.net,Brent Nordquist,preferred
+mutt,,brent@nordist.net,brent@nordist.net,Brent J. Nordquist,secondary
+mutt,,bruno@postle.net,bruno@postle.net,Bruno Postle,preferred
+mutt,,bugs@kayari.org,bugs@kayari.org,Jonathan Wakely,preferred
+mutt,,byrial@image.dk,byrial@image.dk,Byrial Jensen,preferred
+mutt,,cameron@patrick.wattle.id.au,cameron@patrick.wattle.id.au,Cameron Patrick,preferred
+mutt,,cbrownstein@liquidityllc.com,cbrownstein@liquidityllc.com,Cody Brownstein,preferred
+mutt,,cedricduval@free.fr,cedricduval@free.fr,Cedric Duval,preferred
+mutt,,cedricduval@free.fr,cedricduval+web@free.fr,Cedric Duval,secondary
+mutt,,ckillian@cs.ucsd.edu,ckillian@cs.ucsd.edu,Unknown,preferred
+mutt,,cludwig@cdc.informatik.tu-darmstadt.de,cludwig@cdc.informatik.tu-darmstadt.de,Christoph Ludwig,preferred
+mutt,,cminyard@mvista.com,cminyard@mvista.com,Corey Minyard,preferred
+mutt,,code@pizzashack.org,code@pizzashack.org,Derek Martin,preferred
+mutt,,code@pizzashack.org,invalid@pizzashack.org,Derek Martin,secondary
+mutt,,consus@gmx.com,consus@gmx.com,Consus,preferred
+mutt,,cypher@conuropsis.org,cypher@conuropsis.org,Unknown,preferred
+mutt,,dale-list-mutt-dev-2@woolridge.org,dale-list-mutt-dev-2@woolridge.org,Dale Woolridge,preferred
+mutt,,dale-list-mutt-dev-2@woolridge.org,dale-flea-mutt-bug@woolridge.org,Dale Woolridge,secondary
+mutt,,dan@coneharvesters.com,dan@coneharvesters.com,Dan Fandrich,preferred
+mutt,,dan@danborn.net,dan@danborn.net,Dan Born,preferred
+mutt,,dan@debian.org,dan@debian.org,Daniel Jacobowitz,preferred
+mutt,,dan@ohnesorg.cz,dan@ohnesorg.cz,Dan Ohnesorg,preferred
+mutt,,daniel.loewenherz@yale.edu,daniel.loewenherz@yale.edu,Dan Loewenherz,preferred
+mutt,,david@jardine.de,david@jardine.de,David Jardine,preferred
+mutt,,dburrows@debian.org,dburrows@debian.org,Daniel Burrows,preferred
+mutt,,dereks@lifeofadishwasher.com,dereks@lifeofadishwasher.com,Derek Schrock,preferred
+mutt,,dev.mutt.org@g.gshapiro.net,dev.mutt.org@g.gshapiro.net,Gregory Shapiro,preferred
+mutt,,dgc@c13.us,dgc@c13.us,David Champion,preferred
+mutt,,dgc@c13.us,dgc.github@c13.us,David Champion,secondary
+mutt,,dgc@c13.us,dgc@bikeshed.us,David Champion,secondary
+mutt,,dgc@c13.us,dgc@uchicago.edu,David Champion,secondary
+mutt,,djo33@free.fr,djo33@free.fr,Johan D,preferred
+mutt,,dkg@fifthhorseman.net,dkg@fifthhorseman.net,Daniel Kahn Gillmor,preferred
+mutt,,dmitri.vereshchagin@gmail.com,dmitri.vereshchagin@gmail.com,Dmitri Vereshchagin,preferred
+mutt,,dnelson@allantgroup.com,dnelson@allantgroup.com,Dan Nelson,preferred
+mutt,,dothebart@uncensored.citadel.org,dothebart@uncensored.citadel.org,Wilfried Goesgens,preferred
+mutt,,dr1s@users.noreply.github.com,dr1s@users.noreply.github.com,Daniel Schmitz,preferred
+mutt,,dshaw@jabberwocky.com,dshaw@jabberwocky.com,David Shaw,preferred
+mutt,,duvall@emufarm.org,duvall@emufarm.org,Unknown,preferred
+mutt,,dw@botanicus.net,dw@botanicus.net,David Wilson,preferred
+mutt,,dzieko@pwr.wroc.pl,dzieko@pwr.wroc.pl,Pawel Dziekonski,preferred
+mutt,,dzieko@pwr.wroc.pl,pawel.dziekonski@pwr.wroc.pl,Pawel Dziekonski,secondary
+mutt,,e.giaquinta@glauco.it,e.giaquinta@glauco.it,Emanuele Giaquinta,preferred
+mutt,,e.giaquinta@glauco.it,unknown,Emanuele Giaquinta,secondary
+mutt,,ed@s5h.net,ed@s5h.net,Ed Neville,preferred
+mutt,,ed@s5h.net,ed@s5h.net,ed@s5h.net,secondary
+mutt,,edmundo@rano.org,edmundo@rano.org,Edmund Grimley Evans,preferred
+mutt,,edmundo@rano.org,edmund820@rano.org,Edmund GRIMLEY EVANS,secondary
+mutt,,edmundo@rano.org,edmundo@rano.org,Edmund GRIMLEY EVANS,secondary
+mutt,,eggert@cs.ucla.edu,eggert@cs.ucla.edu,Paul Eggert,preferred
+mutt,,erack@erack.de,erack@erack.de,Eike Rathke,preferred
+mutt,,erik@hovland.org,erik@hovland.org,Erik Hovland,preferred
+mutt,,esr@thyrsus.com,esr@thyrsus.com,Eric Raymond,preferred
+mutt,,esr@thyrsus.com,esr@thyrsus.com,Unknown,secondary
+mutt,,eunjea@koru.org,eunjea@koru.org,Im Eunjea,preferred
+mutt,,exg@gentoo.org,exg@gentoo.org,Unknown,preferred
+mutt,,fcdemirci@fastmail.fm,fcdemirci@fastmail.fm,Fahri Cihan Demirci,preferred
+mutt,,flammie@iki.fi,flammie@iki.fi,Flammie Pirinen,preferred
+mutt,,fw@deneb.enyo.de,fw@deneb.enyo.de,Florian Weimer,preferred
+mutt,,g1pi@libero.it,g1pi@libero.it,Unknown,preferred
+mutt,,garyjohn@spk.agilent.com,garyjohn@spk.agilent.com,Gary Johnson,preferred
+mutt,,garyjohn@spk.agilent.com,unknown,Gary Johnson,secondary
+mutt,,gerotick@faveve.uni-stuttgart.de,gerotick@faveve.uni-stuttgart.de,Gero Treuner,preferred
+mutt,,gerotick@faveve.uni-stuttgart.de,gero@70t.de,Gero Treuner,secondary
+mutt,,gerotick@faveve.uni-stuttgart.de,gt_16_gitlab.com@innocircle.com,gt_16_gitlab.com@innocircle.com,secondary
+mutt,,grawity@gmail.com,grawity@gmail.com,Mantas Mikulėnas,preferred
+mutt,,greek0@gmx.net,greek0@gmx.net,Christian Aichinger,preferred
+mutt,,gszymaszek@short.pl,gszymaszek@short.pl,Grzegorz Szymaszek,preferred
+mutt,,guilhem@guilhem.org,guilhem@guilhem.org,Guilhem Moulin,preferred
+mutt,,hhorak@redhat.com,hhorak@redhat.com,Honza Horak,preferred
+mutt,,hhorak@redhat.com,hhorak@redhat.com,Unknown,secondary
+mutt,,horst@schirmeier.com,horst@schirmeier.com,Horst Schirmeier,preferred
+mutt,,horvaths@fi.inf.elte.hu,horvaths@fi.inf.elte.hu,Horvath Szabolcs,preferred
+mutt,,hristov@informatik.hu-berlin.de,hristov@informatik.hu-berlin.de,Velko Hristov,preferred
+mutt,,hugo@larve.net,hugo@larve.net,Hugo Haas,preferred
+mutt,,hvtaifwkbgefbaei@gmail.com,hvtaifwkbgefbaei@gmail.com,Sami Farin,preferred
+mutt,,hvtaifwkbgefbaei@gmail.com,safari-mutt@safari.iki.fi,Sami Farin,secondary
+mutt,,i18n@benno.vertaalt.nl,i18n@benno.vertaalt.nl,Benno Schulenberg,preferred
+mutt,,int-e@gmx.de,int-e@gmx.de,Bertram Felgenhauer,preferred
+mutt,,is@netbsd.org,is@netbsd.org,Unknown,preferred
+mutt,,ivan@selidor.net,ivan@selidor.net,Ivan Vilata i Balaguer,preferred
+mutt,,jamessan@jamessan.com,jamessan@jamessan.com,James McCoy,preferred
+mutt,,jeffi@rcn.com,jeffi@rcn.com,Jeff Ito,preferred
+mutt,,jeremy@azazel.net,jeremy@azazel.net,Jeremy Sowden,preferred
+mutt,,jesus.climent@hispalinux.es,jesus.climent@hispalinux.es,Jesus Climent,preferred
+mutt,,jesus.climent@hispalinux.es,jesus.climent@hispalinux.es,Unknown,secondary
+mutt,,jhawk@mit.edu,jhawk@mit.edu,John Hawkinson,preferred
+mutt,,joel.riou@normalesup.org,joel.riou@normalesup.org,Joël Riou,preferred
+mutt,,joel@freebsd.org,joel@freebsd.org,Joel Dahl,preferred
+mutt,,johan@svedberg.com,johan@svedberg.com,Johan Svedberg,preferred
+mutt,,johan@svedberg.com,johan@svedberg.pp.se,Johan Svedberg,secondary
+mutt,,john.beck@oracle.com,john.beck@oracle.com,John Beck,preferred
+mutt,,john.beck@oracle.com,john.beck@oracle.com,Unknown,secondary
+mutt,,john@swinbank.org,john@swinbank.org,John Swinbank,preferred
+mutt,,jon@zetnet.net,jon@zetnet.net,Jon Miles,preferred
+mutt,,jorgen.tegner@telia.com,jorgen.tegner@telia.com,Jörgen Tegnér,preferred
+mutt,,juan@altmayer.com,juan@altmayer.com,Juan Altmayer Pizzorno,preferred
+mutt,,jukka@salmi.ch,jukka@salmi.ch,Jukka Salmi,preferred
+mutt,,jukka@salmi.ch,j+mutt@2007.salmi.ch,Jukka Salmi,secondary
+mutt,,julian-git@d-and-j.net,julian-git@d-and-j.net,Julian Gilbey,preferred
+mutt,,kees@outflux.net,kees@outflux.net,Kees Cook,preferred
+mutt,,kees@outflux.net,kees@outflux.net,Unknown,secondary
+mutt,,kevin@8t8.us,kevin@8t8.us,Kevin McCarthy,preferred
+mutt,,kraai@ftbfs.org,kraai@ftbfs.org,Matt Kraai,preferred
+mutt,,kscanne@gmail.com,kscanne@gmail.com,Kevin Scannell,preferred
+mutt,,kscanne@gmail.com,scannell@slu.edu,Kevin Scannell,secondary
+mutt,,ku4nf@austin.rr.com,ku4nf@austin.rr.com,Dan Hopper,preferred
+mutt,,kyle@memoryhole.net,kyle@memoryhole.net,Kyle Wheeler,preferred
+mutt,,kyle@memoryhole.net,kyle-mutt-dev@memoryhole.net,Kyle Wheeler,secondary
+mutt,,kyle@memoryhole.net,unknown,Kyle Wheeler,secondary
+mutt,,lhecking@nmrc.ucc.ie,lhecking@nmrc.ucc.ie,Lars Hecking,preferred
+mutt,,lhecking@nmrc.ucc.ie,lhecking@nmrc.ie,Lars Hecking,secondary
+mutt,,lhecking@nmrc.ucc.ie,lhecking@users.sourceforge.net,Lars Hecking,secondary
+mutt,,lilydjwg@gmail.com,lilydjwg@gmail.com,lilydjwg,preferred
+mutt,,lists+mutt_devs@bigfatdave.com,lists+mutt_devs@bigfatdave.com,David Yitzchak Cohen,preferred
+mutt,,lists+mutt_devs@bigfatdave.com,lists+mutt_bugs@bigfatdave.com,David Yitzchak Cohen,secondary
+mutt,,lists@jhweiss.de,lists@jhweiss.de,Holger Weiss,preferred
+mutt,,lists@jhweiss.de,holger@zedat.fu-berlin.de,Holger Weiss,secondary
+mutt,,ludwig@fh-worms.de,ludwig@fh-worms.de,Unknown,preferred
+mutt,,luke@mewburn.net,luke@mewburn.net,Luke Mewburn,preferred
+mutt,,malcolm.parsons@gmail.com,malcolm.parsons@gmail.com,Malcolm Parsons,preferred
+mutt,,manphiz@gmail.com,manphiz@gmail.com,Deng Xiyue,preferred
+mutt,,marcel@telka.sk,marcel@telka.sk,Marcel Telka,preferred
+mutt,,marcel@telka.sk,marcel@telka.sk,Unknown,secondary
+mutt,,marcopaolone@gmail.com,marcopaolone@gmail.com,Marco Paolone,preferred
+mutt,,marmarek@invisiblethingslab.com,marmarek@invisiblethingslab.com,Marek Marczykowski-Górecki,preferred
+mutt,,martin@sandsmark.ninja,martin@sandsmark.ninja,Martin Sandsmark,preferred
+mutt,,matthias.andree@gmx.de,matthias.andree@gmx.de,Matthias Andree,preferred
+mutt,,mattn_jp@hotmail.com,mattn_jp@hotmail.com,Yasuhiro Matsumoto,preferred
+mutt,,mbj@spamcop.net,mbj@spamcop.net,Morten Bo Johansen,preferred
+mutt,,mbj@spamcop.net,listmail@mbjnet.dk,Morten Bo Johansen,secondary
+mutt,,mbj@spamcop.net,mbj@mbjnet.dk,Morten Bo Johansen,secondary
+mutt,,mbj@spamcop.net,mjb@spamcop.net,Morten Bo Johansen,secondary
+mutt,,mbj@spamcop.net,mojo@mbjnet.dk,Morten Bo Johansen,secondary
+mutt,,mbj@spamcop.net,morten.bo.johansen@gmail.com,Morten Bo Johansen,secondary
+mutt,,md@linux.it,md@linux.it,Marco d'Itri,preferred
+mutt,,me@mutt.org,me@mutt.org,Michael Elkins,preferred
+mutt,,me@mutt.org,me@sigpipe.org,Michael Elkins,secondary
+mutt,,me@mutt.org,me@sigpipe.org,Unknown,secondary
+mutt,,mellon@pobox.com,mellon@pobox.com,Anatoly Vorobey,preferred
+mutt,,mhallock@scs.uiuc.edu,mhallock@scs.uiuc.edu,Mike Hallock,preferred
+mutt,,michael.tatge@web.de,michael.tatge@web.de,Michael Tatge,preferred
+mutt,,mij@soupnazi.org,mij@soupnazi.org,Jim Mock,preferred
+mutt,,mlichvar@redhat.com,mlichvar@redhat.com,Miroslav Lichvar,preferred
+mutt,,mmj@suse.de,mmj@suse.de,Mads Martin Joergensen,preferred
+mutt,,moritz@g10code.com,moritz@g10code.com,Moritz Schulte,preferred
+mutt,,moritz@g10code.com,Moritz.Schulte@ruhr-uni-bochum.de,Moritz Schulte,secondary
+mutt,,moritz@g10code.com,Moritz.Schulte@ruhr-uni-bochum.de,Unknown,secondary
+mutt,,muh.muhten@gmail.com,muh.muhten@gmail.com,Muh Muhten,preferred
+mutt,,mutt-dev-ml@elho.net,mutt-dev-ml@elho.net,Elmar Hoffmann,preferred
+mutt,,mutt-dev@spodhuis.demon.nl,mutt-dev@spodhuis.demon.nl,Phil Pennock,preferred
+mutt,,mutt@kempniu.pl,mutt@kempniu.pl,Michał Kępień,preferred
+mutt,,mvrable@cs.ucsd.edu,mvrable@cs.ucsd.edu,Michael Vrable,preferred
+mutt,,nam1@cec.wustl.edu,nam1@cec.wustl.edu,Nik Melchior,preferred
+mutt,,nam1@cec.wustl.edu,nam1@cec.wustl.edu,Nik A. Melchior,secondary
+mutt,,neilb@cse.unsw.edu.au,neilb@cse.unsw.edu.au,Neil Brown,preferred
+mutt,,neleai@seznam.cz,neleai@seznam.cz,Ondřej Bílka,preferred
+mutt,,nhd+mutt@andrew.cmu.edu,nhd+mutt@andrew.cmu.edu,Nathan Dushman,preferred
+mutt,,nihilhill@gmail.com,nihilhill@gmail.com,Unknown,preferred
+mutt,,njm@njm.f2s.com,njm@njm.f2s.com,N.J. Mann,preferred
+mutt,,nonakap@gmail.com,nonakap@gmail.com,Kimihiro Nonaka,preferred
+mutt,,nonakap@gmail.com,nonakap@gmail.com,NONAKA Kimihiro,secondary
+mutt,,notting@redhat.com,notting@redhat.com,Bill Nottingham,preferred
+mutt,,nr@rachinsky.de,nr@rachinsky.de,Nicolas Rachinsky,preferred
+mutt,,nr@rachinsky.de,nicolas@dauerreden.de,Nicolas Rachinsky,secondary
+mutt,,nutello@sweetness.com,nutello@sweetness.com,Rudi Chiarito,preferred
+mutt,,olaf@aepfle.de,olaf@aepfle.de,Olaf Hering,preferred
+mutt,,oota@mspd.mt.nec.co.jp,oota@mspd.mt.nec.co.jp,Oota Toshiya,preferred
+mutt,,oota@mspd.mt.nec.co.jp,oota@mspd.mt.nec.co.jp,oota toshiya,secondary
+mutt,,ossi@kde.org,ossi@kde.org,Oswald Buddenhagen,preferred
+mutt,,paul@black-sun.demon.co.uk,paul@black-sun.demon.co.uk,Paul Walker,preferred
+mutt,,paul@black-sun.demon.co.uk,paul.walker@st.com,Paul WALKER,secondary
+mutt,,pdmef@gmx.net,pdmef@gmx.net,Rocco Rutte,preferred
+mutt,,pdmef@gmx.net,s1118644@mail.inf.tu-dresden.de,Rocco Rutte,secondary
+mutt,,peb@mppmu.mpg.de,peb@mppmu.mpg.de,Unknown,preferred
+mutt,,peda@lysator.liu.se,peda@lysator.liu.se,Peter Rosin,preferred
+mutt,,peter@lekensteyn.nl,peter@lekensteyn.nl,Peter Wu,preferred
+mutt,,peter@pcc.me.uk,peter@pcc.me.uk,Peter Collingbourne,preferred
+mutt,,petr.pisar@atlas.cz,petr.pisar@atlas.cz,Petr Písař,preferred
+mutt,,petr.pisar@atlas.cz,petr.pisar@atlas.cz,Petr Pisar,secondary
+mutt,,petr.pisar@atlas.cz,petr.pisar@atlas.cz,Petr P√≠sa≈ô,secondary
+mutt,,ph04169@cc.uoi.gr,ph04169@cc.uoi.gr,Unknown,preferred
+mutt,,philipp.gesang@intra2net.com,philipp.gesang@intra2net.com,Philipp Gesang,preferred
+mutt,,pi@beobide.net,pi@beobide.net,Piarres Beobide Egaña,preferred
+mutt,,pi@beobide.net,pi@beobide.net,pi,secondary
+mutt,,pigleich3@gmx.net,pigleich3@gmx.net,Konstantin Stephan,preferred
+mutt,,plenz@cis.fu-berlin.de,plenz@cis.fu-berlin.de,Julius Plenz,preferred
+mutt,,prlw1@cam.ac.uk,prlw1@cam.ac.uk,Patrick Welche,preferred
+mutt,,prlw1@cam.ac.uk,prlw1@newn.cam.ac.uk,Patrick Welche,secondary
+mutt,,pywatson@gmail.com,pywatson@gmail.com,Unknown,preferred
+mutt,,qhwt+mutt@les.ath.cx,qhwt+mutt@les.ath.cx,Tomokazu Yonetani,preferred
+mutt,,qhwt+mutt@les.ath.cx,qhwt+mutt@les.ath.cx,YONETANI Tomokazu,secondary
+mutt,,rac@tenzing.org,rac@tenzing.org,Roger Cornelius,preferred
+mutt,,raorn@altlinux.org,raorn@altlinux.org,Alexey Froloff,preferred
+mutt,,raorn@altlinux.org,raorn@altlinux.org,Alexey I. Froloff,secondary
+mutt,,rea-mutt@codelabs.ru,rea-mutt@codelabs.ru,Unknown,preferred
+mutt,,regrado@web.de,regrado@web.de,Rado Smiljanic,preferred
+mutt,,regrado@web.de,regrado@web.de,Rado S,secondary
+mutt,,rene@clerc.nl,rene@clerc.nl,René Clerc,preferred
+mutt,,rene@clerc.nl,rene@clerc.nl,Ren√© Clerc,secondary
+mutt,,rich.burridge@oracle.com,rich.burridge@oracle.com,Rich Burridge,preferred
+mutt,,rich.burridge@oracle.com,rich.burridge@oracle.com,Unknown,secondary
+mutt,,rkagan@mail.ru,rkagan@mail.ru,Roman Kagan,preferred
+mutt,,rkraevskiy@gmail.com,rkraevskiy@gmail.com,Roman Kraevskiy,preferred
+mutt,,robert.schiele@t-online.de,robert.schiele@t-online.de,Robert Schiele,preferred
+mutt,,roessler@does-not-exist.org,roessler@does-not-exist.org,Thomas Roessler,preferred
+mutt,,roktas@omu.edu.tr,roktas@omu.edu.tr,Recai Oktas,preferred
+mutt,,roland@spinnaker.de,roland@spinnaker.de,Roland Rosenfeld,preferred
+mutt,,ronny@haryan.to,ronny@haryan.to,Ronny Haryanto,preferred
+mutt,,ronny@haryan.to,ronnylist@haryan.to,Ronny Haryanto,secondary
+mutt,,rosenp@gmail.com,rosenp@gmail.com,Rosen Penev,preferred
+mutt,,rtc@gmx.de,rtc@gmx.de,Unknown,preferred
+mutt,,rudy@cae.com,rudy@cae.com,Rudy Taraschi,preferred
+mutt,,rupert@levene.dyndns.org,rupert@levene.dyndns.org,Rupert Levene,preferred
+mutt,,sahil@brandeis.edu,sahil@brandeis.edu,Sahil Tandon,preferred
+mutt,,sam@rfc1149.net,sam@rfc1149.net,Samuel Tardieu,preferred
+mutt,,sampablokuper@riseup.net,sampablokuper@riseup.net,Sam Pablo Kuper,preferred
+mutt,,self@sungpae.com,self@sungpae.com,guns,preferred
+mutt,,seth.arnold@suse.de,seth.arnold@suse.de,Seth Arnold,preferred
+mutt,,seth@forshee.me,seth@forshee.me,Seth Forshee,preferred
+mutt,,siegert@sfu.ca,siegert@sfu.ca,Martin Siegert,preferred
+mutt,,simon@ruderich.org,simon@ruderich.org,Simon Ruderich,preferred
+mutt,,sithglan@stud.uni-erlangen.de,sithglan@stud.uni-erlangen.de,Thomas Glanzmann,preferred
+mutt,,skoranda@gravity.phys.uwm.edu,skoranda@gravity.phys.uwm.edu,Scott Koranda,preferred
+mutt,,skx@debian.org,skx@debian.org,Steve Kemp,preferred
+mutt,,stefan.strogin@gmail.com,stefan.strogin@gmail.com,Stefan Strogin,preferred
+mutt,,steve-md@gbnet.net,steve-md@gbnet.net,Steve Kennedy,preferred
+mutt,,taki@luna.email.ne.jp,taki@luna.email.ne.jp,Takashi Takizawa,preferred
+mutt,,taki@luna.email.ne.jp,taki@cyber.email.ne.jp,Takashi TAKIZAWA,secondary
+mutt,,taki@luna.email.ne.jp,taki@luna.email.ne.jp,TAKIZAWA Takashi,secondary
+mutt,,tamelingdaniel@gmail.com,tamelingdaniel@gmail.com,Daniel Tameling,preferred
+mutt,,tamentis@neopulsar.org,tamentis@neopulsar.org,Bertrand Janin,preferred
+mutt,,tbm@cyrius.com,tbm@cyrius.com,Martin Michlmayr,preferred
+mutt,,thoger@redhat.com,thoger@redhat.com,Tomas Hoger,preferred
+mutt,,tim@stoakes.net,tim@stoakes.net,Tim Stoakes,preferred
+mutt,,tmz@pobox.com,tmz@pobox.com,Todd Zullinger,preferred
+mutt,,tommi.komulainen@iki.fi,tommi.komulainen@iki.fi,Tommi Komulainen,preferred
+mutt,,tonio@netbsd.org,tonio@netbsd.org,Antoine Reilles,preferred
+mutt,,tony@cvr.ds.adp.com,tony@cvr.ds.adp.com,Tony Leneis,preferred
+mutt,,ttakah@lapis.plala.or.jp,ttakah@lapis.plala.or.jp,Tamotsu Takahashi,preferred
+mutt,,ttakah@lapis.plala.or.jp,arms405@jade.dti.ne.jp,TAKAHASHI Tamotsu,secondary
+mutt,,ttakah@lapis.plala.or.jp,tamo@momonga-linux.org,TAKAHASHI Tamotsu,secondary
+mutt,,ttakah@lapis.plala.or.jp,ttakah@gmail.com,Tamotsu TAKAHASHI,secondary
+mutt,,ttakah@lapis.plala.or.jp,ttakah@lapis.plala.or.jp,TAKAHASHI Tamotsu,secondary
+mutt,,ttakah@lapis.plala.or.jp,ttakah@lapis.plala.or.jp,Takahashi Tamotsu,secondary
+mutt,,ttakah@lapis.plala.or.jp,ttakah@lapis.plala.or.jp,Tamotsu TAKAHASHI,secondary
+mutt,,unknown,unknown,Andreas Jaggi,preferred
+mutt,,unknown,unknown,Andreas Jobs,preferred
+mutt,,unknown,unknown,H.N.Caldwell,preferred
+mutt,,unknown,unknown,Julien Cristau,preferred
+mutt,,unknown,unknown,Masayuki Moriyama,preferred
+mutt,,unknown,unknown,Sertaç Ö. Yıldız,preferred
+mutt,,unknown,unknown,convert-repo,preferred
+mutt,,unknown,unknown,hncaldwell,secondary
+mutt,,urs@tin.org,urs@tin.org,Urs Janßen,preferred
+mutt,,vapier@gentoo.org,vapier@gentoo.org,Mike Frysinger,preferred
+mutt,,veronatif@free.fr,veronatif@free.fr,Alain Bench,preferred
+mutt,,veronatif@free.fr,messtic@oreka.com,Alain Bench,secondary
+mutt,,vincent@vinc17.org,vincent@vinc17.org,Vincent Lefevre,preferred
+mutt,,vincent@vinc17.org,vincent@vinc17.net,Vincent Lefevre,secondary
+mutt,,vladimir.marek@sun.com,vladimir.marek@sun.com,Vladimir Marek,preferred
+mutt,,vogelchr@vogel.cx,vogelchr@vogel.cx,Christian Vogel,preferred
+mutt,,vvv@mutt.org.ua,vvv@mutt.org.ua,Vsevolod Volkov,preferred
+mutt,,wiegner@gmx.de,wiegner@gmx.de,Thomas Wiegner,preferred
+mutt,,wildenhues@ins.uni-bonn.de,wildenhues@ins.uni-bonn.de,Ralf Wildenhues,preferred
+mutt,,will.fiveash@oracle.com,will.fiveash@oracle.com,Will Fiveash,preferred
+mutt,,will.fiveash@oracle.com,Will.Fiveash@Sun.COM,Will Fiveash,secondary
+mutt,,will.fiveash@oracle.com,william.fiveash@sun.com,Will Fiveash,secondary
+mutt,,wk@gnupg.org,wk@gnupg.org,Werner Koch,preferred
+mutt,,wuodan@hispeed.ch,wuodan@hispeed.ch,Stefan Kuhn,preferred
+mutt,,wv@xs2mail.com,wv@xs2mail.com,Wouter Verheijen,preferred

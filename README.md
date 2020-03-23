@@ -35,6 +35,26 @@ save time preparing the accompanying notes.
 | [user-ml](release-templates/user-ml.txt)     | NeoMutt Users Mailing List       |
 | [website](release-templates/website.md)      | Website News Article             |
 
+### Release Automation
+
+Make manual work semi-automatic.
+
+| File                                 | Description                                                                      |
+|--------------------------------------|----------------------------------------------------------------------------------|
+| [get_summary.sh](git/get_summary.sh) | Print summary for new release message to maillists, updates list of contributors |
+| [generate.sh](git/generate.sh)       | Regenerates mailmaps and credits                                                 |
+
+* `get_summary.sh </path/to/neomutt/repo> [<since ref>] [<to ref>]`
+  * Execute after merging branchces into master before neomutt release,
+  * Prints summary of contributions to repository since last release
+  (or `<since ref>` if specified) to HEAD (or `<to ref>` if specified).
+  * Adds new contributors to neomutt.txt, so they will be present in
+  mailmap files (mailmap files are created by `generate.sh`)
+  * It's a good idea to revisit neomutt.txt diff after running the script.
+  
+* `generate.sh`
+  * regenerates *mailmap*, *mailmap-name-nick*, *mailmap-nick* and *credits*
+
 ## Update Distro Bin
 
 After a release, NeoMutt provides automatic updates for several distros.
