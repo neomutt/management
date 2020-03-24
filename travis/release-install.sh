@@ -20,6 +20,7 @@ cp -v "$RELDIR"/*.sh         .travis
 cp -v "$RELDIR/README.md"    .
 cp -v "$RELDIR/doxygen.conf" doxygen
 
+git rm .cirrus.yml
 git add "$TRAVIS" .travis .gitignore README.md doxygen
 git commit -m "travis: add release config"
 git log --oneline -n1
