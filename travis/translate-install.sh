@@ -16,6 +16,7 @@ cp -v "$YAML" "$TRAVIS"
 cp -v "$TRANSDIR"/*.sh  .travis
 cp -v "$TRANSDIR"/*.enc .travis
 
+git rm .cirrus.yml
 git add "$TRAVIS" .travis
 git commit -m "travis: add translate config"
 git log --oneline -n1

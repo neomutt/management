@@ -16,6 +16,7 @@ cp -v "$YAML" "$TRAVIS"
 cp -v "$PORTDIR/bootstrap.sh" macports
 cp -v "$PORTDIR/Portfile"     macports/mail/neomutt-mp
 
+git rm .cirrus.yml
 git add "$TRAVIS" macports
 git commit -m "travis: add macports config"
 git log --oneline -n1

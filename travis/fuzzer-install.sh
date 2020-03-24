@@ -13,6 +13,7 @@ cp -r "$RELDIR"/fuzz .
 
 git apply "$RELDIR"/fuzzer.diff
 
+git rm .cirrus.yml
 git add .gitignore Makefile.autosetup auto.def main.c fuzz
 git commit -m "travis: add fuzzer config"
 git log --oneline -n1
