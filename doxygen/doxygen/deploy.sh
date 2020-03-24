@@ -39,7 +39,7 @@ pushd code
 git rm -r --quiet ./*
 
 # Add the newly generated docs
-cp -r ../html/* .
+rsync -a ../html/ .
 
 git add .
 git commit -m "[AUTO] NeoMutt $VERSION"

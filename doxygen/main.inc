@@ -27,7 +27,8 @@
  * | @ref address   |
  * | @ref autocrypt |
  * | @ref config    |
- * | @ref comp      |
+ * | @ref compmbox  |
+ * | @ref compress  |
  * | @ref conn      |
  * | @ref core      |
  * | @ref debug     |
@@ -97,7 +98,6 @@
  * | mutt_signal.c   | @subpage mutt_signal   |
  * | mutt_socket.c   | @subpage mutt_socket   |
  * | mutt_thread.c   | @subpage mutt_thread   |
- * | mutt_zstrm.c    | @subpage zlib          |
  * | mx.c            | @subpage mx            |
  * | myvar.c         | @subpage myvar         |
  * | pager.c         | @subpage pager         |
