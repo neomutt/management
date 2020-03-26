@@ -14,6 +14,9 @@ addons:
       - docbook-simple
       - docbook-xsl
       - gettext
+      - gpgsm
+      - graphviz
+      - jimsh
       - libdb-dev
       - libgdbm-dev
       - libgnutls28-dev
@@ -23,6 +26,8 @@ addons:
       - libkyotocabinet-dev
       - liblmdb-dev
       - liblua5.2-dev
+      - liblz4-dev
+      - libncursesw5-dev
       - libnotmuch-dev
       - libqdbm-dev
       - libsasl2-dev
@@ -30,6 +35,7 @@ addons:
       - libssl-dev
       - libtokyocabinet-dev
       - libxml2-utils
+      - libzstd-dev
       - lua5.2
       - lynx
       - xsltproc
