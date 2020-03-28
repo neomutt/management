@@ -6,13 +6,13 @@ dist: bionic
 language: c
 compiler: gcc
 
+git:
+  depth: 3
+
 addons:
   apt:
     packages:
       - gettext
-
-git:
-  depth: 3
 
 env:
   global:

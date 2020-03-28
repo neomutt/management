@@ -6,6 +6,9 @@ dist: bionic
 language: c
 compiler: gcc
 
+git:
+  depth: 3
+
 addons:
   apt:
     packages:

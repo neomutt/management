@@ -7,6 +7,9 @@ language: c
 compiler: gcc
 cache: ccache
 
+git:
+  depth: 3
+
 addons:
   apt:
     packages:
@@ -41,9 +44,6 @@ addons:
       - python-pip
       - software-properties-common
       - xsltproc
-
-git:
-  depth: 3
 
 before_install:
   - pip install --user cpp-coveralls

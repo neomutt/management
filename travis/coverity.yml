@@ -6,6 +6,9 @@ dist: bionic
 language: c
 compiler: gcc
 
+git:
+  depth: 3
+
 addons:
   apt:
     packages:
@@ -47,9 +50,6 @@ addons:
     build_command_prepend: "./configure $OPTS"
     build_command: "make"
     branch_pattern: coverity
-
-git:
-  depth: 3
 
 env:
   global:
