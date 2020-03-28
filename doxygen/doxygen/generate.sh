@@ -197,6 +197,8 @@ fi
 build_zzz \
 	address/*.c \
 	autocrypt/*.c \
+	bcache/*.c \
+	compmbox/*.c \
 	compress/*.c \
 	config/*.c \
 	conn/*.c \
@@ -206,6 +208,7 @@ build_zzz \
 	gui/*.c \
 	hcache/*.c \
 	hcache/lib.h \
+	history/*.c \
 	imap/*.c \
 	maildir/*.c \
 	mbox/*.c \
@@ -214,9 +217,10 @@ build_zzz \
 	nntp/*.c \
 	notmuch/*.c \
 	pop/*.c \
+	store/*.c \
 	*.c > zzz.inc
 
-zzz_config_summary *.[ch] {address,autocrypt,config,conn,core,email,hcache,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop}/*.[ch] \
+zzz_config_summary *.[ch] {address,autocrypt,bcache,compmbox,compress,config,conn,core,debug,email,gui,hcache,history,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop,store}/*.[ch] \
 	| grep -v -e SslUseSslv2 -e SslUsesystemcerts >> zzz.inc
 
 build_docs
