@@ -26,15 +26,16 @@
  * | :------------- |
  * | @ref address   |
  * | @ref autocrypt |
- * | @ref config    |
  * | @ref compmbox  |
  * | @ref compress  |
+ * | @ref config    |
  * | @ref conn      |
  * | @ref core      |
  * | @ref debug     |
  * | @ref email     |
  * | @ref gui       |
  * | @ref hcache    |
+ * | @ref history   |
  * | @ref imap      |
  * | @ref maildir   |
  * | @ref mbox      |
@@ -43,6 +44,7 @@
  * | @ref nntp      |
  * | @ref notmuch   |
  * | @ref pop       |
+ * | @ref store     |
  *
  * ## Config Variables
  *
