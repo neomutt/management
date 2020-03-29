@@ -1,10 +1,12 @@
 %changelog
-* Mon XXX 00 2018 Richard Russon <rich@flatcap.org> - NeoMutt-20180000
+* Fri XXX 00 2020 Richard Russon <rich@flatcap.org> - NeoMutt-20200000
 - Features
   - description
 - Contrib
   - description
 - Bug Fixes
+  - description
+- Changed Config
   - description
 - Translations
   - description

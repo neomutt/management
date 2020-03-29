@@ -28,6 +28,10 @@ and our *regular contributors*:
 
 - description
 
+## Changed Config
+
+- description
+
 ## Translations
 
 - description
@@ -41,18 +45,6 @@ and our *regular contributors*:
 - description
 
 ## Website
-
-- description
-
-## Build
-
-- description
-
-## Code
-
-- description
-
-## Tidy
 
 - description
 

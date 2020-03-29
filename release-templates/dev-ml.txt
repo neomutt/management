@@ -35,6 +35,10 @@ and our *regular contributors*:
 
 - description
 
+## Changed Config
+
+- description
+
 ## Translations
 
 - description

@@ -32,6 +32,10 @@ and our **regular contributors**:
 
 - description
 
+## Changed Config
+
+- description
+
 ## :black_flag: Translations
 
 - description
