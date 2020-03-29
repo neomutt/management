@@ -4,7 +4,7 @@ set -e
 
 function files()
 {
-	find . \( -name .git -o -name queue.h -o -name 'pgpewrap.c' -o -path './test/*' -o -path './autosetup/*' -o -path './doc/*' \) -prune -o -type f -name '*.[ch]' -print0 | sed -z 's/^\.\///' | sort --zero-terminated
+	find . \( -name .git -o -name queue.h -o -name 'pgpewrap.c' -o -path './debug/*' -o -path './test/*' -o -path './autosetup/*' -o -path './doc/*' \) -prune -o -type f -name '*.[ch]' -print0 | sed -z 's/^\.\///' | sort --zero-terminated
 }
 
 [ $# = 1 ] && DIR="${1%/}" || DIR=""

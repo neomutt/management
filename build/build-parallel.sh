@@ -51,6 +51,10 @@ EXTRA_CFLAGS+=("-Wimplicit-fallthrough")
 EXTRA_CFLAGS+=("-Wformat-truncation=0")
 EXTRA_CFLAGS+=("-Werror")
 
+# EXTRA_CFLAGS+=("-Wredundant-decls")
+# EXTRA_CFLAGS+=("-Wstrict-prototypes")
+# EXTRA_CFLAGS+=("-Wmissing-prototypes")
+
 # EXTRA_CFLAGS+=("-fsanitize=address -fsanitize-recover=address")
 # EXTRA_CFLAGS+=("-fsanitize=undefined -fno-sanitize-recover=undefined")
 # EXTRA_CFLAGS+=("-fsanitize=undefined")
@@ -79,6 +83,9 @@ rm -fr *
 make -j1 -s CC="$COMPILER" EXTRA_CFLAGS="${EXTRA_CFLAGS[*]}" EXTRA_LDFLAGS="${EXTRA_LDFLAGS[*]}" >> build.log 2>&1
 echo make test
 chronic make test
+
+# echo doxygen
+# chronic doxygen doxygen/doxygen.conf
 
 log_success "Build succeeded"
 date '+%F %R:%S'
