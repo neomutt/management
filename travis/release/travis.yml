@@ -51,6 +51,7 @@ git:
 
 install:
   - luarocks install --local busted
+  - git clone --depth 1 https://github.com/neomutt/neomutt-test-files.git ~/test-files
 
 before_script:
   - ccache --zero-stats
@@ -60,6 +61,8 @@ before_script:
   - export -f travis_time_finish
   - export -f travis_time_start
   # - eval $(luarocks path --bin)
+  - export NEOMUTT_TEST_DIR="$HOME/test-files"
+  - (cd ~/test-files && ./setup.sh)
 
 script:
   - .travis/release-test.sh
