@@ -11,9 +11,11 @@ for i in "$@"; do
 		-DDEBUG \
 		-I . \
 		-I /usr/lib/gcc/x86_64-redhat-linux/9/include \
+		-I /usr/include/qdbm \
 		-Xiwyu --pch_in_code \
 		-Xiwyu --no_comments \
-		-Xiwyu --mapping_file="$BASE_DIR/address.imp" \
+		-Xiwyu --mapping_file="$BASE_DIR/hcache.imp" \
 		"$i"
 done
 
+		# -DLOFF_T=long \

@@ -13,7 +13,8 @@ for i in "$@"; do
 		-I /usr/lib/gcc/x86_64-redhat-linux/9/include \
 		-Xiwyu --pch_in_code \
 		-Xiwyu --no_comments \
-		-Xiwyu --mapping_file="$BASE_DIR/address.imp" \
+		-Xiwyu --mapping_file="$BASE_DIR/mbox.imp" \
 		"$i"
 done
 
+		# -DLOFF_T=long \

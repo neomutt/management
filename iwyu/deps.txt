@@ -1,0 +1,25 @@
+mutt		NONE
+
+config		address, mutt
+
+address		email, address, mutt
+email		email, address, mutt
+hcache		email, address, mutt
+
+core		config, email, address, mutt
+autocrypt	config, email, address, mutt
+conn		config, email, address, mutt
+ncrypt		config, email, address, mutt
+
+compress	core, config, email, address, mutt
+mbox		core, config, email, address, mutt
+
+imap		hcache, core, config, email, address, mutt
+maildir		hcache, core, config, email, address, mutt
+notmuch		hcache, core, config, email, address, mutt
+nntp		hcache, core, config, email, address, mutt
+pop		hcache, core, config, email, address, mutt
+
+debug		ALL
+gui		ALL
+

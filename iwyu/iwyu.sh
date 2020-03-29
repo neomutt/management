@@ -52,15 +52,15 @@ function hcache()
 {
 	for i in hcache/*.[ch]; do
 		case "$i" in
-			hcache/bdb.c)       ifdef HAVE_BDB   i-main.sh "$i" ;;
-			hcache/gdbm.c)      ifdef HAVE_GDBM  i-main.sh "$i" ;;
-			hcache/kc.c)        ifdef HAVE_KC    i-main.sh "$i" ;;
-			hcache/lmdb.c)      ifdef HAVE_LMDB  i-main.sh "$i" ;;
-			hcache/qdbm.c)      ifdef HAVE_QDBM  i-main.sh "$i" ;;
-			hcache/tc.c)        ifdef HAVE_TC    i-main.sh "$i" ;;
-			hcache/hcache.c)    ifdef USE_HCACHE i-main.sh "$i" ;;
-			hcache/serialize.c) ifdef USE_HCACHE i-main.sh "$i" ;;
-			*)                                   i-main.sh "$i" ;;
+			hcache/bdb.c)       ifdef HAVE_BDB   i-hcache.sh "$i" ;;
+			hcache/gdbm.c)      ifdef HAVE_GDBM  i-hcache.sh "$i" ;;
+			hcache/kc.c)        ifdef HAVE_KC    i-hcache.sh "$i" ;;
+			hcache/lmdb.c)      ifdef HAVE_LMDB  i-hcache.sh "$i" ;;
+			hcache/qdbm.c)      ifdef HAVE_QDBM  i-hcache.sh "$i" ;;
+			hcache/tc.c)        ifdef HAVE_TC    i-hcache.sh "$i" ;;
+			hcache/hcache.c)    ifdef USE_HCACHE i-hcache.sh "$i" ;;
+			hcache/serialize.c) ifdef USE_HCACHE i-hcache.sh "$i" ;;
+			*)                                   i-hcache.sh "$i" ;;
 		esac
 	done
 }

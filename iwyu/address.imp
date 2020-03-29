@@ -1,7 +1,9 @@
 [
   # Include one library header rather than the individual headers.
-  { include: [ '@"mutt/.*"',    private, '"mutt/lib.h"',   public ] },
+  { include: [ '@"email/.*"',   private, '"email/lib.h"',   public ] },
+  { include: [ '@"mutt/.*"',    private, '"mutt/lib.h"',    public ] },
 
   { ref: "glibc.imp" },
   { ref: "curses.imp" },
 ]
+

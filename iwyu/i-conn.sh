@@ -3,9 +3,9 @@
 BASE_DIR="${0%/*}"
 
 for i in "$@"; do
-	[ "$i" = "conn/sasl.h" ] && continue
-	[ "$i" = "conn/ssl.c"  ] && continue
-	[ "$i" = "conn/ssl.h"  ] && continue
+	# [ "$i" = "conn/sasl.h" ] && continue
+	# [ "$i" = "conn/ssl.c"  ] && continue
+	# [ "$i" = "conn/ssl.h"  ] && continue
 
 	iwyu \
 		-D_ALL_SOURCE=1 \
@@ -21,4 +21,3 @@ for i in "$@"; do
 		"$i"
 done
 
-		# -DLOFF_T=long \
