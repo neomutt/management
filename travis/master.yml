@@ -36,15 +36,13 @@ addons:
       - libsasl2-dev
       - libslang2-dev
       - libssl-dev
+      - libtdb-dev
       - libtokyocabinet-dev
       - libxml2-utils
       - libzstd-dev
       - lua5.2
       - lynx
       - xsltproc
-
-git:
-  depth: 3
 
 install:
   - git clone --depth 1 https://github.com/neomutt/travis-build.git ~/config

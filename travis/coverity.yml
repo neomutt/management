@@ -16,6 +16,7 @@ addons:
       - ca-certificates
       - gettext
       - gpgsm
+      - graphviz
       - jimsh
       - libdb-dev
       - libgdbm-dev
@@ -33,11 +34,11 @@ addons:
       - libsasl2-dev
       - libslang2-dev
       - libssl-dev
+      - libtdb-dev
       - libtokyocabinet-dev
       - libxml2-utils
       - libzstd-dev
       - lua5.2
-      - libtdb-dev
   coverity_scan:
     project:
       name: "neomutt/neomutt"

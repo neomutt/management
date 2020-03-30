@@ -36,6 +36,7 @@ addons:
       - libsasl2-dev
       - libslang2-dev
       - libssl-dev
+      - libtdb-dev
       - libtokyocabinet-dev
       - libxml2-utils
       - libzstd-dev
@@ -50,6 +51,7 @@ before_install:
 
 install:
   - git clone --depth 1 https://github.com/neomutt/travis-build.git ~/config
+  - git clone --depth 1 https://github.com/neomutt/neomutt-test-files.git ~/test-files
 
 before_script:
   - ccache --zero-stats
@@ -58,9 +60,11 @@ before_script:
   - export -f travis_nanoseconds
   - export -f travis_time_finish
   - export -f travis_time_start
+  - export NEOMUTT_TEST_DIR="$HOME/test-files"
+  - (cd ~/test-files && ./setup.sh)
 
 script:
-  - ./configure --disable-doc --testing --coverage --everything && make && make test 
+  - ./configure --autocrypt --disable-doc --disable-idn --idn2 --testing --coverage --everything && make && make test 
 
 after_success:
   - coveralls --gcov-options '\-lp' --build-root . --include mutt --include email --include address --include config
