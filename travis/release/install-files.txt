@@ -10,7 +10,6 @@
 ./usr/share/doc/neomutt/colorschemes/vombatidae.neomuttrc
 ./usr/share/doc/neomutt/colorschemes/zenburn.neomuttrc
 ./usr/share/doc/neomutt/configuration.html
-./usr/share/doc/neomutt/COPYRIGHT.md
 ./usr/share/doc/neomutt/gettingstarted.html
 ./usr/share/doc/neomutt/hcache-bench/neomutt-hcache-bench.sh
 ./usr/share/doc/neomutt/hcache-bench/neomuttrc
