@@ -34,25 +34,25 @@ depends_run         path:share/curl/curl-ca-bundle.crt:curl-ca-bundle
 post-patch {
     # Use MacPorts Perl
     reinplace -W ${worksrcpath} "s|/usr/bin/perl|${prefix}/bin/perl|g" \
-              doc/gen-map-doc \
+              docs/gen-map-doc \
               doxygen/doxygen.conf
 
     reinplace -W ${worksrcpath} "s|/usr/bin/|${prefix}/bin/|g" \
               contrib/sample.neomuttrc-tlr \
               contrib/smime_keys \
               contrib/smime_keys_test.pl \
-              doc/manual.xml.head
+              docs/manual.xml.head
     reinplace -W ${worksrcpath} "s|/usr/libexec/|${prefix}/libexec/|g" \
               contrib/gpg.rc \
               contrib/smime.rc \
-              doc/manual.xml.head
+              docs/manual.xml.head
     reinplace -W ${worksrcpath} "s|/usr/local/|${prefix}/|g" \
               init.h \
               contrib/hcache-bench/README.md \
               contrib/sample.neomuttrc \
-              doc/manual.xml.head
+              docs/manual.xml.head
     reinplace -W ${worksrcpath} "s|/usr/share|${prefix}/share|g" \
-              doc/manual.xml.head
+              docs/manual.xml.head
 }
 
 configure.args      --disable-idn \
@@ -142,11 +142,11 @@ post-destroot {
     move ${destroot}${prefix}/etc/neomuttrc \
          ${destroot}${prefix}/etc/neomuttrc.sample
     # install mime.types in ${prefix}/etc as previous versions used to do
-    copy ${destroot}${prefix}/share/doc/neomutt/mime.types \
+    copy ${destroot}${prefix}/share/docs/neomutt/mime.types \
          ${destroot}${prefix}/etc/mime.types.sample
     # install examples in ${prefix}/share/examples
     xinstall -d ${destroot}${prefix}/share/examples
-    move ${destroot}${prefix}/share/doc/neomutt/samples \
+    move ${destroot}${prefix}/share/docs/neomutt/samples \
          ${destroot}${prefix}/share/examples/neomutt
 }
 
