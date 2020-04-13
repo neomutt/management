@@ -17,7 +17,7 @@ index 3e97becf9..868078ac6 100644
 @@ -443,7 +443,7 @@ uninstall: $(UNINSTALL_TARGETS)
  distclean: clean
  	$(RM) $(DEPFILES) .clang_complete autosetup/jimsh0 config.h config.log \
- 		conststrings.c contrib/Makefile doc/Makefile doc/neomutt.1 \
+ 		conststrings.c contrib/Makefile docs/Makefile docs/neomutt.1 \
 -		html Makefile po/Makefile test/Makefile
 +		html Makefile po/Makefile test/Makefile fuzz/Makefile
  	$(RM) *.gc?? */*.gc?? test/*/*.gc??

@@ -15,13 +15,13 @@ function remove_files()
 	rm -f contrib/sample.muttrc-sidebar
 	rm -f contrib/sample.vimrc-sidebar
 	rm -f crypthash.h
-	rm -f doc/applying-patches.txt
-	rm -f doc/devel-notes.txt
-	rm -f doc/dotlock.man
-	rm -f doc/makedoc-defs.h
-	rm -f doc/muttbug.man
-	rm -f doc/patch-notes.txt
-	rm -f doc/TODO
+	rm -f docs/applying-patches.txt
+	rm -f docs/devel-notes.txt
+	rm -f docs/dotlock.man
+	rm -f docs/makedoc-defs.h
+	rm -f docs/muttbug.man
+	rm -f docs/patch-notes.txt
+	rm -f docs/TODO
 	rm -f dotlock.c
 	rm -f dotlock.h
 	rm -f GPL
@@ -72,7 +72,7 @@ function remove_underscores()
 	[ -f crypt-mod-smime-gpgme.c   ] && git mv crypt-mod-smime-gpgme.c   crypt_mod_smime_gpgme.c
 	[ -f crypt-mod.c               ] && git mv crypt-mod.c               crypt_mod.c
 	[ -f crypt-mod.h               ] && git mv crypt-mod.h               crypt_mod.h
-	[ -f doc/makedoc-defs.h        ] && git mv doc/makedoc-defs.h        doc/makedoc_defs.h
+	[ -f docs/makedoc-defs.h       ] && git mv docs/makedoc-defs.h       docs/makedoc_defs.h
 	[ -f hcache-backend.h          ] && git mv hcache-backend.h          hcache_backend.h
 	[ -f hcache-bdb.c              ] && git mv hcache-bdb.c              hcache_bdb.c
 	[ -f hcache-gdbm.c             ] && git mv hcache-gdbm.c             hcache_gdbm.c

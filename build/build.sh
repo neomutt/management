@@ -180,7 +180,7 @@ CC="gcc"
 # CC="clang"
 # LD="lld"
 
-find . -name '*.[ch]' ! -path './autosetup/*' ! -path './test/*' ! -path './doc/*' ! -path './pgpewrap.c' | cut -b3- | xargs --no-run-if-empty ctags
+find . -name '*.[ch]' ! -path './autosetup/*' ! -path './test/*' ! -path './docs/*' ! -path './pgpewrap.c' | cut -b3- | xargs --no-run-if-empty ctags
 
 # if [ -n "$BUILD_DIR" ]; then
 # 	rm -f neomutt *.a config.h

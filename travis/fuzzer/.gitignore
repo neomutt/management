@@ -7,46 +7,10 @@ conftest__.c
 Makefile
 
 # Binaries
-doc/makedoc
+docs/makedoc
 neomutt
 pgpewrap
-test/address-test
-test/attach-test
-test/base64-test
-test/body-test
-test/buffer-test
-test/charset-test
-test/config-test
-test/date-test
-test/email-test
-test/envelope-test
-test/envlist-test
-test/file-test
-test/from-test
-test/group-test
-test/hash-test
-test/history-test
-test/idna-test
-test/list-test
-test/logging-test
-test/mapping-test
-test/mbyte-test
-test/md5-test
-test/memory-test
 test/neomutt-test
-test/parameter-test
-test/parse-test
-test/path-test
-test/pattern-test
-test/regex-test
-test/rfc2047-test
-test/rfc2231-test
-test/sha1-test
-test/signal-test
-test/string-test
-test/tags-test
-test/thread-test
-test/url-test
 fuzz/address-fuzz
 
 # Build products
@@ -62,12 +26,12 @@ po/*.mo
 po/neomutt.pot
 
 # Docs
-doc/*.html
-doc/manual.txt
-doc/manual.xml
-doc/neomutt.1
-doc/neomuttrc
-doc/neomuttrc.5
+docs/*.html
+docs/manual.txt
+docs/manual.xml
+docs/neomutt.1
+docs/neomuttrc
+docs/neomuttrc.5
 
 # Generated source
 config.h
