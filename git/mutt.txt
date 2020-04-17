@@ -30,7 +30,7 @@ mutt,,aw@osn.de,aw@osn.de,Armin Wolfermann,preferred
 mutt,,awn@bcs.zp.ua,awn@bcs.zp.ua,Andrew Nosenko,preferred
 mutt,,awn@bcs.zp.ua,awn@bcs.zp.ua,Andrew W. Nosenko,secondary
 mutt,,bat.guano@don.blech.e4ward.com,bat.guano@don.blech.e4ward.com,Unknown,preferred
-mutt,,beck@ibh.de,beck@ibh.de,Beck, Andre,secondary
+mutt,,beck@ibh.de,beck@ibh.de,Beck\, Andre,secondary
 mutt,,beck@ibh.de,beck@ibh.de,Andre Beck,preferred
 mutt,,bernd@ba-net.org,bernd@ba-net.org,Bernd Ahlers,preferred
 mutt,,bjoern@j3e.de,bjoern@j3e.de,Bjoern Jacke,preferred

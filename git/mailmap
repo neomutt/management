@@ -277,6 +277,8 @@ Anders Helmersson <anders.helmersson.utsikt@wasadata.net>	Anders Helmersson <and
 Andre Beck <beck@ibh.de>	Andre Beck <beck@ibh.de>
 Andreas Amann <andreas.amann@tyndall.ie>	Andreas Amann <andreas.amann@tyndall.ie>
 Andreas Amann <andreas.amann@tyndall.ie>	Unknown <andreas.amann@tyndall.ie>
+Andreas Jaggi <unknown>	Andreas Jaggi <unknown>
+Andreas Jobs <unknown>	Andreas Jobs <unknown>
 Andrew Gaul <andrew@gaul.org>	Andrew Gaul <andrew@gaul.org>
 Andrew Marks <amarks@red.ridge.amrx.net>	Andrew Marks <amarks@red.ridge.amrx.net>
 Andrew Nosenko <awn@bcs.zp.ua>	Andrew Nosenko <awn@bcs.zp.ua>
@@ -311,6 +313,8 @@ Christian Vogel <vogelchr@vogel.cx>	Christian Vogel <vogelchr@vogel.cx>
 Christoph Ludwig <cludwig@cdc.informatik.tu-darmstadt.de>	Christoph Ludwig <cludwig@cdc.informatik.tu-darmstadt.de>
 Cody Brownstein <cbrownstein@liquidityllc.com>	Cody Brownstein <cbrownstein@liquidityllc.com>
 Consus <consus@gmx.com>	Consus <consus@gmx.com>
+convert-repo <unknown>	convert-repo <unknown>
+convert-repo <unknown>	hncaldwell <unknown>
 Corey Minyard <cminyard@mvista.com>	Corey Minyard <cminyard@mvista.com>
 Dale Woolridge <dale-list-mutt-dev-2@woolridge.org>	Dale Woolridge <dale-flea-mutt-bug@woolridge.org>
 Dale Woolridge <dale-list-mutt-dev-2@woolridge.org>	Dale Woolridge <dale-list-mutt-dev-2@woolridge.org>
@@ -347,6 +351,7 @@ Edmund Grimley Evans <edmundo@rano.org>	Edmund Grimley Evans <edmundo@rano.org>
 Eike Rathke <erack@erack.de>	Eike Rathke <erack@erack.de>
 Elmar Hoffmann <mutt-dev-ml@elho.net>	Elmar Hoffmann <mutt-dev-ml@elho.net>
 Emanuele Giaquinta <e.giaquinta@glauco.it>	Emanuele Giaquinta <e.giaquinta@glauco.it>
+Emanuele Giaquinta <e.giaquinta@glauco.it>	Emanuele Giaquinta <unknown>
 Eric Raymond <esr@thyrsus.com>	Eric Raymond <esr@thyrsus.com>
 Eric Raymond <esr@thyrsus.com>	Unknown <esr@thyrsus.com>
 Erik Hovland <erik@hovland.org>	Erik Hovland <erik@hovland.org>
@@ -354,6 +359,7 @@ Fahri Cihan Demirci <fcdemirci@fastmail.fm>	Fahri Cihan Demirci <fcdemirci@fastm
 Flammie Pirinen <flammie@iki.fi>	Flammie Pirinen <flammie@iki.fi>
 Florian Weimer <fw@deneb.enyo.de>	Florian Weimer <fw@deneb.enyo.de>
 Gary Johnson <garyjohn@spk.agilent.com>	Gary Johnson <garyjohn@spk.agilent.com>
+Gary Johnson <garyjohn@spk.agilent.com>	Gary Johnson <unknown>
 Gero Treuner <gerotick@faveve.uni-stuttgart.de>	Gero Treuner <gero@70t.de>
 Gero Treuner <gerotick@faveve.uni-stuttgart.de>	Gero Treuner <gerotick@faveve.uni-stuttgart.de>
 Gero Treuner <gerotick@faveve.uni-stuttgart.de>	gt_16_gitlab.com@innocircle.com <gt_16_gitlab.com@innocircle.com>
@@ -361,6 +367,7 @@ Gregory Shapiro <dev.mutt.org@g.gshapiro.net>	Gregory Shapiro <dev.mutt.org@g.gs
 Grzegorz Szymaszek <gszymaszek@short.pl>	Grzegorz Szymaszek <gszymaszek@short.pl>
 Guilhem Moulin <guilhem@guilhem.org>	Guilhem Moulin <guilhem@guilhem.org>
 guns <self@sungpae.com>	guns <self@sungpae.com>
+H.N.Caldwell <unknown>	H.N.Caldwell <unknown>
 Holger Weiss <lists@jhweiss.de>	Holger Weiss <holger@zedat.fu-berlin.de>
 Holger Weiss <lists@jhweiss.de>	Holger Weiss <lists@jhweiss.de>
 Honza Horak <hhorak@redhat.com>	Honza Horak <hhorak@redhat.com>
@@ -392,6 +399,7 @@ Juan Altmayer Pizzorno <juan@altmayer.com>	Juan Altmayer Pizzorno <juan@altmayer
 Jukka Salmi <jukka@salmi.ch>	Jukka Salmi <j+mutt@2007.salmi.ch>
 Jukka Salmi <jukka@salmi.ch>	Jukka Salmi <jukka@salmi.ch>
 Julian Gilbey <julian-git@d-and-j.net>	Julian Gilbey <julian-git@d-and-j.net>
+Julien Cristau <unknown>	Julien Cristau <unknown>
 Julius Plenz <plenz@cis.fu-berlin.de>	Julius Plenz <plenz@cis.fu-berlin.de>
 Kees Cook <kees@outflux.net>	Kees Cook <kees@outflux.net>
 Kees Cook <kees@outflux.net>	Unknown <kees@outflux.net>
@@ -403,6 +411,7 @@ Kimihiro Nonaka <nonakap@gmail.com>	NONAKA Kimihiro <nonakap@gmail.com>
 Konstantin Stephan <pigleich3@gmx.net>	Konstantin Stephan <pigleich3@gmx.net>
 Kyle Wheeler <kyle@memoryhole.net>	Kyle Wheeler <kyle@memoryhole.net>
 Kyle Wheeler <kyle@memoryhole.net>	Kyle Wheeler <kyle-mutt-dev@memoryhole.net>
+Kyle Wheeler <kyle@memoryhole.net>	Kyle Wheeler <unknown>
 Lars Hecking <lhecking@nmrc.ucc.ie>	Lars Hecking <lhecking@nmrc.ie>
 Lars Hecking <lhecking@nmrc.ucc.ie>	Lars Hecking <lhecking@nmrc.ucc.ie>
 Lars Hecking <lhecking@nmrc.ucc.ie>	Lars Hecking <lhecking@users.sourceforge.net>
@@ -419,6 +428,7 @@ Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com>	Marek Marczykowski
 Martin Michlmayr <tbm@cyrius.com>	Martin Michlmayr <tbm@cyrius.com>
 Martin Sandsmark <martin@sandsmark.ninja>	Martin Sandsmark <martin@sandsmark.ninja>
 Martin Siegert <siegert@sfu.ca>	Martin Siegert <siegert@sfu.ca>
+Masayuki Moriyama <unknown>	Masayuki Moriyama <unknown>
 Matt Kraai <kraai@ftbfs.org>	Matt Kraai <kraai@ftbfs.org>
 Matthias Andree <matthias.andree@gmx.de>	Matthias Andree <matthias.andree@gmx.de>
 Michał Kępień <mutt@kempniu.pl>	Michał Kępień <mutt@kempniu.pl>
@@ -500,6 +510,7 @@ Samuel Tardieu <sam@rfc1149.net>	Samuel Tardieu <sam@rfc1149.net>
 Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>	Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
 Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>	Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>
 Scott Koranda <skoranda@gravity.phys.uwm.edu>	Scott Koranda <skoranda@gravity.phys.uwm.edu>
+Sertaç Ö. Yıldız <unknown>	Sertaç Ö. Yıldız <unknown>
 Seth Arnold <seth.arnold@suse.de>	Seth Arnold <seth.arnold@suse.de>
 Seth Forshee <seth@forshee.me>	Seth Forshee <seth@forshee.me>
 Simon Ruderich <simon@ruderich.org>	Simon Ruderich <simon@ruderich.org>
@@ -530,7 +541,7 @@ Tomokazu Yonetani <qhwt+mutt@les.ath.cx>	YONETANI Tomokazu <qhwt+mutt@les.ath.cx
 Tony Leneis <tony@cvr.ds.adp.com>	Tony Leneis <tony@cvr.ds.adp.com>
 Toomas Soome <Toomas.Soome@microlink.ee>	Toomas Soome <Toomas.Soome@microlink.ee>
 Toomas Soome <Toomas.Soome@microlink.ee>	Toomas Soome <tsoome@muhv.pri.ee>
-Unknown <bat.guano@don.blech.e4ward.com>	Beck <beck@ibh.de>
+Unknown <bat.guano@don.blech.e4ward.com>	Beck, Andre <beck@ibh.de>
 Unknown <bat.guano@don.blech.e4ward.com>	Unknown <bat.guano@don.blech.e4ward.com>
 Unknown <ckillian@cs.ucsd.edu>	Unknown <ckillian@cs.ucsd.edu>
 Unknown <cypher@conuropsis.org>	Unknown <cypher@conuropsis.org>

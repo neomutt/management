@@ -34,10 +34,7 @@ function generate(){
 		# skip people without e-mail address if it's not for credits
 		if [ "x$routine" != "xcredits" ]
 		then
-			if ! grep -q '.*@.*' <<<"$email"
-			then
-				continue
-			fi
+			[ "$email" == "NONE" ] && continue
 		fi
 
 		[ $prefix == "neomutt" ] && prefix="" || prefix="UPSTREAM "

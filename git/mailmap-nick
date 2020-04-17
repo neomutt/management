@@ -276,6 +276,8 @@ UPSTREAM 	<dev@mutt.org>	Anders Helmersson <anders.helmersson@telia.com>
 UPSTREAM 	<dev@mutt.org>	Anders Helmersson <anders.helmersson.utsikt@wasadata.net>
 UPSTREAM 	<dev@mutt.org>	Andre Beck <beck@ibh.de>
 UPSTREAM 	<dev@mutt.org>	Andreas Amann <andreas.amann@tyndall.ie>
+UPSTREAM 	<dev@mutt.org>	Andreas Jaggi <unknown>
+UPSTREAM 	<dev@mutt.org>	Andreas Jobs <unknown>
 UPSTREAM 	<dev@mutt.org>	Andrew Gaul <andrew@gaul.org>
 UPSTREAM 	<dev@mutt.org>	Andrew Marks <amarks@red.ridge.amrx.net>
 UPSTREAM 	<dev@mutt.org>	Andrew Nosenko <awn@bcs.zp.ua>
@@ -287,7 +289,7 @@ UPSTREAM 	<dev@mutt.org>	Anton Lindqvist <anton.lindqvist@gmail.com>
 UPSTREAM 	<dev@mutt.org>	Armin Wolfermann <aw@osn.de>
 UPSTREAM 	<dev@mutt.org>	Aron Griffis <agriffis@n01se.net>
 UPSTREAM 	<dev@mutt.org>	Athanasios Douitsis <aduitsis@gmail.com>
-UPSTREAM 	<dev@mutt.org>	Beck <beck@ibh.de>
+UPSTREAM 	<dev@mutt.org>	Beck, Andre <beck@ibh.de>
 UPSTREAM 	<dev@mutt.org>	Benno Schulenberg <i18n@benno.vertaalt.nl>
 UPSTREAM 	<dev@mutt.org>	Bernd Ahlers <bernd@ba-net.org>
 UPSTREAM 	<dev@mutt.org>	Bertram Felgenhauer <int-e@gmx.de>
@@ -311,6 +313,7 @@ UPSTREAM 	<dev@mutt.org>	Christian Vogel <vogelchr@vogel.cx>
 UPSTREAM 	<dev@mutt.org>	Christoph Ludwig <cludwig@cdc.informatik.tu-darmstadt.de>
 UPSTREAM 	<dev@mutt.org>	Cody Brownstein <cbrownstein@liquidityllc.com>
 UPSTREAM 	<dev@mutt.org>	Consus <consus@gmx.com>
+UPSTREAM 	<dev@mutt.org>	convert-repo <unknown>
 UPSTREAM 	<dev@mutt.org>	Corey Minyard <cminyard@mvista.com>
 UPSTREAM 	<dev@mutt.org>	Dale Woolridge <dale-flea-mutt-bug@woolridge.org>
 UPSTREAM 	<dev@mutt.org>	Dale Woolridge <dale-list-mutt-dev-2@woolridge.org>
@@ -347,12 +350,14 @@ UPSTREAM 	<dev@mutt.org>	ed@s5h.net <ed@s5h.net>
 UPSTREAM 	<dev@mutt.org>	Eike Rathke <erack@erack.de>
 UPSTREAM 	<dev@mutt.org>	Elmar Hoffmann <mutt-dev-ml@elho.net>
 UPSTREAM 	<dev@mutt.org>	Emanuele Giaquinta <e.giaquinta@glauco.it>
+UPSTREAM 	<dev@mutt.org>	Emanuele Giaquinta <unknown>
 UPSTREAM 	<dev@mutt.org>	Eric Raymond <esr@thyrsus.com>
 UPSTREAM 	<dev@mutt.org>	Erik Hovland <erik@hovland.org>
 UPSTREAM 	<dev@mutt.org>	Fahri Cihan Demirci <fcdemirci@fastmail.fm>
 UPSTREAM 	<dev@mutt.org>	Flammie Pirinen <flammie@iki.fi>
 UPSTREAM 	<dev@mutt.org>	Florian Weimer <fw@deneb.enyo.de>
 UPSTREAM 	<dev@mutt.org>	Gary Johnson <garyjohn@spk.agilent.com>
+UPSTREAM 	<dev@mutt.org>	Gary Johnson <unknown>
 UPSTREAM 	<dev@mutt.org>	Gero Treuner <gero@70t.de>
 UPSTREAM 	<dev@mutt.org>	Gero Treuner <gerotick@faveve.uni-stuttgart.de>
 UPSTREAM 	<dev@mutt.org>	Gregory Shapiro <dev.mutt.org@g.gshapiro.net>
@@ -360,6 +365,8 @@ UPSTREAM 	<dev@mutt.org>	Grzegorz Szymaszek <gszymaszek@short.pl>
 UPSTREAM 	<dev@mutt.org>	gt_16_gitlab.com@innocircle.com <gt_16_gitlab.com@innocircle.com>
 UPSTREAM 	<dev@mutt.org>	Guilhem Moulin <guilhem@guilhem.org>
 UPSTREAM 	<dev@mutt.org>	guns <self@sungpae.com>
+UPSTREAM 	<dev@mutt.org>	H.N.Caldwell <unknown>
+UPSTREAM 	<dev@mutt.org>	hncaldwell <unknown>
 UPSTREAM 	<dev@mutt.org>	Holger Weiss <holger@zedat.fu-berlin.de>
 UPSTREAM 	<dev@mutt.org>	Holger Weiss <lists@jhweiss.de>
 UPSTREAM 	<dev@mutt.org>	Honza Horak <hhorak@redhat.com>
@@ -388,6 +395,7 @@ UPSTREAM 	<dev@mutt.org>	Juan Altmayer Pizzorno <juan@altmayer.com>
 UPSTREAM 	<dev@mutt.org>	Jukka Salmi <j+mutt@2007.salmi.ch>
 UPSTREAM 	<dev@mutt.org>	Jukka Salmi <jukka@salmi.ch>
 UPSTREAM 	<dev@mutt.org>	Julian Gilbey <julian-git@d-and-j.net>
+UPSTREAM 	<dev@mutt.org>	Julien Cristau <unknown>
 UPSTREAM 	<dev@mutt.org>	Julius Plenz <plenz@cis.fu-berlin.de>
 UPSTREAM 	<dev@mutt.org>	Kees Cook <kees@outflux.net>
 UPSTREAM 	<dev@mutt.org>	Kevin McCarthy <kevin@8t8.us>
@@ -397,6 +405,7 @@ UPSTREAM 	<dev@mutt.org>	Kimihiro Nonaka <nonakap@gmail.com>
 UPSTREAM 	<dev@mutt.org>	Konstantin Stephan <pigleich3@gmx.net>
 UPSTREAM 	<dev@mutt.org>	Kyle Wheeler <kyle@memoryhole.net>
 UPSTREAM 	<dev@mutt.org>	Kyle Wheeler <kyle-mutt-dev@memoryhole.net>
+UPSTREAM 	<dev@mutt.org>	Kyle Wheeler <unknown>
 UPSTREAM 	<dev@mutt.org>	Lars Hecking <lhecking@nmrc.ie>
 UPSTREAM 	<dev@mutt.org>	Lars Hecking <lhecking@nmrc.ucc.ie>
 UPSTREAM 	<dev@mutt.org>	Lars Hecking <lhecking@users.sourceforge.net>
@@ -412,6 +421,7 @@ UPSTREAM 	<dev@mutt.org>	Marek Marczykowski-Górecki <marmarek@invisiblethingsla
 UPSTREAM 	<dev@mutt.org>	Martin Michlmayr <tbm@cyrius.com>
 UPSTREAM 	<dev@mutt.org>	Martin Sandsmark <martin@sandsmark.ninja>
 UPSTREAM 	<dev@mutt.org>	Martin Siegert <siegert@sfu.ca>
+UPSTREAM 	<dev@mutt.org>	Masayuki Moriyama <unknown>
 UPSTREAM 	<dev@mutt.org>	Matt Kraai <kraai@ftbfs.org>
 UPSTREAM 	<dev@mutt.org>	Matthias Andree <matthias.andree@gmx.de>
 UPSTREAM 	<dev@mutt.org>	Michał Kępień <mutt@kempniu.pl>
@@ -491,6 +501,7 @@ UPSTREAM 	<dev@mutt.org>	Samuel Tardieu <sam@rfc1149.net>
 UPSTREAM 	<dev@mutt.org>	Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
 UPSTREAM 	<dev@mutt.org>	Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>
 UPSTREAM 	<dev@mutt.org>	Scott Koranda <skoranda@gravity.phys.uwm.edu>
+UPSTREAM 	<dev@mutt.org>	Sertaç Ö. Yıldız <unknown>
 UPSTREAM 	<dev@mutt.org>	Seth Arnold <seth.arnold@suse.de>
 UPSTREAM 	<dev@mutt.org>	Seth Forshee <seth@forshee.me>
 UPSTREAM 	<dev@mutt.org>	Simon Ruderich <simon@ruderich.org>
