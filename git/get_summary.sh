@@ -155,7 +155,7 @@ function translations(){
 		echo -ne "- ${flag_emoji[n]:-:triangular_flag_on_post:}\\t"
 		msgfmt --statistics -c -o /dev/null "$i" 2>&1 \
 			| tr -d '.,[a-zA-Z]' \
-			| awk '{printf "%0.2f% ", (($1+$2)/($1+$2+$3)*100)}'
+			| awk '{printf "%0.2f% ", ($1/($1+$2+$3)*100)}'
 		[ $? = 1 ] && ERROR+=( "$L" )
 		echo "${language[n]}"
 	done | sort -rg -k3,3 
@@ -170,14 +170,17 @@ function issues_and_translations(){
 
 	echo
 	echo "## :beetle: Bug Fixes"
+	echo
 	jq -j '.[]| select( .labels[].name | contains("bug"))|"- ",.title,"\n"' <<<"$issues" | sort -u
 
 	echo
 	echo "## :black_flag: Translations"
+	echo
 	translations
 
 	echo
 	echo "## :gift: Features" # assuming featurs are not bug fixes or changed configs
+	echo
 	jq -j '.[]| select( .labels[].name | (contains("bug") or contains("config-file"))|not)|"- ",.title,"\n"' <<<"$issues" | sort -u
 
 	echo
