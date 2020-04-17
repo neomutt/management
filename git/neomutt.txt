@@ -131,8 +131,8 @@ neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Schenkel
 neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Brondani Schenkel,secondary
 neomutt,lrosenman,larryrtx@gmail.com,larryrtx@gmail.com,Larry Rosenman,preferred
 neomutt,makoshark,mako@atdot.cc,mako@atdot.cc,Benjamin Mako Hill,preferred
-neomutt,mcmilk,,milky-neomutt@mcmilk.de,Tino Reichardt,secondary
 neomutt,mcmilk,github@mcmilk.de,github@mcmilk.de,Tino Reichardt,preferred
+neomutt,mcmilk,milky-neomutt@mcmilk.de,milky-neomutt@mcmilk.de,Tino Reichardt,secondary
 neomutt,mfvescovi,NONE,NONE,Matteo Vescovi,preferred
 neomutt,mgedmin,marius@gedmin.as,marius@gedmin.as,Marius Gedminas,preferred
 neomutt,mhinz,mh.codebro@gmail.com,mh.codebro@gmail.com,Marco Hinz,preferred
