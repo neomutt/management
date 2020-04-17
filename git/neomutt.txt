@@ -151,8 +151,6 @@ neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@pwarch,Marcin Rajner,secondary
 neomutt,msteveb,NONE,NONE,Steve Bennett,preferred
 neomutt,nagefire,nagefire.dev@gmail.com,nagefire.dev@gmail.com,Nagefire,preferred
 neomutt,neverpanic,neverpanic@gmail.com,neverpanic@gmail.com,Clemens Lang,preferred
-neomutt,ng-0,ng0@n0.is,ng0@n0.is,ng0,preferred
-neomutt,ng-0,ng0@n0.is,ng0@infotropique.org,ng0,secondary
 neomutt,ngw,ngw@nofeed.org,ngw@nofeed.org,Nicholas Wieland,preferred
 neomutt,nicolasbock,nicolasbock@gmail.com,nicolasbock@gmail.com,Nicolas Bock,preferred
 neomutt,nnathan,naveen@lastninja.net,naveen@lastninja.net,Naveen Nathan,preferred
@@ -237,6 +235,8 @@ neomutt,tecepe,tecepe@tecepe.eng.br,tcpaiva@cern.ch,Thiago Costa de Paiva,second
 neomutt,tecepe,tecepe@tecepe.eng.br,tcpaiva@users.noreply.github.com,Thiago Costa de Paiva,secondary
 neomutt,tecepe,tecepe@tecepe.eng.br,tecepe@tecepe.eng.br,tecepe,secondary
 neomutt,tecepe,tecepe@tecepe.eng.br,tecepe@users.noreply.github.com,tecepe,secondary
+neomutt,teknokatze,nikita@n0.is,ng0@n0.is,ng0,preferred
+neomutt,teknokatze,nikita@n0.is,ng0@infotropique.org,ng0,secondary
 neomutt,telshock,telshock@users.noreply.github.com,telshock@users.noreply.github.com,telshock,preferred
 neomutt,theojepsen,theojepsen@gmail.com,theojepsen@gmail.com,Theo Jepsen,preferred
 neomutt,theojepsen,theojepsen@gmail.com,theojepsen@g-m-a-i-l-dotcom,Theo,secondary
