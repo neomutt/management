@@ -380,15 +380,15 @@ UPSTREAM 	<dev@mutt.org>	Johan Svedberg <johan@svedberg.pp.se>
 UPSTREAM 	<dev@mutt.org>	John Beck <john.beck@oracle.com>
 UPSTREAM 	<dev@mutt.org>	John Hawkinson <jhawk@mit.edu>
 UPSTREAM 	<dev@mutt.org>	John Swinbank <john@swinbank.org>
+UPSTREAM 	<dev@mutt.org>	Joël Riou <joel.riou@normalesup.org>
 UPSTREAM 	<dev@mutt.org>	Jon Miles <jon@zetnet.net>
 UPSTREAM 	<dev@mutt.org>	Jonathan Wakely <bugs@kayari.org>
-UPSTREAM 	<dev@mutt.org>	Joël Riou <joel.riou@normalesup.org>
+UPSTREAM 	<dev@mutt.org>	Jörgen Tegnér <jorgen.tegner@telia.com>
 UPSTREAM 	<dev@mutt.org>	Juan Altmayer Pizzorno <juan@altmayer.com>
 UPSTREAM 	<dev@mutt.org>	Jukka Salmi <j+mutt@2007.salmi.ch>
 UPSTREAM 	<dev@mutt.org>	Jukka Salmi <jukka@salmi.ch>
 UPSTREAM 	<dev@mutt.org>	Julian Gilbey <julian-git@d-and-j.net>
 UPSTREAM 	<dev@mutt.org>	Julius Plenz <plenz@cis.fu-berlin.de>
-UPSTREAM 	<dev@mutt.org>	Jörgen Tegnér <jorgen.tegner@telia.com>
 UPSTREAM 	<dev@mutt.org>	Kees Cook <kees@outflux.net>
 UPSTREAM 	<dev@mutt.org>	Kevin McCarthy <kevin@8t8.us>
 UPSTREAM 	<dev@mutt.org>	Kevin Scannell <kscanne@gmail.com>
@@ -414,11 +414,11 @@ UPSTREAM 	<dev@mutt.org>	Martin Sandsmark <martin@sandsmark.ninja>
 UPSTREAM 	<dev@mutt.org>	Martin Siegert <siegert@sfu.ca>
 UPSTREAM 	<dev@mutt.org>	Matt Kraai <kraai@ftbfs.org>
 UPSTREAM 	<dev@mutt.org>	Matthias Andree <matthias.andree@gmx.de>
+UPSTREAM 	<dev@mutt.org>	Michał Kępień <mutt@kempniu.pl>
 UPSTREAM 	<dev@mutt.org>	Michael Elkins <me@mutt.org>
 UPSTREAM 	<dev@mutt.org>	Michael Elkins <me@sigpipe.org>
 UPSTREAM 	<dev@mutt.org>	Michael Tatge <michael.tatge@web.de>
 UPSTREAM 	<dev@mutt.org>	Michael Vrable <mvrable@cs.ucsd.edu>
-UPSTREAM 	<dev@mutt.org>	Michał Kępień <mutt@kempniu.pl>
 UPSTREAM 	<dev@mutt.org>	Mike Frysinger <vapier@gentoo.org>
 UPSTREAM 	<dev@mutt.org>	Mike Hallock <mhallock@scs.uiuc.edu>
 UPSTREAM 	<dev@mutt.org>	Mike Schiraldi <1074468571@schiraldi.org>
@@ -457,8 +457,8 @@ UPSTREAM 	<dev@mutt.org>	Peter Collingbourne <peter@pcc.me.uk>
 UPSTREAM 	<dev@mutt.org>	Peter Rosin <peda@lysator.liu.se>
 UPSTREAM 	<dev@mutt.org>	Peter Wu <peter@lekensteyn.nl>
 UPSTREAM 	<dev@mutt.org>	Petr Pisar <petr.pisar@atlas.cz>
-UPSTREAM 	<dev@mutt.org>	Petr P√≠sa≈ô <petr.pisar@atlas.cz>
 UPSTREAM 	<dev@mutt.org>	Petr Písař <petr.pisar@atlas.cz>
+UPSTREAM 	<dev@mutt.org>	Petr P√≠sa≈ô <petr.pisar@atlas.cz>
 UPSTREAM 	<dev@mutt.org>	Phil Pennock <mutt-dev@spodhuis.demon.nl>
 UPSTREAM 	<dev@mutt.org>	Philipp Gesang <philipp.gesang@intra2net.com>
 UPSTREAM 	<dev@mutt.org>	pi <pi@beobide.net>
@@ -467,8 +467,8 @@ UPSTREAM 	<dev@mutt.org>	Rado S <regrado@web.de>
 UPSTREAM 	<dev@mutt.org>	Rado Smiljanic <regrado@web.de>
 UPSTREAM 	<dev@mutt.org>	Ralf Wildenhues <wildenhues@ins.uni-bonn.de>
 UPSTREAM 	<dev@mutt.org>	Recai Oktas <roktas@omu.edu.tr>
-UPSTREAM 	<dev@mutt.org>	Ren√© Clerc <rene@clerc.nl>
 UPSTREAM 	<dev@mutt.org>	René Clerc <rene@clerc.nl>
+UPSTREAM 	<dev@mutt.org>	Ren√© Clerc <rene@clerc.nl>
 UPSTREAM 	<dev@mutt.org>	Rich Burridge <rich.burridge@oracle.com>
 UPSTREAM 	<dev@mutt.org>	Robert Schiele <robert.schiele@t-online.de>
 UPSTREAM 	<dev@mutt.org>	Rocco Rutte <pdmef@gmx.net>
@@ -488,6 +488,8 @@ UPSTREAM 	<dev@mutt.org>	Sam Pablo Kuper <sampablokuper@riseup.net>
 UPSTREAM 	<dev@mutt.org>	Sami Farin <hvtaifwkbgefbaei@gmail.com>
 UPSTREAM 	<dev@mutt.org>	Sami Farin <safari-mutt@safari.iki.fi>
 UPSTREAM 	<dev@mutt.org>	Samuel Tardieu <sam@rfc1149.net>
+UPSTREAM 	<dev@mutt.org>	Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
+UPSTREAM 	<dev@mutt.org>	Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>
 UPSTREAM 	<dev@mutt.org>	Scott Koranda <skoranda@gravity.phys.uwm.edu>
 UPSTREAM 	<dev@mutt.org>	Seth Arnold <seth.arnold@suse.de>
 UPSTREAM 	<dev@mutt.org>	Seth Forshee <seth@forshee.me>
@@ -496,8 +498,6 @@ UPSTREAM 	<dev@mutt.org>	Stefan Kuhn <wuodan@hispeed.ch>
 UPSTREAM 	<dev@mutt.org>	Stefan Strogin <stefan.strogin@gmail.com>
 UPSTREAM 	<dev@mutt.org>	Steve Kemp <skx@debian.org>
 UPSTREAM 	<dev@mutt.org>	Steve Kennedy <steve-md@gbnet.net>
-UPSTREAM 	<dev@mutt.org>	Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
-UPSTREAM 	<dev@mutt.org>	Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>
 UPSTREAM 	<dev@mutt.org>	TAKAHASHI Tamotsu <arms405@jade.dti.ne.jp>
 UPSTREAM 	<dev@mutt.org>	TAKAHASHI Tamotsu <tamo@momonga-linux.org>
 UPSTREAM 	<dev@mutt.org>	TAKAHASHI Tamotsu <ttakah@lapis.plala.or.jp>

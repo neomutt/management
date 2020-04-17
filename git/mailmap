@@ -11,11 +11,11 @@ Alexandre Simon <as@as-home.fr>	Alexandre SIMON <as@as-home.fr>
 Alexandre Simon <as@as-home.fr>	Alexandre Simon <as@as-home.fr>
 Alvaro Herrera <alvherre@alvh.no-ip.org>	Alvaro Herrera <alvherre@alvh.no-ip.org>
 Alyssa Ross <hi@alyssa.is>	Alyssa Ross <hi@alyssa.is>
-Andreas Rammhold <andreas@rammhold.de>	Andreas Rammhold <andreas@rammhold.de>
-Andres Freund <andres@anarazel.de>	Andres Freund <andres@anarazel.de>
 André Berger <ab@andreberger.eu>	ab <Andre Berger andre.berger@web.de>
 André Berger <ab@andreberger.eu>	André Berger <ab@andreberger.eu>
 André Berger <ab@andreberger.eu>	André Berger <andre.berger@web.de>
+Andreas Rammhold <andreas@rammhold.de>	Andreas Rammhold <andreas@rammhold.de>
+Andres Freund <andres@anarazel.de>	Andres Freund <andres@anarazel.de>
 Antoine Amarilli <a3nm@a3nm.net>	Antoine Amarilli <a3nm@a3nm.net>
 Antoine Beaupré <anarcat@debian.org>	anarcat <anarcat@users.noreply.github.com>
 Antoine Beaupré <anarcat@debian.org>	Antoine Beaupré <anarcat@debian.org>
@@ -218,9 +218,9 @@ Stephen Gilles <sgilles@math.umd.edu>	Stephen Gilles <sgilles@math.umd.edu>
 Steven Ragnarök <steven@nuclearsandwich.com>	Steven Ragnarök <steven@nuclearsandwich.com>
 Steven Ragnarök <steven@nuclearsandwich.com>	Steven! Ragnarök <steven@nuclearsandwich.com>
 Stig Palmquist <stig@stig.io>	Stig Palmquist <stig@stig.io>
+Stéphane Lesimple <speed47_github@speed47.net>	Stéphane Lesimple <speed47_github@speed47.net>
 Stuart Henderson <stu-github@spacehopper.org>	Stuart Henderson <sthen@users.noreply.github.com>
 Stuart Henderson <stu-github@spacehopper.org>	Stuart Henderson <stu-github@spacehopper.org>
-Stéphane Lesimple <speed47_github@speed47.net>	Stéphane Lesimple <speed47_github@speed47.net>
 Tamotsu TAKAHASHI <ttakah@gmail.com>	Tamotsu TAKAHASHI <ttakah@gmail.com>
 telshock <telshock@users.noreply.github.com>	telshock <telshock@users.noreply.github.com>
 Theo Jepsen <theojepsen@gmail.com>	Theo Jepsen <theojepsen@gmail.com>
@@ -384,15 +384,15 @@ John Beck <john.beck@oracle.com>	John Beck <john.beck@oracle.com>
 John Beck <john.beck@oracle.com>	Unknown <john.beck@oracle.com>
 John Hawkinson <jhawk@mit.edu>	John Hawkinson <jhawk@mit.edu>
 John Swinbank <john@swinbank.org>	John Swinbank <john@swinbank.org>
+Joël Riou <joel.riou@normalesup.org>	Joël Riou <joel.riou@normalesup.org>
 Jon Miles <jon@zetnet.net>	Jon Miles <jon@zetnet.net>
 Jonathan Wakely <bugs@kayari.org>	Jonathan Wakely <bugs@kayari.org>
-Joël Riou <joel.riou@normalesup.org>	Joël Riou <joel.riou@normalesup.org>
+Jörgen Tegnér <jorgen.tegner@telia.com>	Jörgen Tegnér <jorgen.tegner@telia.com>
 Juan Altmayer Pizzorno <juan@altmayer.com>	Juan Altmayer Pizzorno <juan@altmayer.com>
 Jukka Salmi <jukka@salmi.ch>	Jukka Salmi <j+mutt@2007.salmi.ch>
 Jukka Salmi <jukka@salmi.ch>	Jukka Salmi <jukka@salmi.ch>
 Julian Gilbey <julian-git@d-and-j.net>	Julian Gilbey <julian-git@d-and-j.net>
 Julius Plenz <plenz@cis.fu-berlin.de>	Julius Plenz <plenz@cis.fu-berlin.de>
-Jörgen Tegnér <jorgen.tegner@telia.com>	Jörgen Tegnér <jorgen.tegner@telia.com>
 Kees Cook <kees@outflux.net>	Kees Cook <kees@outflux.net>
 Kees Cook <kees@outflux.net>	Unknown <kees@outflux.net>
 Kevin McCarthy <kevin@8t8.us>	Kevin McCarthy <kevin@8t8.us>
@@ -421,12 +421,12 @@ Martin Sandsmark <martin@sandsmark.ninja>	Martin Sandsmark <martin@sandsmark.nin
 Martin Siegert <siegert@sfu.ca>	Martin Siegert <siegert@sfu.ca>
 Matt Kraai <kraai@ftbfs.org>	Matt Kraai <kraai@ftbfs.org>
 Matthias Andree <matthias.andree@gmx.de>	Matthias Andree <matthias.andree@gmx.de>
+Michał Kępień <mutt@kempniu.pl>	Michał Kępień <mutt@kempniu.pl>
 Michael Elkins <me@mutt.org>	Michael Elkins <me@mutt.org>
 Michael Elkins <me@mutt.org>	Michael Elkins <me@sigpipe.org>
 Michael Elkins <me@mutt.org>	Unknown <me@sigpipe.org>
 Michael Tatge <michael.tatge@web.de>	Michael Tatge <michael.tatge@web.de>
 Michael Vrable <mvrable@cs.ucsd.edu>	Michael Vrable <mvrable@cs.ucsd.edu>
-Michał Kępień <mutt@kempniu.pl>	Michał Kępień <mutt@kempniu.pl>
 Mike Frysinger <vapier@gentoo.org>	Mike Frysinger <vapier@gentoo.org>
 Mike Hallock <mhallock@scs.uiuc.edu>	Mike Hallock <mhallock@scs.uiuc.edu>
 Mike Schiraldi <1074468571@schiraldi.org>	Mike Schiraldi <1074468571@schiraldi.org>
@@ -465,8 +465,8 @@ Peter Collingbourne <peter@pcc.me.uk>	Peter Collingbourne <peter@pcc.me.uk>
 Peter Rosin <peda@lysator.liu.se>	Peter Rosin <peda@lysator.liu.se>
 Peter Wu <peter@lekensteyn.nl>	Peter Wu <peter@lekensteyn.nl>
 Petr Písař <petr.pisar@atlas.cz>	Petr Pisar <petr.pisar@atlas.cz>
-Petr Písař <petr.pisar@atlas.cz>	Petr P√≠sa≈ô <petr.pisar@atlas.cz>
 Petr Písař <petr.pisar@atlas.cz>	Petr Písař <petr.pisar@atlas.cz>
+Petr Písař <petr.pisar@atlas.cz>	Petr P√≠sa≈ô <petr.pisar@atlas.cz>
 Phil Pennock <mutt-dev@spodhuis.demon.nl>	Phil Pennock <mutt-dev@spodhuis.demon.nl>
 Philipp Gesang <philipp.gesang@intra2net.com>	Philipp Gesang <philipp.gesang@intra2net.com>
 Piarres Beobide Egaña <pi@beobide.net>	pi <pi@beobide.net>
@@ -475,8 +475,8 @@ Rado Smiljanic <regrado@web.de>	Rado S <regrado@web.de>
 Rado Smiljanic <regrado@web.de>	Rado Smiljanic <regrado@web.de>
 Ralf Wildenhues <wildenhues@ins.uni-bonn.de>	Ralf Wildenhues <wildenhues@ins.uni-bonn.de>
 Recai Oktas <roktas@omu.edu.tr>	Recai Oktas <roktas@omu.edu.tr>
-René Clerc <rene@clerc.nl>	Ren√© Clerc <rene@clerc.nl>
 René Clerc <rene@clerc.nl>	René Clerc <rene@clerc.nl>
+René Clerc <rene@clerc.nl>	Ren√© Clerc <rene@clerc.nl>
 Rich Burridge <rich.burridge@oracle.com>	Rich Burridge <rich.burridge@oracle.com>
 Rich Burridge <rich.burridge@oracle.com>	Unknown <rich.burridge@oracle.com>
 Robert Schiele <robert.schiele@t-online.de>	Robert Schiele <robert.schiele@t-online.de>
@@ -497,6 +497,8 @@ Sam Pablo Kuper <sampablokuper@riseup.net>	Sam Pablo Kuper <sampablokuper@riseup
 Sami Farin <hvtaifwkbgefbaei@gmail.com>	Sami Farin <hvtaifwkbgefbaei@gmail.com>
 Sami Farin <hvtaifwkbgefbaei@gmail.com>	Sami Farin <safari-mutt@safari.iki.fi>
 Samuel Tardieu <sam@rfc1149.net>	Samuel Tardieu <sam@rfc1149.net>
+Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>	Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
+Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>	Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>
 Scott Koranda <skoranda@gravity.phys.uwm.edu>	Scott Koranda <skoranda@gravity.phys.uwm.edu>
 Seth Arnold <seth.arnold@suse.de>	Seth Arnold <seth.arnold@suse.de>
 Seth Forshee <seth@forshee.me>	Seth Forshee <seth@forshee.me>
@@ -505,8 +507,6 @@ Stefan Kuhn <wuodan@hispeed.ch>	Stefan Kuhn <wuodan@hispeed.ch>
 Stefan Strogin <stefan.strogin@gmail.com>	Stefan Strogin <stefan.strogin@gmail.com>
 Steve Kemp <skx@debian.org>	Steve Kemp <skx@debian.org>
 Steve Kennedy <steve-md@gbnet.net>	Steve Kennedy <steve-md@gbnet.net>
-Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>	Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
-Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>	Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>
 Takashi Takizawa <taki@luna.email.ne.jp>	Takashi TAKIZAWA <taki@cyber.email.ne.jp>
 Takashi Takizawa <taki@luna.email.ne.jp>	Takashi Takizawa <taki@luna.email.ne.jp>
 Takashi Takizawa <taki@luna.email.ne.jp>	TAKIZAWA Takashi <taki@luna.email.ne.jp>

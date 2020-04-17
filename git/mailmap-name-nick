@@ -11,11 +11,11 @@ Alexandre Simon (@igit) <as@as-home.fr>	Alexandre SIMON <as@as-home.fr>
 Alexandre Simon (@igit) <as@as-home.fr>	Alexandre Simon <as@as-home.fr>
 Alvaro Herrera (@alvherre) <alvherre@alvh.no-ip.org>	Alvaro Herrera <alvherre@alvh.no-ip.org>
 Alyssa Ross (@alyssais) <hi@alyssa.is>	Alyssa Ross <hi@alyssa.is>
-Andreas Rammhold (@andir) <andreas@rammhold.de>	Andreas Rammhold <andreas@rammhold.de>
-Andres Freund (@anarazel) <andres@anarazel.de>	Andres Freund <andres@anarazel.de>
 André Berger (@hvkls) <ab@andreberger.eu>	ab <Andre Berger andre.berger@web.de>
 André Berger (@hvkls) <ab@andreberger.eu>	André Berger <ab@andreberger.eu>
 André Berger (@hvkls) <ab@andreberger.eu>	André Berger <andre.berger@web.de>
+Andreas Rammhold (@andir) <andreas@rammhold.de>	Andreas Rammhold <andreas@rammhold.de>
+Andres Freund (@anarazel) <andres@anarazel.de>	Andres Freund <andres@anarazel.de>
 Antoine Amarilli (@a3nm) <a3nm@a3nm.net>	Antoine Amarilli <a3nm@a3nm.net>
 Antoine Beaupré (@anarcat) <anarcat@debian.org>	anarcat <anarcat@users.noreply.github.com>
 Antoine Beaupré (@anarcat) <anarcat@debian.org>	Antoine Beaupré <anarcat@debian.org>
@@ -218,9 +218,9 @@ Stephen Gilles <sgilles@math.umd.edu>	Stephen Gilles <sgilles@math.umd.edu>
 Steven Ragnarök (@nuclearsandwich) <steven@nuclearsandwich.com>	Steven Ragnarök <steven@nuclearsandwich.com>
 Steven Ragnarök (@nuclearsandwich) <steven@nuclearsandwich.com>	Steven! Ragnarök <steven@nuclearsandwich.com>
 Stig Palmquist (@stigtsp) <stig@stig.io>	Stig Palmquist <stig@stig.io>
+Stéphane Lesimple (@speed47) <speed47_github@speed47.net>	Stéphane Lesimple <speed47_github@speed47.net>
 Stuart Henderson (@sthen) <stu-github@spacehopper.org>	Stuart Henderson <sthen@users.noreply.github.com>
 Stuart Henderson (@sthen) <stu-github@spacehopper.org>	Stuart Henderson <stu-github@spacehopper.org>
-Stéphane Lesimple (@speed47) <speed47_github@speed47.net>	Stéphane Lesimple <speed47_github@speed47.net>
 Tamotsu TAKAHASHI (@null) <ttakah@gmail.com>	Tamotsu TAKAHASHI <ttakah@gmail.com>
 telshock (@telshock) <telshock@users.noreply.github.com>	telshock <telshock@users.noreply.github.com>
 Theo Jepsen (@theojepsen) <theojepsen@gmail.com>	Theo Jepsen <theojepsen@gmail.com>
@@ -384,15 +384,15 @@ UPSTREAM John Beck <john.beck@oracle.com>	John Beck <john.beck@oracle.com>
 UPSTREAM John Beck <john.beck@oracle.com>	Unknown <john.beck@oracle.com>
 UPSTREAM John Hawkinson <jhawk@mit.edu>	John Hawkinson <jhawk@mit.edu>
 UPSTREAM John Swinbank <john@swinbank.org>	John Swinbank <john@swinbank.org>
+UPSTREAM Joël Riou <joel.riou@normalesup.org>	Joël Riou <joel.riou@normalesup.org>
 UPSTREAM Jon Miles <jon@zetnet.net>	Jon Miles <jon@zetnet.net>
 UPSTREAM Jonathan Wakely <bugs@kayari.org>	Jonathan Wakely <bugs@kayari.org>
-UPSTREAM Joël Riou <joel.riou@normalesup.org>	Joël Riou <joel.riou@normalesup.org>
+UPSTREAM Jörgen Tegnér <jorgen.tegner@telia.com>	Jörgen Tegnér <jorgen.tegner@telia.com>
 UPSTREAM Juan Altmayer Pizzorno <juan@altmayer.com>	Juan Altmayer Pizzorno <juan@altmayer.com>
 UPSTREAM Jukka Salmi <jukka@salmi.ch>	Jukka Salmi <j+mutt@2007.salmi.ch>
 UPSTREAM Jukka Salmi <jukka@salmi.ch>	Jukka Salmi <jukka@salmi.ch>
 UPSTREAM Julian Gilbey <julian-git@d-and-j.net>	Julian Gilbey <julian-git@d-and-j.net>
 UPSTREAM Julius Plenz <plenz@cis.fu-berlin.de>	Julius Plenz <plenz@cis.fu-berlin.de>
-UPSTREAM Jörgen Tegnér <jorgen.tegner@telia.com>	Jörgen Tegnér <jorgen.tegner@telia.com>
 UPSTREAM Kees Cook <kees@outflux.net>	Kees Cook <kees@outflux.net>
 UPSTREAM Kees Cook <kees@outflux.net>	Unknown <kees@outflux.net>
 UPSTREAM Kevin McCarthy <kevin@8t8.us>	Kevin McCarthy <kevin@8t8.us>
@@ -421,12 +421,12 @@ UPSTREAM Martin Sandsmark <martin@sandsmark.ninja>	Martin Sandsmark <martin@sand
 UPSTREAM Martin Siegert <siegert@sfu.ca>	Martin Siegert <siegert@sfu.ca>
 UPSTREAM Matt Kraai <kraai@ftbfs.org>	Matt Kraai <kraai@ftbfs.org>
 UPSTREAM Matthias Andree <matthias.andree@gmx.de>	Matthias Andree <matthias.andree@gmx.de>
+UPSTREAM Michał Kępień <mutt@kempniu.pl>	Michał Kępień <mutt@kempniu.pl>
 UPSTREAM Michael Elkins <me@mutt.org>	Michael Elkins <me@mutt.org>
 UPSTREAM Michael Elkins <me@mutt.org>	Michael Elkins <me@sigpipe.org>
 UPSTREAM Michael Elkins <me@mutt.org>	Unknown <me@sigpipe.org>
 UPSTREAM Michael Tatge <michael.tatge@web.de>	Michael Tatge <michael.tatge@web.de>
 UPSTREAM Michael Vrable <mvrable@cs.ucsd.edu>	Michael Vrable <mvrable@cs.ucsd.edu>
-UPSTREAM Michał Kępień <mutt@kempniu.pl>	Michał Kępień <mutt@kempniu.pl>
 UPSTREAM Mike Frysinger <vapier@gentoo.org>	Mike Frysinger <vapier@gentoo.org>
 UPSTREAM Mike Hallock <mhallock@scs.uiuc.edu>	Mike Hallock <mhallock@scs.uiuc.edu>
 UPSTREAM Mike Schiraldi <1074468571@schiraldi.org>	Mike Schiraldi <1074468571@schiraldi.org>
@@ -465,8 +465,8 @@ UPSTREAM Peter Collingbourne <peter@pcc.me.uk>	Peter Collingbourne <peter@pcc.me
 UPSTREAM Peter Rosin <peda@lysator.liu.se>	Peter Rosin <peda@lysator.liu.se>
 UPSTREAM Peter Wu <peter@lekensteyn.nl>	Peter Wu <peter@lekensteyn.nl>
 UPSTREAM Petr Písař <petr.pisar@atlas.cz>	Petr Pisar <petr.pisar@atlas.cz>
-UPSTREAM Petr Písař <petr.pisar@atlas.cz>	Petr P√≠sa≈ô <petr.pisar@atlas.cz>
 UPSTREAM Petr Písař <petr.pisar@atlas.cz>	Petr Písař <petr.pisar@atlas.cz>
+UPSTREAM Petr Písař <petr.pisar@atlas.cz>	Petr P√≠sa≈ô <petr.pisar@atlas.cz>
 UPSTREAM Phil Pennock <mutt-dev@spodhuis.demon.nl>	Phil Pennock <mutt-dev@spodhuis.demon.nl>
 UPSTREAM Philipp Gesang <philipp.gesang@intra2net.com>	Philipp Gesang <philipp.gesang@intra2net.com>
 UPSTREAM Piarres Beobide Egaña <pi@beobide.net>	pi <pi@beobide.net>
@@ -475,8 +475,8 @@ UPSTREAM Rado Smiljanic <regrado@web.de>	Rado S <regrado@web.de>
 UPSTREAM Rado Smiljanic <regrado@web.de>	Rado Smiljanic <regrado@web.de>
 UPSTREAM Ralf Wildenhues <wildenhues@ins.uni-bonn.de>	Ralf Wildenhues <wildenhues@ins.uni-bonn.de>
 UPSTREAM Recai Oktas <roktas@omu.edu.tr>	Recai Oktas <roktas@omu.edu.tr>
-UPSTREAM René Clerc <rene@clerc.nl>	Ren√© Clerc <rene@clerc.nl>
 UPSTREAM René Clerc <rene@clerc.nl>	René Clerc <rene@clerc.nl>
+UPSTREAM René Clerc <rene@clerc.nl>	Ren√© Clerc <rene@clerc.nl>
 UPSTREAM Rich Burridge <rich.burridge@oracle.com>	Rich Burridge <rich.burridge@oracle.com>
 UPSTREAM Rich Burridge <rich.burridge@oracle.com>	Unknown <rich.burridge@oracle.com>
 UPSTREAM Robert Schiele <robert.schiele@t-online.de>	Robert Schiele <robert.schiele@t-online.de>
@@ -497,6 +497,8 @@ UPSTREAM Sam Pablo Kuper <sampablokuper@riseup.net>	Sam Pablo Kuper <sampablokup
 UPSTREAM Sami Farin <hvtaifwkbgefbaei@gmail.com>	Sami Farin <hvtaifwkbgefbaei@gmail.com>
 UPSTREAM Sami Farin <hvtaifwkbgefbaei@gmail.com>	Sami Farin <safari-mutt@safari.iki.fi>
 UPSTREAM Samuel Tardieu <sam@rfc1149.net>	Samuel Tardieu <sam@rfc1149.net>
+UPSTREAM Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>	Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
+UPSTREAM Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>	Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>
 UPSTREAM Scott Koranda <skoranda@gravity.phys.uwm.edu>	Scott Koranda <skoranda@gravity.phys.uwm.edu>
 UPSTREAM Seth Arnold <seth.arnold@suse.de>	Seth Arnold <seth.arnold@suse.de>
 UPSTREAM Seth Forshee <seth@forshee.me>	Seth Forshee <seth@forshee.me>
@@ -505,8 +507,6 @@ UPSTREAM Stefan Kuhn <wuodan@hispeed.ch>	Stefan Kuhn <wuodan@hispeed.ch>
 UPSTREAM Stefan Strogin <stefan.strogin@gmail.com>	Stefan Strogin <stefan.strogin@gmail.com>
 UPSTREAM Steve Kemp <skx@debian.org>	Steve Kemp <skx@debian.org>
 UPSTREAM Steve Kennedy <steve-md@gbnet.net>	Steve Kennedy <steve-md@gbnet.net>
-UPSTREAM Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>	Sébastien Hinderer <Sebastien.Hinderer@ens-lyon.org>
-UPSTREAM Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>	Sébastien Hinderer <Sebastien.Hinderer@libertysurf.fr>
 UPSTREAM Takashi Takizawa <taki@luna.email.ne.jp>	Takashi TAKIZAWA <taki@cyber.email.ne.jp>
 UPSTREAM Takashi Takizawa <taki@luna.email.ne.jp>	Takashi Takizawa <taki@luna.email.ne.jp>
 UPSTREAM Takashi Takizawa <taki@luna.email.ne.jp>	TAKIZAWA Takashi <taki@luna.email.ne.jp>

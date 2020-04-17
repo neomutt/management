@@ -1,18 +1,7 @@
-neomutt,0-wiz-0,wiz@netbsd.org,wiz@netbsd.org,Thomas Klausner,preferred
 neomutt,0mp,mpp302@gmail.com,mpp302@gmail.com,Mateusz Piotrowski,preferred
+neomutt,0-wiz-0,wiz@netbsd.org,wiz@netbsd.org,Thomas Klausner,preferred
 neomutt,0x747972,0x747972@gmail.com,0x747972@gmail.com,ryt,preferred
 neomutt,4nd3r,NONE,NONE,Ander Punnar,preferred
-neomutt,Fale,NONE,NONE,Fabio Locati,preferred
-neomutt,MingcongBai,jeffbai@aosc.xyz,jeffbai@aosc.xyz,Mingcong Bai,preferred
-neomutt,NONE,18015852+libBletchley@users.noreply.github.com,18015852+libBletchley@users.noreply.github.com,Bletchley Park,preferred
-neomutt,NONE,cb@df7cb.de,cb@df7cb.de,Christoph Berg,preferred
-neomutt,NONE,mutt@cert.siemens.de,mutt@cert.siemens.de,Udo Schweigert,preferred
-neomutt,NONE,regid23@nt1.in,regid23@nt1.in,Regid Ichira,preferred
-neomutt,NONE,rtlanceroad@gmail.com,rtlanceroad@gmail.com,Shi Lee,preferred
-neomutt,NONE,rtlanceroad@gmail.com,rtlanceroad@gmail.com,rtlanceroad,secondary
-neomutt,NONE,rubenllorente@startmail.com,rubenllorente@startmail.com,Rubén Llorente,preferred
-neomutt,NONE,sgilles@math.umd.edu,sgilles@math.umd.edu,Stephen Gilles,preferred
-neomutt,NONE,sgilles@math.umd.edu,sgilles@math.umd.edu,S. Gilles,secondary
 neomutt,a3nm,a3nm@a3nm.net,a3nm@a3nm.net,Antoine Amarilli,preferred
 neomutt,ahmedelgabri,ahmed@gabri.me,ahmed@gabri.me,Ahmed El Gabri,preferred
 neomutt,ahmedelgabri,ahmed@gabri.me,ahmed+github@gabri.me,Ahmed El Gabri,secondary
@@ -43,15 +32,11 @@ neomutt,caspervector,CasperVector@gmail.com,CasperVector@gmail.com,Casper Ti. Ve
 neomutt,cdrage,charlie@charliedrage.com,charlie@charliedrage.com,Charlie Drage,preferred
 neomutt,cdroege,mail@cdroege.de,mail@cdroege.de,Christian Dröge,preferred
 neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,Chris Czettel,preferred
-neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,Christopher John CZETTEL,secondary
 neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,chrissl,secondary
+neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,Christopher John CZETTEL,secondary
 neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,cinder88,preferred
 neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,ate,secondary
 neomutt,cyphar,cyphar@cyphar.com,cyphar@cyphar.com,Aleksa Sarai,preferred
-neomutt,d-k-c,damien.riegel@gmail.com,damien.riegel@gmail.com,Damien Riegel,preferred
-neomutt,d-k-c,damien.riegel@gmail.com,d-k-c@users.noreply.github.com,Damien R,secondary
-neomutt,d-k-c,damien.riegel@gmail.com,damien.riegel@savoirfairelinux.com,Damien Riegel,secondary
-neomutt,d-k-c,damien.riegel@gmail.com,damien@riegel.io,Damien Riegel,secondary
 neomutt,darkadin,adansomoza@outlook.com,adansomoza@outlook.com,Adán Somoza,preferred
 neomutt,darkadin,adansomoza@outlook.com,adansomoza@outlook.com,DarkAdin,secondary
 neomutt,darnir,git@darnir.net,git@darnir.net,Darshit Shah,preferred
@@ -62,6 +47,10 @@ neomutt,debxwoody,stefan@debxwoody.de,stefan@debxwoody.de,Stefan Kropp,preferred
 neomutt,debxwoody,stefan@debxwoody.de,32964719+DebXWoody@users.noreply.github.com,Stefan,secondary
 neomutt,debxwoody,stefan@debxwoody.de,stefan@debxwoody.de,DebXWoody,secondary
 neomutt,dharrigan,dharrigan@gmail.com,dharrigan@gmail.com,David Harrigan,preferred
+neomutt,d-k-c,damien.riegel@gmail.com,damien.riegel@gmail.com,Damien Riegel,preferred
+neomutt,d-k-c,damien.riegel@gmail.com,damien@riegel.io,Damien Riegel,secondary
+neomutt,d-k-c,damien.riegel@gmail.com,damien.riegel@savoirfairelinux.com,Damien Riegel,secondary
+neomutt,d-k-c,damien.riegel@gmail.com,d-k-c@users.noreply.github.com,Damien R,secondary
 neomutt,dngray,dng@disroot.org,dng@disroot.org,Daniel Gray,preferred
 neomutt,doronbehar,doron.behar@gmail.com,doron.behar@gmail.com,Doron Behar,preferred
 neomutt,doweaver,doug@stone-weaver.com,doug@stone-weaver.com,Doug Stone-Weaver,preferred
@@ -74,6 +63,7 @@ neomutt,eldeveloper,yoshiki89@gmail.com,yoshiki89@gmail.com,Yoshiki Vázquez Bae
 neomutt,epilys,el13635@mail.ntua.gr,el13635@mail.ntua.gr,Manos Pitsidianakis,preferred
 neomutt,esovetkin,e.sovetkin@gmail.com,e.sovetkin@gmail.com,Jenya Sovetkin,preferred
 neomutt,evgeni,NONE,NONE,Evgeni Golov,preferred
+neomutt,Fale,NONE,NONE,Fabio Locati,preferred
 neomutt,fbellet,fabrice@bellet.info,fabrice@bellet.info,Fabrice Bellet,preferred
 neomutt,fekir,federico.kircheis@gmail.com,federico.kircheis@gmail.com,Federico Kircheis,preferred
 neomutt,fekir,federico.kircheis@gmail.com,federico.kircheis@gmail.com,fekir,secondary
@@ -93,8 +83,8 @@ neomutt,guiniol,gui-gui@netcourrier.com,gui-gui@netcourrier.com,Guillaume Brogi,
 neomutt,guiniol,gui-gui@netcourrier.com,gui-gui@netcourrier.com,guiniol,secondary
 neomutt,guyzmo,guyzmo+github+pub@m0g.net,guyzmo+github+pub@m0g.net,Bernard Pratz,preferred
 neomutt,guyzmo,guyzmo+github+pub@m0g.net,guyzmo+github+pub@m0g.net,Bernard 'Guyzmo' Pratz,secondary
-neomutt,guyzmo,guyzmo+github+pub@m0g.net,guyzmo+github+pub@m0g.net,Guyzmo,secondary
 neomutt,guyzmo,guyzmo+github+pub@m0g.net,guyzmo+github+pub@m0g.net,guyzmo,secondary
+neomutt,guyzmo,guyzmo+github+pub@m0g.net,guyzmo+github+pub@m0g.net,Guyzmo,secondary
 neomutt,hvkls,ab@andreberger.eu,ab@andreberger.eu,André Berger,preferred
 neomutt,hvkls,ab@andreberger.eu,Andre Berger andre.berger@web.de,ab,secondary
 neomutt,hvkls,ab@andreberger.eu,andre.berger@web.de,André Berger,secondary
@@ -106,8 +96,8 @@ neomutt,inrin,seishinryohosha@jikken.de,seishinryohosha@jikken.de,Anton Rieger,p
 neomutt,inrin,seishinryohosha@jikken.de,seishinryohosha@users.noreply.github.com,seishinryohosha,secondary
 neomutt,ivilata,ivan@selidor.net,ivan@selidor.net,Ivan Vilata i Balaguer,preferred
 neomutt,jakkinstewart,dracogoyle@gmail.com,dracogoyle@gmail.com,Joshua Jordi,preferred
-neomutt,jakkinstewart,dracogoyle@gmail.com,JakkinStewart@users.noreply.github.com,Joshua Jordi,secondary
 neomutt,jakkinstewart,dracogoyle@gmail.com,dracogoyle@gmail.com,Jakkin,secondary
+neomutt,jakkinstewart,dracogoyle@gmail.com,JakkinStewart@users.noreply.github.com,Joshua Jordi,secondary
 neomutt,jamesbvaughan,james@jamesbvaughan.com,james@jamesbvaughan.com,James Vaughan,preferred
 neomutt,jasperla,jasper@humppa.nl,jasper@humppa.nl,Jasper Adriaanse,preferred
 neomutt,jasperla,jasper@humppa.nl,jasper@humppa.nl,Jasper Lievisse Adriaanse,secondary
@@ -148,14 +138,15 @@ neomutt,mgedmin,marius@gedmin.as,marius@gedmin.as,Marius Gedminas,preferred
 neomutt,mhinz,mh.codebro@gmail.com,mh.codebro@gmail.com,Marco Hinz,preferred
 neomutt,mineo,themineo@gmail.com,themineo@gmail.com,Wieland Hoffmann,preferred
 neomutt,mineo,themineo@gmail.com,mineo@users.noreply.github.com,Wieland Hoffmann,secondary
+neomutt,MingcongBai,jeffbai@aosc.xyz,jeffbai@aosc.xyz,Mingcong Bai,preferred
 neomutt,mjsir911,marco@sirabella.org,marco@sirabella.org,Marco Sirabella,preferred
 neomutt,mochidai,mochidai@gmail.com,mochidai@gmail.com,Dai Mochinaga,preferred
 neomutt,mochidai,mochidai@gmail.com,mochidai@gmail.com,mochidai,secondary
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@gik.pw.edu.pl,Marcin Rajner,preferred
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@chalmers,Marcin Rajner,secondary
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@gik.pw.edu.pl,Marcin Rajner lenovo,secondary
-neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@lenovo,Marcin Rajner,secondary
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@lenovoarch,Marcin Rajner,secondary
+neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@lenovo,Marcin Rajner,secondary
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@pwarch,Marcin Rajner,secondary
 neomutt,msteveb,NONE,NONE,Steve Bennett,preferred
 neomutt,nagefire,nagefire.dev@gmail.com,nagefire.dev@gmail.com,Nagefire,preferred
@@ -169,6 +160,15 @@ neomutt,nobrowser,itz@no-use.mooo.com,itz@no-use.mooo.com,Ian Zimmerman,preferre
 neomutt,nobrowser,itz@no-use.mooo.com,itz@primate.net,Ian Zimmerman,secondary
 neomutt,nobrowser,itz@no-use.mooo.com,itz@very.loosely.org,Ian Zimmerman,secondary
 neomutt,nobrowser,itz@no-use.mooo.com,nobrowser@users.noreply.github.com,Ian Zimmerman,secondary
+neomutt,NONE,18015852+libBletchley@users.noreply.github.com,18015852+libBletchley@users.noreply.github.com,Bletchley Park,preferred
+neomutt,NONE,cb@df7cb.de,cb@df7cb.de,Christoph Berg,preferred
+neomutt,NONE,mutt@cert.siemens.de,mutt@cert.siemens.de,Udo Schweigert,preferred
+neomutt,NONE,regid23@nt1.in,regid23@nt1.in,Regid Ichira,preferred
+neomutt,NONE,rtlanceroad@gmail.com,rtlanceroad@gmail.com,Shi Lee,preferred
+neomutt,NONE,rtlanceroad@gmail.com,rtlanceroad@gmail.com,rtlanceroad,secondary
+neomutt,NONE,rubenllorente@startmail.com,rubenllorente@startmail.com,Rubén Llorente,preferred
+neomutt,NONE,sgilles@math.umd.edu,sgilles@math.umd.edu,Stephen Gilles,preferred
+neomutt,NONE,sgilles@math.umd.edu,sgilles@math.umd.edu,S. Gilles,secondary
 neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,Steven Ragnarök,preferred
 neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,Steven! Ragnarök,secondary
 neomutt,null,listmail@mbjnet.dk,listmail@mbjnet.dk,Morten Bo Johansen,preferred
@@ -177,13 +177,13 @@ neomutt,null,vvv@mutt.org.ua,vvv@mutt.org.ua,Vsevolod Volkov,preferred
 neomutt,ocelotsloth,mark@stengle.in,mark@stengle.in,Mark Stenglein,preferred
 neomutt,olafhering,olaf@aepfle.de,olaf@aepfle.de,Olaf Hering,preferred
 neomutt,opsec,NONE,NONE,Kurt Jaeger,preferred
-neomutt,p-eb,becue@crans.org,becue@crans.org,Pierre-Elliott Bécue,preferred
-neomutt,p-eb,becue@crans.org,P-EB@users.noreply.github.com,Pierre-Elliott Bécue,secondary
 neomutt,paravoid,NONE,NONE,Faidon Liambotis,preferred
 neomutt,parazyd,parazyd@dyne.org,parazyd@dyne.org,Ivan J,preferred
 neomutt,parazyd,parazyd@dyne.org,parazyd@dyne.org,parazyd,preferred
 neomutt,parazyd,parazyd@dyne.org,parazyd@users.noreply.github.com,Ivan J,secondary
 neomutt,paretje,kevin@paretje.be,kevin@paretje.be,Kevin Velghe,preferred
+neomutt,p-eb,becue@crans.org,becue@crans.org,Pierre-Elliott Bécue,preferred
+neomutt,p-eb,becue@crans.org,P-EB@users.noreply.github.com,Pierre-Elliott Bécue,secondary
 neomutt,petelewis,pete@muddygoat.org,pete@muddygoat.org,Peter Lewis,preferred
 neomutt,petrpisaratlascz,petr.pisar@atlas.cz,petr.pisar@atlas.cz,Petr Pisar,preferred
 neomutt,philpennock,phil@pennock-tech.com,phil@pennock-tech.com,Phil Pennock,preferred
