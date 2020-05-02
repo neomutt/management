@@ -27,8 +27,6 @@ digraph libmutt
 	envlist -> string
 	file    -> string
 	hash    -> string
-	history -> charset
-	history -> hash
 	list    -> string
 	logging -> file
 	logging -> message
