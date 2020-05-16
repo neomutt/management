@@ -18,6 +18,7 @@
   { include: [ '@"nntp/.*"',      private, '"nntp/lib.h"',      public ] },
   { include: [ '@"notmuch/.*"',   private, '"notmuch/lib.h"',   public ] },
   { include: [ '@"pop/.*"',       private, '"pop/lib.h"',       public ] },
+  { include: [ '<regex.h>',       private, '"mutt/lib.h"',      public ] },
 
   { symbol: ["wchar_t",  "private", "<wchar.h>",  "public"] },
 

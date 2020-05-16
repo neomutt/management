@@ -1,4 +1,6 @@
 [
+  { include: [ '<regex.h>',       private, '"regex3.h"',        public ] },
+
   { symbol: ["wchar_t",  "private", "<wchar.h>",  "public"] },
 
   { ref: "glibc.imp" },
