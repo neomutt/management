@@ -15,8 +15,6 @@ function zzz_config()
 
 	[ ${#LINES[@]} = 0 ] && return
 
-	echo "/**"
-	grep " @page " "$FILE"
 	echo " *"
 	echo " * | Config Item | Global Variable | Description |"
 	echo " * | :---------- | :-------------- | :---------- |"
@@ -36,9 +34,6 @@ function zzz_config()
 			echo " * | '$CFG' | #$VAR | $DESC |"
 		fi
 	done
-
-	echo " */"
-	echo
 }
 
 function zzz_config_summary()
@@ -91,9 +86,7 @@ function zzz_data()
 
 	[ ${#LINES[@]} = 0 ] && return
 
-	echo "/**"
-	grep " @page " "$FILE"
-	echo " * "
+	echo " *"
 	echo " * | Data | Description |"
 	echo " * | :--- | :---------- |"
 
@@ -114,9 +107,6 @@ function zzz_data()
 		fi
 	done
 	) | sort
-
-	echo " */"
-	echo
 }
 
 function zzz_functions()
@@ -128,9 +118,7 @@ function zzz_functions()
 
 	[ ${#LINES[@]} = 0 ] && return
 
-	echo "/**"
-	grep " @page " "$FILE"
-	echo " * "
+	echo " *"
 	echo " * | Function | Description |"
 	echo " * | :------- | :---------- |"
 
@@ -153,9 +141,6 @@ function zzz_functions()
 			echo " * | $FUNC() | $DESC |"
 		fi
 	done
-
-	echo " */"
-	echo
 }
 
 function build_zzz()
@@ -163,10 +148,17 @@ function build_zzz()
 	local FILE
 
 	for FILE in $@; do
+		echo "/**"
+		grep " @page " "$FILE"
+		echo " *"
+
 		echo "$FILE" 1>&2
 		zzz_config    "$FILE"
 		zzz_data      "$FILE"
 		zzz_functions "$FILE"
+
+		echo " */"
+		echo
 	done
 }
 
@@ -194,8 +186,11 @@ if [ -n "$TRAVIS" ]; then
 	git fetch origin 'refs/heads/master:refs/heads/master'
 fi
 
+rm -f zzz.inc
+
 build_zzz \
 	address/*.c \
+	alias/*.c \
 	autocrypt/*.c \
 	bcache/*.c \
 	compmbox/*.c \
@@ -203,7 +198,6 @@ build_zzz \
 	config/*.c \
 	conn/*.c \
 	core/*.c \
-	debug/*.c \
 	email/*.c \
 	gui/*.c \
 	hcache/*.c \
@@ -220,8 +214,7 @@ build_zzz \
 	store/*.c \
 	*.c > zzz.inc
 
-zzz_config_summary *.[ch] {address,autocrypt,bcache,compmbox,compress,config,conn,core,debug,email,gui,hcache,history,imap,maildir,mbox,mutt,ncrypt,nntp,notmuch,pop,store}/*.[ch] \
-	| grep -v -e SslUseSslv2 -e SslUsesystemcerts >> zzz.inc
+zzz_config_summary $(find . -type f -name '*.[ch]') | grep -v -e SslUseSslv2 -e SslUsesystemcerts >> zzz.inc
 
 build_docs
 

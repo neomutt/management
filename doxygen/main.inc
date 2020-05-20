@@ -25,6 +25,7 @@
  * | Library        |
  * | :------------- |
  * | @ref address   |
+ * | @ref alias     |
  * | @ref autocrypt |
  * | @ref compmbox  |
  * | @ref compress  |
@@ -57,8 +58,6 @@
  *
  * | File            | Description            |
  * | :-------------- | :--------------------- |
- * | addrbook.c      | @subpage addrbook      |
- * | alias.c         | @subpage alias         |
  * | bcache.c        | @subpage bcache        |
  * | browser.c       | @subpage browser       |
  * | commands.c      | @subpage commands      |
@@ -82,6 +81,7 @@
  * | init.c          | @subpage init          |
  * | keymap.c        | @subpage keymap        |
  * | mailcap.c       | @subpage mailcap       |
+ * | maillist.c      | @subpage maillist      |
  * | main.c          | @subpage main          |
  * | menu.c          | @subpage menu          |
  * | monitor.c       | @subpage monitor       |
@@ -106,7 +106,6 @@
  * | pattern.c       | @subpage pattern       |
  * | postpone.c      | @subpage postpone      |
  * | progress.c      | @subpage progress      |
- * | query.c         | @subpage query         |
  * | recvattach.c    | @subpage recvattach    |
  * | recvcmd.c       | @subpage recvcmd       |
  * | remailer.c      | @subpage remailer      |
