@@ -26,9 +26,9 @@ function die()
 
 trap die EXIT
 
-export LANG=C
+export LANG=C.UTF-8
 
-EXTRA_CFLAGS="-Wno-unused-result -Werror"
+EXTRA_CFLAGS="-Wno-unused-result"
 
 eval INSTALL_DIR="~/install"
 
@@ -77,7 +77,7 @@ function test_build()
 	if [ "$DIR" = "." ]; then
 		clean_dir
 	else
-		rm -fr * .??*
+		rm -fr ./* ./.??*
 	fi
 
 	echo "-------------------------------------------------------------------------------"
@@ -86,7 +86,7 @@ function test_build()
 	echo "CONFIG: $CONFIG"
 	echo "-------------------------------------------------------------------------------"
 
-	if ! $DIR/configure $CONFIG; then
+	if ! "$DIR/configure" $CONFIG; then
 		if [ -f config.log ]; then
 			echo "-------------------------------------------------------------------------------"
 			start_fold "Config Log" "config.log.$NAME"
@@ -119,9 +119,9 @@ function test_install()
 
 	local IFAIL=0
 	echo "Dirs diff"                                                      >  install-diff.txt
-	diff <(sort $DIR/.travis/install-dirs.txt) <(sort install-dirs.txt)   >> install-diff.txt || IFAIL=1
+	diff <(sort "$DIR/.travis/install-dirs.txt") <(sort install-dirs.txt)   >> install-diff.txt || IFAIL=1
 	echo "Files diff"                                                     >> install-diff.txt
-	diff <(sort $DIR/.travis/install-files.txt) <(sort install-files.txt) >> install-diff.txt || IFAIL=1
+	diff <(sort "$DIR/.travis/install-files.txt") <(sort install-files.txt) >> install-diff.txt || IFAIL=1
 
 	if [ $IFAIL = 1 ]; then
 		SOFT_FAIL+=("Install $NAME failed");
@@ -205,7 +205,7 @@ function test_lua()
 {
 	start_fold "Lua Scripting" "lua"
 
-	eval $(luarocks path --bin)
+	eval "$(luarocks path --bin)"
 	./neomutt -B -F contrib/lua/test_lua-api_runner.neomuttrc
 
 	end_fold "lua"
@@ -217,15 +217,21 @@ function test_whitespace()
 
 	TEST="Trailing whitespace"
 	echo "$TEST"
-	grep -lR --exclude-dir='.git' --exclude='*.png' '[[:space:]]$' && SOFT_FAIL+=("$TEST") || true
+	if grep -lR --exclude-dir='.git' --exclude='*.png' '[[:space:]]$'; then
+		SOFT_FAIL+=("$TEST")
+	fi
 
 	TEST="Tabs in code"
 	echo "$TEST"
-	grep -lR --exclude='*' --include='*.[ch]' --exclude='jimsh0.c' --exclude='queue.h' '	' && SOFT_FAIL+=("$TEST") || true
+	if grep -lR --exclude='*' --include='*.[ch]' --exclude='jimsh0.c' --exclude='queue.h' '	'; then
+		SOFT_FAIL+=("$TEST")
+	fi
 
 	TEST="Space-Tab"
 	echo "$TEST"
-	grep -lR --exclude-dir='.git' --exclude='*.png' --exclude='jimsh0.c' --exclude='queue.h' ' \	' && SOFT_FAIL+=("$TEST") || true
+	if grep -lR --exclude-dir='.git' --exclude='*.png' --exclude='jimsh0.c' --exclude='queue.h' ' \	'; then
+		SOFT_FAIL+=("$TEST")
+	fi
 
 	end_fold "whitespace"
 }
@@ -267,7 +273,7 @@ function test_stats()
 
 	if [ "${#BAD_LANG[@]}" -gt 0 ]; then
 		echo "----------------------------------------"
-		echo "Bad languages: ${BAD_LANG[@]}"
+		echo "Bad languages: ${BAD_LANG[*]}"
 		echo "----------------------------------------"
 	fi
 

@@ -34,6 +34,7 @@ addons:
       - libncursesw5-dev
       - libnotmuch-dev
       - libqdbm-dev
+      - librocksdb-dev
       - libsasl2-dev
       - libslang2-dev
       - libssl-dev
@@ -45,9 +46,6 @@ addons:
       - luarocks
       - lynx
       - xsltproc
-
-git:
-  depth: 3
 
 install:
   - luarocks install --local busted
