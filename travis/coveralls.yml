@@ -33,6 +33,7 @@ addons:
       - libncursesw5-dev
       - libnotmuch-dev
       - libqdbm-dev
+      - librocksdb-dev
       - libsasl2-dev
       - libslang2-dev
       - libssl-dev
@@ -67,7 +68,8 @@ script:
   - ./configure --autocrypt --disable-doc --disable-idn --idn2 --testing --coverage --everything && make && make test 
 
 after_success:
-  - coveralls --gcov-options '\-lp' --build-root . --include mutt --include email --include address --include config
+  - ./neomutt -v
+  - coveralls --gcov-options '\-lp' --build-root . --include mutt --include email --include address --include config --include compress
 
 after_script:
   - ccache --show-stats
