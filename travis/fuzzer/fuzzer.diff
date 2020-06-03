@@ -1,29 +1,29 @@
 diff --git a/.gitignore b/.gitignore
-index 34272350b..91c64e337 100644
+index 32b8854bc..21452a177 100644
 --- a/.gitignore
 +++ b/.gitignore
-@@ -47,6 +47,7 @@ test/string-test
- test/tags-test
- test/thread-test
- test/url-test
+@@ -11,6 +11,7 @@ docs/makedoc
+ neomutt
+ pgpewrap
+ test/neomutt-test
 +fuzz/address-fuzz
  
  # Build products
  *.o
 diff --git a/Makefile.autosetup b/Makefile.autosetup
-index 3e97becf9..868078ac6 100644
+index 67d063b0a..b27a04f9c 100644
 --- a/Makefile.autosetup
 +++ b/Makefile.autosetup
-@@ -443,7 +443,7 @@ uninstall: $(UNINSTALL_TARGETS)
+@@ -566,7 +566,7 @@ uninstall: $(UNINSTALL_TARGETS)
  distclean: clean
- 	$(RM) $(DEPFILES) .clang_complete autosetup/jimsh0 config.h config.log \
- 		conststrings.c contrib/Makefile docs/Makefile docs/neomutt.1 \
--		html Makefile po/Makefile test/Makefile
-+		html Makefile po/Makefile test/Makefile fuzz/Makefile
+ 	$(RM) $(DEPFILES) autosetup/jimsh0 config.h config.log conststrings.c \
+ 		contrib/Makefile docs/Makefile docs/neomutt.1 html Makefile po/Makefile \
+-		test/Makefile .clang_complete
++		test/Makefile .clang_complete fuzz/Makefile
  	$(RM) *.gc?? */*.gc?? test/*/*.gc??
  	$(RM) lcov.info lcov
  
-@@ -474,5 +474,8 @@ coverage: all test
+@@ -627,5 +627,8 @@ coverage: all test
  @if ENABLE_UNIT_TESTS
  @include @srcdir@/test/Makefile.autosetup
  @endif
@@ -33,19 +33,19 @@ index 3e97becf9..868078ac6 100644
  
  # vim: set ts=8 noexpandtab:
 diff --git a/auto.def b/auto.def
-index 95e55c05b..16e7a9009 100644
+index 5ad908c25..e1fbadb5d 100644
 --- a/auto.def
 +++ b/auto.def
-@@ -18,7 +18,7 @@ define PACKAGE_VERSION  "20180716"
+@@ -20,7 +20,7 @@ define PACKAGE_VERSION  "20200501"
  define BUGS_ADDRESS     "neomutt-devel@neomutt.org"
  
  # Subdirectories that contain additional Makefile.autosetup files
--set subdirs {po doc contrib}
-+set subdirs {po doc contrib fuzz}
+-set subdirs {po docs contrib}
++set subdirs {po docs contrib fuzz}
  ###############################################################################
  
  ###############################################################################
-@@ -95,6 +95,8 @@ options {
+@@ -113,6 +113,8 @@ options {
  # Testing
    testing=0                 => "Enable Unit Testing"
    coverage=0                => "Enable Coverage Testing"
@@ -54,16 +54,16 @@ index 95e55c05b..16e7a9009 100644
  # Configure with pkg-config
    pkgconf=0                 => "Use pkg-config during configure"
  # Enable all options
-@@ -109,7 +111,7 @@ options {
- if {1} {
+@@ -135,7 +137,7 @@ if {1} {
    # Keep sorted, please.
    foreach opt {
--    bdb backtrace coverage doc everything fmemopen full-doc gdbm gnutls gpgme
-+    bdb backtrace coverage doc everything fmemopen full-doc fuzzing gdbm gnutls gpgme
-     gss homespool idn idn2 inotify kyotocabinet lmdb locales-fix lua mixmaster
-     nls notmuch pkgconf pgp qdbm sasl smime ssl testing tokyocabinet
-   } {
-@@ -541,6 +543,13 @@ if {[get-define want-testing]} {
+     autocrypt bdb coverage debug-backtrace debug-graphviz debug-notify
+-    debug-parse-test debug-window doc everything fmemopen full-doc gdbm gnutls
++    debug-parse-test debug-window doc everything fmemopen full-doc fuzzing gdbm gnutls
+     gpgme gss homespool idn idn2 inotify kyotocabinet lmdb locales-fix lua lz4
+     mixmaster nls notmuch pcre2 pgp pkgconf qdbm rocksdb sasl smime sqlite ssl
+     testing tdb tokyocabinet zlib zstd
+@@ -578,6 +580,13 @@ if {[get-define want-testing]} {
    lappend subdirs test
  }
  
@@ -78,10 +78,10 @@ index 95e55c05b..16e7a9009 100644
  # Lua
  if {[get-define want-lua]} {
 diff --git a/main.c b/main.c
-index b451faaa7..5e13f4c2a 100644
+index 398adc384..008783222 100644
 --- a/main.c
 +++ b/main.c
-@@ -403,7 +403,13 @@ bool get_user_info(struct ConfigSet *cs)
+@@ -361,7 +361,13 @@ static void log_translation(void)
   * @retval 0 Success
   * @retval 1 Error
   */
