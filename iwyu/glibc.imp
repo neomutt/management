@@ -17,4 +17,5 @@
   { include: [ '<bits/types/wint_t.h>',          private, '<wchar.h>',       public ] },
   { include: [ '<gpgme-64.h>',                   private, '<gpgme.h>',       public ] },
   { include: [ '<libunwind-x86_64.h>',           private, '<libunwind.h>',   public ] },
+  { include: [ '<luaconf-x86_64.h>',             private, '<lua.h>',         public ] },
 ]

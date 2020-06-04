@@ -1,7 +1,10 @@
 [
   # Include one library header rather than the individual headers.
   { include: [ '@"address/.*"',   private, '"address/lib.h"',   public ] },
+  { include: [ '@"alias/.*"',     private, '"alias/lib.h"',     public ] },
   { include: [ '@"autocrypt/.*"', private, '"autocrypt/lib.h"', public ] },
+  { include: [ '@"bcache/.*"',    private, '"bcache/lib.h"',    public ] },
+  { include: [ '@"compmbox/.*"',  private, '"compmbox/lib.h"',  public ] },
   { include: [ '@"compress/.*"',  private, '"compress/lib.h"',  public ] },
   { include: [ '@"config/.*"',    private, '"config/lib.h"',    public ] },
   { include: [ '@"conn/.*"',      private, '"conn/lib.h"',      public ] },
@@ -10,6 +13,7 @@
   { include: [ '@"email/.*"',     private, '"email/lib.h"',     public ] },
   { include: [ '@"gui/.*"',       private, '"gui/lib.h"',       public ] },
   { include: [ '@"hcache/.*"',    private, '"hcache/lib.h"',    public ] },
+  { include: [ '@"history/.*"',   private, '"history/lib.h"',   public ] },
   { include: [ '@"imap/.*"',      private, '"imap/lib.h"',      public ] },
   { include: [ '@"maildir/.*"',   private, '"maildir/lib.h"',   public ] },
   { include: [ '@"mbox/.*"',      private, '"mbox/lib.h"',      public ] },
@@ -18,6 +22,7 @@
   { include: [ '@"nntp/.*"',      private, '"nntp/lib.h"',      public ] },
   { include: [ '@"notmuch/.*"',   private, '"notmuch/lib.h"',   public ] },
   { include: [ '@"pop/.*"',       private, '"pop/lib.h"',       public ] },
+  { include: [ '@"store/.*"',     private, '"store/lib.h"',     public ] },
   { include: [ '<regex.h>',       private, '"mutt/lib.h"',      public ] },
 
   { symbol: ["wchar_t",  "private", "<wchar.h>",  "public"] },
