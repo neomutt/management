@@ -4,5 +4,5 @@ enums     100
 config    100
 globals   100
 pages     100
+members   60
 defines   40
-members   39
