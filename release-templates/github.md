@@ -16,6 +16,10 @@ and our **regular contributors**:
 
 - First Last (@nick)
 
+## :lock: Security
+
+- description
+
 ## :gift: Features
 
 - description

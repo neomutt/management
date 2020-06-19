@@ -97,7 +97,6 @@ neomutt,immae,ismael.bouya@normalesup.org,ismael.bouya@normalesup.org,Ismaël Bo
 neomutt,inglor,artafinde@gmail.com,artafinde@gmail.com,Leonidas Spyropoulos,preferred
 neomutt,inrin,seishinryohosha@jikken.de,seishinryohosha@jikken.de,Anton Rieger,preferred
 neomutt,inrin,seishinryohosha@jikken.de,seishinryohosha@users.noreply.github.com,seishinryohosha,secondary
-neomutt,ivilata,ivan@selidor.net,ivan@selidor.net,Ivan Vilata i Balaguer,preferred
 neomutt,jakkinstewart,dracogoyle@gmail.com,dracogoyle@gmail.com,Joshua Jordi,preferred
 neomutt,jakkinstewart,dracogoyle@gmail.com,dracogoyle@gmail.com,Jakkin,secondary
 neomutt,jakkinstewart,dracogoyle@gmail.com,JakkinStewart@users.noreply.github.com,Joshua Jordi,secondary
@@ -174,11 +173,7 @@ neomutt,NONE,sgilles@math.umd.edu,sgilles@math.umd.edu,Stephen Gilles,preferred
 neomutt,NONE,sgilles@math.umd.edu,sgilles@math.umd.edu,S. Gilles,secondary
 neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,Steven Ragnarök,preferred
 neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,Steven! Ragnarök,secondary
-neomutt,null,listmail@mbjnet.dk,listmail@mbjnet.dk,Morten Bo Johansen,preferred
-neomutt,null,ttakah@gmail.com,ttakah@gmail.com,Tamotsu TAKAHASHI,preferred
-neomutt,null,vvv@mutt.org.ua,vvv@mutt.org.ua,Vsevolod Volkov,preferred
 neomutt,ocelotsloth,mark@stengle.in,mark@stengle.in,Mark Stenglein,preferred
-neomutt,olafhering,olaf@aepfle.de,olaf@aepfle.de,Olaf Hering,preferred
 neomutt,opsec,NONE,NONE,Kurt Jaeger,preferred
 neomutt,paravoid,NONE,NONE,Faidon Liambotis,preferred
 neomutt,parazyd,parazyd@dyne.org,parazyd@dyne.org,Ivan J,preferred
@@ -188,7 +183,6 @@ neomutt,paretje,kevin@paretje.be,kevin@paretje.be,Kevin Velghe,preferred
 neomutt,p-eb,becue@crans.org,becue@crans.org,Pierre-Elliott Bécue,preferred
 neomutt,p-eb,becue@crans.org,P-EB@users.noreply.github.com,Pierre-Elliott Bécue,secondary
 neomutt,petelewis,pete@muddygoat.org,pete@muddygoat.org,Peter Lewis,preferred
-neomutt,petrpisaratlascz,petr.pisar@atlas.cz,petr.pisar@atlas.cz,Petr Pisar,preferred
 neomutt,philpennock,phil@pennock-tech.com,phil@pennock-tech.com,Phil Pennock,preferred
 neomutt,phmarek,NONE,NONE,Philipp Marek,preferred
 neomutt,phroa,jack@phroa.net,jack@phroa.net,Jack Stratton,preferred
