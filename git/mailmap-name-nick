@@ -1,4 +1,5 @@
 ## NeoMutt Contributors - auto-generated: https://github.com/neomutt/management/tree/master/git
+наб (@nabijaczleweli) <nabijaczleweli@gmail.com>	наб <nabijaczleweli@gmail.com>
 Adam Borowski (@kilobyte) <kilobyte@angband.pl>	Adam Borowski <kilobyte@angband.pl>
 Adán Somoza (@darkadin) <adansomoza@outlook.com>	Adán Somoza <adansomoza@outlook.com>
 Adán Somoza (@darkadin) <adansomoza@outlook.com>	DarkAdin <adansomoza@outlook.com>
@@ -9,6 +10,7 @@ Aleksa Sarai (@cyphar) <cyphar@cyphar.com>	Aleksa Sarai <cyphar@cyphar.com>
 Alex Pearce (@alexpearce) <alex@alexpearce.me>	Alex Pearce <alex@alexpearce.me>
 Alexandre Simon (@igit) <as@as-home.fr>	Alexandre SIMON <as@as-home.fr>
 Alexandre Simon (@igit) <as@as-home.fr>	Alexandre Simon <as@as-home.fr>
+Alexey Vishnyakov (@sweetvishnya) <vishnya@ispras.ru>	Alexey Vishnyakov <vishnya@ispras.ru>
 Alvaro Herrera (@alvherre) <alvherre@alvh.no-ip.org>	Alvaro Herrera <alvherre@alvh.no-ip.org>
 Alyssa Ross (@alyssais) <hi@alyssa.is>	Alyssa Ross <hi@alyssa.is>
 André Berger (@hvkls) <ab@andreberger.eu>	ab <Andre Berger andre.berger@web.de>
@@ -66,6 +68,7 @@ Darshit Shah (@darnir) <git@darnir.net>	Darshit Shah <git@darnir.net>
 David Harrigan (@dharrigan) <dharrigan@gmail.com>	David Harrigan <dharrigan@gmail.com>
 David Sterba (@kdave) <dsterba@suse.cz>	David Sterba <dsterba@suse.com>
 David Sterba (@kdave) <dsterba@suse.cz>	David Sterba <dsterba@suse.cz>
+Deng Xiyue (@manphiz) <manphiz@gmail.com>	Deng Xiyue <manphiz@gmail.com>
 Dimitrios Semitsoglou-Tsiapos (@dset0x) <kmhzsem@gmx.com>	Dimitrios Semitsoglou-Tsiapos <kmhzsem@gmx.com>
 Doron Behar (@doronbehar) <doron.behar@gmail.com>	Doron Behar <doron.behar@gmail.com>
 Doug Stone-Weaver (@doweaver) <doug@stone-weaver.com>	Doug Stone-Weaver <doug@stone-weaver.com>
@@ -135,6 +138,8 @@ Leo Lundgren (@rawtaz) <leo@finalresort.org>	rawtaz <rawtaz@users.noreply.github
 Leonardo Schenkel (@lbschenkel) <leonardo@schenkel.net>	Leonardo Brondani Schenkel <leonardo@schenkel.net>
 Leonardo Schenkel (@lbschenkel) <leonardo@schenkel.net>	Leonardo Schenkel <leonardo@schenkel.net>
 Leonidas Spyropoulos (@inglor) <artafinde@gmail.com>	Leonidas Spyropoulos <artafinde@gmail.com>
+Lucas Bourneuf (@aluriak) <lucas.bourneuf@laposte.net>	Aluriak <lucas.bourneuf@laposte.net>
+Lucas Bourneuf (@aluriak) <lucas.bourneuf@laposte.net>	Lucas Bourneuf <lucas.bourneuf@laposte.net>
 Manos Pitsidianakis (@epilys) <el13635@mail.ntua.gr>	Manos Pitsidianakis <el13635@mail.ntua.gr>
 Marcin Rajner (@mrajner) <mrajner@gik.pw.edu.pl>	Marcin Rajner lenovo <mrajner@gik.pw.edu.pl>
 Marcin Rajner (@mrajner) <mrajner@gik.pw.edu.pl>	Marcin Rajner <mrajner@chalmers>
@@ -232,6 +237,7 @@ Thiago Costa de Paiva (@tecepe) <tecepe@tecepe.eng.br>	Thiago Costa de Paiva <te
 Thomas Adam (@thomasadam) <thomas@xteddy.org>	Thomas Adam <thomas@xteddy.org>
 Thomas Jarosch (@thomasjfox) <thomas.jarosch@intra2net.com>	Thomas Jarosch <thomas.jarosch@intra2net.com>
 Thomas Klausner (@0-wiz-0) <wiz@netbsd.org>	Thomas Klausner <wiz@netbsd.org>
+Thomas Sanchez (@daedric) <thomas.sanchz@gmail.com>	Thomas Sanchez <thomas.sanchz@gmail.com>
 Thomas Schneider (@qsuscs) <qsx@qsx.re>	Thomas Schneider <qsx@qsx.re>
 Timmy Xiao (@yimmt) <timmyxiao1@gmail.com>	Timmy Xiao <timmyxiao1@gmail.com>
 Tino Reichardt (@mcmilk) <github@mcmilk.de>	Tino Reichardt <github@mcmilk.de>
@@ -338,7 +344,6 @@ UPSTREAM David Shaw <dshaw@jabberwocky.com>	David Shaw <dshaw@jabberwocky.com>
 UPSTREAM David Wilson <dw@botanicus.net>	David Wilson <dw@botanicus.net>
 UPSTREAM David Yitzchak Cohen <lists+mutt_devs@bigfatdave.com>	David Yitzchak Cohen <lists+mutt_bugs@bigfatdave.com>
 UPSTREAM David Yitzchak Cohen <lists+mutt_devs@bigfatdave.com>	David Yitzchak Cohen <lists+mutt_devs@bigfatdave.com>
-UPSTREAM Deng Xiyue <manphiz@gmail.com>	Deng Xiyue <manphiz@gmail.com>
 UPSTREAM Derek Martin <code@pizzashack.org>	Derek Martin <code@pizzashack.org>
 UPSTREAM Derek Martin <code@pizzashack.org>	Derek Martin <invalid@pizzashack.org>
 UPSTREAM Derek Schrock <dereks@lifeofadishwasher.com>	Derek Schrock <dereks@lifeofadishwasher.com>

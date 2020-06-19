@@ -160,7 +160,6 @@ mutt,,lists@jhweiss.de,holger@zedat.fu-berlin.de,Holger Weiss,secondary
 mutt,,ludwig@fh-worms.de,ludwig@fh-worms.de,Unknown,preferred
 mutt,,luke@mewburn.net,luke@mewburn.net,Luke Mewburn,preferred
 mutt,,malcolm.parsons@gmail.com,malcolm.parsons@gmail.com,Malcolm Parsons,preferred
-mutt,,manphiz@gmail.com,manphiz@gmail.com,Deng Xiyue,preferred
 mutt,,marcel@telka.sk,marcel@telka.sk,Marcel Telka,preferred
 mutt,,marcel@telka.sk,marcel@telka.sk,Unknown,secondary
 mutt,,marcopaolone@gmail.com,marcopaolone@gmail.com,Marco Paolone,preferred

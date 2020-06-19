@@ -8,6 +8,8 @@ neomutt,ahmedelgabri,ahmed@gabri.me,ahmed+github@gabri.me,Ahmed El Gabri,seconda
 neomutt,aladw,AladW@users.noreply.github.com,AladW@users.noreply.github.com,Alad Wenter,preferred
 neomutt,alexpearce,alex@alexpearce.me,alex@alexpearce.me,Alex Pearce,preferred
 neomutt,alok,NONE,NONE,Alok Singh,preferred
+neomutt,aluriak,lucas.bourneuf@laposte.net,lucas.bourneuf@laposte.net,Lucas Bourneuf,preferred
+neomutt,aluriak,lucas.bourneuf@laposte.net,lucas.bourneuf@laposte.net,Aluriak,secondary
 neomutt,alvherre,alvherre@alvh.no-ip.org,alvherre@alvh.no-ip.org,Alvaro Herrera,preferred
 neomutt,alyptik,joeypabalinas@gmail.com,joeypabalinas@gmail.com,Joey Pabalinas,preferred
 neomutt,alyssais,hi@alyssa.is,hi@alyssa.is,Alyssa Ross,preferred
@@ -37,6 +39,7 @@ neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher
 neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,cinder88,preferred
 neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,ate,secondary
 neomutt,cyphar,cyphar@cyphar.com,cyphar@cyphar.com,Aleksa Sarai,preferred
+neomutt,daedric,thomas.sanchz@gmail.com,thomas.sanchz@gmail.com,Thomas Sanchez,preferred
 neomutt,darkadin,adansomoza@outlook.com,adansomoza@outlook.com,Adán Somoza,preferred
 neomutt,darkadin,adansomoza@outlook.com,adansomoza@outlook.com,DarkAdin,secondary
 neomutt,darnir,git@darnir.net,git@darnir.net,Darshit Shah,preferred
@@ -131,6 +134,7 @@ neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Schenkel
 neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Brondani Schenkel,secondary
 neomutt,lrosenman,larryrtx@gmail.com,larryrtx@gmail.com,Larry Rosenman,preferred
 neomutt,makoshark,mako@atdot.cc,mako@atdot.cc,Benjamin Mako Hill,preferred
+neomutt,manphiz,manphiz@gmail.com,manphiz@gmail.com,Deng Xiyue,preferred
 neomutt,mcmilk,github@mcmilk.de,github@mcmilk.de,Tino Reichardt,preferred
 neomutt,mcmilk,milky-neomutt@mcmilk.de,milky-neomutt@mcmilk.de,Tino Reichardt,secondary
 neomutt,mfvescovi,NONE,NONE,Matteo Vescovi,preferred
@@ -149,6 +153,7 @@ neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@lenovoarch,Marcin Rajner,secondary
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@lenovo,Marcin Rajner,secondary
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@pwarch,Marcin Rajner,secondary
 neomutt,msteveb,NONE,NONE,Steve Bennett,preferred
+neomutt,nabijaczleweli,nabijaczleweli@gmail.com,nabijaczleweli@gmail.com,наб,preferred
 neomutt,nagefire,nagefire.dev@gmail.com,nagefire.dev@gmail.com,Nagefire,preferred
 neomutt,neverpanic,neverpanic@gmail.com,neverpanic@gmail.com,Clemens Lang,preferred
 neomutt,ngw,ngw@nofeed.org,ngw@nofeed.org,Nicholas Wieland,preferred
@@ -230,6 +235,7 @@ neomutt,sthen,stu-github@spacehopper.org,sthen@users.noreply.github.com,Stuart H
 neomutt,stigtsp,stig@stig.io,stig@stig.io,Stig Palmquist,preferred
 neomutt,stoeckmann,tobias@stoeckmann.org,tobias@stoeckmann.org,Tobias Stoeckmann,preferred
 neomutt,stormc,storm@mailbox.org,storm@mailbox.org,Christian Storm,preferred
+neomutt,sweetvishnya,vishnya@ispras.ru,vishnya@ispras.ru,Alexey Vishnyakov,preferred
 neomutt,tecepe,tecepe@tecepe.eng.br,tecepe@tecepe.eng.br,Thiago Costa de Paiva,preferred
 neomutt,tecepe,tecepe@tecepe.eng.br,tcpaiva@cern.ch,Thiago Costa de Paiva,secondary
 neomutt,tecepe,tecepe@tecepe.eng.br,tcpaiva@users.noreply.github.com,Thiago Costa de Paiva,secondary
