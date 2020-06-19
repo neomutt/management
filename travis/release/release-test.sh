@@ -217,7 +217,7 @@ function test_whitespace()
 
 	TEST="Trailing whitespace"
 	echo "$TEST"
-	if grep -lR --exclude-dir='.git' --exclude='*.png' '[[:space:]]$'; then
+	if grep -lR --exclude-dir='.git' --exclude='*.png' --exclude='SECURITY.md' '[[:space:]]$'; then
 		SOFT_FAIL+=("$TEST")
 	fi
 
