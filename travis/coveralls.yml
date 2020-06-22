@@ -69,7 +69,7 @@ script:
 
 after_success:
   - ./neomutt -v
-  - coveralls --gcov-options '\-lp' --build-root . --include mutt --include email --include address --include config --include compress
+  - coveralls --gcov-options '\-lp' --build-root . --include mutt --include email --include address --include config --include compress --include store
 
 after_script:
   - ccache --show-stats
