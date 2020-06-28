@@ -152,7 +152,8 @@ neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@lenovoarch,Marcin Rajner,secondary
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@lenovo,Marcin Rajner,secondary
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@pwarch,Marcin Rajner,secondary
 neomutt,msteveb,NONE,NONE,Steve Bennett,preferred
-neomutt,nabijaczleweli,nabijaczleweli@gmail.com,nabijaczleweli@gmail.com,наб,preferred
+neomutt,nabijaczleweli,nabijaczleweli@nabijaczleweli.xyz,nabijaczleweli@nabijaczleweli.xyz,наб,preferred
+neomutt,nabijaczleweli,nabijaczleweli@nabijaczleweli.xyz,nabijaczleweli@gmail.com,наб,secondary
 neomutt,nagefire,nagefire.dev@gmail.com,nagefire.dev@gmail.com,Nagefire,preferred
 neomutt,neverpanic,neverpanic@gmail.com,neverpanic@gmail.com,Clemens Lang,preferred
 neomutt,ngw,ngw@nofeed.org,ngw@nofeed.org,Nicholas Wieland,preferred
