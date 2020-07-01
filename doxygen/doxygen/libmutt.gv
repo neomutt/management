@@ -38,6 +38,9 @@ digraph libmutt
 	memory  -> exit
 	memory  -> logging
 	path    -> string
+	random  -> exit
+	random  -> logging
+	random  -> message
 	regex   -> mbyte
 	signal  -> message
 	string  -> memory
