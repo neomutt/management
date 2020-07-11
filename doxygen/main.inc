@@ -27,6 +27,7 @@
  * | @ref address   |
  * | @ref alias     |
  * | @ref autocrypt |
+ * | @ref bcache    |
  * | @ref compmbox  |
  * | @ref compress  |
  * | @ref config    |
@@ -45,6 +46,8 @@
  * | @ref nntp      |
  * | @ref notmuch   |
  * | @ref pop       |
+ * | @ref send      |
+ * | @ref sidebar   |
  * | @ref store     |
  *
  * ## Config Variables
@@ -58,7 +61,6 @@
  *
  * | File            | Description            |
  * | :-------------- | :--------------------- |
- * | bcache.c        | @subpage bcache        |
  * | browser.c       | @subpage browser       |
  * | commands.c      | @subpage commands      |
  * | command_parse.c | @subpage command_parse |
@@ -66,7 +68,6 @@
  * | compose.c       | @subpage compose       |
  * | context.c       | @subpage ctx           |
  * | copy.c          | @subpage copy          |
- * | edit.c          | @subpage edit          |
  * | editmsg.c       | @subpage editmsg       |
  * | enriched.c      | @subpage enriched      |
  * | enter.c         | @subpage enter         |
@@ -112,10 +113,6 @@
  * | resize.c        | @subpage resize        |
  * | rfc3676.c       | @subpage rfc3676       |
  * | score.c         | @subpage score         |
- * | send.c          | @subpage send          |
- * | sendlib.c       | @subpage sendlib       |
- * | sidebar.c       | @subpage sidebar       |
- * | smtp.c          | @subpage smtp          |
  * | sort.c          | @subpage sort          |
  * | state.c         | @subpage state         |
  * | status.c        | @subpage status        |

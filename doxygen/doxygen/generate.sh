@@ -192,6 +192,7 @@ build_zzz \
 	address/*.c \
 	alias/*.c \
 	autocrypt/*.c \
+	autosetup/*.c \
 	bcache/*.c \
 	compmbox/*.c \
 	compress/*.c \
@@ -211,6 +212,8 @@ build_zzz \
 	nntp/*.c \
 	notmuch/*.c \
 	pop/*.c \
+	send/*.c \
+	sidebar/*.c \
 	store/*.c \
 	*.c > zzz.inc
 
