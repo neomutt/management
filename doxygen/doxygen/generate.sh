@@ -211,6 +211,7 @@ build_zzz \
 	ncrypt/*.c \
 	nntp/*.c \
 	notmuch/*.c \
+	pattern/*.c \
 	pop/*.c \
 	send/*.c \
 	sidebar/*.c \

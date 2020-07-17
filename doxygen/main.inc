@@ -45,6 +45,7 @@
  * | @ref ncrypt    |
  * | @ref nntp      |
  * | @ref notmuch   |
+ * | @ref pattern   |
  * | @ref pop       |
  * | @ref send      |
  * | @ref sidebar   |
@@ -104,7 +105,6 @@
  * | mx.c            | @subpage mx            |
  * | myvar.c         | @subpage myvar         |
  * | pager.c         | @subpage pager         |
- * | pattern.c       | @subpage pattern       |
  * | postpone.c      | @subpage postpone      |
  * | progress.c      | @subpage progress      |
  * | recvattach.c    | @subpage recvattach    |
