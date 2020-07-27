@@ -37,6 +37,7 @@
  * | @ref email     |
  * | @ref gui       |
  * | @ref hcache    |
+ * | @ref helpbar   |
  * | @ref history   |
  * | @ref imap      |
  * | @ref maildir   |
