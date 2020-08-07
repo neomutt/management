@@ -1,7 +1,7 @@
-diff --git a/.gitignore b/.gitignore
+diff --git c/.gitignore w/.gitignore
 index 32b8854bc..21452a177 100644
---- a/.gitignore
-+++ b/.gitignore
+--- c/.gitignore
++++ w/.gitignore
 @@ -11,6 +11,7 @@ docs/makedoc
  neomutt
  pgpewrap
@@ -10,11 +10,11 @@ index 32b8854bc..21452a177 100644
  
  # Build products
  *.o
-diff --git a/Makefile.autosetup b/Makefile.autosetup
-index 67d063b0a..b27a04f9c 100644
---- a/Makefile.autosetup
-+++ b/Makefile.autosetup
-@@ -566,7 +566,7 @@ uninstall: $(UNINSTALL_TARGETS)
+diff --git c/Makefile.autosetup w/Makefile.autosetup
+index 0730f64e8..6e39fdb51 100644
+--- c/Makefile.autosetup
++++ w/Makefile.autosetup
+@@ -628,7 +628,7 @@ uninstall: $(UNINSTALL_TARGETS)
  distclean: clean
  	$(RM) $(DEPFILES) autosetup/jimsh0 config.h config.log conststrings.c \
  		contrib/Makefile docs/Makefile docs/neomutt.1 html Makefile po/Makefile \
@@ -23,7 +23,7 @@ index 67d063b0a..b27a04f9c 100644
  	$(RM) *.gc?? */*.gc?? test/*/*.gc??
  	$(RM) lcov.info lcov
  
-@@ -627,5 +627,8 @@ coverage: all test
+@@ -690,5 +690,8 @@ coverage: all test
  @if ENABLE_UNIT_TESTS
  @include @srcdir@/test/Makefile.autosetup
  @endif
@@ -32,11 +32,11 @@ index 67d063b0a..b27a04f9c 100644
 +@endif
  
  # vim: set ts=8 noexpandtab:
-diff --git a/auto.def b/auto.def
-index 5ad908c25..e1fbadb5d 100644
---- a/auto.def
-+++ b/auto.def
-@@ -20,7 +20,7 @@ define PACKAGE_VERSION  "20200501"
+diff --git c/auto.def w/auto.def
+index fd480c186..92534b785 100644
+--- c/auto.def
++++ w/auto.def
+@@ -20,7 +20,7 @@ define PACKAGE_VERSION  "20200807"
  define BUGS_ADDRESS     "neomutt-devel@neomutt.org"
  
  # Subdirectories that contain additional Makefile.autosetup files
@@ -45,7 +45,7 @@ index 5ad908c25..e1fbadb5d 100644
  ###############################################################################
  
  ###############################################################################
-@@ -113,6 +113,8 @@ options {
+@@ -115,6 +115,8 @@ options {
  # Testing
    testing=0                 => "Enable Unit Testing"
    coverage=0                => "Enable Coverage Testing"
@@ -54,16 +54,16 @@ index 5ad908c25..e1fbadb5d 100644
  # Configure with pkg-config
    pkgconf=0                 => "Use pkg-config during configure"
  # Enable all options
-@@ -135,7 +137,7 @@ if {1} {
+@@ -137,7 +139,7 @@ if {1} {
    # Keep sorted, please.
    foreach opt {
      autocrypt bdb coverage debug-backtrace debug-graphviz debug-notify
 -    debug-parse-test debug-window doc everything fmemopen full-doc gdbm gnutls
 +    debug-parse-test debug-window doc everything fmemopen full-doc fuzzing gdbm gnutls
-     gpgme gss homespool idn idn2 inotify kyotocabinet lmdb locales-fix lua lz4
-     mixmaster nls notmuch pcre2 pgp pkgconf qdbm rocksdb sasl smime sqlite ssl
-     testing tdb tokyocabinet zlib zstd
-@@ -578,6 +580,13 @@ if {[get-define want-testing]} {
+     gpgme gss homespool idn idn2 include-path-in-cflags inotify kyotocabinet
+     lmdb locales-fix lua lz4 mixmaster nls notmuch pcre2 pgp pkgconf qdbm
+     rocksdb sasl smime sqlite ssl testing tdb tokyocabinet zlib zstd
+@@ -581,6 +583,13 @@ if {[get-define want-testing]} {
    lappend subdirs test
  }
  
@@ -77,11 +77,30 @@ index 5ad908c25..e1fbadb5d 100644
  ###############################################################################
  # Lua
  if {[get-define want-lua]} {
-diff --git a/main.c b/main.c
-index 398adc384..008783222 100644
---- a/main.c
-+++ b/main.c
-@@ -361,7 +361,13 @@ static void log_translation(void)
+diff --git c/init.c w/init.c
+index a28bcb43a..b4df75aa6 100644
+--- c/init.c
++++ w/init.c
+@@ -69,6 +69,14 @@
+ #ifdef USE_SIDEBAR
+ #include "sidebar/lib.h"
+ #endif
++#ifdef USE_AUTOCRYPT
++#include "autocrypt/lib.h"
++#else
++static inline bool config_init_autocrypt(struct ConfigSet *cs)
++{
++  return true;
++}
++#endif
+ 
+ /* Initial string that starts completion. No telling how much the user has
+  * typed so far. Allocate 1024 just to be sure! */
+diff --git c/main.c w/main.c
+index 76bca7a6e..b416aeccf 100644
+--- c/main.c
++++ w/main.c
+@@ -365,7 +365,13 @@ static void log_translation(void)
   * @retval 0 Success
   * @retval 1 Error
   */
@@ -96,3 +115,17 @@ index 398adc384..008783222 100644
  {
    char *subject = NULL;
    char *include_file = NULL;
+diff --git c/ncrypt/crypt_gpgme.c w/ncrypt/crypt_gpgme.c
+index 8ea0df104..f9815dbc7 100644
+--- c/ncrypt/crypt_gpgme.c
++++ w/ncrypt/crypt_gpgme.c
+@@ -69,6 +69,9 @@
+ #ifdef USE_AUTOCRYPT
+ #include "autocrypt/lib.h"
+ #endif
++#ifdef ENABLE_NLS
++#include <libintl.h>
++#endif
+ 
+ // clang-format off
+ /* Values used for comparing addresses. */
