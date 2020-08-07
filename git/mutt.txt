@@ -236,6 +236,8 @@ mutt,,raorn@altlinux.org,raorn@altlinux.org,Alexey I. Froloff,secondary
 mutt,,rea-mutt@codelabs.ru,rea-mutt@codelabs.ru,Unknown,preferred
 mutt,,regrado@web.de,regrado@web.de,Rado Smiljanic,preferred
 mutt,,regrado@web.de,regrado@web.de,Rado S,secondary
+mutt,,remco@webconquest.com,remco@webconquest.com,Remco Rijnders,preferred
+mutt,,remco@webconquest.com,remco@webconquest.com,Remco Rĳnders,secondary
 mutt,,rene@clerc.nl,rene@clerc.nl,René Clerc,preferred
 mutt,,rene@clerc.nl,rene@clerc.nl,Ren√© Clerc,secondary
 mutt,,rich.burridge@oracle.com,rich.burridge@oracle.com,Rich Burridge,preferred
@@ -273,6 +275,7 @@ mutt,,tamentis@neopulsar.org,tamentis@neopulsar.org,Bertrand Janin,preferred
 mutt,,tbm@cyrius.com,tbm@cyrius.com,Martin Michlmayr,preferred
 mutt,,thoger@redhat.com,thoger@redhat.com,Tomas Hoger,preferred
 mutt,,tim@stoakes.net,tim@stoakes.net,Tim Stoakes,preferred
+mutt,,tipecaml@gmail.com,tipecaml@gmail.com,Cyril Roelandt,preferred
 mutt,,tmz@pobox.com,tmz@pobox.com,Todd Zullinger,preferred
 mutt,,tommi.komulainen@iki.fi,tommi.komulainen@iki.fi,Tommi Komulainen,preferred
 mutt,,tonio@netbsd.org,tonio@netbsd.org,Antoine Reilles,preferred
