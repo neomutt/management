@@ -145,6 +145,7 @@ neomutt,MingcongBai,jeffbai@aosc.xyz,jeffbai@aosc.xyz,Mingcong Bai,preferred
 neomutt,mjsir911,marco@sirabella.org,marco@sirabella.org,Marco Sirabella,preferred
 neomutt,mochidai,mochidai@gmail.com,mochidai@gmail.com,Dai Mochinaga,preferred
 neomutt,mochidai,mochidai@gmail.com,mochidai@gmail.com,mochidai,secondary
+neomutt,mokulus,mmokulus@gmail.com,mmokulus@gmail.com,Mateusz Okulus,preferred
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@gik.pw.edu.pl,Marcin Rajner,preferred
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@chalmers,Marcin Rajner,secondary
 neomutt,mrajner,mrajner@gik.pw.edu.pl,mrajner@gik.pw.edu.pl,Marcin Rajner lenovo,secondary
