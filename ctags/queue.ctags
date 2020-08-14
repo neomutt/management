@@ -1,3 +1,4 @@
+-D ARRAY_HEAD(name,type)=struct name {}
 -D LIST_HEAD(name,type)=struct name {}
 -D SLIST_HEAD(name,type)=struct name {}
 -D STAILQ_HEAD(name,type)=struct name {}
