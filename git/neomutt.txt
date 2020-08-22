@@ -3,6 +3,7 @@ neomutt,0-wiz-0,wiz@netbsd.org,wiz@netbsd.org,Thomas Klausner,preferred
 neomutt,0x747972,0x747972@gmail.com,0x747972@gmail.com,ryt,preferred
 neomutt,4nd3r,NONE,NONE,Ander Punnar,preferred
 neomutt,a3nm,a3nm@a3nm.net,a3nm@a3nm.net,Antoine Amarilli,preferred
+neomutt,adityadesaha,adityadesaha@gmail.com,adityadesaha@gmail.com,Aditya De Saha,preferred
 neomutt,ahmedelgabri,ahmed@gabri.me,ahmed@gabri.me,Ahmed El Gabri,preferred
 neomutt,ahmedelgabri,ahmed@gabri.me,ahmed+github@gabri.me,Ahmed El Gabri,secondary
 neomutt,aladw,AladW@users.noreply.github.com,AladW@users.noreply.github.com,Alad Wenter,preferred
@@ -134,6 +135,7 @@ neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Brondani
 neomutt,lrosenman,larryrtx@gmail.com,larryrtx@gmail.com,Larry Rosenman,preferred
 neomutt,makoshark,mako@atdot.cc,mako@atdot.cc,Benjamin Mako Hill,preferred
 neomutt,manphiz,manphiz@gmail.com,manphiz@gmail.com,Deng Xiyue,preferred
+neomutt,matthewhughes934,matthewhughes934@gmail.com,matthewhughes934@gmail.com,Matthew Hughes,preferred
 neomutt,mcmilk,github@mcmilk.de,github@mcmilk.de,Tino Reichardt,preferred
 neomutt,mcmilk,milky-neomutt@mcmilk.de,milky-neomutt@mcmilk.de,Tino Reichardt,secondary
 neomutt,mfvescovi,NONE,NONE,Matteo Vescovi,preferred
