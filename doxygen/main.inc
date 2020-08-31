@@ -29,6 +29,7 @@
  * | @ref autocrypt |
  * | @ref bcache    |
  * | @ref compmbox  |
+ * | @ref compose   |
  * | @ref compress  |
  * | @ref config    |
  * | @ref conn      |
@@ -67,7 +68,6 @@
  * | commands.c      | @subpage commands      |
  * | command_parse.c | @subpage command_parse |
  * | complete.c      | @subpage complete      |
- * | compose.c       | @subpage compose       |
  * | context.c       | @subpage ctx           |
  * | copy.c          | @subpage copy          |
  * | editmsg.c       | @subpage editmsg       |
