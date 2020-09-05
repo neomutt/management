@@ -22,104 +22,104 @@
  * - Fully documented
  * - Robust
  *
- * | Library        |
- * | :------------- |
- * | @ref address   |
- * | @ref alias     |
- * | @ref autocrypt |
- * | @ref bcache    |
- * | @ref compmbox  |
- * | @ref compose   |
- * | @ref compress  |
- * | @ref config    |
- * | @ref conn      |
- * | @ref core      |
- * | @ref debug     |
- * | @ref email     |
- * | @ref gui       |
- * | @ref hcache    |
- * | @ref helpbar   |
- * | @ref history   |
- * | @ref imap      |
- * | @ref maildir   |
- * | @ref mbox      |
- * | @ref mutt      |
- * | @ref ncrypt    |
- * | @ref nntp      |
- * | @ref notmuch   |
- * | @ref pattern   |
- * | @ref pop       |
- * | @ref send      |
- * | @ref sidebar   |
- * | @ref store     |
+ * | Library             |
+ * | :------------------ |
+ * | @ref lib_address   |
+ * | @ref lib_alias     |
+ * | @ref lib_autocrypt |
+ * | @ref lib_bcache    |
+ * | @ref lib_compmbox  |
+ * | @ref lib_compose   |
+ * | @ref lib_compress  |
+ * | @ref lib_config    |
+ * | @ref lib_conn      |
+ * | @ref lib_core      |
+ * | @ref lib_debug     |
+ * | @ref lib_email     |
+ * | @ref lib_gui       |
+ * | @ref lib_hcache    |
+ * | @ref lib_helpbar   |
+ * | @ref lib_history   |
+ * | @ref lib_imap      |
+ * | @ref lib_maildir   |
+ * | @ref lib_mbox      |
+ * | @ref lib_mutt      |
+ * | @ref lib_ncrypt    |
+ * | @ref lib_nntp      |
+ * | @ref lib_notmuch   |
+ * | @ref lib_pattern   |
+ * | @ref lib_pop       |
+ * | @ref lib_send      |
+ * | @ref lib_sidebar   |
+ * | @ref lib_store     |
  *
  * ## Config Variables
  *
  * NeoMutt has a lot of configuration options.
- * @ref config_vars 
+ * @ref config_vars
  *
  * ## Miscellaneous files
  *
  * These file form the main body of NeoMutt.
  *
- * | File            | Description            |
- * | :-------------- | :--------------------- |
- * | browser.c       | @subpage browser       |
- * | commands.c      | @subpage commands      |
- * | command_parse.c | @subpage command_parse |
- * | complete.c      | @subpage complete      |
- * | context.c       | @subpage ctx           |
- * | copy.c          | @subpage copy          |
- * | editmsg.c       | @subpage editmsg       |
- * | enriched.c      | @subpage enriched      |
- * | enter.c         | @subpage enter         |
- * | flags.c         | @subpage flags         |
- * | functions.c     | @subpage functions     |
- * | handler.c       | @subpage handler       |
- * | hdrline.c       | @subpage hdrline       |
- * | help.c          | @subpage help          |
- * | hook.c          | @subpage hook          |
- * | icommands.c     | @subpage icommands     |
- * | index.c         | @subpage index2        |
- * | init.c          | @subpage init          |
- * | keymap.c        | @subpage keymap        |
- * | mailcap.c       | @subpage mailcap       |
- * | maillist.c      | @subpage maillist      |
- * | main.c          | @subpage main          |
- * | menu.c          | @subpage menu          |
- * | monitor.c       | @subpage monitor       |
- * | muttlib.c       | @subpage muttlib       |
- * | mutt_account.c  | @subpage mutt_account  |
- * | mutt_attach.c   | @subpage mutt_attach   |
- * | mutt_body.c     | @subpage mutt_body     |
- * | mutt_commands.c | @subpage mutt_commands |
- * | mutt_config.c   | @subpage mutt_config   |
- * | mutt_header.c   | @subpage mutt_header   |
- * | mutt_history.c  | @subpage mutt_history  |
- * | mutt_logging.c  | @subpage mutt_logging  |
- * | mutt_lua.c      | @subpage mutt_lua      |
- * | mutt_mailbox.c  | @subpage mailbox       |
- * | mutt_parse.c    | @subpage mutt_parse    |
- * | mutt_signal.c   | @subpage mutt_signal   |
- * | mutt_socket.c   | @subpage mutt_socket   |
- * | mutt_thread.c   | @subpage mutt_thread   |
- * | mx.c            | @subpage mx            |
- * | myvar.c         | @subpage myvar         |
- * | pager.c         | @subpage pager         |
- * | postpone.c      | @subpage postpone      |
- * | progress.c      | @subpage progress      |
- * | recvattach.c    | @subpage recvattach    |
- * | recvcmd.c       | @subpage recvcmd       |
- * | remailer.c      | @subpage remailer      |
- * | resize.c        | @subpage resize        |
- * | rfc3676.c       | @subpage rfc3676       |
- * | score.c         | @subpage score         |
- * | sort.c          | @subpage sort          |
- * | state.c         | @subpage state         |
- * | status.c        | @subpage status        |
- * | system.c        | @subpage system        |
- * | version.c       | @subpage version       |
- * | wcscasecmp.c    | @subpage wcscasecmp    |
+ * | File            | Description                |
+ * | :-------------- | :------------------------- |
+ * | browser.c       | @subpage neo_browser       |
+ * | commands.c      | @subpage neo_commands      |
+ * | command_parse.c | @subpage neo_command_parse |
+ * | complete.c      | @subpage neo_complete      |
+ * | context.c       | @subpage neo_ctx           |
+ * | copy.c          | @subpage neo_copy          |
+ * | editmsg.c       | @subpage neo_editmsg       |
+ * | enriched.c      | @subpage neo_enriched      |
+ * | enter.c         | @subpage neo_enter         |
+ * | flags.c         | @subpage neo_flags         |
+ * | functions.c     | @subpage neo_functions     |
+ * | handler.c       | @subpage neo_handler       |
+ * | hdrline.c       | @subpage neo_hdrline       |
+ * | help.c          | @subpage neo_help          |
+ * | hook.c          | @subpage neo_hook          |
+ * | icommands.c     | @subpage neo_icommands     |
+ * | index.c         | @subpage neo_index         |
+ * | init.c          | @subpage neo_init          |
+ * | keymap.c        | @subpage neo_keymap        |
+ * | mailcap.c       | @subpage neo_mailcap       |
+ * | maillist.c      | @subpage neo_maillist      |
+ * | main.c          | @subpage neo_main          |
+ * | menu.c          | @subpage neo_menu          |
+ * | monitor.c       | @subpage neo_monitor       |
+ * | muttlib.c       | @subpage neo_muttlib       |
+ * | mutt_account.c  | @subpage neo_mutt_account  |
+ * | mutt_attach.c   | @subpage neo_mutt_attach   |
+ * | mutt_body.c     | @subpage neo_mutt_body     |
+ * | mutt_commands.c | @subpage neo_mutt_commands |
+ * | mutt_config.c   | @subpage neo_mutt_config   |
+ * | mutt_header.c   | @subpage neo_mutt_header   |
+ * | mutt_history.c  | @subpage neo_mutt_history  |
+ * | mutt_logging.c  | @subpage neo_mutt_logging  |
+ * | mutt_lua.c      | @subpage neo_mutt_lua      |
+ * | mutt_mailbox.c  | @subpage neo_mutt_mailbox  |
+ * | mutt_parse.c    | @subpage neo_mutt_parse    |
+ * | mutt_signal.c   | @subpage neo_mutt_signal   |
+ * | mutt_socket.c   | @subpage neo_mutt_socket   |
+ * | mutt_thread.c   | @subpage neo_mutt_thread   |
+ * | mx.c            | @subpage neo_mx            |
+ * | myvar.c         | @subpage neo_myvar         |
+ * | pager.c         | @subpage neo_pager         |
+ * | postpone.c      | @subpage neo_postpone      |
+ * | progress.c      | @subpage neo_progress      |
+ * | recvattach.c    | @subpage neo_recvattach    |
+ * | recvcmd.c       | @subpage neo_recvcmd       |
+ * | remailer.c      | @subpage neo_remailer      |
+ * | resize.c        | @subpage neo_resize        |
+ * | rfc3676.c       | @subpage neo_rfc3676       |
+ * | score.c         | @subpage neo_score         |
+ * | sort.c          | @subpage neo_sort          |
+ * | state.c         | @subpage neo_state         |
+ * | status.c        | @subpage neo_status        |
+ * | system.c        | @subpage neo_system        |
+ * | version.c       | @subpage neo_version       |
+ * | wcscasecmp.c    | @subpage neo_wcscasecmp    |
  *
  * ## Building these Docs
  *

@@ -192,7 +192,6 @@ build_zzz \
 	address/*.c \
 	alias/*.c \
 	autocrypt/*.c \
-	autosetup/*.c \
 	bcache/*.c \
 	compmbox/*.c \
 	compress/*.c \
