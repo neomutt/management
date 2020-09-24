@@ -47,6 +47,7 @@ set collapse_all = yes
 set collapse_flagged = no
 set collapse_unread = no
 set compose_format = "-- Compose  [Approx. msg size: %l   Atts: %a]%>-"
+set compose_show_user_headers = no
 set config_charset = "utf-8"
 set confirmappend = no
 set confirmcreate = no
