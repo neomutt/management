@@ -3,6 +3,7 @@
 ./usr/libexec/neomutt/pgpewrap
 ./usr/libexec/neomutt/smime_keys
 ./usr/share/doc/neomutt/advancedusage.html
+./usr/share/doc/neomutt/AUTHORS.md
 ./usr/share/doc/neomutt/ChangeLog.md
 ./usr/share/doc/neomutt/CODE_OF_CONDUCT.md
 ./usr/share/doc/neomutt/colorschemes/neonwolf-256.neomuttrc
@@ -10,6 +11,7 @@
 ./usr/share/doc/neomutt/colorschemes/vombatidae.neomuttrc
 ./usr/share/doc/neomutt/colorschemes/zenburn.neomuttrc
 ./usr/share/doc/neomutt/configuration.html
+./usr/share/doc/neomutt/CONTRIBUTING.md
 ./usr/share/doc/neomutt/gettingstarted.html
 ./usr/share/doc/neomutt/hcache-bench/neomutt-hcache-bench.sh
 ./usr/share/doc/neomutt/hcache-bench/neomuttrc
@@ -58,6 +60,7 @@
 ./usr/share/doc/neomutt/samples/smime_keys_test.pl
 ./usr/share/doc/neomutt/samples/Tin.rc
 ./usr/share/doc/neomutt/security.html
+./usr/share/doc/neomutt/SECURITY.md
 ./usr/share/doc/neomutt/smime-notes.txt
 ./usr/share/doc/neomutt/tuning.html
 ./usr/share/doc/neomutt/vim-keys/README.md
