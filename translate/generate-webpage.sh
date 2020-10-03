@@ -40,7 +40,6 @@ function lookup_lang()
 function html_header()
 {
 	echo "---"
-	echo "layout: concertina"
 	echo "title: Translations"
 	echo "---"
 	echo ""

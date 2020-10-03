@@ -1,5 +1,4 @@
 ---
-layout: post
 author: flatcap
 title: Release 0000-00-00
 ---
