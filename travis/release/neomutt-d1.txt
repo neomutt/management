@@ -55,6 +55,7 @@ set connect_timeout = 30
 set content_type = "text/plain"
 set copy = yes
 set copy_decode_weed = no
+set count_alternatives = no
 set crypt_autoencrypt = no
 set crypt_autopgp = yes
 set crypt_autosign = no
