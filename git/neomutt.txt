@@ -30,6 +30,7 @@ neomutt,bazzinotti,mbazzinotti@gmail.com,mbazzinotti@gmail.com,Michael J. Bazzin
 neomutt,bbenne10,bbenne10@gmail.com,bbenne10@gmail.com,Bryan Bennett,preferred
 neomutt,bertramscharpf,software@bertram-scharpf.de,software@bertram-scharpf.de,Bertram Scharpf,preferred
 neomutt,bitstreamout,werner@suse.de,werner@suse.de,Werner Fink,preferred
+neomutt,bket,bjorn.ketelaars@hydroxide.nl,bjorn.ketelaars@hydroxide.nl,Björn Ketelaars,preferred
 neomutt,caspervector,CasperVector@gmail.com,CasperVector@gmail.com,Casper Ti Vector,preferred
 neomutt,caspervector,CasperVector@gmail.com,CasperVector@gmail.com,Casper Ti. Vector,secondary
 neomutt,cdrage,charlie@charliedrage.com,charlie@charliedrage.com,Charlie Drage,preferred
