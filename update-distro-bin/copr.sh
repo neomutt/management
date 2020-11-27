@@ -24,7 +24,7 @@ GH_URL="https://github.com/neomutt/neomutt/archive"
 
 pushd "$SRC_DIR"
 
-TAG="$(git tag -l --sort='-authordate' '20*' | head -1)"
+TAG="$(git tag -l --sort='authordate' '20*' | tail -1)"
 VERSION="${TAG//-}"
 
 popd
@@ -41,7 +41,7 @@ echo
 pushd copr
 
 SPEC="neomutt.spec"
-OS="fc32"
+OS="fc33"
 HERE=$(pwd)
 
 echo "Edit: $SPEC"

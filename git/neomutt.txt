@@ -206,6 +206,7 @@ neomutt,rawtaz,leo@finalresort.org,leo@finalresort.org,Leo R. Lundgren,secondary
 neomutt,rawtaz,leo@finalresort.org,rawtaz@users.noreply.github.com,rawtaz,secondary
 neomutt,reisradomil,reisradomil@fake-box.com,reisradomil@fake-box.com,Reis Radomil,preferred
 neomutt,reto,reto@labrat.space,reto@labrat.space,Reto Brunner,preferred
+neomutt,reto,reto@labrat.space,reto@labrat.space,Reto,secondary
 neomutt,richih,RichiH@users.noreply.github.com,RichiH@users.noreply.github.com,Richard Hartmann,preferred
 neomutt,riesebie,riesebie@lxtec.de,riesebie@lxtec.de,Elimar Riesebieter,preferred
 neomutt,romeug,romeu.bizz@gmail.com,romeu.bizz@gmail.com,Romeu Vieira,preferred
