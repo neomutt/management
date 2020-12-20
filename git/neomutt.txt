@@ -31,6 +31,8 @@ neomutt,bbenne10,bbenne10@gmail.com,bbenne10@gmail.com,Bryan Bennett,preferred
 neomutt,bertramscharpf,software@bertram-scharpf.de,software@bertram-scharpf.de,Bertram Scharpf,preferred
 neomutt,bitstreamout,werner@suse.de,werner@suse.de,Werner Fink,preferred
 neomutt,bket,bjorn.ketelaars@hydroxide.nl,bjorn.ketelaars@hydroxide.nl,Björn Ketelaars,preferred
+neomutt,brunnre8,reto@labrat.space,reto@labrat.space,Reto Brunner,preferred
+neomutt,brunnre8,reto@labrat.space,reto@labrat.space,Reto,secondary
 neomutt,caspervector,CasperVector@gmail.com,CasperVector@gmail.com,Casper Ti Vector,preferred
 neomutt,caspervector,CasperVector@gmail.com,CasperVector@gmail.com,Casper Ti. Vector,secondary
 neomutt,cdrage,charlie@charliedrage.com,charlie@charliedrage.com,Charlie Drage,preferred
@@ -205,8 +207,6 @@ neomutt,rawtaz,leo@finalresort.org,leo@finalresort.org,Leo Lundgren,preferred
 neomutt,rawtaz,leo@finalresort.org,leo@finalresort.org,Leo R. Lundgren,secondary
 neomutt,rawtaz,leo@finalresort.org,rawtaz@users.noreply.github.com,rawtaz,secondary
 neomutt,reisradomil,reisradomil@fake-box.com,reisradomil@fake-box.com,Reis Radomil,preferred
-neomutt,reto,reto@labrat.space,reto@labrat.space,Reto Brunner,preferred
-neomutt,reto,reto@labrat.space,reto@labrat.space,Reto,secondary
 neomutt,richih,RichiH@users.noreply.github.com,RichiH@users.noreply.github.com,Richard Hartmann,preferred
 neomutt,riesebie,riesebie@lxtec.de,riesebie@lxtec.de,Elimar Riesebieter,preferred
 neomutt,romeug,romeu.bizz@gmail.com,romeu.bizz@gmail.com,Romeu Vieira,preferred
