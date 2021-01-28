@@ -164,6 +164,7 @@ neomutt,nabijaczleweli,nabijaczleweli@nabijaczleweli.xyz,nabijaczleweli@nabijacz
 neomutt,nabijaczleweli,nabijaczleweli@nabijaczleweli.xyz,nabijaczleweli@gmail.com,наб,secondary
 neomutt,nagefire,nagefire.dev@gmail.com,nagefire.dev@gmail.com,Nagefire,preferred
 neomutt,neverpanic,neverpanic@gmail.com,neverpanic@gmail.com,Clemens Lang,preferred
+neomutt,ngortheone,ihor@antonovs.family,ihor@antonovs.family,Ihor Antonov,preferred
 neomutt,ngw,ngw@nofeed.org,ngw@nofeed.org,Nicholas Wieland,preferred
 neomutt,nicolasbock,nicolasbock@gmail.com,nicolasbock@gmail.com,Nicolas Bock,preferred
 neomutt,nnathan,naveen@lastninja.net,naveen@lastninja.net,Naveen Nathan,preferred
