@@ -14,7 +14,7 @@ neomutt,aluriak,lucas.bourneuf@laposte.net,lucas.bourneuf@laposte.net,Aluriak,se
 neomutt,alvherre,alvherre@alvh.no-ip.org,alvherre@alvh.no-ip.org,Alvaro Herrera,preferred
 neomutt,alyptik,joeypabalinas@gmail.com,joeypabalinas@gmail.com,Joey Pabalinas,preferred
 neomutt,alyssais,hi@alyssa.is,hi@alyssa.is,Alyssa Ross,preferred
-neomutt,amudtogal,simms1@web.de,simms1@web.de,Simon Reichel,preferred
+neomutt,amudtogal,simonreichel@giese-optik.de,simms1@web.de,Simon Reichel,secondary
 neomutt,anarazel,andres@anarazel.de,andres@anarazel.de,Andres Freund,preferred
 neomutt,anarcat,anarcat@debian.org,anarcat@debian.org,Antoine Beaupré,preferred
 neomutt,anarcat,anarcat@debian.org,anarcat@users.noreply.github.com,anarcat,secondary
@@ -31,6 +31,8 @@ neomutt,bbenne10,bbenne10@gmail.com,bbenne10@gmail.com,Bryan Bennett,preferred
 neomutt,bertramscharpf,software@bertram-scharpf.de,software@bertram-scharpf.de,Bertram Scharpf,preferred
 neomutt,bitstreamout,werner@suse.de,werner@suse.de,Werner Fink,preferred
 neomutt,bket,bjorn.ketelaars@hydroxide.nl,bjorn.ketelaars@hydroxide.nl,Björn Ketelaars,preferred
+neomutt,bmclean2,brendan.mclean@gmail.com,brendan.mclean@gmail.com,Brendan McLean,preferred
+neomutt,bmclean2,brendan.mclean@gmail.com,brendan.mclean@posteo.net,bmclean2,secondary
 neomutt,brunnre8,reto@labrat.space,reto@labrat.space,Reto Brunner,preferred
 neomutt,brunnre8,reto@labrat.space,reto@labrat.space,Reto,secondary
 neomutt,caspervector,CasperVector@gmail.com,CasperVector@gmail.com,Casper Ti Vector,preferred
@@ -185,6 +187,7 @@ neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,St
 neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,Steven! Ragnarök,secondary
 neomutt,ocelotsloth,mark@stengle.in,mark@stengle.in,Mark Stenglein,preferred
 neomutt,opsec,NONE,NONE,Kurt Jaeger,preferred
+neomutt,orangecms,info@orangecms.org,info@orangecms.org,Daniel Maslowski,preferred
 neomutt,paravoid,NONE,NONE,Faidon Liambotis,preferred
 neomutt,parazyd,parazyd@dyne.org,parazyd@dyne.org,Ivan J,preferred
 neomutt,parazyd,parazyd@dyne.org,parazyd@dyne.org,parazyd,preferred
@@ -220,6 +223,7 @@ neomutt,sassmann,sassmann@kpanic.de,sassmann@kpanic.de,Stefan Assmann,preferred
 neomutt,sassmann,sassmann@kpanic.de,sassmann@redhat.com,Stefan Assmann,secondary
 neomutt,sassmann,sassmann@kpanic.de,sassmann@users.noreply.github.com,sassmann,secondary
 neomutt,scottkosty,scott.kostyshak@gmail.com,scott.kostyshak@gmail.com,Scott Kostyshak,preferred
+neomutt,seojangho,jangho@jangho.io,jangho@jangho.io,Jangho Seo,preferred
 neomutt,sgeb,serge.gebhardt@gmail.com,serge.gebhardt@gmail.com,Serge Gebhardt,preferred
 neomutt,shanedabes,donohoe.shane@gmail.com,donohoe.shane@gmail.com,Shane Donohoe,preferred
 neomutt,shanedabes,donohoe.shane@gmail.com,sharktamer@users.noreply.github.com,sharktamer,secondary
@@ -272,6 +276,7 @@ neomutt,winderickxeli,eli.winderickx@ap.be,eli.winderickx@ap.be,Eli Winderickx,p
 neomutt,winderickxeli,eli.winderickx@ap.be,eli.winderickx@ap.be,Winderickx Eli (p087068),secondary
 neomutt,wpettersson,william.pettersson@gmail.com,william.pettersson@gmail.com,William Pettersson,preferred
 neomutt,wpettersson,william.pettersson@gmail.com,william.pettersson+github@gmail.com,William Pettersson,secondary
+neomutt,wzy,wuzy01@qq.com,wuzy01@qq.com,Freed-Wu,preferred
 neomutt,x3nb63,25959223+x3nb63@users.noreply.github.com,25959223+x3nb63@users.noreply.github.com,x3nb63,preferred
 neomutt,xai,NONE,NONE,Olaf Lessenich,preferred
 neomutt,yimmt,timmyxiao1@gmail.com,timmyxiao1@gmail.com,Timmy Xiao,preferred
