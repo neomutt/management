@@ -56,6 +56,7 @@ neomutt,debxwoody,stefan@debxwoody.de,stefan@debxwoody.de,Stefan Kropp,preferred
 neomutt,debxwoody,stefan@debxwoody.de,32964719+DebXWoody@users.noreply.github.com,Stefan,secondary
 neomutt,debxwoody,stefan@debxwoody.de,stefan@debxwoody.de,DebXWoody,secondary
 neomutt,dharrigan,dharrigan@gmail.com,dharrigan@gmail.com,David Harrigan,preferred
+neomutt,diabonas,diabonas@gmx.de,diabonas@gmx.de,Jonas Witschel,preferred
 neomutt,d-k-c,damien.riegel@gmail.com,damien.riegel@gmail.com,Damien Riegel,preferred
 neomutt,d-k-c,damien.riegel@gmail.com,damien@riegel.io,Damien Riegel,secondary
 neomutt,d-k-c,damien.riegel@gmail.com,damien.riegel@savoirfairelinux.com,Damien Riegel,secondary
