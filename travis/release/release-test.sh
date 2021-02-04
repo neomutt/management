@@ -30,7 +30,7 @@ export LANG=C.UTF-8
 
 EXTRA_CFLAGS="-Wno-unused-result"
 
-eval INSTALL_DIR="~/install"
+eval INSTALL_DIR="~/work/neo-install"
 
 BUILD_DEFAULT=""
 BUILD_EVERYTHING="--everything"
@@ -118,9 +118,9 @@ function test_install()
 	(cd "$INSTALL_DIR"; find . -type f) > install-files.txt
 
 	local IFAIL=0
-	echo "Dirs diff"                                                      >  install-diff.txt
+	echo "Dirs diff"                                                        >  install-diff.txt
 	diff <(sort "$DIR/.travis/install-dirs.txt") <(sort install-dirs.txt)   >> install-diff.txt || IFAIL=1
-	echo "Files diff"                                                     >> install-diff.txt
+	echo "Files diff"                                                       >> install-diff.txt
 	diff <(sort "$DIR/.travis/install-files.txt") <(sort install-files.txt) >> install-diff.txt || IFAIL=1
 
 	if [ $IFAIL = 1 ]; then
