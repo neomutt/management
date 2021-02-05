@@ -14,7 +14,7 @@ neomutt,aluriak,lucas.bourneuf@laposte.net,lucas.bourneuf@laposte.net,Aluriak,se
 neomutt,alvherre,alvherre@alvh.no-ip.org,alvherre@alvh.no-ip.org,Alvaro Herrera,preferred
 neomutt,alyptik,joeypabalinas@gmail.com,joeypabalinas@gmail.com,Joey Pabalinas,preferred
 neomutt,alyssais,hi@alyssa.is,hi@alyssa.is,Alyssa Ross,preferred
-neomutt,amudtogal,simonreichel@giese-optik.de,simms1@web.de,Simon Reichel,secondary
+neomutt,amudtogal,simonreichel@giese-optik.de,simms1@web.de,Simon Reichel,preferred
 neomutt,anarazel,andres@anarazel.de,andres@anarazel.de,Andres Freund,preferred
 neomutt,anarcat,anarcat@debian.org,anarcat@debian.org,Antoine Beaupré,preferred
 neomutt,anarcat,anarcat@debian.org,anarcat@users.noreply.github.com,anarcat,secondary
