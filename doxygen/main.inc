@@ -22,8 +22,8 @@
  * - Fully documented
  * - Robust
  *
- * | Library             |
- * | :------------------ |
+ * | Library            |
+ * | :----------------- |
  * | @ref lib_address   |
  * | @ref lib_alias     |
  * | @ref lib_autocrypt |
@@ -41,12 +41,14 @@
  * | @ref lib_helpbar   |
  * | @ref lib_history   |
  * | @ref lib_imap      |
+ * | @ref lib_index     |
  * | @ref lib_maildir   |
  * | @ref lib_mbox      |
  * | @ref lib_mutt      |
  * | @ref lib_ncrypt    |
  * | @ref lib_nntp      |
  * | @ref lib_notmuch   |
+ * | @ref lib_pager     |
  * | @ref lib_pattern   |
  * | @ref lib_pop       |
  * | @ref lib_send      |
@@ -80,7 +82,6 @@
  * | help.c          | @subpage neo_help          |
  * | hook.c          | @subpage neo_hook          |
  * | icommands.c     | @subpage neo_icommands     |
- * | index.c         | @subpage neo_index         |
  * | init.c          | @subpage neo_init          |
  * | keymap.c        | @subpage neo_keymap        |
  * | mailcap.c       | @subpage neo_mailcap       |
@@ -105,7 +106,6 @@
  * | mutt_thread.c   | @subpage neo_mutt_thread   |
  * | mx.c            | @subpage neo_mx            |
  * | myvar.c         | @subpage neo_myvar         |
- * | pager.c         | @subpage neo_pager         |
  * | postpone.c      | @subpage neo_postpone      |
  * | progress.c      | @subpage neo_progress      |
  * | recvattach.c    | @subpage neo_recvattach    |
