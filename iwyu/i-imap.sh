@@ -10,11 +10,11 @@ for i in "$@"; do
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
 		-I . \
-		-I email \
+		-I imap \
 		-I /usr/lib/gcc/x86_64-redhat-linux/10/include \
 		-Xiwyu --pch_in_code \
 		-Xiwyu --no_comments \
-		-Xiwyu --mapping_file="$BASE_DIR/email.imp" \
+		-Xiwyu --mapping_file="$BASE_DIR/imap.imp" \
 		"$i"
 done
 

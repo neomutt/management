@@ -17,4 +17,3 @@ for i in "$@"; do
 		"$i"
 done
 
-		# -DLOFF_T=long \
