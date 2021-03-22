@@ -84,6 +84,8 @@ make -j1 -s CC="$COMPILER" EXTRA_CFLAGS="${EXTRA_CFLAGS[*]}" EXTRA_LDFLAGS="${EX
 echo make test
 chronic make test
 
+./neomutt -v >> neomutt-v.log 2>&1
+
 # echo doxygen
 # chronic doxygen doxygen/doxygen.conf
 
