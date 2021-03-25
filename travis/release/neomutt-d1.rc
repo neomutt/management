@@ -1,6 +1,5 @@
 set charset="us-ascii"
 set editor="vi"
 set hostname="travis.example.com"
-set realname="Travis CI User"
-set spoolfile="/var/mail/travis"
-set visual="nano"
+set real_name="Travis CI User"
+set spool_file="/var/mail/travis"
