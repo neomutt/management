@@ -126,23 +126,38 @@ function root()
 	done
 }
 
-i-address.sh address/*.[ch]
-i-config.sh  config/*.[ch]
-i-core.sh    core/*.[ch]
-i-email.sh   email/*.[ch]
-i-mutt.sh    mutt/*.[ch]
+i-address.sh   address/*.[ch]
+i-alias.sh     alias/*.[ch]
+i-autocrypt.sh autocrypt/*.[ch]
+i-compress.sh  compress/*.[ch]
+i-config.sh    config/*.[ch]
+i-core.sh      core/*.[ch]
+i-debug.sh     debug/*.[ch]
+i-email.sh     email/*.[ch]
+i-hcache.sh    hcache/*.[ch]
+i-imap.sh      imap/*.[ch]
+i-maildir.sh   maildir/*.[ch]
+i-mbox.sh      mbox/*.[ch]
+i-mutt.sh      mutt/*.[ch]
+i-ncrypt.sh    ncrypt/*.[ch]
+i-nntp.sh      nntp/*.[ch]
+i-notmuch.sh   notmuch/*.[ch]
+i-pop.sh       pop/*.[ch]
+i-send.sh      send/*.[ch]
 
-i-main.sh \
-	maildir/*.[ch] \
-	mbox/*.[ch] \
-	nntp/*.[ch] \
-	pop/*.[ch] \
+i-conn.sh conn/*.[ch]
+i-gui.sh  gui/*.[ch]
 
-autocrypt
-conn
-hcache
-imap
-ncrypt
-notmuch
-root
+i-main.sh bcache/*.[ch]
+i-main.sh compmbox/*.[ch]
+i-main.sh compose/*.[ch]
+i-main.sh helpbar/*.[ch]
+i-main.sh history/*.[ch]
+i-main.sh index/*.[ch]
+i-main.sh pager/*.[ch]
+i-main.sh pattern/*.[ch]
+i-main.sh sidebar/*.[ch]
+i-main.sh store/*.[ch]
+
+i-main.sh *.[ch]
 
