@@ -11,7 +11,7 @@ for i in "$@"; do
 		-DDEBUG \
 		-I . \
 		-I config \
-		-I /usr/lib/gcc/x86_64-redhat-linux/10/include \
+		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-Xiwyu --pch_in_code \
 		-Xiwyu --no_comments \
 		-Xiwyu --mapping_file="$BASE_DIR/config.imp" \

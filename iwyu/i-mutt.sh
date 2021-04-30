@@ -12,7 +12,7 @@ for i in "$@"; do
 		-D_STRING_ARCH_unaligned \
 		-I . \
 		-I mutt \
-		-I /usr/lib/gcc/x86_64-redhat-linux/10/include \
+		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-Xiwyu --pch_in_code \
 		-Xiwyu --no_comments \
 		-Xiwyu --mapping_file="$BASE_DIR/mutt.imp" \

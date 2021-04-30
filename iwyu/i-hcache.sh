@@ -10,7 +10,7 @@ for i in "$@"; do
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
 		-I . \
-		-I /usr/lib/gcc/x86_64-redhat-linux/10/include \
+		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-I /usr/include/qdbm \
 		-Xiwyu --pch_in_code \
 		-Xiwyu --no_comments \

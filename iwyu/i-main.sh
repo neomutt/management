@@ -14,7 +14,7 @@ for i in "$@"; do
 		-DDEBUG \
 		-I . \
 		-I test \
-		-I /usr/lib/gcc/x86_64-redhat-linux/10/include \
+		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-I /usr/include/qdbm \
 		-Xiwyu --mapping_file="$BASE_DIR/neomutt.imp" \
 		-Xiwyu --no_comments \
