@@ -30,6 +30,7 @@ function lookup_lang()
 		pt_BR) IMG="portuguese-brazil.png";   NAME="Portuguese (Brazil)";;
 		ru)    IMG="russian.png";             NAME="Russian";;
 		sk)    IMG="slovak.png";              NAME="Slovak";;
+		sr)    IMG="serbian.png";             NAME="Serbian";;
 		es)    IMG="spanish.png";             NAME="Spanish";;
 		sv)    IMG="swedish.png";             NAME="Swedish";;
 		tr)    IMG="turkish.png";             NAME="Turkish";;
