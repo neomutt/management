@@ -1,0 +1,14 @@
+[
+  # Include one library header rather than the individual headers.
+  { include: [ '@"address/.*"', private, '"address/lib.h"', public ] },
+  { include: [ '@"config/.*"',  private, '"config/lib.h"',  public ] },
+  { include: [ '@"conn/.*"',    private, '"conn/lib.h"',    public ] },
+  { include: [ '@"core/.*"',    private, '"core/lib.h"',    public ] },
+  { include: [ '@"email/.*"',   private, '"email/lib.h"',   public ] },
+  { include: [ '@"gui/.*"',     private, '"gui/lib.h"',     public ] },
+  { include: [ '@"mutt/.*"',    private, '"mutt/lib.h"',    public ] },
+  { include: [ '<regex.h>',     private, '"mutt/lib.h"',    public ] },
+
+  { ref: "glibc.imp" },
+  { ref: "curses.imp" },
+]

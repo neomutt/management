@@ -15,6 +15,7 @@
   { include: [ '@"hcache/.*"',    private, '"hcache/lib.h"',    public ] },
   { include: [ '@"history/.*"',   private, '"history/lib.h"',   public ] },
   { include: [ '@"imap/.*"',      private, '"imap/lib.h"',      public ] },
+  { include: [ '@"index/.*"',     private, '"index/lib.h"',     public ] },
   { include: [ '@"maildir/.*"',   private, '"maildir/lib.h"',   public ] },
   { include: [ '@"mbox/.*"',      private, '"mbox/lib.h"',      public ] },
   { include: [ '@"mutt/.*"',      private, '"mutt/lib.h"',      public ] },

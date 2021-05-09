@@ -4,6 +4,7 @@
   { include: [ '"stdbool.h"',                    private, '<stdbool.h>',     public ] },
   { include: [ '<bits/getopt_core.h>',           private, '<getopt.h>',      public ] },
   { include: [ '<bits/stdint-uintn.h>',          private, '<stdint.h>',      public ] },
+  { include: [ '<bits/struct_stat.h>',           private, '<sys/stat.h>',    public ] },
   { include: [ '<bits/termios-c_cc.h>',          private, '<termios.h>',     public ] },
   { include: [ '<bits/termios-c_lflag.h>',       private, '<termios.h>',     public ] },
   { include: [ '<bits/termios-struct.h>',        private, '<termios.h>',     public ] },
