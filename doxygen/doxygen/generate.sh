@@ -36,46 +36,6 @@ function zzz_config()
 	done
 }
 
-function zzz_config_summary()
-{
-	local FILES="$*"
-	local LINES=()
-
-	LINES+=($(grep "///< Config: " $FILES))
-	[ ${#LINES[@]} = 0 ] && return
-
-	echo "/**"
-	echo " * @page config_vars Neomutt's Configuration variables"
-	echo " *"
-	echo " * Brief overview of all of Neomutt's Configuration variables."
-	echo " *"
-	echo " * | Global Variable | Config Item | Description |"
-	echo " * | :-------------- | :---------- | :---------- |"
-
-	(
-	for L in ${LINES[*]}; do
-		if [[ "$L" =~ .*[[:space:]*](.*)[[:space:]]=[[:space:]].*\;[[:space:]]*///\<[[:space:]]Config:[[:space:]](.*) ]]; then
-			VAR="${BASH_REMATCH[1]}"
-			DESC="${BASH_REMATCH[2]}"
-			CFG="$(echo "$VAR" | sed -e 's/\<C_//' -e 's/8bit/_&/' -e 's/\(Tlsv1\)\([0-9]\)/\1_\2/' -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
-
-			echo " * | #$VAR | \$$CFG | $DESC |"
-		elif [[ "$L" =~ .*[[:space:]*](.*)\;[[:space:]]*///\<[[:space:]]Config:[[:space:]](.*) ]]; then
-			VAR="${BASH_REMATCH[1]}"
-			DESC="${BASH_REMATCH[2]}"
-			CFG="$(echo "$VAR" | sed -e 's/\<C_//' -e 's/8bit/_&/' -e 's/\(Tlsv1\)\([0-9]\)/\1_\2/' -e 's/[A-Z]/_\l&/g' -e 's/^_//')"
-
-			echo " * | #$VAR | \$$CFG | $DESC |"
-		else
-			echo "UNKNOWN:: $L"
-		fi
-	done
-	) | sort
-
-	echo " */"
-	echo
-}
-
 function zzz_data()
 {
 	local FILE="$1"
@@ -186,8 +146,6 @@ if [ -n "$TRAVIS" ]; then
 	git fetch origin 'refs/heads/master:refs/heads/master'
 fi
 
-rm -f zzz.inc
-
 build_zzz \
 	address/*.c \
 	alias/*.c \
@@ -216,8 +174,6 @@ build_zzz \
 	sidebar/*.c \
 	store/*.c \
 	*.c > zzz.inc
-
-zzz_config_summary $(find . -type f -name '*.[ch]') | grep -v -e SslUseSslv2 -e SslUsesystemcerts >> zzz.inc
 
 build_docs
 

@@ -44,6 +44,7 @@
  * | @ref lib_index     |
  * | @ref lib_maildir   |
  * | @ref lib_mbox      |
+ * | @ref lib_menu      |
  * | @ref lib_mutt      |
  * | @ref lib_ncrypt    |
  * | @ref lib_nntp      |
@@ -55,17 +56,14 @@
  * | @ref lib_sidebar   |
  * | @ref lib_store     |
  *
- * ## Config Variables
- *
- * NeoMutt has a lot of configuration options.
- * @ref config_vars
- *
  * ## Miscellaneous files
  *
  * These file form the main body of NeoMutt.
  *
  * | File            | Description                |
  * | :-------------- | :------------------------- |
+ * | alternates.c    | @subpage neo_alternates    |
+ * | attachments.c   | @subpage neo_attachments   |
  * | browser.c       | @subpage neo_browser       |
  * | commands.c      | @subpage neo_commands      |
  * | command_parse.c | @subpage neo_command_parse |
@@ -87,7 +85,6 @@
  * | mailcap.c       | @subpage neo_mailcap       |
  * | maillist.c      | @subpage neo_maillist      |
  * | main.c          | @subpage neo_main          |
- * | menu.c          | @subpage neo_menu          |
  * | monitor.c       | @subpage neo_monitor       |
  * | muttlib.c       | @subpage neo_muttlib       |
  * | mutt_account.c  | @subpage neo_mutt_account  |
@@ -100,12 +97,12 @@
  * | mutt_logging.c  | @subpage neo_mutt_logging  |
  * | mutt_lua.c      | @subpage neo_mutt_lua      |
  * | mutt_mailbox.c  | @subpage neo_mutt_mailbox  |
- * | mutt_parse.c    | @subpage neo_mutt_parse    |
  * | mutt_signal.c   | @subpage neo_mutt_signal   |
  * | mutt_socket.c   | @subpage neo_mutt_socket   |
  * | mutt_thread.c   | @subpage neo_mutt_thread   |
  * | mx.c            | @subpage neo_mx            |
  * | myvar.c         | @subpage neo_myvar         |
+ * | opcodes.c       | @subpage neo_opcode        |
  * | postpone.c      | @subpage neo_postpone      |
  * | progress.c      | @subpage neo_progress      |
  * | recvattach.c    | @subpage neo_recvattach    |
@@ -115,8 +112,8 @@
  * | rfc3676.c       | @subpage neo_rfc3676       |
  * | score.c         | @subpage neo_score         |
  * | sort.c          | @subpage neo_sort          |
- * | state.c         | @subpage neo_state         |
  * | status.c        | @subpage neo_status        |
+ * | subjectrx.c     | @subpage neo_subjrx        |
  * | system.c        | @subpage neo_system        |
  * | version.c       | @subpage neo_version       |
  * | wcscasecmp.c    | @subpage neo_wcscasecmp    |

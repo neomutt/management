@@ -1,17 +1,17 @@
-diff --git c/Makefile.autosetup i/Makefile.autosetup
-index c83410627..fc4ed719b 100644
---- c/Makefile.autosetup
-+++ i/Makefile.autosetup
-@@ -568,6 +568,7 @@ distclean: clean
+diff --git a/Makefile.autosetup b/Makefile.autosetup
+index 174a342d0..c8dcdf8a4 100644
+--- a/Makefile.autosetup
++++ b/Makefile.autosetup
+@@ -695,6 +695,7 @@ distclean: clean
  		test/Makefile .clang_complete
  	$(RM) *.gc?? */*.gc?? test/*/*.gc??
- 	$(RM) lcov.info lcov
+ 	$(RM) coverage.info coverage
 +	$(RM) zzz.inc doxygen-build.txt tmp.txt
  
  ###############################################################################
  # generated
-@@ -612,6 +613,11 @@ coverage: all test
- 	lcov --list lcov.info
+@@ -742,6 +743,11 @@ coverage: all test
+ 	lcov --list coverage.info
  @endif
  
 +# Web Code docs (doxygen)
@@ -22,10 +22,10 @@ index c83410627..fc4ed719b 100644
  ##############################################################################
  # include generated dependency files
  -include $(DEPFILES)
-diff --git c/email/lib.h i/email/lib.h
-index c5b4fc776..73b8182b2 100644
---- c/email/lib.h
-+++ i/email/lib.h
+diff --git a/email/lib.h b/email/lib.h
+index 2c847aef6..425c7c600 100644
+--- a/email/lib.h
++++ b/email/lib.h
 @@ -41,6 +41,8 @@
   * | email/tags.c           | @subpage email_tags      |
   * | email/thread.c         | @subpage email_thread    |
@@ -35,11 +35,11 @@ index c5b4fc776..73b8182b2 100644
   */
  
  #ifndef MUTT_EMAIL_LIB_H
-diff --git c/mutt/lib.h i/mutt/lib.h
-index a2c560ff9..378d1b4a9 100644
---- c/mutt/lib.h
-+++ i/mutt/lib.h
-@@ -54,6 +54,8 @@
+diff --git a/mutt/lib.h b/mutt/lib.h
+index 0b94170b7..ad867a3bc 100644
+--- a/mutt/lib.h
++++ b/mutt/lib.h
+@@ -57,6 +57,8 @@
   *
   * @note The library is self-contained -- some files may depend on others in
   *       the library, but none depends on source from outside.
