@@ -10,16 +10,10 @@ for i in "$@"; do
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
 		-I . \
-		-I test \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
-		-I /usr/include/qdbm \
-		-Xiwyu --mapping_file="$BASE_DIR/neomutt.imp" \
-		-Xiwyu --no_comments \
 		-Xiwyu --pch_in_code \
+		-Xiwyu --no_comments \
+		-Xiwyu --mapping_file="$BASE_DIR/bcache.imp" \
 		"$i"
 done
 
-		# -DPKGDATADIR="/usr/share/neomutt" \
-		# -DSYSCONFDIR="/etc" \
-		# -DSIG_ATOMIC_VOLATILE_T=volatile \
-		# -DLOFF_T=long \
