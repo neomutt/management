@@ -3,6 +3,7 @@
   { include: [ '@"address/.*"', private, '"address/lib.h"', public ] },
   { include: [ '@"config/.*"',  private, '"config/lib.h"',  public ] },
   { include: [ '@"email/.*"',   private, '"email/lib.h"',   public ] },
+  { include: [ '@"menu/.*"',    private, '"menu/lib.h"',    public ] },
   { include: [ '@"mutt/.*"',    private, '"mutt/lib.h"',    public ] },
   { include: [ '<regex.h>',     private, '"mutt/lib.h"',    public ] },
 

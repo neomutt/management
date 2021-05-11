@@ -1,6 +1,7 @@
 [
   # Include one library header rather than the individual headers.
   { include: [ '@"address/.*"', private, '"address/lib.h"', public ] },
+  { include: [ '@"menu/.*"',    private, '"menu/lib.h"',    public ] },
   { include: [ '@"mutt/.*"',    private, '"mutt/lib.h"',    public ] },
   { include: [ '<regex.h>',     private, '"mutt/lib.h"',    public ] },
 
