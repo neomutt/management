@@ -42,6 +42,7 @@ neomutt,cdroege,mail@cdroege.de,mail@cdroege.de,Christian Dröge,preferred
 neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,Chris Czettel,preferred
 neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,chrissl,secondary
 neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,Christopher John CZETTEL,secondary
+neomutt,christosmarg,christos@christosmarg.xyz,christos@christosmarg.xyz,Christos Margiolis,preferred
 neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,cinder88,preferred
 neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,ate,secondary
 neomutt,cyphar,cyphar@cyphar.com,cyphar@cyphar.com,Aleksa Sarai,preferred
@@ -68,6 +69,7 @@ neomutt,dpgao,peter@dpgao.cc,peter@dpgao.cc,Dapeng Gao,preferred
 neomutt,dpgao,peter@dpgao.cc,31944689+dpgao@users.noreply.github.com,Dapeng Gao,secondary
 neomutt,dset0x,kmhzsem@gmx.com,kmhzsem@gmx.com,Dimitrios Semitsoglou-Tsiapos,preferred
 neomutt,edwardbetts,edward@4angle.com,edward@4angle.com,Edward Betts,preferred
+neomutt,ehabkost,ehabkost@redhat.com,ehabkost@redhat.com,Eduardo Habkost,preferred
 neomutt,elacheche,elacheche@ubuntu.com,elacheche@ubuntu.com,El Acheche ANIS,preferred
 neomutt,eldeveloper,yoshiki89@gmail.com,yoshiki89@gmail.com,Yoshiki Vázquez Baeza,preferred
 neomutt,epilys,el13635@mail.ntua.gr,el13635@mail.ntua.gr,Manos Pitsidianakis,preferred
@@ -177,6 +179,7 @@ neomutt,nobrowser,itz@no-use.mooo.com,itz@very.loosely.org,Ian Zimmerman,seconda
 neomutt,nobrowser,itz@no-use.mooo.com,nobrowser@users.noreply.github.com,Ian Zimmerman,secondary
 neomutt,NONE,18015852+libBletchley@users.noreply.github.com,18015852+libBletchley@users.noreply.github.com,Bletchley Park,preferred
 neomutt,NONE,cb@df7cb.de,cb@df7cb.de,Christoph Berg,preferred
+neomutt,NONE,ivan@siamics.net,ivan@siamics.net,Ivan Shmakov,preferred
 neomutt,NONE,mutt@cert.siemens.de,mutt@cert.siemens.de,Udo Schweigert,preferred
 neomutt,NONE,regid23@nt1.in,regid23@nt1.in,Regid Ichira,preferred
 neomutt,NONE,rtlanceroad@gmail.com,rtlanceroad@gmail.com,Shi Lee,preferred
@@ -247,6 +250,7 @@ neomutt,sthen,stu-github@spacehopper.org,sthen@users.noreply.github.com,Stuart H
 neomutt,stigtsp,stig@stig.io,stig@stig.io,Stig Palmquist,preferred
 neomutt,stoeckmann,tobias@stoeckmann.org,tobias@stoeckmann.org,Tobias Stoeckmann,preferred
 neomutt,stormc,storm@mailbox.org,storm@mailbox.org,Christian Storm,preferred
+neomutt,strahinja,contact@strahinja.org,contact@strahinja.org,Страхиња Радић,preferred
 neomutt,sweetvishnya,vishnya@ispras.ru,vishnya@ispras.ru,Alexey Vishnyakov,preferred
 neomutt,tecepe,tecepe@tecepe.eng.br,tecepe@tecepe.eng.br,Thiago Costa de Paiva,preferred
 neomutt,tecepe,tecepe@tecepe.eng.br,tcpaiva@cern.ch,Thiago Costa de Paiva,secondary
@@ -265,6 +269,7 @@ neomutt,toogley,toogley@mailbox.org,toogley@mailbox.org,Tobias Angele,preferred
 neomutt,toogley,toogley@mailbox.org,9417950+toogley@users.noreply.github.com,toogley,secondary
 neomutt,toogley,toogley@mailbox.org,toogley@mailbox.org,toogley,secondary
 neomutt,tsuflux,johannes@frankenau.net,johannes@frankenau.net,Johannes Frankenau,preferred
+neomutt,vcheburkin,victor.cheburkin@gmail.com,victor.cheburkin@gmail.com,Viktor Cheburkin,preferred
 neomutt,vpub,valsy@mail.ru,valsy@mail.ru,Valeri Sergeev,preferred
 neomutt,vpub,valsy@mail.ru,valsy@mail.ru,Valeri Y.Sergeev,secondary
 neomutt,vrthra,rahul@gopinath.org,rahul@gopinath.org,Rahul Gopinath,preferred
@@ -279,6 +284,7 @@ neomutt,winderickxeli,eli.winderickx@ap.be,eli.winderickx@ap.be,Winderickx Eli (
 neomutt,wpettersson,william.pettersson@gmail.com,william.pettersson@gmail.com,William Pettersson,preferred
 neomutt,wpettersson,william.pettersson@gmail.com,william.pettersson+github@gmail.com,William Pettersson,secondary
 neomutt,wzy,wuzy01@qq.com,wuzy01@qq.com,Freed-Wu,preferred
+neomutt,wzy,32936898+Freed-Wu@users.noreply.github.com,32936898+Freed-Wu@users.noreply.github.com,wzy,secondary
 neomutt,x3nb63,25959223+x3nb63@users.noreply.github.com,25959223+x3nb63@users.noreply.github.com,x3nb63,preferred
 neomutt,xai,NONE,NONE,Olaf Lessenich,preferred
 neomutt,yimmt,timmyxiao1@gmail.com,timmyxiao1@gmail.com,Timmy Xiao,preferred
@@ -288,4 +294,5 @@ neomutt,yuzibo,tsu.yubo@gmail.com,tsu.yubo@gmail.com,Bo,secondary
 neomutt,yuzibo,tsu.yubo@gmail.com,yuzibode@126.com,Bo YU,secondary
 neomutt,z2v,zakharov.vv@gmail.com,zakharov.vv@gmail.com,Vladimir Zakharov,preferred
 neomutt,zacchiro,zack@upsilon.cc,zack@upsilon.cc,Stefano Zacchiroli,preferred
+neomutt,zakarouf,60977989+zakarouf@users.noreply.github.com,60977989+zakarouf@users.noreply.github.com,Zak D,preferred
 neomutt,zsugabubus,zsugabubus@users.noreply.github.com,zsugabubus@users.noreply.github.com,zsugabubus,preferred
