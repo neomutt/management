@@ -189,6 +189,7 @@ neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,St
 neomutt,ocelotsloth,mark@stengle.in,mark@stengle.in,Mark Stenglein,preferred
 neomutt,opsec,NONE,NONE,Kurt Jaeger,preferred
 neomutt,orangecms,info@orangecms.org,info@orangecms.org,Daniel Maslowski,preferred
+neomutt,paniash,ashish.panigrahi@protonmail.com,ashish.panigrahi@protonmail.com,Ashish Panigrahi,preferred
 neomutt,paravoid,NONE,NONE,Faidon Liambotis,preferred
 neomutt,parazyd,parazyd@dyne.org,parazyd@dyne.org,Ivan J,preferred
 neomutt,parazyd,parazyd@dyne.org,parazyd@dyne.org,parazyd,preferred
