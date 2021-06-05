@@ -26,6 +26,7 @@ function lookup_lang()
 		ja)    IMG="japanese.png";            NAME="Japanese";;
 		ko)    IMG="korean.png";              NAME="Korean";;
 		lt)    IMG="lithuanian.png";          NAME="Lithuanian";;
+		nb_NO) IMG="norwegian.png";           NAME="Norwegian (Bokmål)";;
 		pl)    IMG="polish.png";              NAME="Polish";;
 		pt_BR) IMG="portuguese-brazil.png";   NAME="Portuguese (Brazil)";;
 		ru)    IMG="russian.png";             NAME="Russian";;
