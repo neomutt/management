@@ -52,6 +52,8 @@
  * | @ref lib_pager     |
  * | @ref lib_pattern   |
  * | @ref lib_pop       |
+ * | @ref lib_progress  |
+ * | @ref lib_question  |
  * | @ref lib_send      |
  * | @ref lib_sidebar   |
  * | @ref lib_store     |
@@ -104,7 +106,6 @@
  * | myvar.c         | @subpage neo_myvar         |
  * | opcodes.c       | @subpage neo_opcode        |
  * | postpone.c      | @subpage neo_postpone      |
- * | progress.c      | @subpage neo_progress      |
  * | recvattach.c    | @subpage neo_recvattach    |
  * | recvcmd.c       | @subpage neo_recvcmd       |
  * | remailer.c      | @subpage neo_remailer      |

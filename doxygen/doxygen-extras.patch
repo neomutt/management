@@ -1,16 +1,16 @@
 diff --git a/Makefile.autosetup b/Makefile.autosetup
-index 174a342d0..c8dcdf8a4 100644
+index 1eaa51bf9..99985a6db 100644
 --- a/Makefile.autosetup
 +++ b/Makefile.autosetup
-@@ -695,6 +695,7 @@ distclean: clean
- 		test/Makefile .clang_complete
- 	$(RM) *.gc?? */*.gc?? test/*/*.gc??
+@@ -726,6 +726,7 @@ distclean: clean
+ 	$(RM) *.expand */*.expand test/*/*.expand
+ 	$(RM) compile_commands.*
  	$(RM) coverage.info coverage
 +	$(RM) zzz.inc doxygen-build.txt tmp.txt
  
  ###############################################################################
  # generated
-@@ -742,6 +743,11 @@ coverage: all test
+@@ -773,6 +774,11 @@ coverage: all test
  	lcov --list coverage.info
  @endif
  
