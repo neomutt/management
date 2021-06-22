@@ -45,6 +45,7 @@ neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher
 neomutt,christosmarg,christos@christosmarg.xyz,christos@christosmarg.xyz,Christos Margiolis,preferred
 neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,cinder88,preferred
 neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,ate,secondary
+neomutt,comradekingu,epost@anotheragency.no,epost@anotheragency.no,Allan Nordhøy,preferred
 neomutt,cyphar,cyphar@cyphar.com,cyphar@cyphar.com,Aleksa Sarai,preferred
 neomutt,daedric,thomas.sanchz@gmail.com,thomas.sanchz@gmail.com,Thomas Sanchez,preferred
 neomutt,darkadin,adansomoza@outlook.com,adansomoza@outlook.com,Adán Somoza,preferred
@@ -56,6 +57,7 @@ neomutt,darrenkenny,darren.kenny@oracle.com,darren.kenny@oracle.com,Darren Kenny
 neomutt,debxwoody,stefan@debxwoody.de,stefan@debxwoody.de,Stefan Kropp,preferred
 neomutt,debxwoody,stefan@debxwoody.de,32964719+DebXWoody@users.noreply.github.com,Stefan,secondary
 neomutt,debxwoody,stefan@debxwoody.de,stefan@debxwoody.de,DebXWoody,secondary
+neomutt,df7cb,cb@df7cb.de,cb@df7cb.de,Christoph Berg,preferred
 neomutt,dharrigan,dharrigan@gmail.com,dharrigan@gmail.com,David Harrigan,preferred
 neomutt,diabonas,diabonas@gmx.de,diabonas@gmx.de,Jonas Witschel,preferred
 neomutt,d-k-c,damien.riegel@gmail.com,damien.riegel@gmail.com,Damien Riegel,preferred
@@ -68,6 +70,7 @@ neomutt,doweaver,doug@stone-weaver.com,doug@stone-weaver.com,Doug Stone-Weaver,p
 neomutt,dpgao,peter@dpgao.cc,peter@dpgao.cc,Dapeng Gao,preferred
 neomutt,dpgao,peter@dpgao.cc,31944689+dpgao@users.noreply.github.com,Dapeng Gao,secondary
 neomutt,dset0x,kmhzsem@gmx.com,kmhzsem@gmx.com,Dimitrios Semitsoglou-Tsiapos,preferred
+neomutt,ebblake,eblake@redhat.com,eblake@redhat.com,Eric Blake,preferred
 neomutt,edwardbetts,edward@4angle.com,edward@4angle.com,Edward Betts,preferred
 neomutt,ehabkost,ehabkost@redhat.com,ehabkost@redhat.com,Eduardo Habkost,preferred
 neomutt,elacheche,elacheche@ubuntu.com,elacheche@ubuntu.com,El Acheche ANIS,preferred
@@ -127,6 +130,7 @@ neomutt,julian-klode,jak@jak-linux.org,jak@jak-linux.org,Julian Andres Klode,pre
 neomutt,justinvasel,justin.vasel@gmail.com,justin.vasel@gmail.com,Justin Vasel,preferred
 neomutt,jwilk,jwilk@jwilk.net,jwilk@jwilk.net,Jakub Wilk,preferred
 neomutt,karelzak,kzak@redhat.com,kzak@redhat.com,Karel Zak,preferred
+neomutt,kbcb,gerrit@macclub-os.de,gerrit@macclub-os.de,Gerrit Rüsing,preferred
 neomutt,kdave,dsterba@suse.cz,dsterba@suse.cz,David Sterba,preferred
 neomutt,kdave,dsterba@suse.cz,dsterba@suse.com,David Sterba,secondary
 neomutt,kdecherf,kevin@kdecherf.com,kevin@kdecherf.com,Kevin Decherf,preferred
@@ -178,7 +182,6 @@ neomutt,nobrowser,itz@no-use.mooo.com,itz@primate.net,Ian Zimmerman,secondary
 neomutt,nobrowser,itz@no-use.mooo.com,itz@very.loosely.org,Ian Zimmerman,secondary
 neomutt,nobrowser,itz@no-use.mooo.com,nobrowser@users.noreply.github.com,Ian Zimmerman,secondary
 neomutt,NONE,18015852+libBletchley@users.noreply.github.com,18015852+libBletchley@users.noreply.github.com,Bletchley Park,preferred
-neomutt,NONE,cb@df7cb.de,cb@df7cb.de,Christoph Berg,preferred
 neomutt,NONE,ivan@siamics.net,ivan@siamics.net,Ivan Shmakov,preferred
 neomutt,NONE,mutt@cert.siemens.de,mutt@cert.siemens.de,Udo Schweigert,preferred
 neomutt,NONE,regid23@nt1.in,regid23@nt1.in,Regid Ichira,preferred
