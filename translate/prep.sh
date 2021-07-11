@@ -12,6 +12,8 @@ echo "        StrictHostKeyChecking no" >> ~/.ssh/config
 chmod 600 ~/.ssh/config
 
 cd .travis
-openssl aes-256-cbc -K $encrypted_ff1b3f8609ac_key -iv $encrypted_ff1b3f8609ac_iv -in travis-deploy-github.enc -out travis-deploy-github.pem -d
+# Despite being lower case, the $encrypted_* variables are external to the script
+# shellcheck disable=SC2154
+openssl aes-256-cbc -K "$encrypted_ff1b3f8609ac_key" -iv "$encrypted_ff1b3f8609ac_iv" -in travis-deploy-github.enc -out travis-deploy-github.pem -d
 chmod 0400 travis-deploy-github.pem
 

@@ -126,8 +126,8 @@ function html_line()
 	[ $UPX -gt 0 ] && [ $UPX -lt 10 ] && TPX=$((TPX-7))
 
 	local TITLE="$NAME: $TNUM translated"
-	[ $FNUM -gt 0 ] && TITLE="$TITLE, $FNUM fuzzy"
-	[ $UNUM -gt 0 ] && TITLE="$TITLE, $UNUM untranslated"
+	[ "$FNUM" -gt 0 ] && TITLE="$TITLE, $FNUM fuzzy"
+	[ "$UNUM" -gt 0 ] && TITLE="$TITLE, $UNUM untranslated"
 
 	echo "    <tr title=\"$TITLE\">"
 	echo "      <td><img src=\"/images/flags/$IMG\">$NAME</td>"
