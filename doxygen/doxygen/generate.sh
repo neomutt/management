@@ -152,6 +152,7 @@ build_zzz \
 	autocrypt/*.c \
 	bcache/*.c \
 	compmbox/*.c \
+	compose/*.c \
 	compress/*.c \
 	config/*.c \
 	conn/*.c \
@@ -160,16 +161,22 @@ build_zzz \
 	gui/*.c \
 	hcache/*.c \
 	hcache/lib.h \
+	helpbar/*.c \
 	history/*.c \
 	imap/*.c \
+	index/*.c \
 	maildir/*.c \
 	mbox/*.c \
+	menu/*.c \
 	mutt/*.c \
 	ncrypt/*.c \
 	nntp/*.c \
 	notmuch/*.c \
+	pager/*.c \
 	pattern/*.c \
 	pop/*.c \
+	progress/*.c \
+	question/*.c \
 	send/*.c \
 	sidebar/*.c \
 	store/*.c \

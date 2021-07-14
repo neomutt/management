@@ -23,9 +23,12 @@ digraph libmutt
 	base64  -> buffer
 	buffer  -> string
 	charset -> regex
+	date    -> prex
 	date    -> string
 	envlist -> string
 	file    -> string
+	filter  -> envlist
+	filter  -> signal
 	hash    -> string
 	list    -> string
 	logging -> file
@@ -37,13 +40,18 @@ digraph libmutt
 	mbyte   -> charset
 	memory  -> exit
 	memory  -> logging
+	notify  -> memory
 	path    -> string
+	pool    -> buffer
+	prex    -> memory
 	random  -> exit
 	random  -> logging
 	random  -> message
 	regex   -> mbyte
 	signal  -> message
+	slist   -> buffer
+	slist   -> list
 	string  -> memory
 
-	{ rank=same file message queue md5 }
+	{ rank=same array file message queue md5 }
 }
