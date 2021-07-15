@@ -42,7 +42,8 @@ neomutt,cdroege,mail@cdroege.de,mail@cdroege.de,Christian Dröge,preferred
 neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,Chris Czettel,preferred
 neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,chrissl,secondary
 neomutt,christopher-john-czettel,chris@christopher-czettel.net,chris@christopher-czettel.net,Christopher John CZETTEL,secondary
-neomutt,christosmarg,christos@christosmarg.xyz,christos@christosmarg.xyz,Christos Margiolis,preferred
+neomutt,christosmarg,christos@margiolis.net,christos@margiolis.net,Christos Margiolis,preferred
+neomutt,christosmarg,christos@margiolis.net,christos@christosmarg.xyz,Christos Margiolis,secondary
 neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,cinder88,preferred
 neomutt,cinder88,aerlanger@owlcti.com,aerlanger@owlcti.com,ate,secondary
 neomutt,comradekingu,epost@anotheragency.no,epost@anotheragency.no,Allan Nordhøy,preferred
@@ -131,6 +132,7 @@ neomutt,justinvasel,justin.vasel@gmail.com,justin.vasel@gmail.com,Justin Vasel,p
 neomutt,jwilk,jwilk@jwilk.net,jwilk@jwilk.net,Jakub Wilk,preferred
 neomutt,karelzak,kzak@redhat.com,kzak@redhat.com,Karel Zak,preferred
 neomutt,kbcb,gerrit@macclub-os.de,gerrit@macclub-os.de,Gerrit Rüsing,preferred
+neomutt,kbcb,gerrit@macclub-os.de,ruesing@posteo.de,Gerrit,secondary
 neomutt,kdave,dsterba@suse.cz,dsterba@suse.cz,David Sterba,preferred
 neomutt,kdave,dsterba@suse.cz,dsterba@suse.com,David Sterba,secondary
 neomutt,kdecherf,kevin@kdecherf.com,kevin@kdecherf.com,Kevin Decherf,preferred
@@ -155,6 +157,7 @@ neomutt,mcmilk,milky-neomutt@mcmilk.de,milky-neomutt@mcmilk.de,Tino Reichardt,se
 neomutt,mfvescovi,NONE,NONE,Matteo Vescovi,preferred
 neomutt,mgedmin,marius@gedmin.as,marius@gedmin.as,Marius Gedminas,preferred
 neomutt,mhinz,mh.codebro@gmail.com,mh.codebro@gmail.com,Marco Hinz,preferred
+neomutt,michaeldim02,31562759+MichaelDim02@users.noreply.github.com,31562759+MichaelDim02@users.noreply.github.com,Michael Constantine Dimopoulos,preferred
 neomutt,mineo,themineo@gmail.com,themineo@gmail.com,Wieland Hoffmann,preferred
 neomutt,mineo,themineo@gmail.com,mineo@users.noreply.github.com,Wieland Hoffmann,secondary
 neomutt,MingcongBai,jeffbai@aosc.xyz,jeffbai@aosc.xyz,Mingcong Bai,preferred
