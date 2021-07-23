@@ -15,6 +15,7 @@ MGMT=(
 	"doxygen/doxygen/functions.svg"
 	"doxygen/doxygen/generate.sh"
 	"doxygen/doxygen/globals.svg"
+	"doxygen/doxygen/layout.xml"
 	"doxygen/doxygen/libemail.gv"
 	"doxygen/doxygen/libemail.svg"
 	"doxygen/doxygen/libmutt.gv"
@@ -24,7 +25,6 @@ MGMT=(
 	"doxygen/doxygen/structs.svg"
 	"doxygen/doxygen/travis-deploy-doxygen.enc"
 	"doxygen/gitignore"
-	"doxygen/main.inc"
 	"doxygen/travis.yml"
 )
 
@@ -36,6 +36,7 @@ CODE=(
 	"doxygen/functions.svg"
 	"doxygen/generate.sh"
 	"doxygen/globals.svg"
+	"doxygen/layout.xml"
 	"doxygen/libemail.gv"
 	"doxygen/libemail.svg"
 	"doxygen/libmutt.gv"
@@ -45,7 +46,6 @@ CODE=(
 	"doxygen/structs.svg"
 	"doxygen/travis-deploy-doxygen.enc"
 	".gitignore"
-	"main.inc"
 	".travis.yml"
 )
 
