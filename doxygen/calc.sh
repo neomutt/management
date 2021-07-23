@@ -14,7 +14,7 @@ HERE="$(pwd)"
 [ -n "$DIR" ] && pushd "$DIR" >& /dev/null
 files | xargs -0 ctags -R -x --c-kinds=f | awk '{print $1,$4,$3}' | column -t | sort -u > "$HERE/j1"
 files | xargs -0 grep -hi "^ \+\* [a-z0-9_]\+ - " \
-	| sed -e 's/.*\<\([A-Za-z0-9_]\+\) - .* - .*/\1/' -e 's/.*\<\([A-Za-z0-9_]\+\) - .*/\1/' \
+	| sed -e 's/.*\<\([A-Za-z0-9_]\+\) - .* - .* - .*/\1/' -e 's/.*\<\([A-Za-z0-9_]\+\) - .* - .*/\1/' -e 's/.*\<\([A-Za-z0-9_]\+\) - .*/\1/' \
 	| sort -u > "$HERE/j3"
 [ -n "$DIR" ] && popd >& /dev/null
 
