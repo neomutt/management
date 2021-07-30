@@ -9,6 +9,11 @@ else
 	exit 1
 fi
 
+# CC="g++"
+CC="gcc"
+# CC="clang"
+# LD="lld"
+
 # BUILD_DIR="${1:-.build}"
 # [ -n "$1" ] && shift
 
@@ -41,17 +46,17 @@ ifdef "autocrypt"       # Enable AutoCrypt support (requires gpgme and sqlite)
 ifdef "pkgconf"         # Use pkg-config during configure
 
 # Debug
-ifdef "debug-account"    # Enable account dump
-ifdef "debug-backtrace"  # Enable backtrace support with libunwind
-ifdef "debug-graphviz"   # Enable Graphviz dump
-ifdef "debug-email"      # Enable Email dump
-ifdef "debug-notify"     # Enable Notifications dump
-ifdef "debug-parse-test" # Enable 'neomutt -T' for config testing
-ifdef "debug-window"     # Enable Windows dump
+# ifdef "debug-account"    # Enable account dump
+# ifdef "debug-backtrace"  # Enable backtrace support with libunwind
+# ifdef "debug-graphviz"   # Enable Graphviz dump
+# ifdef "debug-email"      # Enable Email dump
+# ifdef "debug-notify"     # Enable Notifications dump
+# ifdef "debug-parse-test" # Enable 'neomutt -T' for config testing
+# ifdef "debug-window"     # Enable Windows dump
 # ifdef "asan"             # Enable the Address Sanitizer
 
 # Devel
-ifdef "devel-help"       # Enable Help Backend
+# ifdef "devel-help"       # Enable Help Backend
 
 # Compression
 ifdef "lz4"             # Enable LZ4 header cache compression support
@@ -91,7 +96,7 @@ CONFIGURE+=("--mixmaster")       # Enable Mixmaster support
 CONFIGURE+=("--disable-doc")     # Disable building the documentation
 CONFIGURE+=("--disable-idn")     # Disable GNU libidn for internationalized domain names
 CONFIGURE+=("--idn2")            # Enable GNU libidn2 for internationalized domain names
-CONFIGURE+=("--disable-nls")     # Disable Native Language Support
+# CONFIGURE+=("--disable-nls")     # Disable Native Language Support
 # CONFIGURE+=("--disable-pgp")     # Disable PGP support
 # CONFIGURE+=("--disable-smime")   # Disable SMIME support
 
@@ -125,7 +130,6 @@ EXTRA_CFLAGS+=("-std=c99")
 
 EXTRA_CFLAGS+=("-Werror")
 EXTRA_CFLAGS+=("-Wall")
-EXTRA_CFLAGS+=("-Wcast-align") # !clang
 EXTRA_CFLAGS+=("-Wfloat-equal")
 EXTRA_CFLAGS+=("-Winit-self")
 EXTRA_CFLAGS+=("-Wpointer-arith")
@@ -133,6 +137,8 @@ EXTRA_CFLAGS+=("-Wshadow")
 EXTRA_CFLAGS+=("-Wstrict-aliasing=1")
 EXTRA_CFLAGS+=("-Wtautological-compare")
 EXTRA_CFLAGS+=("-Wundef")
+
+[ "$CC" = "gcc" ] && EXTRA_CFLAGS+=("-Wcast-align")
 
 # EXTRA_CFLAGS+=("-Wredundant-decls")
 # EXTRA_CFLAGS+=("-Wstrict-prototypes")
@@ -147,8 +153,6 @@ EXTRA_CFLAGS+=("-Wundef")
 # EXTRA_CFLAGS+=("-Wvla")
 
 EXTRA_CFLAGS+=("-Wformat-security")
-EXTRA_CFLAGS+=("-Wformat-truncation=0") # !clang, 2 to be thorough
-EXTRA_CFLAGS+=("-Wimplicit-fallthrough") # !clang
 EXTRA_CFLAGS+=("-Wpedantic")
 EXTRA_CFLAGS+=("-Wunused-result")
 # EXTRA_CFLAGS+=("-Wdiscarded-array-qualifiers")
@@ -160,8 +164,15 @@ EXTRA_CFLAGS+=("-Wunused-result")
 # EXTRA_CFLAGS+=("-Wsuggest-attribute=format")
 # EXTRA_CFLAGS+=("-Wunused-parameter")
 
+[ "$CC" = "gcc" ] && EXTRA_CFLAGS+=("-Wformat-truncation=0") # 2 to be thorough
+[ "$CC" = "gcc" ] && EXTRA_CFLAGS+=("-Wimplicit-fallthrough=2")
+
 # EXTRA_CFLAGS+=("-fprofile-arcs -ftest-coverage")
 EXTRA_CFLAGS+=("-fdiagnostics-color=auto") # auto,never,always
+EXTRA_CFLAGS+=("-fno-diagnostics-show-option")
+# [ "$CC" = "gcc" ] && EXTRA_CFLAGS+=("-fno-diagnostics-show-caret")
+# [ "$CC" = "gcc" ] && EXTRA_CFLAGS+=("-fno-diagnostics-show-labels")
+# [ "$CC" = "gcc" ] && EXTRA_CFLAGS+=("-fno-diagnostics-show-line-numbers")
 # EXTRA_CFLAGS+=("-fdump-rtl-expand")
 # EXTRA_CFLAGS+=("-fanalyzer")
 
@@ -193,11 +204,6 @@ EXTRA_LDFLAGS=()
 # EXTRA_LDFLAGS+=("-lunwind -lunwind-generic")
 
 # ------------------------------------------------------------------------------
-
-# CC="g++"
-CC="gcc"
-# CC="clang"
-# LD="lld"
 
 find . -name '*.[ch]' ! -path './autosetup/*' ! -path './test/*' ! -path './docs/*' ! -path './pgpewrap.c' | cut -b3- | xargs --no-run-if-empty ctags
 
@@ -239,6 +245,13 @@ if [[ "${CONFIGURE[*]}" =~ --testing ]]; then
 	RETVAL=$?
 fi
 
+[ $RETVAL = 0 ] || exit $RETVAL
+if [[ "${CONFIGURE[*]}" =~ --coverage ]]; then
+	echo coverage...
+	chronic make coverage
+	RETVAL=$?
+fi
+
 # [ $RETVAL = 0 ] || exit $RETVAL
 # echo doxygen...
 # chronic doxygen doxygen/doxygen.conf
@@ -251,5 +264,6 @@ if [ -n "$BUILD_DIR" ]; then
 	# cp -sf "$BUILD_DIR"/*.a .
 fi
 
+# ./neomutt -v > neomutt.txt
 exit $RETVAL
 
