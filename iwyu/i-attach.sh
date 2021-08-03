@@ -10,10 +10,11 @@ for i in "$@"; do
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
 		-I . \
+		-I attach \
 		-I test \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-I /usr/include/qdbm \
-		-Xiwyu --mapping_file="$BASE_DIR/sidebar.imp" \
+		-Xiwyu --mapping_file="$BASE_DIR/attach.imp" \
 		-Xiwyu --no_comments \
 		-Xiwyu --pch_in_code \
 		"$i"
