@@ -9,6 +9,7 @@ for i in "$@"; do
 		-D__EXTENSIONS__ \
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
+		-DUSE_LUA \
 		-I . \
 		-I test \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \

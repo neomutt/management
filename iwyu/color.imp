@@ -7,7 +7,7 @@
   { include: [ '@"debug/.*"',     private, '"debug/lib.h"',     public ] },
   { include: [ '@"email/.*"',     private, '"email/lib.h"',     public ] },
   { include: [ '@"hcache/.*"',    private, '"hcache/lib.h"',    public ] },
-  { include: [ '@"menu/.*"',    private, '"menu/lib.h"',    public ] },
+  { include: [ '@"menu/.*"',      private, '"menu/lib.h"',      public ] },
   { include: [ '@"mutt/.*"',      private, '"mutt/lib.h"',      public ] },
   { include: [ '@"ncrypt/.*"',    private, '"ncrypt/lib.h"',    public ] },
   { include: [ '<regex.h>',       private, '"mutt/lib.h"',      public ] },
