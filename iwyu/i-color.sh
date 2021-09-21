@@ -11,6 +11,7 @@ for i in "$@"; do
 		-DDEBUG \
 		-I . \
 		-I color \
+		-I test \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-Xiwyu --mapping_file="$BASE_DIR/color.imp" \
 		-Xiwyu --no_comments \

@@ -13,14 +13,9 @@ for i in "$@"; do
 		-I attach \
 		-I test \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
-		-I /usr/include/qdbm \
 		-Xiwyu --mapping_file="$BASE_DIR/attach.imp" \
 		-Xiwyu --no_comments \
 		-Xiwyu --pch_in_code \
 		"$i"
 done
 
-		# -DPKGDATADIR="/usr/share/neomutt" \
-		# -DSYSCONFDIR="/etc" \
-		# -DSIG_ATOMIC_VOLATILE_T=volatile \
-		# -DLOFF_T=long \

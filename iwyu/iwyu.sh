@@ -14,6 +14,7 @@ fi
 
 i-address.sh   address/*.[ch]
 i-alias.sh     alias/*.[ch]
+i-attach.sh    attach/*.[ch]
 i-autocrypt.sh autocrypt/*.[ch]
 i-bcache.sh    bcache/*.[ch]
 i-color.sh     color/*.[ch]
