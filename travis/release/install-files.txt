@@ -43,6 +43,8 @@
 ./usr/share/doc/neomutt/mime.types
 ./usr/share/doc/neomutt/mimesupport.html
 ./usr/share/doc/neomutt/miscellany.html
+./usr/share/doc/neomutt/oauth2/mutt_oauth2.py
+./usr/share/doc/neomutt/oauth2/mutt_oauth2.py.README
 ./usr/share/doc/neomutt/optionalfeatures.html
 ./usr/share/doc/neomutt/README.md
 ./usr/share/doc/neomutt/reference.html
@@ -86,11 +88,13 @@
 ./usr/share/locale/ja/LC_MESSAGES/neomutt.mo
 ./usr/share/locale/ko/LC_MESSAGES/neomutt.mo
 ./usr/share/locale/lt/LC_MESSAGES/neomutt.mo
+./usr/share/locale/nb_NO/LC_MESSAGES/neomutt.mo
 ./usr/share/locale/nl/LC_MESSAGES/neomutt.mo
 ./usr/share/locale/pl/LC_MESSAGES/neomutt.mo
 ./usr/share/locale/pt_BR/LC_MESSAGES/neomutt.mo
 ./usr/share/locale/ru/LC_MESSAGES/neomutt.mo
 ./usr/share/locale/sk/LC_MESSAGES/neomutt.mo
+./usr/share/locale/sr/LC_MESSAGES/neomutt.mo
 ./usr/share/locale/sv/LC_MESSAGES/neomutt.mo
 ./usr/share/locale/tr/LC_MESSAGES/neomutt.mo
 ./usr/share/locale/uk/LC_MESSAGES/neomutt.mo

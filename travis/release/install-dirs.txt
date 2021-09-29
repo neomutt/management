@@ -12,6 +12,7 @@
 ./usr/share/doc/neomutt/keybase
 ./usr/share/doc/neomutt/logo
 ./usr/share/doc/neomutt/lua
+./usr/share/doc/neomutt/oauth2
 ./usr/share/doc/neomutt/samples
 ./usr/share/doc/neomutt/vim-keys
 ./usr/share/locale
@@ -57,6 +58,8 @@
 ./usr/share/locale/ko/LC_MESSAGES
 ./usr/share/locale/lt
 ./usr/share/locale/lt/LC_MESSAGES
+./usr/share/locale/nb_NO
+./usr/share/locale/nb_NO/LC_MESSAGES
 ./usr/share/locale/nl
 ./usr/share/locale/nl/LC_MESSAGES
 ./usr/share/locale/pl
@@ -67,6 +70,8 @@
 ./usr/share/locale/ru/LC_MESSAGES
 ./usr/share/locale/sk
 ./usr/share/locale/sk/LC_MESSAGES
+./usr/share/locale/sr
+./usr/share/locale/sr/LC_MESSAGES
 ./usr/share/locale/sv
 ./usr/share/locale/sv/LC_MESSAGES
 ./usr/share/locale/tr
