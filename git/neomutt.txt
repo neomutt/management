@@ -149,6 +149,7 @@ neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Schenkel
 neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Brondani Schenkel,secondary
 neomutt,louis77,louis@openbooking.ch,louis@openbooking.ch,Louis Brauer,preferred
 neomutt,lrosenman,larryrtx@gmail.com,larryrtx@gmail.com,Larry Rosenman,preferred
+neomutt,luchr,ludwig@ma.tum.de,ludwig@ma.tum.de,Christian Ludwig,preferred
 neomutt,makoshark,mako@atdot.cc,mako@atdot.cc,Benjamin Mako Hill,preferred
 neomutt,manphiz,manphiz@gmail.com,manphiz@gmail.com,Deng Xiyue,preferred
 neomutt,matthewhughes934,matthewhughes934@gmail.com,matthewhughes934@gmail.com,Matthew Hughes,preferred
@@ -157,7 +158,8 @@ neomutt,mcmilk,milky-neomutt@mcmilk.de,milky-neomutt@mcmilk.de,Tino Reichardt,se
 neomutt,mfvescovi,NONE,NONE,Matteo Vescovi,preferred
 neomutt,mgedmin,marius@gedmin.as,marius@gedmin.as,Marius Gedminas,preferred
 neomutt,mhinz,mh.codebro@gmail.com,mh.codebro@gmail.com,Marco Hinz,preferred
-neomutt,michaeldim02,31562759+MichaelDim02@users.noreply.github.com,31562759+MichaelDim02@users.noreply.github.com,Michael Constantine Dimopoulos,preferred
+neomutt,michaeldim02,mk@mcdim.xyz,mk@mcdim.xyz,Michael Constantine Dimopoulos,preferred
+neomutt,michaeldim02,mk@mcdim.xyz,31562759+MichaelDim02@users.noreply.github.com,Michael Constantine Dimopoulos,secondary
 neomutt,mineo,themineo@gmail.com,themineo@gmail.com,Wieland Hoffmann,preferred
 neomutt,mineo,themineo@gmail.com,mineo@users.noreply.github.com,Wieland Hoffmann,secondary
 neomutt,MingcongBai,jeffbai@aosc.xyz,jeffbai@aosc.xyz,Mingcong Bai,preferred
@@ -196,6 +198,7 @@ neomutt,NONE,sgilles@math.umd.edu,sgilles@math.umd.edu,S. Gilles,secondary
 neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,Steven Ragnarök,preferred
 neomutt,nuclearsandwich,steven@nuclearsandwich.com,steven@nuclearsandwich.com,Steven! Ragnarök,secondary
 neomutt,ocelotsloth,mark@stengle.in,mark@stengle.in,Mark Stenglein,preferred
+neomutt,onlyshk,kuleshovmail@gmail.com,kuleshovmail@gmail.com,Alexander Kuleshov,preferred
 neomutt,opsec,NONE,NONE,Kurt Jaeger,preferred
 neomutt,orangecms,info@orangecms.org,info@orangecms.org,Daniel Maslowski,preferred
 neomutt,paniash,ashish.panigrahi@protonmail.com,ashish.panigrahi@protonmail.com,Ashish Panigrahi,preferred
@@ -228,6 +231,7 @@ neomutt,rprimus,rprimus@gmail.com,rprimus@gmail.com,R Primus,preferred
 neomutt,romeug,romeu.bizz@gmail.com,romeu.bizz@gmail.com,Romeu Vieira,preferred
 neomutt,ronisbr,ronisbr@gmail.com,ronisbr@gmail.com,Ronan Arraes Jardim Chagas,preferred
 neomutt,royger,roger.pau@citrix.com,roger.pau@citrix.com,Roger Pau Monne,preferred
+neomutt,ryanakca,rak@rak.ac,rak@rak.ac,Ryan Kavanagh,preferred
 neomutt,rypervenche,contact@ryper.org,contact@ryper.org,Perry Thompson,preferred
 neomutt,santiagotorres,torresariass@gmail.com,torresariass@gmail.com,Santiago Torres,preferred
 neomutt,sassmann,sassmann@kpanic.de,sassmann@kpanic.de,Stefan Assmann,preferred
