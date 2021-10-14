@@ -90,6 +90,7 @@ neomutt,floand,f.a@31c0.net,f.a@31c0.net,Floyd Anderson,preferred
 neomutt,flokli,flokli@flokli.de,flokli@flokli.de,Florian Klink,preferred
 neomutt,ftilde,ftilde@tamepointer.de,ftilde@tamepointer.de,ftilde,preferred
 neomutt,ftilde,ftilde@tamepointer.de,ftilde@protonmail.com,ftilde,secondary
+neomutt,gaael,chti.gdb@gmail.com,chti.gdb@gmail.com,Gaël Dubois,preferred
 neomutt,gahr,gahr@gahr.ch,gahr@gahr.ch,Pietro Cerutti,preferred
 neomutt,gahr,gahr@gahr.ch,gahr@gahr.ch,Pietro Ceruti,secondary
 neomutt,ghikio,criw@pm.me,criw@pm.me,Victor Fernandes,preferred
