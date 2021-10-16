@@ -66,9 +66,6 @@ ifdef "zstd"            # Enable Zstandard header cache compression
 CONFIGURE+=("--prefix=/usr")     # Target directory for the build
 # CONFIGURE+=("--with-tmpdir=/tmp") # Location of the tmp directory
 
-CONFIGURE+=("--with-ui=ncurses") # Select ncurses for the UI
-# CONFIGURE+=("--with-ui=slang")   # Select slang for the UI
-
 CONFIGURE+=("--with-lock=fcntl") # Use fcntl to lock files (default)
 # CONFIGURE+=("--with-lock=flock") # Use flock to lock files
 # CONFIGURE+=("--disable-inotify") # Disable file monitoring support (Linux only)

@@ -1,5 +1,4 @@
 
---with-ui=slang
 --disable-nls
 --disable-idn --idn2
 --disable-pgp

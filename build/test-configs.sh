@@ -64,8 +64,6 @@ COMPILERS=(
 OPTIONS=(
 	# Default config
 	""
-	# Test SLANG (not default Curses)
-	"--with-ui=slang"
 	# Disable components that default to 'on'
 	"--disable-nls"
 	"--disable-idn"

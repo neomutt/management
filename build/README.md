@@ -35,7 +35,6 @@ First create a list of configure options, `clist.txt`, that you'd like to test, 
 
 ```
 
---with-ui=slang
 --disable-nls
 --disable-idn
 --disable-pgp
