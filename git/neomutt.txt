@@ -144,7 +144,8 @@ neomutt,kwantam,kwantam@gmail.com,kwantam@gmail.com,Riad Wahby,preferred
 neomutt,kwantam,kwantam@gmail.com,kwantam@gmail.com,Riad S. Wahby,secondary
 neomutt,l29ah,zl29ah@gmail.com,zl29ah@gmail.com,Sergey Alirzaev,preferred
 neomutt,l2dy,l2dy@icloud.com,l2dy@icloud.com,Zero King,preferred
-neomutt,larshaalck,l_haal02@uni-muenster.de,l_haal02@uni-muenster.de,Lars Haalck,preferred
+neomutt,larshaalck,lars.haalck@uni-muenster.de,lars.haalck@uni-muenster.de,Lars Haalck,preferred
+neomutt,larshaalck,lars.haalck@uni-muenster.de,l_haal02@uni-muenster.de,Lars Haalck,secondary
 neomutt,larsks,lars@oddbit.com,lars@oddbit.com,Lars Kellogg-Stedman,preferred
 neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Schenkel,preferred
 neomutt,lbschenkel,leonardo@schenkel.net,leonardo@schenkel.net,Leonardo Brondani Schenkel,secondary
