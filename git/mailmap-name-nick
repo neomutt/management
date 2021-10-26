@@ -315,6 +315,7 @@ UPSTREAM Anatoly Vorobey <mellon@pobox.com>	Anatoly Vorobey <mellon@pobox.com>
 UPSTREAM Anders Helmersson <anders.helmersson.utsikt@wasadata.net>	Anders Helmersson <anders.helmersson@telia.com>
 UPSTREAM Anders Helmersson <anders.helmersson.utsikt@wasadata.net>	Anders Helmersson <anders.helmersson.utsikt@wasadata.net>
 UPSTREAM Andre Beck <beck@ibh.de>	Andre Beck <beck@ibh.de>
+UPSTREAM Andre Beck <beck@ibh.de>	Beck, Andre <beck@ibh.de>
 UPSTREAM Andreas Amann <andreas.amann@tyndall.ie>	Andreas Amann <andreas.amann@tyndall.ie>
 UPSTREAM Andreas Amann <andreas.amann@tyndall.ie>	Unknown <andreas.amann@tyndall.ie>
 UPSTREAM Andreas Jaggi <unknown>	Andreas Jaggi <unknown>
@@ -354,7 +355,6 @@ UPSTREAM Christoph Ludwig <cludwig@cdc.informatik.tu-darmstadt.de>	Christoph Lud
 UPSTREAM Cody Brownstein <cbrownstein@liquidityllc.com>	Cody Brownstein <cbrownstein@liquidityllc.com>
 UPSTREAM Consus <consus@gmx.com>	Consus <consus@gmx.com>
 UPSTREAM convert-repo <unknown>	convert-repo <unknown>
-UPSTREAM convert-repo <unknown>	hncaldwell <unknown>
 UPSTREAM Corey Minyard <cminyard@mvista.com>	Corey Minyard <cminyard@mvista.com>
 UPSTREAM Cyril Roelandt <tipecaml@gmail.com>	Cyril Roelandt <tipecaml@gmail.com>
 UPSTREAM Dale Woolridge <dale-list-mutt-dev-2@woolridge.org>	Dale Woolridge <dale-flea-mutt-bug@woolridge.org>
@@ -407,7 +407,6 @@ UPSTREAM Gregory Shapiro <dev.mutt.org@g.gshapiro.net>	Gregory Shapiro <dev.mutt
 UPSTREAM Grzegorz Szymaszek <gszymaszek@short.pl>	Grzegorz Szymaszek <gszymaszek@short.pl>
 UPSTREAM Guilhem Moulin <guilhem@guilhem.org>	Guilhem Moulin <guilhem@guilhem.org>
 UPSTREAM guns <self@sungpae.com>	guns <self@sungpae.com>
-UPSTREAM H.N.Caldwell <unknown>	H.N.Caldwell <unknown>
 UPSTREAM Holger Weiss <lists@jhweiss.de>	Holger Weiss <holger@zedat.fu-berlin.de>
 UPSTREAM Holger Weiss <lists@jhweiss.de>	Holger Weiss <lists@jhweiss.de>
 UPSTREAM Honza Horak <hhorak@redhat.com>	Honza Horak <hhorak@redhat.com>
@@ -583,7 +582,6 @@ UPSTREAM Tomokazu Yonetani <qhwt+mutt@les.ath.cx>	YONETANI Tomokazu <qhwt+mutt@l
 UPSTREAM Tony Leneis <tony@cvr.ds.adp.com>	Tony Leneis <tony@cvr.ds.adp.com>
 UPSTREAM Toomas Soome <Toomas.Soome@microlink.ee>	Toomas Soome <Toomas.Soome@microlink.ee>
 UPSTREAM Toomas Soome <Toomas.Soome@microlink.ee>	Toomas Soome <tsoome@muhv.pri.ee>
-UPSTREAM Unknown <bat.guano@don.blech.e4ward.com>	Beck, Andre <beck@ibh.de>
 UPSTREAM Unknown <bat.guano@don.blech.e4ward.com>	Unknown <bat.guano@don.blech.e4ward.com>
 UPSTREAM Unknown <ckillian@cs.ucsd.edu>	Unknown <ckillian@cs.ucsd.edu>
 UPSTREAM Unknown <cypher@conuropsis.org>	Unknown <cypher@conuropsis.org>

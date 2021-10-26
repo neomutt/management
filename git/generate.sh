@@ -26,11 +26,11 @@ function generate()
 	routine=$1
 	while IFS=$'\n,' read -a ARRAY; do
 		prefix="${ARRAY[0]}"
-		github_username="${ARRAY[1]}"
-		pref_email="${ARRAY[2]}"
-		email="${ARRAY[3]}"
+		pref_email="${ARRAY[1]}"
+		github_username="${ARRAY[2]}"
+		preference="${ARRAY[3]}"
 		name="${ARRAY[4]}"
-		preference="${ARRAY[5]}"
+		email="${ARRAY[5]}"
 
 		# skip people without e-mail address if it's not for credits
 		if [ "x$routine" != "xcredits" ]; then
