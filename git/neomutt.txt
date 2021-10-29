@@ -97,6 +97,7 @@ neomutt,gerrit@macclub-os.de,kbcb,secondary,Gerrit,ruesing@posteo.de
 neomutt,git@darnir.net,darnir,preferred,Darshit Shah,git@darnir.net
 neomutt,git@darnir.net,darnir,secondary,Darshit Shah,darnir@gmail.com
 neomutt,git@darnir.net,darnir,secondary,Darshit Shah,darnir@users.noreply.github.com
+neomutt,git@diabonas.de,diabonas,preferred,Jonas Witschel,git@diabonas.de
 neomutt,github@mcmilk.de,mcmilk,preferred,Tino Reichardt,github@mcmilk.de
 neomutt,github@mcmilk.de,mcmilk,secondary,Tino Reichardt,milky-neomutt@mcmilk.de
 neomutt,grobian@gentoo.org,grobian,preferred,Fabian Groffen,grobian@gentoo.org
