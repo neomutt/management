@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# CC="g++"
+CC="gcc"
+# CC="clang"
+# LD="lld"
+
+# BUILD_DIR="${1:-.build}"
+# [ -n "$1" ] && shift
+
 if [ -f configure ] && [ -f auto.def ]; then
 	REL="."
 elif [ -f ../configure ] && [ -f ../auto.def ]; then
@@ -8,14 +16,6 @@ else
 	echo "Can't find build files"
 	exit 1
 fi
-
-# CC="g++"
-CC="gcc"
-# CC="clang"
-# LD="lld"
-
-# BUILD_DIR="${1:-.build}"
-# [ -n "$1" ] && shift
 
 CONFIGURE=()
 
@@ -27,6 +27,7 @@ function ifdef()
 
 function die()
 {
+	# shellcheck disable=SC2181
 	if [ $? = 0 ]; then
 		echo -e "\\e[1;32mSuccess\\e[m\\n"
 	else
@@ -152,6 +153,7 @@ EXTRA_CFLAGS+=("-Wundef")
 EXTRA_CFLAGS+=("-Wformat-security")
 EXTRA_CFLAGS+=("-Wpedantic")
 EXTRA_CFLAGS+=("-Wunused-result")
+# EXTRA_CFLAGS+=("-Warray-bounds")
 # EXTRA_CFLAGS+=("-Wdiscarded-array-qualifiers")
 # EXTRA_CFLAGS+=("-Wdiscarded-qualifiers")
 # EXTRA_CFLAGS+=("-Wif-not-aligned")
@@ -205,14 +207,14 @@ EXTRA_LDFLAGS=()
 find . -name '*.[ch]' ! -path './autosetup/*' ! -path './test/*' ! -path './docs/*' ! -path './pgpewrap.c' | cut -b3- | xargs --no-run-if-empty ctags
 
 if [ -n "$BUILD_DIR" ]; then
-	rm -f neomutt *.a config.h
+	rm -f neomutt ./*.a config.h
 	rm -fr "$BUILD_DIR"
 	mkdir "$BUILD_DIR"
-	pushd "$BUILD_DIR" >& /dev/null
+	pushd "$BUILD_DIR" >& /dev/null || exit 1
 fi
 
 # echo "$CONFIGURE_SH ${CONFIGURE[@]} CC=\"$CC\" EXTRA_CFLAGS=\"${EXTRA_CFLAGS[*]}\" LD=\"$LD\" EXTRA_LDFLAGS=\"${EXTRA_LDFLAGS[*]}\""
-echo -n configure...
+echo -n "configure..."
 chronic "$REL/configure" \
 	"${CONFIGURE[@]}" \
 	CC="$CC" EXTRA_CFLAGS="${EXTRA_CFLAGS[*]}" \
@@ -223,9 +225,9 @@ echo
 make -s hcache/hcversion.h
 
 if [ -n "$BUILD_DIR" ]; then
-	popd >& /dev/null
+	popd >& /dev/null || exit 1
 	cp -sf "$BUILD_DIR"/config.h .
-	pushd "$BUILD_DIR" >& /dev/null
+	pushd "$BUILD_DIR" >& /dev/null || exit 1
 fi
 
 [ "$1" = "-n" ] && exit 0
@@ -256,7 +258,7 @@ fi
 
 [ $RETVAL = 0 ] || exit $RETVAL
 if [ -n "$BUILD_DIR" ]; then
-	popd >& /dev/null
+	popd >& /dev/null || exit 1
 	cp -sf "$BUILD_DIR"/neomutt .
 	# cp -sf "$BUILD_DIR"/*.a .
 fi
