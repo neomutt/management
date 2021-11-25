@@ -1,5 +1,5 @@
 diff --git c/.gitignore w/.gitignore
-index 32b8854bc..21452a177 100644
+index 33e19ea22..bef2c0498 100644
 --- c/.gitignore
 +++ w/.gitignore
 @@ -11,6 +11,7 @@ docs/makedoc
@@ -11,19 +11,19 @@ index 32b8854bc..21452a177 100644
  # Build products
  *.o
 diff --git c/Makefile.autosetup w/Makefile.autosetup
-index 0730f64e8..6e39fdb51 100644
+index b45c917bd..06fa2ca12 100644
 --- c/Makefile.autosetup
 +++ w/Makefile.autosetup
-@@ -628,7 +628,7 @@ uninstall: $(UNINSTALL_TARGETS)
+@@ -756,7 +756,7 @@ uninstall: $(UNINSTALL_TARGETS)
  distclean: clean
  	$(RM) $(DEPFILES) autosetup/jimsh0 config.h config.log conststrings.c \
  		contrib/Makefile docs/Makefile docs/neomutt.1 html Makefile po/Makefile \
 -		test/Makefile .clang_complete
 +		test/Makefile .clang_complete fuzz/Makefile
  	$(RM) *.gc?? */*.gc?? test/*/*.gc??
- 	$(RM) lcov.info lcov
- 
-@@ -690,5 +690,8 @@ coverage: all test
+ 	$(RM) *.expand */*.expand test/*/*.expand
+ 	$(RM) compile_commands.*
+@@ -822,5 +822,8 @@ coverage: all test
  @if ENABLE_UNIT_TESTS
  @include @srcdir@/test/Makefile.autosetup
  @endif
@@ -33,10 +33,10 @@ index 0730f64e8..6e39fdb51 100644
  
  # vim: set ts=8 noexpandtab:
 diff --git c/auto.def w/auto.def
-index fd480c186..92534b785 100644
+index 03d194ca8..28c403da3 100644
 --- c/auto.def
 +++ w/auto.def
-@@ -20,7 +20,7 @@ define PACKAGE_VERSION  "20200807"
+@@ -20,7 +20,7 @@ define PACKAGE_VERSION  "20211029"
  define BUGS_ADDRESS     "neomutt-devel@neomutt.org"
  
  # Subdirectories that contain additional Makefile.autosetup files
@@ -45,25 +45,24 @@ index fd480c186..92534b785 100644
  ###############################################################################
  
  ###############################################################################
-@@ -115,6 +115,8 @@ options {
- # Testing
-   testing=0                 => "Enable Unit Testing"
+@@ -115,6 +115,7 @@ options {
+   asan=0                    => "Enable the Address Sanitizer"
    coverage=0                => "Enable Coverage Testing"
-+# Fuzzing
+   testing=0                 => "Enable Unit Testing"
 +  fuzzing                   => "Enable Fuzz Testing"
  # Configure with pkg-config
    pkgconf=0                 => "Use pkg-config during configure"
  # Enable all options
-@@ -137,7 +139,7 @@ if {1} {
+@@ -150,7 +151,7 @@ if {1} {
    # Keep sorted, please.
    foreach opt {
-     autocrypt bdb coverage debug-backtrace debug-graphviz debug-notify
+     asan autocrypt bdb coverage debug-backtrace debug-email debug-graphviz debug-notify
 -    debug-parse-test debug-window doc everything fmemopen full-doc gdbm gnutls
 +    debug-parse-test debug-window doc everything fmemopen full-doc fuzzing gdbm gnutls
      gpgme gss homespool idn idn2 include-path-in-cflags inotify kyotocabinet
      lmdb locales-fix lua lz4 mixmaster nls notmuch pcre2 pgp pkgconf qdbm
      rocksdb sasl smime sqlite ssl testing tdb tokyocabinet zlib zstd
-@@ -581,6 +583,13 @@ if {[get-define want-testing]} {
+@@ -611,6 +612,13 @@ if {[get-define want-testing]} {
    lappend subdirs test
  }
  
@@ -78,12 +77,12 @@ index fd480c186..92534b785 100644
  # Lua
  if {[get-define want-lua]} {
 diff --git c/init.c w/init.c
-index a28bcb43a..b4df75aa6 100644
+index b78f578c5..2a3316b8b 100644
 --- c/init.c
 +++ w/init.c
-@@ -69,6 +69,14 @@
- #ifdef USE_SIDEBAR
- #include "sidebar/lib.h"
+@@ -74,6 +74,14 @@
+ #ifdef USE_IMAP
+ #include "imap/lib.h"
  #endif
 +#ifdef USE_AUTOCRYPT
 +#include "autocrypt/lib.h"
@@ -97,10 +96,10 @@ index a28bcb43a..b4df75aa6 100644
  /* Initial string that starts completion. No telling how much the user has
   * typed so far. Allocate 1024 just to be sure! */
 diff --git c/main.c w/main.c
-index 76bca7a6e..b416aeccf 100644
+index e2ed36739..1d4e2876f 100644
 --- c/main.c
 +++ w/main.c
-@@ -365,7 +365,13 @@ static void log_translation(void)
+@@ -470,7 +470,13 @@ static void log_translation(void)
   * @retval 0 Success
   * @retval 1 Error
   */
@@ -116,10 +115,10 @@ index 76bca7a6e..b416aeccf 100644
    char *subject = NULL;
    char *include_file = NULL;
 diff --git c/ncrypt/crypt_gpgme.c w/ncrypt/crypt_gpgme.c
-index 8ea0df104..f9815dbc7 100644
+index 70fe43940..afa992576 100644
 --- c/ncrypt/crypt_gpgme.c
 +++ w/ncrypt/crypt_gpgme.c
-@@ -69,6 +69,9 @@
+@@ -68,6 +68,9 @@
  #ifdef USE_AUTOCRYPT
  #include "autocrypt/lib.h"
  #endif
