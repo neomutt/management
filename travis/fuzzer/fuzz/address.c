@@ -14,8 +14,9 @@
 
 int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size)
 {
-  struct ConfigSet *cs = NULL;
+  struct ConfigSet *cs = cs_new(16);
   NeoMutt = neomutt_new(cs);
+  init_config(cs);
   OptNoCurses = 1;
   char file[] = "/tmp/mutt-fuzz";
   FILE *fp = fopen(file, "wb");
