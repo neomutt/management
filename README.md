@@ -97,7 +97,6 @@ These are copies of our Travis control files.
 | [coverity.yml](travis/coverity.yml)     | [https://github.com/neomutt/neomutt/tree/coverity](https://github.com/neomutt/neomutt/tree/coverity)               |
 | [macports.yml](travis/macports.yml)     | [https://github.com/neomutt/neomutt/tree/distro/macports](https://github.com/neomutt/neomutt/tree/distro/macports) |
 | [master.yml](travis/master.yml)         | [https://github.com/neomutt/neomutt/tree/master](https://github.com/neomutt/neomutt/tree/master)                   |
-| [translate.yml](travis/translate.yml)   | [https://github.com/neomutt/neomutt/tree/translate](https://github.com/neomutt/neomutt/tree/translate)             |
 
 ## Min-Build
 
@@ -110,18 +109,6 @@ For those times that you just want to look at the **code**.
 | [min-config.h](min-build/min-config.h)           | Minimal config.h                |
 | [min-gitignore](min-build/min-gitignore)         | Minimal .gitignore              |
 | [min-Makefile](min-build/min-Makefile)           | Minimal Makefile                |
-
-## Translation Deployment Scripts
-
-[How to set up deployment using Travis](https://neomutt.org/dev/deploy)
-
-| File                                                           | Description                                  |
-| :------------------------------------------------------------- | :------------------------------------------- |
-| [generate-webpage.sh](translate/generate-webpage.sh)           | Turn the stats into a webpage                |
-| [prep.sh](translate/prep.sh)                                   | Set up git and gpg                           |
-| [stats.sh](translate/stats.sh)                                 | Parse the translation files into statistics  |
-| [travis-deploy-github.enc](translate/travis-deploy-github.enc) | Encrypted gpg key (decryption key on Travis) |
-| [travis.yml](translate/travis.yml)                             | Travis control script                        |
 
 ## Universal Ctags
 
