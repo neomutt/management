@@ -1,7 +1,0 @@
-functions 100
-structs   100
-enums     100
-globals   100
-pages     100
-members   76
-defines   40
