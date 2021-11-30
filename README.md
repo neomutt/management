@@ -94,7 +94,6 @@ These are copies of our Travis control files.
 | File                                    | Branch                                                                                                             |
 | :-------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
 | [aur.yml](travis/aur.yml)               | [https://github.com/neomutt/aur-buildll](https://github.com/neomutt/aur-build)                                     |
-| [coverity.yml](travis/coverity.yml)     | [https://github.com/neomutt/neomutt/tree/coverity](https://github.com/neomutt/neomutt/tree/coverity)               |
 | [macports.yml](travis/macports.yml)     | [https://github.com/neomutt/neomutt/tree/distro/macports](https://github.com/neomutt/neomutt/tree/distro/macports) |
 | [master.yml](travis/master.yml)         | [https://github.com/neomutt/neomutt/tree/master](https://github.com/neomutt/neomutt/tree/master)                   |
 
