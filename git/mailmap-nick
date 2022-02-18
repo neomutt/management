@@ -3,6 +3,9 @@
 0-wiz-0	<wiz@netbsd.org>	Thomas Klausner <wiz@netbsd.org>
 0x747972	<0x747972@gmail.com>	ryt <0x747972@gmail.com>
 a3nm	<a3nm@a3nm.net>	Antoine Amarilli <a3nm@a3nm.net>
+adam@dinwoodie.org	<adam@dinwoodie.org>	Adam Dinwoodie <adam@dinwoodie.org>
+adamkorcz	<44787359+AdamKorcz@users.noreply.github.com>	Adam Korcz <44787359+AdamKorcz@users.noreply.github.com>
+adamkorcz	<44787359+AdamKorcz@users.noreply.github.com>	AdamKorcz <44787359+AdamKorcz@users.noreply.github.com>
 adityadesaha	<adityadesaha@gmail.com>	Aditya De Saha <adityadesaha@gmail.com>
 ahmedelgabri	<ahmed@gabri.me>	Ahmed El Gabri <ahmed@gabri.me>
 ahmedelgabri	<ahmed@gabri.me>	Ahmed El Gabri <ahmed+github@gabri.me>
@@ -35,6 +38,7 @@ brunnre8	<reto@labrat.space>	Reto Brunner <reto@labrat.space>
 brunnre8	<reto@labrat.space>	Reto <reto@labrat.space>
 caspervector	<CasperVector@gmail.com>	Casper Ti Vector <CasperVector@gmail.com>
 caspervector	<CasperVector@gmail.com>	Casper Ti. Vector <CasperVector@gmail.com>
+cbrownstein	<cbrownstein@liquidityllc.com>	Cody Brownstein <cbrownstein@liquidityllc.com>
 cdrage	<charlie@charliedrage.com>	Charlie Drage <charlie@charliedrage.com>
 cdroege	<mail@cdroege.de>	Christian Dröge <mail@cdroege.de>
 christopher-john-czettel	<chris@christopher-czettel.net>	Chris Czettel <chris@christopher-czettel.net>
@@ -44,6 +48,7 @@ christosmarg	<christos@margiolis.net>	Christos Margiolis <christos@christosmarg.
 christosmarg	<christos@margiolis.net>	Christos Margiolis <christos@margiolis.net>
 cinder88	<aerlanger@owlcti.com>	ate <aerlanger@owlcti.com>
 cinder88	<aerlanger@owlcti.com>	cinder88 <aerlanger@owlcti.com>
+ckardaris	<ckardaris@outlook.com>	Charalampos Kardaris <ckardaris@outlook.com>
 comradekingu	<epost@anotheragency.no>	Allan Nordhøy <epost@anotheragency.no>
 cyphar	<cyphar@cyphar.com>	Aleksa Sarai <cyphar@cyphar.com>
 daedric	<thomas.sanchz@gmail.com>	Thomas Sanchez <thomas.sanchz@gmail.com>
@@ -53,6 +58,7 @@ darnir	<git@darnir.net>	Darshit Shah <darnir@gmail.com>
 darnir	<git@darnir.net>	Darshit Shah <darnir@users.noreply.github.com>
 darnir	<git@darnir.net>	Darshit Shah <git@darnir.net>
 darrenkenny	<darren.kenny@oracle.com>	Darren Kenny <darren.kenny@oracle.com>
+dcpurton	<dcpurton@marshwiggle.net>	David Purton <dcpurton@marshwiggle.net>
 debxwoody	<stefan@debxwoody.de>	DebXWoody <stefan@debxwoody.de>
 debxwoody	<stefan@debxwoody.de>	Stefan <32964719+DebXWoody@users.noreply.github.com>
 debxwoody	<stefan@debxwoody.de>	Stefan Kropp <stefan@debxwoody.de>
@@ -75,8 +81,10 @@ edwardbetts	<edward@4angle.com>	Edward Betts <edward@4angle.com>
 ehabkost	<ehabkost@redhat.com>	Eduardo Habkost <ehabkost@redhat.com>
 elacheche	<elacheche@ubuntu.com>	El Acheche ANIS <elacheche@ubuntu.com>
 eldeveloper	<yoshiki89@gmail.com>	Yoshiki Vázquez Baeza <yoshiki89@gmail.com>
+emir_sari@icloud.com	<emir_sari@icloud.com>	Emir Sari <emir_sari@icloud.com>
 epilys	<el13635@mail.ntua.gr>	Manos Pitsidianakis <el13635@mail.ntua.gr>
 esovetkin	<e.sovetkin@gmail.com>	Jenya Sovetkin <e.sovetkin@gmail.com>
+falsifian	<falsifian@falsifian.org>	James Cook <falsifian@falsifian.org>
 fbellet	<fabrice@bellet.info>	Fabrice Bellet <fabrice@bellet.info>
 fekir	<federico.kircheis@gmail.com>	Federico Kircheis <federico.kircheis@gmail.com>
 fekir	<federico.kircheis@gmail.com>	fekir <federico.kircheis@gmail.com>
@@ -121,6 +129,7 @@ jindraj	<jakub.jindra@socialbakers.com>	Jakub Jindra <jindraj@users.noreply.gith
 jindraj	<jakub.jindra@socialbakers.com>	Jakub Jindra <jakub.jindra@socialbakers.com>
 jlmuir	<jlmuir@imca-cat.org>	J Lewis Muir <jlmuir@imca-cat.org>
 jlmuir	<jlmuir@imca-cat.org>	J. Lewis Muir <jlmuir@imca-cat.org>
+john-at-charpa	<john@charpa.org>	John Wood <john@charpa.org>
 josephbisch	<joseph.bisch@gmail.com>	Joseph Bisch <joseph.bisch@gmail.com>
 jperkin	<jperkin@netbsd.org>	Jonathan Perkin <jperkin@netbsd.org>
 jpoimboe	<jpoimboe@redhat.com>	Josh Poimboeuf <jpoimboe@redhat.com>
@@ -128,6 +137,7 @@ julian-klode	<jak@jak-linux.org>	Julian Andres Klode <jak@jak-linux.org>
 justinvasel	<justin.vasel@gmail.com>	Justin Vasel <justin.vasel@gmail.com>
 jwilk	<jwilk@jwilk.net>	Jakub Wilk <jwilk@jwilk.net>
 karelzak	<kzak@redhat.com>	Karel Zak <kzak@redhat.com>
+kbcb	<gerrit@macclub-os.de>	Gerrit <gerrit@macclub-os.de>
 kbcb	<gerrit@macclub-os.de>	Gerrit Rüsing <gerrit@macclub-os.de>
 kbcb	<gerrit@macclub-os.de>	Gerrit <ruesing@posteo.de>
 kdave	<dsterba@suse.cz>	David Sterba <dsterba@suse.com>
@@ -143,6 +153,7 @@ l2dy	<l2dy@icloud.com>	Zero King <l2dy@icloud.com>
 larshaalck	<lars.haalck@uni-muenster.de>	Lars Haalck <lars.haalck@uni-muenster.de>
 larshaalck	<lars.haalck@uni-muenster.de>	Lars Haalck <l_haal02@uni-muenster.de>
 larsks	<lars@oddbit.com>	Lars Kellogg-Stedman <lars@oddbit.com>
+laumann	<t@laumann.xyz>	Thomas Bracht Laumann Jespersen <t@laumann.xyz>
 lbschenkel	<leonardo@schenkel.net>	Leonardo Brondani Schenkel <leonardo@schenkel.net>
 lbschenkel	<leonardo@schenkel.net>	Leonardo Schenkel <leonardo@schenkel.net>
 louis77	<louis@openbooking.ch>	Louis Brauer <louis@openbooking.ch>
@@ -203,6 +214,7 @@ parazyd	<parazyd@dyne.org>	parazyd <parazyd@dyne.org>
 paretje	<kevin@paretje.be>	Kevin Velghe <kevin@paretje.be>
 p-eb	<becue@crans.org>	Pierre-Elliott Bécue <becue@crans.org>
 p-eb	<becue@crans.org>	Pierre-Elliott Bécue <P-EB@users.noreply.github.com>
+pekdon@gmail.com	<pekdon@gmail.com>	Claes Nästén <pekdon@gmail.com>
 petelewis	<pete@muddygoat.org>	Peter Lewis <pete@muddygoat.org>
 philpennock	<phil@pennock-tech.com>	Phil Pennock <phil@pennock-tech.com>
 phroa	<jack@phroa.net>	Jack Stratton <jack@phroa.net>
@@ -214,6 +226,7 @@ psyomn	<lethaljellybean@gmail.com>	Simon Symeonidis <lethaljellybean@gmail.com>
 qsuscs	<qsx@qsx.re>	Thomas Schneider <qsx@qsx.re>
 r3lgar	<r3lgar@openmailbox.org>	r3lgar <r3lgar@openmailbox.org>
 r3lgar	<r3lgar@openmailbox.org>	r3lgar <r3lgar@users.noreply.github.com>
+r@artagnon.com	<r@artagnon.com>	Ramkumar Ramachandra <r@artagnon.com>
 rawtaz	<leo@finalresort.org>	Leo Lundgren <leo@finalresort.org>
 rawtaz	<leo@finalresort.org>	Leo R. Lundgren <leo@finalresort.org>
 rawtaz	<leo@finalresort.org>	rawtaz <rawtaz@users.noreply.github.com>
@@ -352,7 +365,6 @@ UPSTREAM 	<dev@mutt.org>	Christian Aichinger <greek0@gmx.net>
 UPSTREAM 	<dev@mutt.org>	Christian Ebert <blacktrash@gmx.net>
 UPSTREAM 	<dev@mutt.org>	Christian Vogel <vogelchr@vogel.cx>
 UPSTREAM 	<dev@mutt.org>	Christoph Ludwig <cludwig@cdc.informatik.tu-darmstadt.de>
-UPSTREAM 	<dev@mutt.org>	Cody Brownstein <cbrownstein@liquidityllc.com>
 UPSTREAM 	<dev@mutt.org>	Consus <consus@gmx.com>
 UPSTREAM 	<dev@mutt.org>	convert-repo <unknown>
 UPSTREAM 	<dev@mutt.org>	Corey Minyard <cminyard@mvista.com>

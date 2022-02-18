@@ -39,7 +39,6 @@ mutt,bruno@postle.net,,preferred,Bruno Postle,bruno@postle.net
 mutt,bugs@kayari.org,,preferred,Jonathan Wakely,bugs@kayari.org
 mutt,byrial@image.dk,,preferred,Byrial Jensen,byrial@image.dk
 mutt,cameron@patrick.wattle.id.au,,preferred,Cameron Patrick,cameron@patrick.wattle.id.au
-mutt,cbrownstein@liquidityllc.com,,preferred,Cody Brownstein,cbrownstein@liquidityllc.com
 mutt,cedricduval@free.fr,,preferred,Cedric Duval,cedricduval@free.fr
 mutt,cedricduval@free.fr,,secondary,Cedric Duval,cedricduval+web@free.fr
 mutt,ckillian@cs.ucsd.edu,,preferred,Unknown,ckillian@cs.ucsd.edu
