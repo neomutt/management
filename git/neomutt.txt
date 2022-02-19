@@ -32,6 +32,7 @@ neomutt,as@as-home.fr,igit,secondary,Alexandre SIMON,as@as-home.fr
 neomutt,ashish.panigrahi@protonmail.com,paniash,preferred,Ashish Panigrahi,ashish.panigrahi@protonmail.com
 neomutt,austin@austinray.io,austin-ray,preferred,Austin Ray,austin@austinray.io
 neomutt,austin@austinray.io,austin-ray,secondary,Austin Ray,austin.duke.ray@gmail.com
+neomutt,austin.lund@gmail.com,aplund,preferred,Austin Lund,austin.lund@gmail.com
 neomutt,bbenne10@gmail.com,bbenne10,preferred,Bryan Bennett,bbenne10@gmail.com
 neomutt,becue@crans.org,p-eb,preferred,Pierre-Elliott Bécue,becue@crans.org
 neomutt,becue@crans.org,p-eb,secondary,Pierre-Elliott Bécue,P-EB@users.noreply.github.com
