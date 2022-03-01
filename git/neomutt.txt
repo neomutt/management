@@ -134,6 +134,7 @@ neomutt,jak@jak-linux.org,julian-klode,preferred,Julian Andres Klode,jak@jak-lin
 neomutt,jakub.jindra@socialbakers.com,jindraj,preferred,Jakub Jindra,jakub.jindra@socialbakers.com
 neomutt,jakub.jindra@socialbakers.com,jindraj,secondary,Jakub Jindra,jindraj@users.noreply.github.com
 neomutt,jakub.jindra@socialbakers.com,jindraj,secondary,Jakub Jindra,jakub.jindra@socialbakers.com
+neomutt,jakubk0.kaczor@gmail.com,jakubkaczor,preferred,Jakub Kaczor,jakubk0.kaczor@gmail.com
 neomutt,james@jamesbvaughan.com,jamesbvaughan,preferred,James Vaughan,james@jamesbvaughan.com
 neomutt,jangho@jangho.io,seojangho,preferred,Jangho Seo,jangho@jangho.io
 neomutt,jargon@molb.org,weisslj,preferred,Johannes Weißl,jargon@molb.org
