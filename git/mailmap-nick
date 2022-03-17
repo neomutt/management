@@ -3,7 +3,6 @@
 0-wiz-0	<wiz@netbsd.org>	Thomas Klausner <wiz@netbsd.org>
 0x747972	<0x747972@gmail.com>	ryt <0x747972@gmail.com>
 a3nm	<a3nm@a3nm.net>	Antoine Amarilli <a3nm@a3nm.net>
-adam@dinwoodie.org	<adam@dinwoodie.org>	Adam Dinwoodie <adam@dinwoodie.org>
 adamkorcz	<44787359+AdamKorcz@users.noreply.github.com>	Adam Korcz <44787359+AdamKorcz@users.noreply.github.com>
 adamkorcz	<44787359+AdamKorcz@users.noreply.github.com>	AdamKorcz <44787359+AdamKorcz@users.noreply.github.com>
 adityadesaha	<adityadesaha@gmail.com>	Aditya De Saha <adityadesaha@gmail.com>
@@ -25,12 +24,14 @@ aplund	<austin.lund@gmail.com>	Austin Lund <austin.lund@gmail.com>
 aradici	<antonio@dyne.org>	Antonio Radici <antonio@dyne.org>
 aradici	<antonio@dyne.org>	Unknown <antonio@dyne.org>
 archenemies	<frederik@ofb.net>	Frederick Eaton <frederik@ofb.net>
+artagnon	<r@artagnon.com>	Ramkumar Ramachandra <r@artagnon.com>
 austin-ray	<austin@austinray.io>	Austin Ray <austin@austinray.io>
 austin-ray	<austin@austinray.io>	Austin Ray <austin.duke.ray@gmail.com>
 bazzinotti	<mbazzinotti@gmail.com>	Michael Bazzinotti <mbazzinotti@gmail.com>
 bazzinotti	<mbazzinotti@gmail.com>	Michael J. Bazzinotti <mbazzinotti@gmail.com>
 bbenne10	<bbenne10@gmail.com>	Bryan Bennett <bbenne10@gmail.com>
 bertramscharpf	<software@bertram-scharpf.de>	Bertram Scharpf <software@bertram-scharpf.de>
+bitigchi	<emir_sari@icloud.com>	Emir Sari <emir_sari@icloud.com>
 bitstreamout	<werner@suse.de>	Werner Fink <werner@suse.de>
 bket	<bjorn.ketelaars@hydroxide.nl>	Björn Ketelaars <bjorn.ketelaars@hydroxide.nl>
 bmclean2	<brendan.mclean@gmail.com>	bmclean2 <brendan.mclean@posteo.net>
@@ -82,7 +83,6 @@ edwardbetts	<edward@4angle.com>	Edward Betts <edward@4angle.com>
 ehabkost	<ehabkost@redhat.com>	Eduardo Habkost <ehabkost@redhat.com>
 elacheche	<elacheche@ubuntu.com>	El Acheche ANIS <elacheche@ubuntu.com>
 eldeveloper	<yoshiki89@gmail.com>	Yoshiki Vázquez Baeza <yoshiki89@gmail.com>
-emir_sari@icloud.com	<emir_sari@icloud.com>	Emir Sari <emir_sari@icloud.com>
 epilys	<el13635@mail.ntua.gr>	Manos Pitsidianakis <el13635@mail.ntua.gr>
 esovetkin	<e.sovetkin@gmail.com>	Jenya Sovetkin <e.sovetkin@gmail.com>
 falsifian	<falsifian@falsifian.org>	James Cook <falsifian@falsifian.org>
@@ -146,6 +146,7 @@ kdave	<dsterba@suse.cz>	David Sterba <dsterba@suse.com>
 kdave	<dsterba@suse.cz>	David Sterba <dsterba@suse.cz>
 kdecherf	<kevin@kdecherf.com>	Kevin Decherf <kevin@kdecherf.com>
 kilobyte	<kilobyte@angband.pl>	Adam Borowski <kilobyte@angband.pl>
+klartext	<oliver@first.in-berlin.de>	Oliver Bandel <oliver@first.in-berlin.de>
 konfekt	<Konfekt@users.noreply.github.com>	Enno <Konfekt@users.noreply.github.com>
 konfekt	<Konfekt@users.noreply.github.com>	Enno Nagel <Konfekt@users.noreply.github.com>
 kwantam	<kwantam@gmail.com>	Riad S. Wahby <kwantam@gmail.com>
@@ -166,6 +167,7 @@ manphiz	<manphiz@gmail.com>	Deng Xiyue <manphiz@gmail.com>
 matthewhughes934	<matthewhughes934@gmail.com>	Matthew Hughes <matthewhughes934@gmail.com>
 mcmilk	<github@mcmilk.de>	Tino Reichardt <github@mcmilk.de>
 mcmilk	<github@mcmilk.de>	Tino Reichardt <milky-neomutt@mcmilk.de>
+me-and	<adam@dinwoodie.org>	Adam Dinwoodie <adam@dinwoodie.org>
 mgedmin	<marius@gedmin.as>	Marius Gedminas <marius@gedmin.as>
 mhinz	<mh.codebro@gmail.com>	Marco Hinz <mh.codebro@gmail.com>
 michaeldim02	<mk@mcdim.xyz>	Michael Constantine Dimopoulos <31562759+MichaelDim02@users.noreply.github.com>
@@ -207,7 +209,6 @@ NONE	<sgilles@math.umd.edu>	Stephen Gilles <sgilles@math.umd.edu>
 nuclearsandwich	<steven@nuclearsandwich.com>	Steven Ragnarök <steven@nuclearsandwich.com>
 nuclearsandwich	<steven@nuclearsandwich.com>	Steven! Ragnarök <steven@nuclearsandwich.com>
 ocelotsloth	<mark@stengle.in>	Mark Stenglein <mark@stengle.in>
-oliver@first.in-berlin.de	<oliver@first.in-berlin.de>	Oliver Bandel <oliver@first.in-berlin.de>
 onlyshk	<kuleshovmail@gmail.com>	Alexander Kuleshov <kuleshovmail@gmail.com>
 orangecms	<info@orangecms.org>	Daniel Maslowski <info@orangecms.org>
 paniash	<ashish.panigrahi@protonmail.com>	Ashish Panigrahi <ashish.panigrahi@protonmail.com>
@@ -217,7 +218,7 @@ parazyd	<parazyd@dyne.org>	parazyd <parazyd@dyne.org>
 paretje	<kevin@paretje.be>	Kevin Velghe <kevin@paretje.be>
 p-eb	<becue@crans.org>	Pierre-Elliott Bécue <becue@crans.org>
 p-eb	<becue@crans.org>	Pierre-Elliott Bécue <P-EB@users.noreply.github.com>
-pekdon@gmail.com	<pekdon@gmail.com>	Claes Nästén <pekdon@gmail.com>
+pekdon	<pekdon@gmail.com>	Claes Nästén <pekdon@gmail.com>
 petelewis	<pete@muddygoat.org>	Peter Lewis <pete@muddygoat.org>
 philpennock	<phil@pennock-tech.com>	Phil Pennock <phil@pennock-tech.com>
 phroa	<jack@phroa.net>	Jack Stratton <jack@phroa.net>
@@ -229,14 +230,13 @@ psyomn	<lethaljellybean@gmail.com>	Simon Symeonidis <lethaljellybean@gmail.com>
 qsuscs	<qsx@qsx.re>	Thomas Schneider <qsx@qsx.re>
 r3lgar	<r3lgar@openmailbox.org>	r3lgar <r3lgar@openmailbox.org>
 r3lgar	<r3lgar@openmailbox.org>	r3lgar <r3lgar@users.noreply.github.com>
-r@artagnon.com	<r@artagnon.com>	Ramkumar Ramachandra <r@artagnon.com>
 rawtaz	<leo@finalresort.org>	Leo Lundgren <leo@finalresort.org>
 rawtaz	<leo@finalresort.org>	Leo R. Lundgren <leo@finalresort.org>
 rawtaz	<leo@finalresort.org>	rawtaz <rawtaz@users.noreply.github.com>
 reisradomil	<reisradomil@fake-box.com>	Reis Radomil <reisradomil@fake-box.com>
 richih	<RichiH@users.noreply.github.com>	Richard Hartmann <RichiH@users.noreply.github.com>
 riesebie	<riesebie@lxtec.de>	Elimar Riesebieter <riesebie@lxtec.de>
-rionda@acm.org	<rionda@acm.org>	Matteo Riondato <rionda@acm.org>
+rionda	<rionda@acm.org>	Matteo Riondato <rionda@acm.org>
 romeug	<romeu.bizz@gmail.com>	Romeu Vieira <romeu.bizz@gmail.com>
 ronisbr	<ronisbr@gmail.com>	Ronan Arraes Jardim Chagas <ronisbr@gmail.com>
 royger	<roger.pau@citrix.com>	Roger Pau Monne <roger.pau@citrix.com>
