@@ -156,6 +156,7 @@ neomutt,jwilk@jwilk.net,jwilk,preferred,Jakub Wilk,jwilk@jwilk.net
 neomutt,kevin@kdecherf.com,kdecherf,preferred,Kevin Decherf,kevin@kdecherf.com
 neomutt,kevin@paretje.be,paretje,preferred,Kevin Velghe,kevin@paretje.be
 neomutt,kilobyte@angband.pl,kilobyte,preferred,Adam Borowski,kilobyte@angband.pl
+neomutt,klartext,oliver@first.in-berlin.de,preferred,Oliver Bandel,oliver@first.in-berlin.de
 neomutt,kmhzsem@gmx.com,dset0x,preferred,Dimitrios Semitsoglou-Tsiapos,kmhzsem@gmx.com
 neomutt,Konfekt@users.noreply.github.com,konfekt,preferred,Enno Nagel,Konfekt@users.noreply.github.com
 neomutt,Konfekt@users.noreply.github.com,konfekt,secondary,Enno,Konfekt@users.noreply.github.com
@@ -250,6 +251,7 @@ neomutt,rich@flatcap.org,flatcap,preferred,Richard Russon,rich@flatcap.org
 neomutt,rich@flatcap.org,flatcap,secondary,Richard Russon (DEPLOY),rich@flatcap.org
 neomutt,RichiH@users.noreply.github.com,richih,preferred,Richard Hartmann,RichiH@users.noreply.github.com
 neomutt,riesebie@lxtec.de,riesebie,preferred,Elimar Riesebieter,riesebie@lxtec.de
+neomutt,rionda,rionda@acm.org,preferred,Matteo Riondato,rionda@acm.org
 neomutt,roger.pau@citrix.com,royger,preferred,Roger Pau Monne,roger.pau@citrix.com
 neomutt,romeu.bizz@gmail.com,romeug,preferred,Romeu Vieira,romeu.bizz@gmail.com
 neomutt,ronisbr@gmail.com,ronisbr,preferred,Ronan Arraes Jardim Chagas,ronisbr@gmail.com
