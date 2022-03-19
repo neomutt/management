@@ -8,8 +8,8 @@
   { include: [ '@"gui/.*"',     private, '"gui/lib.h"',     public ] },
   { include: [ '@"menu/.*"',    private, '"menu/lib.h"',    public ] },
   { include: [ '@"mutt/.*"',    private, '"mutt/lib.h"',    public ] },
-  { include: [ '<regex.h>',     private, '"mutt/lib.h"',    public ] },
 
   { ref: "glibc.imp" },
   { ref: "curses.imp" },
+  { ref: "regex.imp" },
 ]

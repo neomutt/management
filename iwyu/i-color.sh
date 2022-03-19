@@ -9,9 +9,9 @@ for i in "$@"; do
 		-D__EXTENSIONS__ \
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
+		-DUSE_DEBUG_COLOR \
 		-I . \
 		-I color \
-		-I test \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-Xiwyu --mapping_file="$BASE_DIR/color.imp" \
 		-Xiwyu --no_comments \

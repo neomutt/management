@@ -9,13 +9,12 @@ for i in "$@"; do
 		-D__EXTENSIONS__ \
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
-		-DUSE_INOTIFY \
 		-I . \
-		-I index \
+		-I enter \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-Xiwyu --pch_in_code \
 		-Xiwyu --no_comments \
-		-Xiwyu --mapping_file="$BASE_DIR/index.imp" \
+		-Xiwyu --mapping_file="$BASE_DIR/enter.imp" \
 		"$i"
 done
 

@@ -11,11 +11,10 @@ for i in "$@"; do
 		-DDEBUG \
 		-I . \
 		-I attach \
-		-I test \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
-		-Xiwyu --mapping_file="$BASE_DIR/attach.imp" \
-		-Xiwyu --no_comments \
 		-Xiwyu --pch_in_code \
+		-Xiwyu --no_comments \
+		-Xiwyu --mapping_file="$BASE_DIR/attach.imp" \
 		"$i"
 done
 

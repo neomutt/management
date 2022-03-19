@@ -1,0 +1,16 @@
+[
+  # Include our header, rather than the system header.
+  { symbol: [ "regcomp",      private, '"mutt/lib.h"', public ] },
+  { symbol: [ "regerror",     private, '"mutt/lib.h"', public ] },
+  { symbol: [ "regexec",      private, '"mutt/lib.h"', public ] },
+  { symbol: [ "regex_t",      private, '"mutt/lib.h"', public ] },
+  { symbol: [ "regfree",      private, '"mutt/lib.h"', public ] },
+  { symbol: [ "regmatch_t",   private, '"mutt/lib.h"', public ] },
+  { symbol: [ "regoff_t",     private, '"mutt/lib.h"', public ] },
+  { symbol: [ "REG_EXTENDED", private, '"mutt/lib.h"', public ] },
+  { symbol: [ "REG_ICASE",    private, '"mutt/lib.h"', public ] },
+  { symbol: [ "REG_NEWLINE",  private, '"mutt/lib.h"', public ] },
+  { symbol: [ "REG_NOSUB",    private, '"mutt/lib.h"', public ] },
+  { symbol: [ "REG_NOTBOL",   private, '"mutt/lib.h"', public ] },
+  { symbol: [ "REG_WORDS",    private, '"mutt/lib.h"', public ] },
+]

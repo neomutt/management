@@ -19,7 +19,7 @@
   { include: [ '@"notmuch/.*"',   private, '"notmuch/lib.h"',   public ] },
   { include: [ '@"pop/.*"',       private, '"pop/lib.h"',       public ] },
 
-  { symbol: ["wchar_t",  "private", "<wchar.h>",  "public"] },
+  { symbol: [ "wchar_t", private, "<wchar.h>", public ] },
 
   { ref: "glibc.imp" },
   { ref: "curses.imp" },

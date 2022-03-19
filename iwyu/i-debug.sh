@@ -9,7 +9,9 @@ for i in "$@"; do
 		-D__EXTENSIONS__ \
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
+		-DUSE_DEBUG_GRAPHVIZ \
 		-I . \
+		-I debug \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-I /usr/include/qdbm \
 		-Xiwyu --mapping_file="$BASE_DIR/debug.imp" \

@@ -10,6 +10,7 @@ for i in "$@"; do
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
 		-I . \
+		-I mbox \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-Xiwyu --pch_in_code \
 		-Xiwyu --no_comments \

@@ -1,7 +1,12 @@
 [
-  { include: [ '<regex.h>',       private, '"regex3.h"',        public ] },
-
-  { symbol: ["wchar_t",  "private", "<wchar.h>",  "public"] },
+  { symbol: [ "regcomp",    private, '"regex3.h"',   public ] },
+  { symbol: [ "regerror",   private, '"regex3.h"',   public ] },
+  { symbol: [ "regex_t",    private, '"regex3.h"',   public ] },
+  { symbol: [ "regfree",    private, '"regex3.h"',   public ] },
+  { symbol: [ "regmatch_t", private, '"regex3.h"',   public ] },
+  { symbol: [ "regoff_t",   private, '"regex3.h"',   public ] },
+  { symbol: [ "REG_ICASE",  private, '"regex3.h"',   public ] },
+  { symbol: [ "wchar_t",    private, "<wchar.h>",    public ] },
 
   { ref: "glibc.imp" },
   { ref: "curses.imp" },

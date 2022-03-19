@@ -10,7 +10,7 @@ for i in "$@"; do
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
 		-I . \
-		-I test \
+		-I sidebar \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-I /usr/include/qdbm \
 		-Xiwyu --mapping_file="$BASE_DIR/sidebar.imp" \

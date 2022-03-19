@@ -10,10 +10,10 @@ for i in "$@"; do
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
 		-I . \
-		-I test \
+		-I compose \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-I /usr/include/qdbm \
-		-Xiwyu --mapping_file="$BASE_DIR/neomutt.imp" \
+		-Xiwyu --mapping_file="$BASE_DIR/compose.imp" \
 		-Xiwyu --no_comments \
 		-Xiwyu --pch_in_code \
 		"$i"

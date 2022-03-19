@@ -10,8 +10,8 @@ for i in "$@"; do
 		-DNCURSES_WIDECHAR \
 		-DDEBUG \
 		-DUSE_LUA \
+		-DUSE_INOTIFY \
 		-I . \
-		-I test \
 		-I /usr/lib/gcc/x86_64-redhat-linux/11/include \
 		-I /usr/include/qdbm \
 		-Xiwyu --mapping_file="$BASE_DIR/neomutt.imp" \

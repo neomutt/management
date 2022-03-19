@@ -7,20 +7,16 @@
   { include: [ '@"debug/.*"',     private, '"debug/lib.h"',     public ] },
   { include: [ '@"email/.*"',     private, '"email/lib.h"',     public ] },
   { include: [ '@"hcache/.*"',    private, '"hcache/lib.h"',    public ] },
-  { include: [ '@"menu/.*"',    private, '"menu/lib.h"',    public ] },
+  { include: [ '@"menu/.*"',      private, '"menu/lib.h"',      public ] },
   { include: [ '@"mutt/.*"',      private, '"mutt/lib.h"',      public ] },
   { include: [ '@"ncrypt/.*"',    private, '"ncrypt/lib.h"',    public ] },
-  { include: [ '<regex.h>',       private, '"mutt/lib.h"',      public ] },
 
   { include: [ '<curses.h>',           private, '"mutt_curses.h"', public ] },
   { include: [ '<ncursesw/ncurses.h>', private, '"mutt_curses.h"', public ] },
   { include: [ '<ncursesw/term.h>',    private, '"mutt_curses.h"', public ] },
-  { include: [ '<slang.h>',            private, '"mutt_curses.h"', public ] },
-  { include: [ '<slcurses.h>',         private, '"mutt_curses.h"', public ] },
 
-  { symbol: ["SLtt_Screen_Rows",  "private", '"mutt_curses.h"',  "public"] },
-
-  { symbol: ["wchar_t",  "private", "<wchar.h>",  "public"] },
+  { symbol: [ "wchar_t",          private, "<wchar.h>",       public ] },
 
   { ref: "glibc.imp" },
+  { ref: "regex.imp" },
 ]

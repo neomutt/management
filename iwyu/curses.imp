@@ -3,8 +3,11 @@
   { include: [ '<curses.h>',           private, '"mutt/lib.h"', public ] },
   { include: [ '<ncursesw/ncurses.h>', private, '"mutt/lib.h"', public ] },
   { include: [ '<ncursesw/term.h>',    private, '"mutt/lib.h"', public ] },
-  { include: [ '<slang.h>',            private, '"mutt/lib.h"', public ] },
-  { include: [ '<slcurses.h>',         private, '"mutt/lib.h"', public ] },
 
-  { symbol: ["SLtt_Screen_Rows",  "private", '"mutt/lib.h"',  "public"] },
+  { symbol: [ "A_BLINK",     private, '"gui/lib.h"', public ] },
+  { symbol: [ "A_BOLD",      private, '"gui/lib.h"', public ] },
+  { symbol: [ "A_NORMAL",    private, '"gui/lib.h"', public ] },
+  { symbol: [ "A_REVERSE",   private, '"gui/lib.h"', public ] },
+  { symbol: [ "A_STANDOUT",  private, '"gui/lib.h"', public ] },
+  { symbol: [ "A_UNDERLINE", private, '"gui/lib.h"', public ] },
 ]
