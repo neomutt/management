@@ -252,7 +252,8 @@ neomutt,rich@flatcap.org,flatcap,secondary,Richard Russon (DEPLOY),rich@flatcap.
 neomutt,RichiH@users.noreply.github.com,richih,preferred,Richard Hartmann,RichiH@users.noreply.github.com
 neomutt,riesebie@lxtec.de,riesebie,preferred,Elimar Riesebieter,riesebie@lxtec.de
 neomutt,rionda@acm.org,rionda,preferred,Matteo Riondato,rionda@acm.org
-neomutt,rob@nyar.eu,r001,preferred,Robert Horvath,rob@nyar.eu
+neomutt,rob@nyar.eu,r001,preferred,Róbert Horváth,rob@nyar.eu
+neomutt,rob@nyar.eu,r001,secondary,Robert Horvath,rob@nyar.eu
 neomutt,roger.pau@citrix.com,royger,preferred,Roger Pau Monne,roger.pau@citrix.com
 neomutt,romeu.bizz@gmail.com,romeug,preferred,Romeu Vieira,romeu.bizz@gmail.com
 neomutt,ronisbr@gmail.com,ronisbr,preferred,Ronan Arraes Jardim Chagas,ronisbr@gmail.com
