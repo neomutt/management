@@ -7,8 +7,8 @@ function init()
 		"mutt.txt"
 	)
 	mailmap_header=(
-		"## NeoMutt Contributors - auto-generated: https://github.com/neomutt/management/tree/master/git"
-		"## Mutt Contributors - auto-generated: https://github.com/neomutt/management/tree/master/git"
+		"## NeoMutt Contributors - auto-generated: https://github.com/neomutt/management/tree/main/git"
+		"## Mutt Contributors - auto-generated: https://github.com/neomutt/management/tree/main/git"
 	)
 }
 

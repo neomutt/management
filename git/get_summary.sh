@@ -50,14 +50,14 @@ function init(){
 	export contributors_reg=()
 	export new_to_contrib_file=()
 	export last_rel=${2:-$(git --git-dir="$repo/.git" for-each-ref refs/tags --sort=-taggerdate --format='%(refname)' --count=1 | sed 's|refs/tags/||')}
-	export to_rel=${3:-master}
-	local commits=$(git --git-dir="$repo/.git" rev-list $last_rel..${to_rel:-master} | wc -l)
+	export to_rel=${3:-main}
+	local commits=$(git --git-dir="$repo/.git" rev-list $last_rel..${to_rel:-main} | wc -l)
 	debug "[I] There's $commits commits since last release $last_rel"
 }
 
 function getcommits(){
 	debug "[I] Getting list of commits since $last_rel to HEAD"
-	git --git-dir="$repo/.git" rev-list --reverse $last_rel..${to_rel:-master} | awk 'NR%250==1{print}; END{print}'
+	git --git-dir="$repo/.git" rev-list --reverse $last_rel..${to_rel:-main} | awk 'NR%250==1{print}; END{print}'
 }
 
 # read commits from stdin, call github api for each consecutive commits,
