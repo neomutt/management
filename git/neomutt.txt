@@ -53,6 +53,8 @@ neomutt,christos@margiolis.net,christosmarg,preferred,Christos Margiolis,christo
 neomutt,christos@margiolis.net,christosmarg,secondary,Christos Margiolis,christos@christosmarg.xyz
 neomutt,chti.gdb@gmail.com,gaael,preferred,Gaël Dubois,chti.gdb@gmail.com
 neomutt,ckardaris@outlook.com,ckardaris,preferred,Charalampos Kardaris,ckardaris@outlook.com
+neomutt,clkamp@lkamp.de,clkamp,preferred,Christian Lütke-Stetzkamp,clkamp@lkamp.de
+neomutt,clkamp@lkamp.de,clkamp,secondary,Christian Luetke Stetzkamp,clkamp@lkamp.de
 neomutt,contact@ryper.org,rypervenche,preferred,Perry Thompson,contact@ryper.org
 neomutt,contact@strahinja.org,strahinja,preferred,Страхиња Радић,contact@strahinja.org
 neomutt,criw@pm.me,ghikio,preferred,Victor Fernandes,criw@pm.me
