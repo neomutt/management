@@ -43,6 +43,7 @@ neomutt,CasperVector@gmail.com,caspervector,preferred,Casper Ti Vector,CasperVec
 neomutt,CasperVector@gmail.com,caspervector,secondary,Casper Ti. Vector,CasperVector@gmail.com
 neomutt,cb@df7cb.de,df7cb,preferred,Christoph Berg,cb@df7cb.de
 neomutt,cbrownstein@liquidityllc.com,cbrownstein,preferred,Cody Brownstein,cbrownstein@liquidityllc.com
+neomutt,charlesmelara@outlook.com,charles2910,preferred,Carlos Henrique Lima Melara,charlesmelara@outlook.com
 neomutt,charlie@charliedrage.com,cdrage,preferred,Charlie Drage,charlie@charliedrage.com
 neomutt,chris@christopher-czettel.net,christopher-john-czettel,preferred,Chris Czettel,chris@christopher-czettel.net
 neomutt,chris@christopher-czettel.net,christopher-john-czettel,secondary,chrissl,chris@christopher-czettel.net
