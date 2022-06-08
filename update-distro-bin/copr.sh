@@ -3,28 +3,12 @@
 set -o errexit	# set -e
 set -o nounset	# set -u
 
-rpmbuild_tree()
-{
-	mkdir -p rpmbuild/BUILD
-	mkdir -p rpmbuild/BUILDROOT
-	mkdir -p rpmbuild/RPMS/athlon
-	mkdir -p rpmbuild/RPMS/i386
-	mkdir -p rpmbuild/RPMS/i586
-	mkdir -p rpmbuild/RPMS/i686
-	mkdir -p rpmbuild/RPMS/noarch
-	mkdir -p rpmbuild/RPMS/x86_64
-	mkdir -p rpmbuild/SOURCES
-	mkdir -p rpmbuild/SPECS
-	mkdir -p rpmbuild/SRPMS
-}
-
-
-eval SRC_DIR="${1:-~/neo}"
+eval SRC_DIR="${1:-~/work/neo}"
 GH_URL="https://github.com/neomutt/neomutt/archive"
 
 pushd "$SRC_DIR"
 
-TAG="$(git tag -l --sort='authordate' '20*' | tail -1)"
+TAG="$(git tag -l --sort='authordate' '202*' | tail -1)"
 VERSION="${TAG//-}"
 
 popd
@@ -41,7 +25,7 @@ echo
 pushd copr
 
 SPEC="neomutt.spec"
-OS="fc35"
+OS="fc36"
 HERE=$(pwd)
 
 echo "Edit: $SPEC"
@@ -51,23 +35,24 @@ sed -i \
 echo
 
 rm -fr rpmbuild
-rpmbuild_tree
+rm -fr *.rpm
+rpmdev-setuptree
 
-cp ../${VERSION}.tar.gz rpmbuild/SOURCES/${VERSION}.tar.gz
-cp *.patch          rpmbuild/SOURCES
-cp mutt_ldap_query  rpmbuild/SOURCES
+cp ../${VERSION}.tar.gz rpmbuild/SOURCES/neomutt-${VERSION}.tar.gz
+cp *.patch              rpmbuild/SOURCES
 
 rpmbuild -bs --target=noarch --define=_topdir\ $HERE/rpmbuild "$SPEC"
 
 cp rpmbuild/SRPMS/neomutt-${VERSION}-1.${OS}.src.rpm .
 
 rm -fr rpmbuild
-rpmbuild_tree
+exit 0
+rpmdev-setuptree
 
 rpmbuild --rebuild --define=_topdir\ $HERE/rpmbuild neomutt-${VERSION}-1.${OS}.src.rpm
 
-cp rpmbuild/RPMS/x86_64/* .
+cp rpmbuild/RPMS/*/*.rpm .
 
-rm -fr rpmbuild
+# rm -fr rpmbuild
 popd
 
