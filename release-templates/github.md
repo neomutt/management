@@ -6,6 +6,12 @@ NeoMutt 0000-00-00
   - YYY
 - ZZZ
 
+## :gem: Sponsors
+
+Special thanks to our **sponsors**:
+
+- First Last (@nick)
+
 ## :heart: Thanks
 
 Many thanks to our **new contributors**:
@@ -13,6 +19,18 @@ Many thanks to our **new contributors**:
 - First Last (@nick)
 
 and our **regular contributors**:
+
+- First Last (@nick)
+
+Many thanks to our **new contributor**:
+
+- First Last (@nick)
+
+our **regular contributors**:
+
+- First Last (@nick)
+
+and our **sharp-eyed testers**:
 
 - First Last (@nick)
 
