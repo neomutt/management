@@ -18,14 +18,6 @@ Many thanks to our **new contributors**:
 
 - First Last (@nick)
 
-and our **regular contributors**:
-
-- First Last (@nick)
-
-Many thanks to our **new contributor**:
-
-- First Last (@nick)
-
 our **regular contributors**:
 
 - First Last (@nick)
