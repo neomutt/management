@@ -78,13 +78,13 @@ mkdir -p "$DIR"
 cd "$DIR"
 rm -fr *
 
-../configure CC="$COMPILER" --asan --testing --disable-doc $OPTIONS >> build.log 2>&1
+../configure CC="$COMPILER" --asan --disable-doc $OPTIONS >> build.log 2>&1
 
 make -j1 -s CC="$COMPILER" EXTRA_CFLAGS="${EXTRA_CFLAGS[*]}" EXTRA_LDFLAGS="${EXTRA_LDFLAGS[*]}" >> build.log 2>&1
 echo make test
 chronic make test
 
-./neomutt -v >> neomutt-v.log 2>&1
+./neomutt -n -F /dev/null -v >> neomutt-v.log 2>&1
 
 # echo doxygen
 # chronic doxygen doxygen/doxygen.conf

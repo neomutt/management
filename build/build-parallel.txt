@@ -1,9 +1,9 @@
 
 --disable-nls
---disable-idn --idn2
+--disable-idn2
 --disable-pgp
 --disable-smime
---disable-nls --disable-idn --disable-pgp --disable-smime
+--disable-nls --disable-idn2 --disable-pgp --disable-smime
 --lua
 --with-lock=flock
 --locales-fix
