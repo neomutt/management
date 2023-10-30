@@ -16,13 +16,6 @@ and our *regular contributors*:
 
 - First Last (@nick)
 
-## Issues closed
-
-123 description
-124 description
-125 description
-...
-
 ## Features
 
 - description
