@@ -38,7 +38,7 @@ and our **sharp-eyed testers**:
 
 - description
 
-## :lady-beetle: Bug Fixes
+## :lady_beetle: Bug Fixes
 
 - description
 

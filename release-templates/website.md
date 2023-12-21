@@ -27,7 +27,7 @@ and our **regular contributors**:
 
 - description
 
-## :lady-beetle: Bug Fixes
+## :lady_beetle: Bug Fixes
 
 - description
 
