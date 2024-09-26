@@ -72,7 +72,6 @@
 #define ISPELL "/usr/bin/ispell"
 #define MAILPATH "/var/mail"
 #define MAKEDOC_FULL 1
-#define MIXMASTER "mixmaster"
 #define MUTT_VERSION "1.8.3"
 #define NOTMUCH_API_3 1
 #define PACKAGE "mutt"

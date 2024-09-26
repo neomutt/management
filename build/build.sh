@@ -87,7 +87,6 @@ CONFIGURE+=("--sasl")            # Use the SASL network security library
 # Features
 CONFIGURE+=("--lua")             # Enable Lua scripting support
 CONFIGURE+=("--notmuch")         # Enable Notmuch support
-CONFIGURE+=("--mixmaster")       # Enable Mixmaster support
 
 # Most people want these enabled
 # CONFIGURE+=("--full-doc")        # Build ALL the docs

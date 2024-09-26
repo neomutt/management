@@ -34,7 +34,7 @@ eval INSTALL_DIR="~/work/neo-install"
 
 BUILD_DEFAULT=""
 BUILD_EVERYTHING="--everything"
-BUILD_SLANG="--fmemopen --homespool --locales-fix --mixmaster --ssl --with-domain=example.com --with-lock=flock --with-ui=slang"
+BUILD_SLANG="--fmemopen --homespool --locales-fix --ssl --with-domain=example.com --with-lock=flock --with-ui=slang"
 BUILD_CURSES="--autocrypt --bdb --disable-idn --full-doc --gdbm --gnutls --gpgme --gss --idn2 --kyotocabinet --lmdb --lua --lz4 --notmuch --qdbm --sasl --testing --tdb --tokyocabinet --with-lock=fcntl --with-ui=ncurses --zlib --zstd"
 
 SOFT_FAIL=()

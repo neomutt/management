@@ -47,8 +47,7 @@ First create a list of configure options, `clist.txt`, that you'd like to test, 
 --with-domain=example.com
 --notmuch
 --gpgme
---mixmaster
---with-lock=flock --lua --locales-fix --homespool --with-domain=example.com --notmuch --gpgme --mixmaster
+--with-lock=flock --lua --locales-fix --homespool --with-domain=example.com --notmuch --gpgme
 --tokyocabinet --qdbm --gdbm --bdb --lmdb --kyotocabinet
 --gss
 --ssl

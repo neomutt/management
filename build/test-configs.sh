@@ -81,9 +81,8 @@ OPTIONS=(
 	"--with-domain=example.com"
 	"--notmuch"
 	"--gpgme"
-	"--mixmaster"
 	# Enable ALL optional components
-	"--with-lock=flock --lua --locales-fix --homespool --with-domain=example.com --notmuch --gpgme --mixmaster"
+	"--with-lock=flock --lua --locales-fix --homespool --with-domain=example.com --notmuch --gpgme"
 	# Test all the backend caching options
 	# "--tokyocabinet"
 	# "--qdbm"
