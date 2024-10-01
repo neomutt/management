@@ -44,27 +44,11 @@ and our *sharp-eyed testers*:
 
 - description
 
-## Coverity Defects
-
-- description
-
 ## Docs
 
 - description
 
 ## Website
-
-- description
-
-## Build
-
-- description
-
-## Code
-
-- description
-
-## Tidy
 
 - description
 
