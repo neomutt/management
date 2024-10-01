@@ -18,7 +18,7 @@ Many thanks to our **new contributors**:
 
 - First Last (@nick)
 
-our **regular contributors**:
+and our **regular contributors**:
 
 - First Last (@nick)
 
@@ -50,7 +50,7 @@ and our **sharp-eyed testers**:
 
 - description
 
-## :shield: Coverity defects
+## :shield: Coverity Defects
 
 - description
 

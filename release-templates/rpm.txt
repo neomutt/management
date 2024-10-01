@@ -1,5 +1,7 @@
 %changelog
-* Fri XXX 00 2023 Richard Russon <rich@flatcap.org> - 20231001-1
+* Fri XXX 00 2024 Richard Russon <rich@flatcap.org> - 20240000-1
+- Security
+  - description
 - Features
   - description
 - Contrib
@@ -10,7 +12,7 @@
   - description
 - Translations
   - description
-- Coverity defects
+- Coverity Defects
   - description
 - Docs
   - description

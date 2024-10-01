@@ -1,4 +1,6 @@
 0000-00-00  Richard Russon  <rich@flatcap.org>
+* Security
+  - description
 * Features
   - description
 * Contrib
@@ -9,7 +11,7 @@
   - description
 * Translations
   - description
-* Coverity defects
+* Coverity Defects
   - description
 * Docs
   - description

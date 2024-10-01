@@ -9,6 +9,12 @@ title: Release 0000-00-00
   - YYY
 - ZZZ
 
+## :gem: Sponsors
+
+Special thanks to our **sponsors**:
+
+- First Last (@nick)
+
 ## :heart: Thanks
 
 Many thanks to our **new contributors**:
@@ -19,6 +25,14 @@ and our **regular contributors**:
 
 - First Last (@nick)
 
+and our **sharp-eyed testers**:
+
+- First Last (@nick)
+
+## :lock: Security
+
+- description
+
 ## :gift: Features
 
 - description
@@ -27,11 +41,11 @@ and our **regular contributors**:
 
 - description
 
-## :lady_beetle: Bug Fixes
+## :beetle: Bug Fixes
 
 - description
 
-## Changed Config
+## :wrench: Changed Config
 
 - description
 
@@ -39,7 +53,7 @@ and our **regular contributors**:
 
 - description
 
-## :shield: Coverity defects
+## :shield: Coverity Defects
 
 - description
 

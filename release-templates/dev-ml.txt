@@ -12,9 +12,17 @@ Many thanks to our *new contributors*:
 
 - First Last (@nick)
 
-and our *regular contributors*:
+our *regular contributors*:
 
 - First Last (@nick)
+
+and our *sharp-eyed testers*:
+
+- First Last (@nick)
+
+## Security
+
+- description
 
 ## Features
 
@@ -36,7 +44,7 @@ and our *regular contributors*:
 
 - description
 
-## Coverity defects
+## Coverity Defects
 
 - description
 
