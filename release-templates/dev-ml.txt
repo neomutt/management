@@ -1,10 +1,16 @@
-Subject: NeoMutt 0000-00-00
+Subject: NeoMutt 2025-00-00
 
 ## Notes
 
 - XXX
   - YYY
 - ZZZ
+
+## Sponsors
+
+Special thanks to our **sponsors**:
+
+- First Last (@nick)
 
 ## Thanks
 
@@ -13,10 +19,6 @@ Many thanks to our *new contributors*:
 - First Last (@nick)
 
 our *regular contributors*:
-
-- First Last (@nick)
-
-and our *sharp-eyed testers*:
 
 - First Last (@nick)
 
@@ -44,10 +46,6 @@ and our *sharp-eyed testers*:
 
 - description
 
-## Coverity Defects
-
-- description
-
 ## Docs
 
 - description
@@ -61,10 +59,6 @@ and our *sharp-eyed testers*:
 - description
 
 ## Code
-
-- description
-
-## Tidy
 
 - description
 

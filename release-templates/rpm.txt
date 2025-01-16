@@ -12,8 +12,6 @@
   - description
 - Translations
   - description
-- Coverity Defects
-  - description
 - Docs
   - description
 - Website
@@ -21,8 +19,6 @@
 - Build
   - description
 - Code
-  - description
-- Tidy
   - description
 - Upstream
   - description

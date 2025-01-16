@@ -1,6 +1,6 @@
 ---
 author: flatcap
-title: Release 0000-00-00
+title: Release 2025-00-00
 ---
 
 ## :book: Notes
@@ -22,10 +22,6 @@ Many thanks to our **new contributors**:
 - First Last (@nick)
 
 and our **regular contributors**:
-
-- First Last (@nick)
-
-and our **sharp-eyed testers**:
 
 - First Last (@nick)
 
@@ -53,10 +49,6 @@ and our **sharp-eyed testers**:
 
 - description
 
-## :shield: Coverity Defects
-
-- description
-
 ## :books: Docs
 
 - description
@@ -70,10 +62,6 @@ and our **sharp-eyed testers**:
 - description
 
 ## :gear: Code
-
-- description
-
-## :wastebasket: Tidy
 
 - description
 
