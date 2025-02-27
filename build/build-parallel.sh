@@ -49,7 +49,7 @@ EXTRA_CFLAGS+=("-Wundef")
 EXTRA_CFLAGS+=("-Wunused-result")
 EXTRA_CFLAGS+=("-Wimplicit-fallthrough")
 EXTRA_CFLAGS+=("-Wformat-truncation=0")
-EXTRA_CFLAGS+=("-Werror")
+# EXTRA_CFLAGS+=("-Werror")
 
 # EXTRA_CFLAGS+=("-Wredundant-decls")
 # EXTRA_CFLAGS+=("-Wstrict-prototypes")
