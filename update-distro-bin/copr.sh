@@ -22,6 +22,7 @@ echo "Tag:     $TAG"
 echo "Version: $VERSION"
 echo
 
+cp ${VERSION}.tar.gz copr
 pushd copr
 
 SPEC="neomutt.spec"
@@ -38,9 +39,9 @@ rm -fr rpmbuild
 rm -fr *.rpm
 rpmdev-setuptree
 
-cp ../${VERSION}.tar.gz rpmbuild/SOURCES/neomutt-${VERSION}.tar.gz
-cp *.patch              rpmbuild/SOURCES
-cp fedora-colors.rc     rpmbuild/SOURCES
+cp ${VERSION}.tar.gz rpmbuild/SOURCES/neomutt-${VERSION}.tar.gz
+cp *.patch           rpmbuild/SOURCES
+cp fedora-colors.rc  rpmbuild/SOURCES
 
 rpmbuild -bs --target=noarch --define=_topdir\ $HERE/rpmbuild "$SPEC"
 
