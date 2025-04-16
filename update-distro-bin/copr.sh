@@ -45,13 +45,13 @@ cp fedora-colors.rc  rpmbuild/SOURCES
 
 rpmbuild -bs --target=noarch --define=_topdir\ $HERE/rpmbuild "$SPEC"
 
-cp rpmbuild/SRPMS/neomutt-${VERSION}-1.${OS}.src.rpm .
+cp rpmbuild/SRPMS/neomutt-${VERSION}-*.${OS}.src.rpm .
 
 rm -fr rpmbuild
 # exit 0
 rpmdev-setuptree
 
-rpmbuild --rebuild --define=_topdir\ $HERE/rpmbuild neomutt-${VERSION}-1.${OS}.src.rpm
+rpmbuild --rebuild --define=_topdir\ $HERE/rpmbuild neomutt-${VERSION}-*.${OS}.src.rpm
 
 cp rpmbuild/RPMS/*/*.rpm .
 
