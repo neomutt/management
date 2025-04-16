@@ -26,7 +26,7 @@ cp ${VERSION}.tar.gz copr
 pushd copr
 
 SPEC="neomutt.spec"
-OS="fc41"
+OS="fc42"
 HERE=$(pwd)
 
 echo "Edit: $SPEC"
