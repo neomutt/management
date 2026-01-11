@@ -39,7 +39,7 @@ EXTRA_CFLAGS+=("-DDEBUG")
 # EXTRA_CFLAGS+=("-std=c11")
 # EXTRA_CFLAGS+=("-Wextra")
 # EXTRA_CFLAGS+=("-Wunused-parameter")
-EXTRA_CFLAGS+=("-Wpedantic")
+# EXTRA_CFLAGS+=("-Wpedantic")
 EXTRA_CFLAGS+=("-Wformat-security")
 # EXTRA_CFLAGS+=("-Wmacro-redefined")
 EXTRA_CFLAGS+=("-Wshadow")
@@ -80,9 +80,9 @@ rm -fr *
 
 ../configure CC="$COMPILER" --asan --disable-doc $OPTIONS >> build.log 2>&1
 
-make -j1 -s CC="$COMPILER" EXTRA_CFLAGS="${EXTRA_CFLAGS[*]}" EXTRA_LDFLAGS="${EXTRA_LDFLAGS[*]}" >> build.log 2>&1
+make -j1 CC="$COMPILER" EXTRA_CFLAGS="${EXTRA_CFLAGS[*]}" EXTRA_LDFLAGS="${EXTRA_LDFLAGS[*]}" >> build.log 2>&1
 echo make test
-chronic make test
+make test >> test.log 2>&1
 
 ./neomutt -n -F /dev/null -v >> neomutt-v.log 2>&1
 
