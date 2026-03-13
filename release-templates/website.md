@@ -3,19 +3,19 @@ author: flatcap
 title: Release 2025-00-00
 ---
 
-## :book: Notes
+## 📖 Notes
 
 - XXX
   - YYY
 - ZZZ
 
-## :gem: Sponsors
+## 💎 Sponsors
 
 Special thanks to our **sponsors**:
 
 - First Last (@nick)
 
-## :heart: Thanks
+## ❤️ Thanks
 
 Many thanks to our **new contributors**:
 
@@ -25,47 +25,47 @@ and our **regular contributors**:
 
 - First Last (@nick)
 
-## :lock: Security
+## 🔒 Security
 
 - description
 
-## :gift: Features
+## 🎁 Features
 
 - description
 
-## :sparkles: Contrib
+## ✨ Contrib
 
 - description
 
-## :beetle: Bug Fixes
+## 🐞 Bug Fixes
 
 - description
 
-## :wrench: Changed Config
+## 🔧 Changed Config
 
 - description
 
-## :black_flag: Translations
+## 🏴 Translations
 
 - description
 
-## :books: Docs
+## 📚 Docs
 
 - description
 
-## :link: Website
+## 🔗 Website
 
 - description
 
-## :building_construction: Build
+## 🏗️ Build
 
 - description
 
-## :gear: Code
+## ⚙️ Code
 
 - description
 
-## :recycle: Upstream
+## ♻️ Upstream
 
 - description
 
