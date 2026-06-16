@@ -13,7 +13,7 @@
 --gpgme
 --autocrypt --sqlite
 --with-lock=flock --lua --locales-fix --homespool --with-domain=example.com --notmuch --gpgme
---tokyocabinet --qdbm --gdbm --bdb --lmdb --kyotocabinet --tdb --zstd --zlib --lz4
+--gdbm --lmdb --rocksdb --tdb --zstd --zlib --lz4
 --gss
 --ssl
 --gnutls
