@@ -1,4 +1,4 @@
-NeoMutt 2025-00-00
+NeoMutt 2026-00-00
 
 ## 📖 Notes
 

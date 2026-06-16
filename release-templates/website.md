@@ -1,6 +1,6 @@
 ---
 author: flatcap
-title: Release 2025-00-00
+title: Release 2026-00-00
 ---
 
 ## 📖 Notes
